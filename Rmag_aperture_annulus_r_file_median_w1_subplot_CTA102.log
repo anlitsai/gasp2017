@@ -1,0 +1,2845 @@
+... will read gasp_target_fitsheader_info_exclude_baddata_2017.txt ...
+      ID     DateObs   TimeObs  ...    FWHM Altitude Airmass
+0      1  2017-09-05  15:34:55  ...  6.5488   2862.0  2.0397
+1      2  2017-09-05  15:38:07  ...  6.3398   2862.0  2.0572
+2      3  2017-09-05  15:57:19  ...  5.4140   2862.0  1.0087
+3      4  2017-09-05  16:00:30  ...  5.0077   2862.0  1.0092
+4      5  2017-09-05  16:21:56  ...  4.5208   2862.0  1.3238
+..   ...         ...       ...  ...     ...      ...     ...
+377  378  2017-10-10  18:13:33  ...  4.9963   2862.0  1.7970
+378  379  2017-10-10  18:33:03  ...  6.2048   2862.0  2.7707
+379  380  2017-10-10  18:36:14  ...  6.0631   2862.0  2.7313
+380  381  2017-10-10  18:01:39  ...  3.7919   2862.0  1.8951
+381  382  2017-10-10  18:04:51  ...  4.0252   2862.0  1.8827
+
+[382 rows x 18 columns]
+... will generate files in: ./Rmag_InstMag/annu_w1/CTA102/
+-----------------------
+Int64Index([ 10,  11,  24,  25,  38,  39,  58,  59,  78,  79, 114, 115, 160,
+            161, 193, 194, 207, 208, 266, 267, 290, 291, 320, 321, 338, 339,
+            364, 365],
+           dtype='int64')
+10     CTA102-20170905@155029-R_30508_calib.fits
+11     CTA102-20170905@155402-R_30508_calib.fits
+24     CTA102-20170906@180134-R_30508_calib.fits
+25     CTA102-20170906@180507-R_30508_calib.fits
+38     CTA102-20170907@174811-R_30508_calib.fits
+39     CTA102-20170907@175144-R_30508_calib.fits
+58     CTA102-20170916@145721-R_30508_calib.fits
+59     CTA102-20170916@150055-R_30508_calib.fits
+78     CTA102-20170917@182134-R_30508_calib.fits
+79     CTA102-20170917@182509-R_30508_calib.fits
+114    CTA102-20170923@143847-R_30508_calib.fits
+115    CTA102-20170923@144220-R_30508_calib.fits
+160    CTA102-20170925@125157-R_30508_calib.fits
+161    CTA102-20170925@125530-R_30508_calib.fits
+193    CTA102-20170927@144633-R_30508_calib.fits
+194    CTA102-20170927@145006-R_30508_calib.fits
+207    CTA102-20170928@161943-R_30508_calib.fits
+208    CTA102-20170928@162315-R_30508_calib.fits
+266    CTA102-20171003@135239-R_30508_calib.fits
+267    CTA102-20171003@135612-R_30508_calib.fits
+290    CTA102-20171005@135319-R_30508_calib.fits
+291    CTA102-20171005@135652-R_30508_calib.fits
+320    CTA102-20171006@142418-R_30508_calib.fits
+321    CTA102-20171006@142752-R_30508_calib.fits
+338    CTA102-20171009@175153-R_30508_calib.fits
+339    CTA102-20171009@175547-R_30508_calib.fits
+364    CTA102-20171010@171251-R_30508_calib.fits
+365    CTA102-20171010@171625-R_30508_calib.fits
+Name: Filename, dtype: object
+... there are 0 fits can not be fitted ...
+[]
+before drop bad fits: idx_fitsheader = Int64Index([ 10,  11,  24,  25,  38,  39,  58,  59,  78,  79, 114, 115, 160,
+            161, 193, 194, 207, 208, 266, 267, 290, 291, 320, 321, 338, 339,
+            364, 365],
+           dtype='int64')
+0 10 CTA102-20170905@155029-R_30508_calib.fits
+1 11 CTA102-20170905@155402-R_30508_calib.fits
+2 24 CTA102-20170906@180134-R_30508_calib.fits
+3 25 CTA102-20170906@180507-R_30508_calib.fits
+4 38 CTA102-20170907@174811-R_30508_calib.fits
+5 39 CTA102-20170907@175144-R_30508_calib.fits
+6 58 CTA102-20170916@145721-R_30508_calib.fits
+7 59 CTA102-20170916@150055-R_30508_calib.fits
+8 78 CTA102-20170917@182134-R_30508_calib.fits
+9 79 CTA102-20170917@182509-R_30508_calib.fits
+10 114 CTA102-20170923@143847-R_30508_calib.fits
+11 115 CTA102-20170923@144220-R_30508_calib.fits
+12 160 CTA102-20170925@125157-R_30508_calib.fits
+13 161 CTA102-20170925@125530-R_30508_calib.fits
+14 193 CTA102-20170927@144633-R_30508_calib.fits
+15 194 CTA102-20170927@145006-R_30508_calib.fits
+16 207 CTA102-20170928@161943-R_30508_calib.fits
+17 208 CTA102-20170928@162315-R_30508_calib.fits
+18 266 CTA102-20171003@135239-R_30508_calib.fits
+19 267 CTA102-20171003@135612-R_30508_calib.fits
+20 290 CTA102-20171005@135319-R_30508_calib.fits
+21 291 CTA102-20171005@135652-R_30508_calib.fits
+22 320 CTA102-20171006@142418-R_30508_calib.fits
+23 321 CTA102-20171006@142752-R_30508_calib.fits
+24 338 CTA102-20171009@175153-R_30508_calib.fits
+25 339 CTA102-20171009@175547-R_30508_calib.fits
+26 364 CTA102-20171010@171251-R_30508_calib.fits
+27 365 CTA102-20171010@171625-R_30508_calib.fits
+Int64Index([ 10,  11,  24,  25,  38,  39,  58,  59,  78,  79, 114, 115, 160,
+            161, 193, 194, 207, 208, 266, 267, 290, 291, 320, 321, 338, 339,
+            364, 365],
+           dtype='int64')
+Int64Index([ 11,  12,  25,  26,  39,  40,  59,  60,  79,  80, 115, 116, 161,
+            162, 194, 195, 208, 209, 267, 268, 291, 292, 321, 322, 339, 340,
+            365, 366],
+           dtype='int64')
+Int64Index([], dtype='int64')
+
+=================================
+idx 10 ) ID = 11 , # 1 / 28 image of CTA102
+... filename : CTA102-20170905@155029-R_30508_calib.fits
+calendar_date 2017-09-05 15:50:49.999992
+
+... bkg_mean,bkg_median,bkg_std
+... 8178.8623 8143.0640 237.8925
+... bkg_err_ratio = bkg_std/bkg_median = 0.0292
+
+idx 10 - 1 / 3 , Ref.Star: CTA102 ) # 1 / 28 image of CTA102
+... aper_annu_sum0 = 4105308.89
+... aper_annu_sum1 = 7117158.46
+... aper_annu_sum_err0 = 5337.97
+... aper_annu_sum_err1 = 6994.21
+... area of sum0 = 505.06
+... area of sum1 = 883.86
+... median_sigclip (annual mask per pix)  = 8047.97
+... bkg_mean (imdata statistic per pix)   = 8178.86
+... bkg_median (imdata statistic per pix) = 8143.06
+... bkg_sum (median_sigclip*area_sum0)           = 4064714.55
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 4066947.69
+... bg_subtracted_sum = 38361.19
+... bg_subtracted_err = 8798.46
+... mag_instrument (sum) = -11.4597
+... mag_instrument (sum+err) = -11.6839
+... mag_instrument (err) = 0.2242
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1017.7389 911.84413 ...         38361.195         8798.4607
+
+idx 10 - 2 / 3 , Ref.Star: 1 ) # 1 / 28 image of CTA102
+... aper_annu_sum0 = 9281168.49
+... aper_annu_sum1 = 9046172.09
+... aper_annu_sum_err0 = 8074.83
+... aper_annu_sum_err1 = 7840.18
+... area of sum0 = 1136.39
+... area of sum1 = 1136.39
+... median_sigclip (annual mask per pix)  = 7953.21
+... bkg_mean (imdata statistic per pix)   = 8178.86
+... bkg_median (imdata statistic per pix) = 8143.06
+... bkg_sum (median_sigclip*area_sum0)           = 9037919.17
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 9046172.09
+... bg_subtracted_sum = 234996.40
+... bg_subtracted_err = 11254.83
+... mag_instrument (sum) = -13.4277
+... mag_instrument (sum+err) = -13.4784
+... mag_instrument (err) = 0.0508
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 885.27968 1166.2291 ...          234996.4         11254.832
+
+idx 10 - 3 / 3 , Ref.Star: 2 ) # 1 / 28 image of CTA102
+... aper_annu_sum0 = 9316154.25
+... aper_annu_sum1 = 9175205.13
+... aper_annu_sum_err0 = 8085.56
+... aper_annu_sum_err1 = 7952.04
+... area of sum0 = 1136.39
+... area of sum1 = 1136.39
+... median_sigclip (annual mask per pix)  = 8071.30
+... bkg_mean (imdata statistic per pix)   = 8178.86
+... bkg_median (imdata statistic per pix) = 8143.06
+... bkg_sum (median_sigclip*area_sum0)           = 9172115.57
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 9175205.13
+... bg_subtracted_sum = 140949.12
+... bg_subtracted_err = 11340.69
+... mag_instrument (sum) = -12.8727
+... mag_instrument (sum+err) = -12.9567
+... mag_instrument (err) = 0.0840
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.5255 1146.2978 ...         140949.12         11340.686
+
+=================================
+... measurement error after background subtraction (counts): 10530.8329
+... magnitude error after background subtraction (mag): 0.1413
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.368370752229259
+... fitting residual: [0.00000000e+00 5.32907052e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0292
+... error of (calibration + observation) [mag]: 0.1413
+label_source[k] ['CTA102, Rmag=15.37', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 140949.11516466923
+... InstMag_width = 1.97 , Rmag_width = 1.81
+=================================
+idx 11 ) ID = 12 , # 2 / 28 image of CTA102
+... filename : CTA102-20170905@155402-R_30508_calib.fits
+calendar_date 2017-09-05 15:54:01.999997
+
+... bkg_mean,bkg_median,bkg_std
+... 8233.3691 8199.4898 237.3204
+... bkg_err_ratio = bkg_std/bkg_median = 0.0289
+
+idx 11 - 1 / 3 , Ref.Star: CTA102 ) # 2 / 28 image of CTA102
+... aper_annu_sum0 = 4141655.73
+... aper_annu_sum1 = 7190744.42
+... aper_annu_sum_err0 = 5333.94
+... aper_annu_sum_err1 = 6999.12
+... area of sum0 = 505.34
+... area of sum1 = 884.34
+... median_sigclip (annual mask per pix)  = 8128.40
+... bkg_mean (imdata statistic per pix)   = 8233.37
+... bkg_median (imdata statistic per pix) = 8199.49
+... bkg_sum (median_sigclip*area_sum0)           = 4107592.68
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 4108996.81
+... bg_subtracted_sum = 32658.91
+... bg_subtracted_err = 8799.92
+... mag_instrument (sum) = -11.2850
+... mag_instrument (sum+err) = -11.5440
+... mag_instrument (err) = 0.2590
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1017.6607 910.60648 ...         32658.915         8799.9183
+
+idx 11 - 2 / 3 , Ref.Star: 1 ) # 2 / 28 image of CTA102
+... aper_annu_sum0 = 9361108.15
+... aper_annu_sum1 = 9125655.52
+... aper_annu_sum_err0 = 8065.79
+... aper_annu_sum_err1 = 7833.58
+... area of sum0 = 1137.01
+... area of sum1 = 1137.01
+... median_sigclip (annual mask per pix)  = 8026.07
+... bkg_mean (imdata statistic per pix)   = 8233.37
+... bkg_median (imdata statistic per pix) = 8199.49
+... bkg_sum (median_sigclip*area_sum0)           = 9125730.14
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 9125655.52
+... bg_subtracted_sum = 235452.63
+... bg_subtracted_err = 11243.75
+... mag_instrument (sum) = -13.4298
+... mag_instrument (sum+err) = -13.4804
+... mag_instrument (err) = 0.0506
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 885.18048 1165.0192 ...         235452.63         11243.747
+
+idx 11 - 3 / 3 , Ref.Star: 2 ) # 2 / 28 image of CTA102
+... aper_annu_sum0 = 9398563.90
+... aper_annu_sum1 = 9258757.42
+... aper_annu_sum_err0 = 8078.84
+... aper_annu_sum_err1 = 7947.87
+... area of sum0 = 1137.01
+... area of sum1 = 1137.01
+... median_sigclip (annual mask per pix)  = 8145.38
+... bkg_mean (imdata statistic per pix)   = 8233.37
+... bkg_median (imdata statistic per pix) = 8199.49
+... bkg_sum (median_sigclip*area_sum0)           = 9261388.28
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 9258757.42
+... bg_subtracted_sum = 139806.48
+... bg_subtracted_err = 11332.97
+... mag_instrument (sum) = -12.8638
+... mag_instrument (sum+err) = -12.9484
+... mag_instrument (err) = 0.0846
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.4682 1145.0767 ...         139806.48         11332.971
+
+=================================
+... measurement error after background subtraction (counts): 10524.5211
+... magnitude error after background subtraction (mag): 0.1600
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.492755549882775
+... fitting residual: [-1.77635684e-15 -3.55271368e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0289
+... error of (calibration + observation) [mag]: 0.1600
+label_source[k] ['CTA102, Rmag=15.49', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 139806.48230581172
+... InstMag_width = 2.14 , Rmag_width = 1.93
+=================================
+idx 24 ) ID = 25 , # 3 / 28 image of CTA102
+... filename : CTA102-20170906@180134-R_30508_calib.fits
+calendar_date 2017-09-06 18:01:55.000019
+
+... bkg_mean,bkg_median,bkg_std
+... 6980.3505 6979.5198 92.3153
+... bkg_err_ratio = bkg_std/bkg_median = 0.0132
+
+idx 24 - 1 / 3 , Ref.Star: CTA102 ) # 3 / 28 image of CTA102
+... aper_annu_sum0 = 3556516.47
+... aper_annu_sum1 = 6158119.51
+... aper_annu_sum_err0 = 2095.55
+... aper_annu_sum_err1 = 2739.56
+... area of sum0 = 505.20
+... area of sum1 = 884.10
+... median_sigclip (annual mask per pix)  = 6966.08
+... bkg_mean (imdata statistic per pix)   = 6980.35
+... bkg_median (imdata statistic per pix) = 6979.52
+... bkg_sum (median_sigclip*area_sum0)           = 3519283.89
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 3518925.43
+... bg_subtracted_sum = 37591.04
+... bg_subtracted_err = 3449.13
+... mag_instrument (sum) = -11.4377
+... mag_instrument (sum+err) = -11.5330
+... mag_instrument (err) = 0.0953
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 998.99786 1073.1163 ...         37591.038         3449.1303
+
+idx 24 - 2 / 3 , Ref.Star: 1 ) # 3 / 28 image of CTA102
+... aper_annu_sum0 = 8119800.46
+... aper_annu_sum1 = 7893016.76
+... aper_annu_sum_err0 = 3249.55
+... aper_annu_sum_err1 = 3096.72
+... area of sum0 = 1136.71
+... area of sum1 = 1136.71
+... median_sigclip (annual mask per pix)  = 6943.28
+... bkg_mean (imdata statistic per pix)   = 6980.35
+... bkg_median (imdata statistic per pix) = 6979.52
+... bkg_sum (median_sigclip*area_sum0)           = 7892463.35
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 7893016.76
+... bg_subtracted_sum = 226783.70
+... bg_subtracted_err = 4488.79
+... mag_instrument (sum) = -13.3890
+... mag_instrument (sum+err) = -13.4103
+... mag_instrument (err) = 0.0213
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 865.58871 1327.0589 ...          226783.7         4488.7939
+
+idx 24 - 3 / 3 , Ref.Star: 2 ) # 3 / 28 image of CTA102
+... aper_annu_sum0 = 8049585.63
+... aper_annu_sum1 = 7914344.37
+... aper_annu_sum_err0 = 3181.28
+... aper_annu_sum_err1 = 3105.08
+... area of sum0 = 1136.71
+... area of sum1 = 1136.71
+... median_sigclip (annual mask per pix)  = 6959.71
+... bkg_mean (imdata statistic per pix)   = 6980.35
+... bkg_median (imdata statistic per pix) = 6979.52
+... bkg_sum (median_sigclip*area_sum0)           = 7911142.67
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 7914344.37
+... bg_subtracted_sum = 135241.26
+... bg_subtracted_err = 4445.46
+... mag_instrument (sum) = -12.8278
+... mag_instrument (sum+err) = -12.8629
+... mag_instrument (err) = 0.0351
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.9285 1307.6968 ...         135241.26         4445.4553
+
+=================================
+... measurement error after background subtraction (counts): 4155.6325
+... magnitude error after background subtraction (mag): 0.0599
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.333115297616525
+... fitting residual: [1.0658141e-14 8.8817842e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0132
+... error of (calibration + observation) [mag]: 0.0599
+label_source[k] ['CTA102, Rmag=15.33', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 135241.26278621145
+... InstMag_width = 1.95 , Rmag_width = 1.77
+=================================
+idx 25 ) ID = 26 , # 4 / 28 image of CTA102
+... filename : CTA102-20170906@180507-R_30508_calib.fits
+calendar_date 2017-09-06 18:05:07.000024
+
+... bkg_mean,bkg_median,bkg_std
+... 7511.9700 7512.0738 97.9792
+... bkg_err_ratio = bkg_std/bkg_median = 0.0130
+
+idx 25 - 1 / 3 , Ref.Star: CTA102 ) # 4 / 28 image of CTA102
+... aper_annu_sum0 = 3838374.56
+... aper_annu_sum1 = 6656881.18
+... aper_annu_sum_err0 = 2229.94
+... aper_annu_sum_err1 = 2920.33
+... area of sum0 = 505.18
+... area of sum1 = 884.07
+... median_sigclip (annual mask per pix)  = 7530.05
+... bkg_mean (imdata statistic per pix)   = 7511.97
+... bkg_median (imdata statistic per pix) = 7512.07
+... bkg_sum (median_sigclip*area_sum0)           = 3804035.16
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 3803932.10
+... bg_subtracted_sum = 34442.45
+... bg_subtracted_err = 3674.36
+... mag_instrument (sum) = -11.3427
+... mag_instrument (sum+err) = -11.4528
+... mag_instrument (err) = 0.1101
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 999.88578 1073.9975 ...         34442.453         3674.3611
+
+idx 25 - 2 / 3 , Ref.Star: 1 ) # 4 / 28 image of CTA102
+... aper_annu_sum0 = 8761231.53
+... aper_annu_sum1 = 8533855.84
+... aper_annu_sum_err0 = 3450.67
+... aper_annu_sum_err1 = 3301.68
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 7507.15
+... bkg_mean (imdata statistic per pix)   = 7511.97
+... bkg_median (imdata statistic per pix) = 7512.07
+... bkg_sum (median_sigclip*area_sum0)           = 8533051.74
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 8533855.84
+... bg_subtracted_sum = 227375.69
+... bg_subtracted_err = 4775.80
+... mag_instrument (sum) = -13.3919
+... mag_instrument (sum+err) = -13.4144
+... mag_instrument (err) = 0.0226
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 866.48188 1327.9437 ...         227375.69         4775.7951
+
+idx 25 - 3 / 3 , Ref.Star: 2 ) # 4 / 28 image of CTA102
+... aper_annu_sum0 = 8685306.25
+... aper_annu_sum1 = 8548278.73
+... aper_annu_sum_err0 = 3382.78
+... aper_annu_sum_err1 = 3307.26
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 7521.90
+... bkg_mean (imdata statistic per pix)   = 7511.97
+... bkg_median (imdata statistic per pix) = 7512.07
+... bkg_sum (median_sigclip*area_sum0)           = 8549819.79
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 8548278.73
+... bg_subtracted_sum = 137027.52
+... bg_subtracted_err = 4730.88
+... mag_instrument (sum) = -12.8420
+... mag_instrument (sum+err) = -12.8789
+... mag_instrument (err) = 0.0369
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 1022.8181 1308.58 ...          3307.2637         137027.52         4730.8798
+
+=================================
+... measurement error after background subtraction (counts): 4423.0597
+... magnitude error after background subtraction (mag): 0.0683
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.460648548603759
+... fitting residual: [8.88178420e-15 3.55271368e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0130
+... error of (calibration + observation) [mag]: 0.0683
+label_source[k] ['CTA102, Rmag=15.46', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 137027.52114877664
+... InstMag_width = 2.05 , Rmag_width = 1.90
+=================================
+idx 38 ) ID = 39 , # 5 / 28 image of CTA102
+... filename : CTA102-20170907@174811-R_30508_calib.fits
+calendar_date 2017-09-07 17:48:32.999984
+
+... bkg_mean,bkg_median,bkg_std
+... 5655.1884 5655.0221 82.1000
+... bkg_err_ratio = bkg_std/bkg_median = 0.0145
+
+idx 38 - 1 / 3 , Ref.Star: CTA102 ) # 5 / 28 image of CTA102
+... aper_annu_sum0 = 2885050.91
+... aper_annu_sum1 = 5000624.41
+... aper_annu_sum_err0 = 1865.98
+... aper_annu_sum_err1 = 2442.27
+... area of sum0 = 505.04
+... area of sum1 = 883.83
+... median_sigclip (annual mask per pix)  = 5660.54
+... bkg_mean (imdata statistic per pix)   = 5655.19
+... bkg_median (imdata statistic per pix) = 5655.02
+... bkg_sum (median_sigclip*area_sum0)           = 2858820.27
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2857499.66
+... bg_subtracted_sum = 27551.25
+... bg_subtracted_err = 3073.53
+... mag_instrument (sum) = -11.1004
+... mag_instrument (sum+err) = -11.2152
+... mag_instrument (err) = 0.1148
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1038.0665 946.58138 ...         27551.245         3073.5283
+
+idx 38 - 2 / 3 , Ref.Star: 1 ) # 5 / 28 image of CTA102
+... aper_annu_sum0 = 6635283.02
+... aper_annu_sum1 = 6430150.66
+... aper_annu_sum_err0 = 2933.76
+... aper_annu_sum_err1 = 2769.62
+... area of sum0 = 1136.35
+... area of sum1 = 1136.35
+... median_sigclip (annual mask per pix)  = 5657.84
+... bkg_mean (imdata statistic per pix)   = 5655.19
+... bkg_median (imdata statistic per pix) = 5655.02
+... bkg_sum (median_sigclip*area_sum0)           = 6429277.34
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6430150.66
+... bg_subtracted_sum = 205132.37
+... bg_subtracted_err = 4034.57
+... mag_instrument (sum) = -13.2801
+... mag_instrument (sum+err) = -13.3012
+... mag_instrument (err) = 0.0211
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 905.50004 1200.8981 ...         205132.37         4034.5654
+
+idx 38 - 3 / 3 , Ref.Star: 2 ) # 5 / 28 image of CTA102
+... aper_annu_sum0 = 6577438.25
+... aper_annu_sum1 = 6448176.00
+... aper_annu_sum_err0 = 2861.00
+... aper_annu_sum_err1 = 2777.34
+... area of sum0 = 1136.35
+... area of sum1 = 1136.35
+... median_sigclip (annual mask per pix)  = 5674.58
+... bkg_mean (imdata statistic per pix)   = 5655.19
+... bkg_median (imdata statistic per pix) = 5655.02
+... bkg_sum (median_sigclip*area_sum0)           = 6448302.05
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6448176.00
+... bg_subtracted_sum = 129262.25
+... bg_subtracted_err = 3987.35
+... mag_instrument (sum) = -12.7787
+... mag_instrument (sum+err) = -12.8117
+... mag_instrument (err) = 0.0330
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1061.7519 1181.0349 ...         129262.25         3987.3459
+
+=================================
+... measurement error after background subtraction (counts): 3724.8365
+... magnitude error after background subtraction (mag): 0.0700
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.77709172763972
+... fitting residual: [7.10542736e-15 7.10542736e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0145
+... error of (calibration + observation) [mag]: 0.0700
+label_source[k] ['CTA102, Rmag=15.78', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 129262.25020326953
+... InstMag_width = 2.18 , Rmag_width = 2.22
+=================================
+idx 39 ) ID = 40 , # 6 / 28 image of CTA102
+... filename : CTA102-20170907@175144-R_30508_calib.fits
+calendar_date 2017-09-07 17:51:43.999994
+
+... bkg_mean,bkg_median,bkg_std
+... 5229.3438 5228.2404 87.0711
+... bkg_err_ratio = bkg_std/bkg_median = 0.0167
+
+idx 39 - 1 / 3 , Ref.Star: CTA102 ) # 6 / 28 image of CTA102
+... aper_annu_sum0 = 2664873.77
+... aper_annu_sum1 = 4617129.53
+... aper_annu_sum_err0 = 1977.76
+... aper_annu_sum_err1 = 2586.80
+... area of sum0 = 505.02
+... area of sum1 = 883.79
+... median_sigclip (annual mask per pix)  = 5226.03
+... bkg_mean (imdata statistic per pix)   = 5229.34
+... bkg_median (imdata statistic per pix) = 5228.24
+... bkg_sum (median_sigclip*area_sum0)           = 2639264.26
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2638359.73
+... bg_subtracted_sum = 26514.04
+... bg_subtracted_err = 3256.24
+... mag_instrument (sum) = -11.0587
+... mag_instrument (sum+err) = -11.1845
+... mag_instrument (err) = 0.1258
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1038.6619 946.9681 ...          26514.04         3256.2366
+
+idx 39 - 2 / 3 , Ref.Star: 1 ) # 6 / 28 image of CTA102
+... aper_annu_sum0 = 6139535.37
+... aper_annu_sum1 = 5921065.59
+... aper_annu_sum_err0 = 3137.23
+... aper_annu_sum_err1 = 2925.61
+... area of sum0 = 1136.30
+... area of sum1 = 1136.30
+... median_sigclip (annual mask per pix)  = 5210.52
+... bkg_mean (imdata statistic per pix)   = 5229.34
+... bkg_median (imdata statistic per pix) = 5228.24
+... bkg_sum (median_sigclip*area_sum0)           = 5920721.26
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 5921065.59
+... bg_subtracted_sum = 218469.78
+... bg_subtracted_err = 4289.69
+... mag_instrument (sum) = -13.3485
+... mag_instrument (sum+err) = -13.3696
+... mag_instrument (err) = 0.0211
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 906.08958 1201.274 ...         218469.78         4289.6887
+
+idx 39 - 3 / 3 , Ref.Star: 2 ) # 6 / 28 image of CTA102
+... aper_annu_sum0 = 6074600.67
+... aper_annu_sum1 = 5943813.85
+... aper_annu_sum_err0 = 3039.51
+... aper_annu_sum_err1 = 2936.86
+... area of sum0 = 1136.30
+... area of sum1 = 1136.30
+... median_sigclip (annual mask per pix)  = 5233.35
+... bkg_mean (imdata statistic per pix)   = 5229.34
+... bkg_median (imdata statistic per pix) = 5228.24
+... bkg_sum (median_sigclip*area_sum0)           = 5946666.09
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 5943813.85
+... bg_subtracted_sum = 130786.82
+... bg_subtracted_err = 4226.56
+... mag_instrument (sum) = -12.7914
+... mag_instrument (sum+err) = -12.8259
+... mag_instrument (err) = 0.0345
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1062.3389 1181.4166 ...         130786.82         4226.5564
+
+=================================
+... measurement error after background subtraction (counts): 3952.5640
+... magnitude error after background subtraction (mag): 0.0763
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.656317226009659
+... fitting residual: [-1.77635684e-14 -1.59872116e-14]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0167
+... error of (calibration + observation) [mag]: 0.0763
+label_source[k] ['CTA102, Rmag=15.66', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 130786.82307333034
+... InstMag_width = 2.29 , Rmag_width = 2.10
+=================================
+idx 58 ) ID = 59 , # 7 / 28 image of CTA102
+... filename : CTA102-20170916@145721-R_30508_calib.fits
+calendar_date 2017-09-16 14:57:43.000018
+
+... bkg_mean,bkg_median,bkg_std
+... 210.6820 210.3927 16.5780
+... bkg_err_ratio = bkg_std/bkg_median = 0.0788
+
+idx 58 - 1 / 3 , Ref.Star: CTA102 ) # 7 / 28 image of CTA102
+... aper_annu_sum0 = 136876.60
+... aper_annu_sum1 = 188142.51
+... aper_annu_sum_err0 = 712.65
+... aper_annu_sum_err1 = 499.52
+... area of sum0 = 505.18
+... area of sum1 = 884.07
+... median_sigclip (annual mask per pix)  = 210.39
+... bkg_mean (imdata statistic per pix)   = 210.68
+... bkg_median (imdata statistic per pix) = 210.39
+... bkg_sum (median_sigclip*area_sum0)           = 106286.41
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 107510.01
+... bg_subtracted_sum = 29366.59
+... bg_subtracted_err = 870.29
+... mag_instrument (sum) = -11.1696
+... mag_instrument (sum+err) = -11.2013
+... mag_instrument (err) = 0.0317
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1027.9452 906.98278 ...         29366.595         870.28584
+
+idx 58 - 2 / 3 , Ref.Star: 1 ) # 7 / 28 image of CTA102
+... aper_annu_sum0 = 505198.87
+... aper_annu_sum1 = 243055.81
+... aper_annu_sum_err0 = 4930.06
+... aper_annu_sum_err1 = 569.14
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 210.70
+... bkg_mean (imdata statistic per pix)   = 210.68
+... bkg_median (imdata statistic per pix) = 210.39
+... bkg_sum (median_sigclip*area_sum0)           = 239493.58
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 243055.81
+... bg_subtracted_sum = 262143.06
+... bg_subtracted_err = 4962.80
+... mag_instrument (sum) = -13.5463
+... mag_instrument (sum+err) = -13.5667
+... mag_instrument (err) = 0.0204
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 894.40277 1160.8506 ...         262143.06            4962.8
+
+idx 58 - 3 / 3 , Ref.Star: 2 ) # 7 / 28 image of CTA102
+... aper_annu_sum0 = 397876.07
+... aper_annu_sum1 = 242625.03
+... aper_annu_sum_err0 = 2989.61
+... aper_annu_sum_err1 = 568.19
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 210.39
+... bkg_mean (imdata statistic per pix)   = 210.68
+... bkg_median (imdata statistic per pix) = 210.39
+... bkg_sum (median_sigclip*area_sum0)           = 239144.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 242625.03
+... bg_subtracted_sum = 155251.05
+... bg_subtracted_err = 3043.13
+... mag_instrument (sum) = -12.9776
+... mag_instrument (sum+err) = -12.9987
+... mag_instrument (err) = 0.0211
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1050.7495 1141.5727 ...         155251.05         3043.1261
+
+=================================
+... measurement error after background subtraction (counts): 3398.4015
+... magnitude error after background subtraction (mag): 0.0249
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.691169603440668
+... fitting residual: [0.00000000e+00 3.55271368e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0788
+... error of (calibration + observation) [mag]: 0.0249
+label_source[k] ['CTA102, Rmag=15.69', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 155251.04705794112
+... InstMag_width = 2.38 , Rmag_width = 2.13
+=================================
+idx 59 ) ID = 60 , # 8 / 28 image of CTA102
+... filename : CTA102-20170916@150055-R_30508_calib.fits
+calendar_date 2017-09-16 15:00:54.999983
+
+... bkg_mean,bkg_median,bkg_std
+... 211.5814 211.2931 16.5759
+... bkg_err_ratio = bkg_std/bkg_median = 0.0784
+
+idx 59 - 1 / 3 , Ref.Star: CTA102 ) # 8 / 28 image of CTA102
+... aper_annu_sum0 = 136478.00
+... aper_annu_sum1 = 188568.12
+... aper_annu_sum_err0 = 694.20
+... aper_annu_sum_err1 = 498.50
+... area of sum0 = 505.21
+... area of sum1 = 884.11
+... median_sigclip (annual mask per pix)  = 211.29
+... bkg_mean (imdata statistic per pix)   = 211.58
+... bkg_median (imdata statistic per pix) = 211.29
+... bkg_sum (median_sigclip*area_sum0)           = 106746.73
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 107753.21
+... bg_subtracted_sum = 28724.79
+... bg_subtracted_err = 854.64
+... mag_instrument (sum) = -11.1456
+... mag_instrument (sum+err) = -11.1775
+... mag_instrument (err) = 0.0318
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1028.6074 905.82849 ...         28724.791         854.64213
+
+idx 59 - 2 / 3 , Ref.Star: 1 ) # 8 / 28 image of CTA102
+... aper_annu_sum0 = 504457.42
+... aper_annu_sum1 = 243888.03
+... aper_annu_sum_err0 = 4774.54
+... aper_annu_sum_err1 = 568.63
+... area of sum0 = 1136.72
+... area of sum1 = 1136.72
+... median_sigclip (annual mask per pix)  = 211.41
+... bkg_mean (imdata statistic per pix)   = 211.58
+... bkg_median (imdata statistic per pix) = 211.29
+... bkg_sum (median_sigclip*area_sum0)           = 240308.64
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 243888.03
+... bg_subtracted_sum = 260569.39
+... bg_subtracted_err = 4808.28
+... mag_instrument (sum) = -13.5398
+... mag_instrument (sum+err) = -13.5597
+... mag_instrument (err) = 0.0199
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 895.05232 1159.6816 ...         260569.39         4808.2795
+
+idx 59 - 3 / 3 , Ref.Star: 2 ) # 8 / 28 image of CTA102
+... aper_annu_sum0 = 400737.99
+... aper_annu_sum1 = 243951.06
+... aper_annu_sum_err0 = 2928.52
+... aper_annu_sum_err1 = 568.78
+... area of sum0 = 1136.72
+... area of sum1 = 1136.72
+... median_sigclip (annual mask per pix)  = 211.34
+... bkg_mean (imdata statistic per pix)   = 211.58
+... bkg_median (imdata statistic per pix) = 211.29
+... bkg_sum (median_sigclip*area_sum0)           = 240237.51
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 243951.06
+... bg_subtracted_sum = 156786.92
+... bg_subtracted_err = 2983.25
+... mag_instrument (sum) = -12.9883
+... mag_instrument (sum+err) = -13.0087
+... mag_instrument (err) = 0.0205
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1051.4038 1140.4101 ...         156786.92         2983.2459
+
+=================================
+... measurement error after background subtraction (counts): 3304.0239
+... magnitude error after background subtraction (mag): 0.0247
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.77387081681004
+... fitting residual: [1.24344979e-14 8.88178420e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0784
+... error of (calibration + observation) [mag]: 0.0247
+label_source[k] ['CTA102, Rmag=15.77', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 156786.92268642326
+... InstMag_width = 2.39 , Rmag_width = 2.21
+=================================
+idx 78 ) ID = 79 , # 9 / 28 image of CTA102
+... filename : CTA102-20170917@182134-R_30508_calib.fits
+calendar_date 2017-09-17 18:21:55.999983
+
+... bkg_mean,bkg_median,bkg_std
+... 434.5298 434.5174 23.1569
+... bkg_err_ratio = bkg_std/bkg_median = 0.0533
+
+idx 78 - 1 / 3 , Ref.Star: CTA102 ) # 9 / 28 image of CTA102
+... aper_annu_sum0 = 245918.34
+... aper_annu_sum1 = 383820.14
+... aper_annu_sum_err0 = 668.88
+... aper_annu_sum_err1 = 688.79
+... area of sum0 = 505.16
+... area of sum1 = 884.03
+... median_sigclip (annual mask per pix)  = 433.67
+... bkg_mean (imdata statistic per pix)   = 434.53
+... bkg_median (imdata statistic per pix) = 434.52
+... bkg_sum (median_sigclip*area_sum0)           = 219072.84
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 219325.79
+... bg_subtracted_sum = 26592.55
+... bg_subtracted_err = 960.12
+... mag_instrument (sum) = -11.0619
+... mag_instrument (sum+err) = -11.1004
+... mag_instrument (err) = 0.0385
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1022.848 1021.2516 ...         26592.548         960.11995
+
+idx 78 - 2 / 3 , Ref.Star: 1 ) # 9 / 28 image of CTA102
+... aper_annu_sum0 = 740327.04
+... aper_annu_sum1 = 494441.70
+... aper_annu_sum_err0 = 3261.98
+... aper_annu_sum_err1 = 782.46
+... area of sum0 = 1136.61
+... area of sum1 = 1136.61
+... median_sigclip (annual mask per pix)  = 434.52
+... bkg_mean (imdata statistic per pix)   = 434.53
+... bkg_median (imdata statistic per pix) = 434.52
+... bkg_sum (median_sigclip*area_sum0)           = 493878.26
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 494441.70
+... bg_subtracted_sum = 245885.34
+... bg_subtracted_err = 3354.51
+... mag_instrument (sum) = -13.4768
+... mag_instrument (sum+err) = -13.4915
+... mag_instrument (err) = 0.0147
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 888.2591 1274.5394 ...         245885.34         3354.5144
+
+idx 78 - 3 / 3 , Ref.Star: 2 ) # 9 / 28 image of CTA102
+... aper_annu_sum0 = 642080.44
+... aper_annu_sum1 = 494215.03
+... aper_annu_sum_err0 = 2084.14
+... aper_annu_sum_err1 = 782.11
+... area of sum0 = 1136.61
+... area of sum1 = 1136.61
+... median_sigclip (annual mask per pix)  = 434.52
+... bkg_mean (imdata statistic per pix)   = 434.53
+... bkg_median (imdata statistic per pix) = 434.52
+... bkg_sum (median_sigclip*area_sum0)           = 493878.26
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 494215.03
+... bg_subtracted_sum = 147865.41
+... bg_subtracted_err = 2226.05
+... mag_instrument (sum) = -12.9247
+... mag_instrument (sum+err) = -12.9409
+... mag_instrument (err) = 0.0162
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1044.6814 1255.9104 ...         147865.41         2226.0531
+
+=================================
+... measurement error after background subtraction (counts): 2389.5543
+... magnitude error after background subtraction (mag): 0.0256
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.790519686679103
+... fitting residual: [-1.59872116e-14 -8.88178420e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0533
+... error of (calibration + observation) [mag]: 0.0256
+label_source[k] ['CTA102, Rmag=15.79', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 147865.40784960455
+... InstMag_width = 2.41 , Rmag_width = 2.23
+=================================
+idx 79 ) ID = 80 , # 10 / 28 image of CTA102
+... filename : CTA102-20170917@182509-R_30508_calib.fits
+calendar_date 2017-09-17 18:25:08.999982
+
+... bkg_mean,bkg_median,bkg_std
+... 447.4041 447.3071 23.3099
+... bkg_err_ratio = bkg_std/bkg_median = 0.0521
+
+idx 79 - 1 / 3 , Ref.Star: CTA102 ) # 10 / 28 image of CTA102
+... aper_annu_sum0 = 251875.39
+... aper_annu_sum1 = 394849.51
+... aper_annu_sum_err0 = 657.93
+... aper_annu_sum_err1 = 692.83
+... area of sum0 = 505.17
+... area of sum1 = 884.06
+... median_sigclip (annual mask per pix)  = 446.32
+... bkg_mean (imdata statistic per pix)   = 447.40
+... bkg_median (imdata statistic per pix) = 447.31
+... bkg_sum (median_sigclip*area_sum0)           = 225467.54
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 225628.29
+... bg_subtracted_sum = 26247.10
+... bg_subtracted_err = 955.45
+... mag_instrument (sum) = -11.0477
+... mag_instrument (sum+err) = -11.0865
+... mag_instrument (err) = 0.0388
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1024.064 1021.8414 ...           26247.1         955.45135
+
+idx 79 - 2 / 3 , Ref.Star: 1 ) # 10 / 28 image of CTA102
+... aper_annu_sum0 = 754139.81
+... aper_annu_sum1 = 508464.49
+... aper_annu_sum_err0 = 3126.91
+... aper_annu_sum_err1 = 786.78
+... area of sum0 = 1136.64
+... area of sum1 = 1136.64
+... median_sigclip (annual mask per pix)  = 447.01
+... bkg_mean (imdata statistic per pix)   = 447.40
+... bkg_median (imdata statistic per pix) = 447.31
+... bkg_sum (median_sigclip*area_sum0)           = 508093.24
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 508464.49
+... bg_subtracted_sum = 245675.32
+... bg_subtracted_err = 3224.37
+... mag_instrument (sum) = -13.4759
+... mag_instrument (sum+err) = -13.4901
+... mag_instrument (err) = 0.0142
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 889.45876 1275.0651 ...         245675.32         3224.3739
+
+idx 79 - 3 / 3 , Ref.Star: 2 ) # 10 / 28 image of CTA102
+... aper_annu_sum0 = 655064.47
+... aper_annu_sum1 = 508354.97
+... aper_annu_sum_err0 = 1992.85
+... aper_annu_sum_err1 = 786.62
+... area of sum0 = 1136.64
+... area of sum1 = 1136.64
+... median_sigclip (annual mask per pix)  = 446.76
+... bkg_mean (imdata statistic per pix)   = 447.40
+... bkg_median (imdata statistic per pix) = 447.31
+... bkg_sum (median_sigclip*area_sum0)           = 507804.23
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 508354.97
+... bg_subtracted_sum = 146709.50
+... bg_subtracted_err = 2142.48
+... mag_instrument (sum) = -12.9161
+... mag_instrument (sum+err) = -12.9319
+... mag_instrument (err) = 0.0157
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1045.8844 1256.449 ...          146709.5         2142.4808
+
+=================================
+... measurement error after background subtraction (counts): 2302.1511
+... magnitude error after background subtraction (mag): 0.0255
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.772352002923764
+... fitting residual: [1.24344979e-14 7.10542736e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0521
+... error of (calibration + observation) [mag]: 0.0255
+label_source[k] ['CTA102, Rmag=15.77', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 146709.5010082866
+... InstMag_width = 2.43 , Rmag_width = 2.21
+=================================
+idx 114 ) ID = 115 , # 11 / 28 image of CTA102
+... filename : CTA102-20170923@143847-R_30508_calib.fits
+calendar_date 2017-09-23 14:39:07.999991
+
+... bkg_mean,bkg_median,bkg_std
+... 184.1612 184.0566 15.5805
+... bkg_err_ratio = bkg_std/bkg_median = 0.0847
+
+idx 114 - 1 / 3 , Ref.Star: CTA102 ) # 11 / 28 image of CTA102
+... aper_annu_sum0 = 123089.58
+... aper_annu_sum1 = 164432.80
+... aper_annu_sum_err0 = 659.81
+... aper_annu_sum_err1 = 469.04
+... area of sum0 = 505.14
+... area of sum1 = 884.00
+... median_sigclip (annual mask per pix)  = 184.06
+... bkg_mean (imdata statistic per pix)   = 184.16
+... bkg_median (imdata statistic per pix) = 184.06
+... bkg_sum (median_sigclip*area_sum0)           = 92975.17
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 93961.60
+... bg_subtracted_sum = 29127.97
+... bg_subtracted_err = 809.54
+... mag_instrument (sum) = -11.1608
+... mag_instrument (sum+err) = -11.1905
+... mag_instrument (err) = 0.0298
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1022.2746 910.07815 ...         29127.973         809.53793
+
+idx 114 - 2 / 3 , Ref.Star: 1 ) # 11 / 28 image of CTA102
+... aper_annu_sum0 = 474179.67
+... aper_annu_sum1 = 212927.06
+... aper_annu_sum_err0 = 4256.62
+... aper_annu_sum_err1 = 535.73
+... area of sum0 = 1136.57
+... area of sum1 = 1136.57
+... median_sigclip (annual mask per pix)  = 184.06
+... bkg_mean (imdata statistic per pix)   = 184.16
+... bkg_median (imdata statistic per pix) = 184.06
+... bkg_sum (median_sigclip*area_sum0)           = 209194.13
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 212927.06
+... bg_subtracted_sum = 261252.61
+... bg_subtracted_err = 4290.20
+... mag_instrument (sum) = -13.5427
+... mag_instrument (sum+err) = -13.5603
+... mag_instrument (err) = 0.0177
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 885.98446 1162.4637 ...         261252.61         4290.2001
+
+idx 114 - 3 / 3 , Ref.Star: 2 ) # 11 / 28 image of CTA102
+... aper_annu_sum0 = 366857.52
+... aper_annu_sum1 = 212175.15
+... aper_annu_sum_err0 = 2597.16
+... aper_annu_sum_err1 = 533.90
+... area of sum0 = 1136.57
+... area of sum1 = 1136.57
+... median_sigclip (annual mask per pix)  = 184.06
+... bkg_mean (imdata statistic per pix)   = 184.16
+... bkg_median (imdata statistic per pix) = 184.06
+... bkg_sum (median_sigclip*area_sum0)           = 209194.13
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 212175.15
+... bg_subtracted_sum = 154682.36
+... bg_subtracted_err = 2651.47
+... mag_instrument (sum) = -12.9736
+... mag_instrument (sum+err) = -12.9921
+... mag_instrument (err) = 0.0185
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1042.5259 1144.8885 ...         154682.36         2651.4654
+
+=================================
+... measurement error after background subtraction (counts): 2949.0924
+... magnitude error after background subtraction (mag): 0.0227
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.694711510390693
+... fitting residual: [-1.42108547e-14 -7.10542736e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0847
+... error of (calibration + observation) [mag]: 0.0227
+label_source[k] ['CTA102, Rmag=15.69', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 154682.36263134723
+... InstMag_width = 2.38 , Rmag_width = 2.13
+=================================
+idx 115 ) ID = 116 , # 12 / 28 image of CTA102
+... filename : CTA102-20170923@144220-R_30508_calib.fits
+calendar_date 2017-09-23 14:42:19.999996
+
+... bkg_mean,bkg_median,bkg_std
+... 182.5001 182.3999 15.5573
+... bkg_err_ratio = bkg_std/bkg_median = 0.0853
+
+idx 115 - 1 / 3 , Ref.Star: CTA102 ) # 12 / 28 image of CTA102
+... aper_annu_sum0 = 122921.57
+... aper_annu_sum1 = 163359.29
+... aper_annu_sum_err0 = 687.51
+... aper_annu_sum_err1 = 469.59
+... area of sum0 = 505.18
+... area of sum1 = 884.06
+... median_sigclip (annual mask per pix)  = 182.40
+... bkg_mean (imdata statistic per pix)   = 182.50
+... bkg_median (imdata statistic per pix) = 182.40
+... bkg_sum (median_sigclip*area_sum0)           = 92144.31
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 93348.17
+... bg_subtracted_sum = 29573.41
+... bg_subtracted_err = 832.58
+... mag_instrument (sum) = -11.1773
+... mag_instrument (sum+err) = -11.2074
+... mag_instrument (err) = 0.0301
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1022.3739 908.6211 ...         29573.406         832.57608
+
+idx 115 - 2 / 3 , Ref.Star: 1 ) # 12 / 28 image of CTA102
+... aper_annu_sum0 = 470392.58
+... aper_annu_sum1 = 210550.53
+... aper_annu_sum_err0 = 4503.44
+... aper_annu_sum_err1 = 533.77
+... area of sum0 = 1136.65
+... area of sum1 = 1136.65
+... median_sigclip (annual mask per pix)  = 182.40
+... bkg_mean (imdata statistic per pix)   = 182.50
+... bkg_median (imdata statistic per pix) = 182.40
+... bkg_sum (median_sigclip*area_sum0)           = 207324.70
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 210550.53
+... bg_subtracted_sum = 259842.05
+... bg_subtracted_err = 4534.96
+... mag_instrument (sum) = -13.5368
+... mag_instrument (sum+err) = -13.5556
+... mag_instrument (err) = 0.0188
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 886.08922 1161.0146 ...         259842.05         4534.9587
+
+idx 115 - 3 / 3 , Ref.Star: 2 ) # 12 / 28 image of CTA102
+... aper_annu_sum0 = 366230.02
+... aper_annu_sum1 = 210766.30
+... aper_annu_sum_err0 = 2765.05
+... aper_annu_sum_err1 = 534.39
+... area of sum0 = 1136.65
+... area of sum1 = 1136.65
+... median_sigclip (annual mask per pix)  = 182.40
+... bkg_mean (imdata statistic per pix)   = 182.50
+... bkg_median (imdata statistic per pix) = 182.40
+... bkg_sum (median_sigclip*area_sum0)           = 207324.70
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 210766.30
+... bg_subtracted_sum = 155463.72
+... bg_subtracted_err = 2816.22
+... mag_instrument (sum) = -12.9791
+... mag_instrument (sum+err) = -12.9986
+... mag_instrument (err) = 0.0195
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1042.6351 1143.433 ...         155463.72         2816.2151
+
+=================================
+... measurement error after background subtraction (counts): 3119.3002
+... magnitude error after background subtraction (mag): 0.0234
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.717707158769702
+... fitting residual: [1.42108547e-14 7.10542736e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0853
+... error of (calibration + observation) [mag]: 0.0234
+label_source[k] ['CTA102, Rmag=15.72', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 155463.72024174948
+... InstMag_width = 2.36 , Rmag_width = 2.16
+=================================
+idx 160 ) ID = 161 , # 13 / 28 image of CTA102
+... filename : CTA102-20170925@125157-R_30508_calib.fits
+calendar_date 2017-09-25 12:52:17.999998
+
+... bkg_mean,bkg_median,bkg_std
+... 242.1675 241.9639 17.7664
+... bkg_err_ratio = bkg_std/bkg_median = 0.0734
+
+idx 160 - 1 / 3 , Ref.Star: CTA102 ) # 13 / 28 image of CTA102
+... aper_annu_sum0 = 153074.31
+... aper_annu_sum1 = 215564.50
+... aper_annu_sum_err0 = 615.44
+... aper_annu_sum_err1 = 533.22
+... area of sum0 = 505.18
+... area of sum1 = 884.07
+... median_sigclip (annual mask per pix)  = 241.96
+... bkg_mean (imdata statistic per pix)   = 242.17
+... bkg_median (imdata statistic per pix) = 241.96
+... bkg_sum (median_sigclip*area_sum0)           = 122235.52
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 123179.71
+... bg_subtracted_sum = 29894.60
+... bg_subtracted_err = 814.30
+... mag_instrument (sum) = -11.1890
+... mag_instrument (sum+err) = -11.2182
+... mag_instrument (err) = 0.0292
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1051.9548 947.18714 ...         29894.602         814.30228
+
+idx 160 - 2 / 3 , Ref.Star: 1 ) # 13 / 28 image of CTA102
+... aper_annu_sum0 = 497095.59
+... aper_annu_sum1 = 276683.04
+... aper_annu_sum_err0 = 2855.37
+... aper_annu_sum_err1 = 603.59
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 241.96
+... bkg_mean (imdata statistic per pix)   = 242.17
+... bkg_median (imdata statistic per pix) = 241.96
+... bkg_sum (median_sigclip*area_sum0)           = 275029.92
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 276683.04
+... bg_subtracted_sum = 220412.55
+... bg_subtracted_err = 2918.47
+... mag_instrument (sum) = -13.3581
+... mag_instrument (sum+err) = -13.3724
+... mag_instrument (err) = 0.0143
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1187.8595 694.55639 ...         220412.55         2918.4685
+
+idx 160 - 3 / 3 , Ref.Star: 2 ) # 13 / 28 image of CTA102
+... aper_annu_sum0 = 408334.07
+... aper_annu_sum1 = 276750.32
+... aper_annu_sum_err0 = 1811.51
+... aper_annu_sum_err1 = 603.74
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 241.96
+... bkg_mean (imdata statistic per pix)   = 242.17
+... bkg_median (imdata statistic per pix) = 241.96
+... bkg_sum (median_sigclip*area_sum0)           = 275029.92
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 276750.32
+... bg_subtracted_sum = 131583.75
+... bg_subtracted_err = 1909.46
+... mag_instrument (sum) = -12.7980
+... mag_instrument (sum+err) = -12.8136
+... mag_instrument (err) = 0.0156
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1031.3398 712.3761 ...         131583.75         1909.4647
+
+=================================
+... measurement error after background subtraction (counts): 2067.7365
+... magnitude error after background subtraction (mag): 0.0208
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.535138105832468
+... fitting residual: [1.24344979e-14 3.55271368e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0734
+... error of (calibration + observation) [mag]: 0.0208
+label_source[k] ['CTA102, Rmag=15.54', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 131583.75065044145
+... InstMag_width = 2.17 , Rmag_width = 1.98
+=================================
+idx 161 ) ID = 162 , # 14 / 28 image of CTA102
+... filename : CTA102-20170925@125530-R_30508_calib.fits
+calendar_date 2017-09-25 12:55:30.000002
+
+... bkg_mean,bkg_median,bkg_std
+... 241.9398 241.7348 17.7194
+... bkg_err_ratio = bkg_std/bkg_median = 0.0733
+
+idx 161 - 1 / 3 , Ref.Star: CTA102 ) # 14 / 28 image of CTA102
+... aper_annu_sum0 = 153400.06
+... aper_annu_sum1 = 215752.26
+... aper_annu_sum_err0 = 608.02
+... aper_annu_sum_err1 = 532.91
+... area of sum0 = 505.15
+... area of sum1 = 884.02
+... median_sigclip (annual mask per pix)  = 241.73
+... bkg_mean (imdata statistic per pix)   = 241.94
+... bkg_median (imdata statistic per pix) = 241.73
+... bkg_sum (median_sigclip*area_sum0)           = 122112.88
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 123287.00
+... bg_subtracted_sum = 30113.05
+... bg_subtracted_err = 808.50
+... mag_instrument (sum) = -11.1969
+... mag_instrument (sum+err) = -11.2257
+... mag_instrument (err) = 0.0288
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1052.3056 949.90998 ...         30113.054         808.50359
+
+idx 161 - 2 / 3 , Ref.Star: 1 ) # 14 / 28 image of CTA102
+... aper_annu_sum0 = 494131.24
+... aper_annu_sum1 = 276657.60
+... aper_annu_sum_err0 = 2768.56
+... aper_annu_sum_err1 = 602.52
+... area of sum0 = 1136.59
+... area of sum1 = 1136.59
+... median_sigclip (annual mask per pix)  = 241.73
+... bkg_mean (imdata statistic per pix)   = 241.94
+... bkg_median (imdata statistic per pix) = 241.73
+... bkg_sum (median_sigclip*area_sum0)           = 274753.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 276657.60
+... bg_subtracted_sum = 217473.64
+... bg_subtracted_err = 2833.36
+... mag_instrument (sum) = -13.3435
+... mag_instrument (sum+err) = -13.3576
+... mag_instrument (err) = 0.0141
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1188.2006 697.26714 ...         217473.64         2833.3616
+
+idx 161 - 3 / 3 , Ref.Star: 2 ) # 14 / 28 image of CTA102
+... aper_annu_sum0 = 406142.44
+... aper_annu_sum1 = 276335.62
+... aper_annu_sum_err0 = 1757.02
+... aper_annu_sum_err1 = 601.84
+... area of sum0 = 1136.59
+... area of sum1 = 1136.59
+... median_sigclip (annual mask per pix)  = 241.73
+... bkg_mean (imdata statistic per pix)   = 241.94
+... bkg_median (imdata statistic per pix) = 241.73
+... bkg_sum (median_sigclip*area_sum0)           = 274753.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 276335.62
+... bg_subtracted_sum = 129806.82
+... bg_subtracted_err = 1857.23
+... mag_instrument (sum) = -12.7832
+... mag_instrument (sum+err) = -12.7987
+... mag_instrument (err) = 0.0154
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1031.6858 715.09113 ...         129806.82         1857.2311
+
+=================================
+... measurement error after background subtraction (counts): 2010.8807
+... magnitude error after background subtraction (mag): 0.0205
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.514014328419398
+... fitting residual: [-1.24344979e-14 -7.10542736e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0733
+... error of (calibration + observation) [mag]: 0.0205
+label_source[k] ['CTA102, Rmag=15.51', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 129806.81868293992
+... InstMag_width = 2.15 , Rmag_width = 1.95
+=================================
+idx 193 ) ID = 194 , # 15 / 28 image of CTA102
+... filename : CTA102-20170927@144633-R_30508_calib.fits
+calendar_date 2017-09-27 14:46:53.999958
+
+... bkg_mean,bkg_median,bkg_std
+... 224.3508 224.1085 17.1693
+... bkg_err_ratio = bkg_std/bkg_median = 0.0766
+
+idx 193 - 1 / 3 , Ref.Star: CTA102 ) # 15 / 28 image of CTA102
+... aper_annu_sum0 = 152486.07
+... aper_annu_sum1 = 199639.78
+... aper_annu_sum_err0 = 736.16
+... aper_annu_sum_err1 = 515.33
+... area of sum0 = 505.16
+... area of sum1 = 884.03
+... median_sigclip (annual mask per pix)  = 224.11
+... bkg_mean (imdata statistic per pix)   = 224.35
+... bkg_median (imdata statistic per pix) = 224.11
+... bkg_sum (median_sigclip*area_sum0)           = 113210.58
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 114079.87
+... bg_subtracted_sum = 38406.20
+... bg_subtracted_err = 898.61
+... mag_instrument (sum) = -11.4610
+... mag_instrument (sum+err) = -11.4861
+... mag_instrument (err) = 0.0251
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1038.4566 866.02495 ...         38406.197         898.60506
+
+idx 193 - 2 / 3 , Ref.Star: 1 ) # 15 / 28 image of CTA102
+... aper_annu_sum0 = 518706.61
+... aper_annu_sum1 = 257832.91
+... aper_annu_sum_err0 = 3687.34
+... aper_annu_sum_err1 = 587.05
+... area of sum0 = 1136.61
+... area of sum1 = 1136.61
+... median_sigclip (annual mask per pix)  = 224.11
+... bkg_mean (imdata statistic per pix)   = 224.35
+... bkg_median (imdata statistic per pix) = 224.11
+... bkg_sum (median_sigclip*area_sum0)           = 254723.81
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 257832.91
+... bg_subtracted_sum = 260873.71
+... bg_subtracted_err = 3733.78
+... mag_instrument (sum) = -13.5411
+... mag_instrument (sum+err) = -13.5565
+... mag_instrument (err) = 0.0154
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 902.97286 1118.8434 ...         260873.71         3733.7764
+
+idx 193 - 3 / 3 , Ref.Star: 2 ) # 15 / 28 image of CTA102
+... aper_annu_sum0 = 415914.28
+... aper_annu_sum1 = 257268.90
+... aper_annu_sum_err0 = 2292.67
+... aper_annu_sum_err1 = 585.80
+... area of sum0 = 1136.61
+... area of sum1 = 1136.61
+... median_sigclip (annual mask per pix)  = 224.11
+... bkg_mean (imdata statistic per pix)   = 224.35
+... bkg_median (imdata statistic per pix) = 224.11
+... bkg_sum (median_sigclip*area_sum0)           = 254723.81
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 257268.90
+... bg_subtracted_sum = 158645.38
+... bg_subtracted_err = 2366.32
+... mag_instrument (sum) = -13.0011
+... mag_instrument (sum+err) = -13.0171
+... mag_instrument (err) = 0.0161
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1059.4596 1100.7673 ...         158645.38         2366.3243
+
+=================================
+... measurement error after background subtraction (counts): 2604.3597
+... magnitude error after background subtraction (mag): 0.0194
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.524486767595128
+... fitting residual: [-7.10542736e-15 -8.88178420e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0766
+... error of (calibration + observation) [mag]: 0.0194
+label_source[k] ['CTA102, Rmag=15.52', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 158645.3814938499
+... InstMag_width = 2.08 , Rmag_width = 1.96
+=================================
+idx 194 ) ID = 195 , # 16 / 28 image of CTA102
+... filename : CTA102-20170927@145006-R_30508_calib.fits
+calendar_date 2017-09-27 14:50:06.000003
+
+... bkg_mean,bkg_median,bkg_std
+... 219.2524 218.9770 16.9878
+... bkg_err_ratio = bkg_std/bkg_median = 0.0776
+
+idx 194 - 1 / 3 , Ref.Star: CTA102 ) # 16 / 28 image of CTA102
+... aper_annu_sum0 = 149132.86
+... aper_annu_sum1 = 195766.08
+... aper_annu_sum_err0 = 717.19
+... aper_annu_sum_err1 = 511.78
+... area of sum0 = 505.15
+... area of sum1 = 884.02
+... median_sigclip (annual mask per pix)  = 218.98
+... bkg_mean (imdata statistic per pix)   = 219.25
+... bkg_median (imdata statistic per pix) = 218.98
+... bkg_sum (median_sigclip*area_sum0)           = 110617.17
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 111866.33
+... bg_subtracted_sum = 37266.53
+... bg_subtracted_err = 881.07
+... mag_instrument (sum) = -11.4283
+... mag_instrument (sum+err) = -11.4537
+... mag_instrument (err) = 0.0254
+
+ id xcenter  ycenter  ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+      pix      pix    ...                                                       
+--- -------- -------- ... ------------------ ----------------- -----------------
+  1 1038.269 865.8857 ...          511.78129         37266.534         881.06568
+
+idx 194 - 2 / 3 , Ref.Star: 1 ) # 16 / 28 image of CTA102
+... aper_annu_sum0 = 511158.98
+... aper_annu_sum1 = 253398.65
+... aper_annu_sum_err0 = 3581.57
+... aper_annu_sum_err1 = 584.26
+... area of sum0 = 1136.60
+... area of sum1 = 1136.60
+... median_sigclip (annual mask per pix)  = 219.70
+... bkg_mean (imdata statistic per pix)   = 219.25
+... bkg_median (imdata statistic per pix) = 218.98
+... bkg_sum (median_sigclip*area_sum0)           = 249714.35
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 253398.65
+... bg_subtracted_sum = 257760.34
+... bg_subtracted_err = 3628.91
+... mag_instrument (sum) = -13.5280
+... mag_instrument (sum+err) = -13.5432
+... mag_instrument (err) = 0.0152
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 902.7671 1118.6899 ...         257760.34         3628.9117
+
+idx 194 - 3 / 3 , Ref.Star: 2 ) # 16 / 28 image of CTA102
+... aper_annu_sum0 = 405856.75
+... aper_annu_sum1 = 251951.80
+... aper_annu_sum_err0 = 2243.38
+... aper_annu_sum_err1 = 580.87
+... area of sum0 = 1136.60
+... area of sum1 = 1136.60
+... median_sigclip (annual mask per pix)  = 218.98
+... bkg_mean (imdata statistic per pix)   = 219.25
+... bkg_median (imdata statistic per pix) = 218.98
+... bkg_sum (median_sigclip*area_sum0)           = 248888.63
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 251951.80
+... bg_subtracted_sum = 153904.95
+... bg_subtracted_err = 2317.36
+... mag_instrument (sum) = -12.9681
+... mag_instrument (sum+err) = -12.9844
+... mag_instrument (err) = 0.0162
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1059.2544 1100.6257 ...         153904.95          2317.359
+
+=================================
+... measurement error after background subtraction (counts): 2537.4153
+... magnitude error after background subtraction (mag): 0.0195
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.472577405693277
+... fitting residual: [-1.42108547e-14 -1.24344979e-14]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0776
+... error of (calibration + observation) [mag]: 0.0195
+label_source[k] ['CTA102, Rmag=15.47', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 153904.95469724797
+... InstMag_width = 2.10 , Rmag_width = 1.91
+=================================
+idx 207 ) ID = 208 , # 17 / 28 image of CTA102
+... filename : CTA102-20170928@161943-R_30508_calib.fits
+calendar_date 2017-09-28 16:20:04.000014
+
+... bkg_mean,bkg_median,bkg_std
+... 198.2441 198.0000 16.0214
+... bkg_err_ratio = bkg_std/bkg_median = 0.0809
+
+idx 207 - 1 / 3 , Ref.Star: CTA102 ) # 17 / 28 image of CTA102
+... aper_annu_sum0 = 132300.23
+... aper_annu_sum1 = 177365.47
+... aper_annu_sum_err0 = 704.22
+... aper_annu_sum_err1 = 483.69
+... area of sum0 = 505.16
+... area of sum1 = 884.04
+... median_sigclip (annual mask per pix)  = 198.00
+... bkg_mean (imdata statistic per pix)   = 198.24
+... bkg_median (imdata statistic per pix) = 198.00
+... bkg_sum (median_sigclip*area_sum0)           = 100022.45
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 101351.69
+... bg_subtracted_sum = 30948.54
+... bg_subtracted_err = 854.33
+... mag_instrument (sum) = -11.2266
+... mag_instrument (sum+err) = -11.2562
+... mag_instrument (err) = 0.0296
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1018.7558 910.44775 ...         30948.537         854.33348
+
+idx 207 - 2 / 3 , Ref.Star: 1 ) # 17 / 28 image of CTA102
+... aper_annu_sum0 = 466593.10
+... aper_annu_sum1 = 228513.66
+... aper_annu_sum_err0 = 4116.05
+... aper_annu_sum_err1 = 549.55
+... area of sum0 = 1136.62
+... area of sum1 = 1136.62
+... median_sigclip (annual mask per pix)  = 198.00
+... bkg_mean (imdata statistic per pix)   = 198.24
+... bkg_median (imdata statistic per pix) = 198.00
+... bkg_sum (median_sigclip*area_sum0)           = 225050.51
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 228513.66
+... bg_subtracted_sum = 238079.44
+... bg_subtracted_err = 4152.57
+... mag_instrument (sum) = -13.4418
+... mag_instrument (sum+err) = -13.4606
+... mag_instrument (err) = 0.0188
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 883.74418 1163.4991 ...         238079.44         4152.5747
+
+idx 207 - 3 / 3 , Ref.Star: 2 ) # 17 / 28 image of CTA102
+... aper_annu_sum0 = 369451.13
+... aper_annu_sum1 = 228067.11
+... aper_annu_sum_err0 = 2524.98
+... aper_annu_sum_err1 = 548.50
+... area of sum0 = 1136.62
+... area of sum1 = 1136.62
+... median_sigclip (annual mask per pix)  = 198.00
+... bkg_mean (imdata statistic per pix)   = 198.24
+... bkg_median (imdata statistic per pix) = 198.00
+... bkg_sum (median_sigclip*area_sum0)           = 225050.51
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 228067.11
+... bg_subtracted_sum = 141384.02
+... bg_subtracted_err = 2583.87
+... mag_instrument (sum) = -12.8760
+... mag_instrument (sum+err) = -12.8957
+... mag_instrument (err) = 0.0197
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.1977 1145.1319 ...         141384.02         2583.8658
+
+=================================
+... measurement error after background subtraction (counts): 2866.4801
+... magnitude error after background subtraction (mag): 0.0232
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.556723939859769
+... fitting residual: [0.00000000e+00 3.55271368e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0809
+... error of (calibration + observation) [mag]: 0.0232
+label_source[k] ['CTA102, Rmag=15.56', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 141384.0185834893
+... InstMag_width = 2.22 , Rmag_width = 2.00
+=================================
+idx 208 ) ID = 209 , # 18 / 28 image of CTA102
+... filename : CTA102-20170928@162315-R_30508_calib.fits
+calendar_date 2017-09-28 16:23:16.000018
+
+... bkg_mean,bkg_median,bkg_std
+... 203.0919 202.8105 16.2197
+... bkg_err_ratio = bkg_std/bkg_median = 0.0800
+
+idx 208 - 1 / 3 , Ref.Star: CTA102 ) # 18 / 28 image of CTA102
+... aper_annu_sum0 = 134397.67
+... aper_annu_sum1 = 181539.11
+... aper_annu_sum_err0 = 736.74
+... aper_annu_sum_err1 = 489.29
+... area of sum0 = 505.12
+... area of sum1 = 883.96
+... median_sigclip (annual mask per pix)  = 202.81
+... bkg_mean (imdata statistic per pix)   = 203.09
+... bkg_median (imdata statistic per pix) = 202.81
+... bkg_sum (median_sigclip*area_sum0)           = 102443.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 103736.63
+... bg_subtracted_sum = 30661.04
+... bg_subtracted_err = 884.41
+... mag_instrument (sum) = -11.2165
+... mag_instrument (sum+err) = -11.2473
+... mag_instrument (err) = 0.0309
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1018.7905 912.46883 ...         30661.037         884.41445
+
+idx 208 - 2 / 3 , Ref.Star: 1 ) # 18 / 28 image of CTA102
+... aper_annu_sum0 = 470674.48
+... aper_annu_sum1 = 234294.18
+... aper_annu_sum_err0 = 4382.77
+... aper_annu_sum_err1 = 556.99
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 203.07
+... bkg_mean (imdata statistic per pix)   = 203.09
+... bkg_median (imdata statistic per pix) = 202.81
+... bkg_sum (median_sigclip*area_sum0)           = 230791.64
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 234294.18
+... bg_subtracted_sum = 236380.30
+... bg_subtracted_err = 4418.02
+... mag_instrument (sum) = -13.4340
+... mag_instrument (sum+err) = -13.4541
+... mag_instrument (err) = 0.0201
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 883.79194 1165.5177 ...          236380.3         4418.0232
+
+idx 208 - 3 / 3 , Ref.Star: 2 ) # 18 / 28 image of CTA102
+... aper_annu_sum0 = 375132.32
+... aper_annu_sum1 = 233723.67
+... aper_annu_sum_err0 = 2674.12
+... aper_annu_sum_err1 = 555.61
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 202.81
+... bkg_mean (imdata statistic per pix)   = 203.09
+... bkg_median (imdata statistic per pix) = 202.81
+... bkg_sum (median_sigclip*area_sum0)           = 230498.93
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 233723.67
+... bg_subtracted_sum = 141408.66
+... bg_subtracted_err = 2731.23
+... mag_instrument (sum) = -12.8762
+... mag_instrument (sum+err) = -12.8970
+... mag_instrument (err) = 0.0208
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.2383 1147.1465 ...         141408.66         2731.2291
+
+=================================
+... measurement error after background subtraction (counts): 3041.9692
+... magnitude error after background subtraction (mag): 0.0244
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.58739096114454
+... fitting residual: [-2.30926389e-14 -1.24344979e-14]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0800
+... error of (calibration + observation) [mag]: 0.0244
+label_source[k] ['CTA102, Rmag=15.59', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 141408.65705744404
+... InstMag_width = 2.22 , Rmag_width = 2.03
+=================================
+idx 266 ) ID = 267 , # 19 / 28 image of CTA102
+... filename : CTA102-20171003@135239-R_30508_calib.fits
+calendar_date 2017-10-03 13:53:00.999952
+
+... bkg_mean,bkg_median,bkg_std
+... 4520.4485 4480.9145 201.7894
+... bkg_err_ratio = bkg_std/bkg_median = 0.0450
+
+idx 266 - 1 / 3 , Ref.Star: CTA102 ) # 19 / 28 image of CTA102
+... aper_annu_sum0 = 2256838.76
+... aper_annu_sum1 = 3894041.64
+... aper_annu_sum_err0 = 4529.11
+... aper_annu_sum_err1 = 5898.80
+... area of sum0 = 505.14
+... area of sum1 = 884.00
+... median_sigclip (annual mask per pix)  = 4404.46
+... bkg_mean (imdata statistic per pix)   = 4520.45
+... bkg_median (imdata statistic per pix) = 4480.91
+... bkg_sum (median_sigclip*area_sum0)           = 2224878.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2225166.65
+... bg_subtracted_sum = 31672.11
+... bg_subtracted_err = 7436.98
+... mag_instrument (sum) = -11.2517
+... mag_instrument (sum+err) = -11.4807
+... mag_instrument (err) = 0.2290
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1044.9699 848.67151 ...         31672.109         7436.9813
+
+idx 266 - 2 / 3 , Ref.Star: 1 ) # 19 / 28 image of CTA102
+... aper_annu_sum0 = 5257965.21
+... aper_annu_sum1 = 5004624.54
+... aper_annu_sum_err0 = 7296.67
+... aper_annu_sum_err1 = 6685.96
+... area of sum0 = 1136.57
+... area of sum1 = 1136.57
+... median_sigclip (annual mask per pix)  = 4399.63
+... bkg_mean (imdata statistic per pix)   = 4520.45
+... bkg_median (imdata statistic per pix) = 4480.91
+... bkg_sum (median_sigclip*area_sum0)           = 5000486.71
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 5004624.54
+... bg_subtracted_sum = 253340.67
+... bg_subtracted_err = 9896.64
+... mag_instrument (sum) = -13.5093
+... mag_instrument (sum+err) = -13.5509
+... mag_instrument (err) = 0.0416
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 910.10643 1101.7986 ...         253340.67         9896.6398
+
+idx 266 - 3 / 3 , Ref.Star: 2 ) # 19 / 28 image of CTA102
+... aper_annu_sum0 = 5244817.38
+... aper_annu_sum1 = 5094445.88
+... aper_annu_sum_err0 = 7106.05
+... aper_annu_sum_err1 = 6806.03
+... area of sum0 = 1136.57
+... area of sum1 = 1136.57
+... median_sigclip (annual mask per pix)  = 4484.58
+... bkg_mean (imdata statistic per pix)   = 4520.45
+... bkg_median (imdata statistic per pix) = 4480.91
+... bkg_sum (median_sigclip*area_sum0)           = 5097046.04
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 5094445.88
+... bg_subtracted_sum = 150371.50
+... bg_subtracted_err = 9839.61
+... mag_instrument (sum) = -12.9429
+... mag_instrument (sum+err) = -13.0117
+... mag_instrument (err) = 0.0688
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1066.546 1083.3418 ...          150371.5           9839.61
+
+=================================
+... measurement error after background subtraction (counts): 9129.9890
+... magnitude error after background subtraction (mag): 0.1401
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.592954607867958
+... fitting residual: [1.24344979e-14 7.10542736e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0450
+... error of (calibration + observation) [mag]: 0.1401
+label_source[k] ['CTA102, Rmag=15.59', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 150371.50431243517
+... InstMag_width = 2.26 , Rmag_width = 2.03
+=================================
+idx 267 ) ID = 268 , # 20 / 28 image of CTA102
+... filename : CTA102-20171003@135612-R_30508_calib.fits
+calendar_date 2017-10-03 13:56:12.999997
+
+... bkg_mean,bkg_median,bkg_std
+... 5545.0127 5509.0424 205.1160
+... bkg_err_ratio = bkg_std/bkg_median = 0.0372
+
+idx 267 - 1 / 3 , Ref.Star: CTA102 ) # 20 / 28 image of CTA102
+... aper_annu_sum0 = 2774032.28
+... aper_annu_sum1 = 4795531.93
+... aper_annu_sum_err0 = 4600.28
+... aper_annu_sum_err1 = 6005.72
+... area of sum0 = 505.18
+... area of sum1 = 884.07
+... median_sigclip (annual mask per pix)  = 5423.63
+... bkg_mean (imdata statistic per pix)   = 5545.01
+... bkg_median (imdata statistic per pix) = 5509.04
+... bkg_sum (median_sigclip*area_sum0)           = 2739917.17
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2740303.96
+... bg_subtracted_sum = 33728.32
+... bg_subtracted_err = 7565.13
+... mag_instrument (sum) = -11.3200
+... mag_instrument (sum+err) = -11.5397
+... mag_instrument (err) = 0.2197
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1045.6073 847.76589 ...         33728.319          7565.128
+
+idx 267 - 2 / 3 , Ref.Star: 1 ) # 20 / 28 image of CTA102
+... aper_annu_sum0 = 6414176.17
+... aper_annu_sum1 = 6165724.46
+... aper_annu_sum_err0 = 7280.75
+... aper_annu_sum_err1 = 6809.88
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 5424.09
+... bkg_mean (imdata statistic per pix)   = 5545.01
+... bkg_median (imdata statistic per pix) = 5509.04
+... bkg_sum (median_sigclip*area_sum0)           = 6165342.69
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6165724.46
+... bg_subtracted_sum = 248451.71
+... bg_subtracted_err = 9969.14
+... mag_instrument (sum) = -13.4881
+... mag_instrument (sum+err) = -13.5308
+... mag_instrument (err) = 0.0427
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 910.7408 1100.9039 ...         248451.71         9969.1427
+
+idx 267 - 3 / 3 , Ref.Star: 2 ) # 20 / 28 image of CTA102
+... aper_annu_sum0 = 6409676.50
+... aper_annu_sum1 = 6259177.10
+... aper_annu_sum_err0 = 7152.66
+... aper_annu_sum_err1 = 6913.14
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 5508.43
+... bkg_mean (imdata statistic per pix)   = 5545.01
+... bkg_median (imdata statistic per pix) = 5509.04
+... bkg_sum (median_sigclip*area_sum0)           = 6261201.11
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6259177.10
+... bg_subtracted_sum = 150499.40
+... bg_subtracted_err = 9947.47
+... mag_instrument (sum) = -12.9438
+... mag_instrument (sum+err) = -13.0133
+... mag_instrument (err) = 0.0695
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1067.1863 1082.445 ...          150499.4         9947.4653
+
+=================================
+... measurement error after background subtraction (counts): 9229.7894
+... magnitude error after background subtraction (mag): 0.1353
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.591609900894127
+... fitting residual: [-1.77635684e-15  3.55271368e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0372
+... error of (calibration + observation) [mag]: 0.1353
+label_source[k] ['CTA102, Rmag=15.59', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 150499.40299963765
+... InstMag_width = 2.17 , Rmag_width = 2.03
+=================================
+idx 290 ) ID = 291 , # 21 / 28 image of CTA102
+... filename : CTA102-20171005@135319-R_30508_calib.fits
+calendar_date 2017-10-05 13:53:41.000017
+
+... bkg_mean,bkg_median,bkg_std
+... 2675.3022 2675.0069 56.0330
+... bkg_err_ratio = bkg_std/bkg_median = 0.0209
+
+idx 290 - 1 / 3 , Ref.Star: CTA102 ) # 21 / 28 image of CTA102
+... aper_annu_sum0 = 1388344.66
+... aper_annu_sum1 = 2360158.93
+... aper_annu_sum_err0 = 1306.80
+... aper_annu_sum_err1 = 1663.09
+... area of sum0 = 505.17
+... area of sum1 = 884.05
+... median_sigclip (annual mask per pix)  = 2668.85
+... bkg_mean (imdata statistic per pix)   = 2675.30
+... bkg_median (imdata statistic per pix) = 2675.01
+... bkg_sum (median_sigclip*area_sum0)           = 1348225.47
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1348662.25
+... bg_subtracted_sum = 39682.41
+... bg_subtracted_err = 2115.08
+... mag_instrument (sum) = -11.4965
+... mag_instrument (sum+err) = -11.5529
+... mag_instrument (err) = 0.0564
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1043.1288 853.05176 ...         39682.413         2115.0837
+
+idx 290 - 2 / 3 , Ref.Star: 1 ) # 21 / 28 image of CTA102
+... aper_annu_sum0 = 3286883.68
+... aper_annu_sum1 = 3027150.96
+... aper_annu_sum_err0 = 2356.35
+... aper_annu_sum_err1 = 1881.18
+... area of sum0 = 1136.64
+... area of sum1 = 1136.64
+... median_sigclip (annual mask per pix)  = 2660.75
+... bkg_mean (imdata statistic per pix)   = 2675.30
+... bkg_median (imdata statistic per pix) = 2675.01
+... bkg_sum (median_sigclip*area_sum0)           = 3024298.94
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 3027150.96
+... bg_subtracted_sum = 259732.73
+... bg_subtracted_err = 3015.16
+... mag_instrument (sum) = -13.5363
+... mag_instrument (sum+err) = -13.5488
+... mag_instrument (err) = 0.0125
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 908.35102 1106.24 ...          1881.1773         259732.73          3015.165
+
+idx 290 - 3 / 3 , Ref.Star: 2 ) # 21 / 28 image of CTA102
+... aper_annu_sum0 = 3187244.68
+... aper_annu_sum1 = 3031326.50
+... aper_annu_sum_err0 = 2103.17
+... aper_annu_sum_err1 = 1883.78
+... area of sum0 = 1136.64
+... area of sum1 = 1136.64
+... median_sigclip (annual mask per pix)  = 2667.87
+... bkg_mean (imdata statistic per pix)   = 2675.30
+... bkg_median (imdata statistic per pix) = 2675.01
+... bkg_sum (median_sigclip*area_sum0)           = 3032400.84
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 3031326.50
+... bg_subtracted_sum = 155918.18
+... bg_subtracted_err = 2823.47
+... mag_instrument (sum) = -12.9822
+... mag_instrument (sum+err) = -13.0017
+... mag_instrument (err) = 0.0195
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1064.7885 1087.7269 ...         155918.18         2823.4655
+
+=================================
+... measurement error after background subtraction (counts): 2679.3504
+... magnitude error after background subtraction (mag): 0.0352
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.437560566503763
+... fitting residual: [-1.77635684e-14 -1.77635684e-14]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0209
+... error of (calibration + observation) [mag]: 0.0352
+label_source[k] ['CTA102, Rmag=15.44', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 155918.18069076678
+... InstMag_width = 2.04 , Rmag_width = 1.88
+=================================
+idx 291 ) ID = 292 , # 22 / 28 image of CTA102
+... filename : CTA102-20171005@135652-R_30508_calib.fits
+calendar_date 2017-10-05 13:56:52.999981
+
+... bkg_mean,bkg_median,bkg_std
+... 2633.2633 2633.0795 55.8725
+... bkg_err_ratio = bkg_std/bkg_median = 0.0212
+
+idx 291 - 1 / 3 , Ref.Star: CTA102 ) # 22 / 28 image of CTA102
+... aper_annu_sum0 = 1367359.68
+... aper_annu_sum1 = 2323343.39
+... aper_annu_sum_err0 = 1304.49
+... aper_annu_sum_err1 = 1658.43
+... area of sum0 = 505.18
+... area of sum1 = 884.06
+... median_sigclip (annual mask per pix)  = 2628.68
+... bkg_mean (imdata statistic per pix)   = 2633.26
+... bkg_median (imdata statistic per pix) = 2633.08
+... bkg_sum (median_sigclip*area_sum0)           = 1327951.85
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1327624.79
+... bg_subtracted_sum = 39734.89
+... bg_subtracted_err = 2109.99
+... mag_instrument (sum) = -11.4979
+... mag_instrument (sum+err) = -11.5541
+... mag_instrument (err) = 0.0562
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1043.5389 852.55133 ...         39734.887         2109.9918
+
+idx 291 - 2 / 3 , Ref.Star: 1 ) # 22 / 28 image of CTA102
+... aper_annu_sum0 = 3238102.32
+... aper_annu_sum1 = 2973182.73
+... aper_annu_sum_err0 = 2360.60
+... aper_annu_sum_err1 = 1871.68
+... area of sum0 = 1136.65
+... area of sum1 = 1136.65
+... median_sigclip (annual mask per pix)  = 2616.66
+... bkg_mean (imdata statistic per pix)   = 2633.26
+... bkg_median (imdata statistic per pix) = 2633.08
+... bkg_sum (median_sigclip*area_sum0)           = 2974231.96
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2973182.73
+... bg_subtracted_sum = 264919.58
+... bg_subtracted_err = 3012.58
+... mag_instrument (sum) = -13.5578
+... mag_instrument (sum+err) = -13.5701
+... mag_instrument (err) = 0.0123
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 908.75867 1105.7349 ...         264919.58         3012.5803
+
+idx 291 - 3 / 3 , Ref.Star: 2 ) # 22 / 28 image of CTA102
+... aper_annu_sum0 = 3135837.03
+... aper_annu_sum1 = 2982508.98
+... aper_annu_sum_err0 = 2101.23
+... aper_annu_sum_err1 = 1877.58
+... area of sum0 = 1136.65
+... area of sum1 = 1136.65
+... median_sigclip (annual mask per pix)  = 2623.04
+... bkg_mean (imdata statistic per pix)   = 2633.26
+... bkg_median (imdata statistic per pix) = 2633.08
+... bkg_sum (median_sigclip*area_sum0)           = 2981490.64
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2982508.98
+... bg_subtracted_sum = 153328.05
+... bg_subtracted_err = 2817.88
+... mag_instrument (sum) = -12.9641
+... mag_instrument (sum+err) = -12.9838
+... mag_instrument (err) = 0.0198
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1065.1975 1087.2229 ...         153328.05         2817.8837
+
+=================================
+... measurement error after background subtraction (counts): 2675.0809
+... magnitude error after background subtraction (mag): 0.0351
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.329363398892934
+... fitting residual: [ 1.77635684e-15 -1.77635684e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0212
+... error of (calibration + observation) [mag]: 0.0351
+label_source[k] ['CTA102, Rmag=15.33', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 153328.0484883245
+... InstMag_width = 2.06 , Rmag_width = 1.77
+=================================
+idx 320 ) ID = 321 , # 23 / 28 image of CTA102
+... filename : CTA102-20171006@142418-R_30508_calib.fits
+calendar_date 2017-10-06 14:24:40.000032
+
+... bkg_mean,bkg_median,bkg_std
+... 1488.4553 1488.3974 43.3288
+... bkg_err_ratio = bkg_std/bkg_median = 0.0291
+
+idx 320 - 1 / 3 , Ref.Star: CTA102 ) # 23 / 28 image of CTA102
+... aper_annu_sum0 = 790646.50
+... aper_annu_sum1 = 1315472.23
+... aper_annu_sum_err0 = 1041.50
+... aper_annu_sum_err1 = 1288.36
+... area of sum0 = 505.22
+... area of sum1 = 884.13
+... median_sigclip (annual mask per pix)  = 1489.44
+... bkg_mean (imdata statistic per pix)   = 1488.46
+... bkg_median (imdata statistic per pix) = 1488.40
+... bkg_sum (median_sigclip*area_sum0)           = 752491.09
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 751698.42
+... bg_subtracted_sum = 38948.09
+... bg_subtracted_err = 1656.68
+... mag_instrument (sum) = -11.4762
+... mag_instrument (sum+err) = -11.5214
+... mag_instrument (err) = 0.0452
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1039.0887 873.7768 ...         38948.087          1656.684
+
+idx 320 - 2 / 3 , Ref.Star: 1 ) # 23 / 28 image of CTA102
+... aper_annu_sum0 = 1933737.62
+... aper_annu_sum1 = 1674758.12
+... aper_annu_sum_err0 = 2082.85
+... aper_annu_sum_err1 = 1446.62
+... area of sum0 = 1136.74
+... area of sum1 = 1136.74
+... median_sigclip (annual mask per pix)  = 1471.53
+... bkg_mean (imdata statistic per pix)   = 1488.46
+... bkg_median (imdata statistic per pix) = 1488.40
+... bkg_sum (median_sigclip*area_sum0)           = 1672745.16
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1674758.12
+... bg_subtracted_sum = 258979.50
+... bg_subtracted_err = 2535.94
+... mag_instrument (sum) = -13.5332
+... mag_instrument (sum+err) = -13.5437
+... mag_instrument (err) = 0.0106
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 904.46315 1127.0476 ...          258979.5         2535.9396
+
+idx 320 - 3 / 3 , Ref.Star: 2 ) # 23 / 28 image of CTA102
+... aper_annu_sum0 = 1831141.98
+... aper_annu_sum1 = 1673260.74
+... aper_annu_sum_err0 = 1748.57
+... aper_annu_sum_err1 = 1445.28
+... area of sum0 = 1136.74
+... area of sum1 = 1136.74
+... median_sigclip (annual mask per pix)  = 1471.55
+... bkg_mean (imdata statistic per pix)   = 1488.46
+... bkg_median (imdata statistic per pix) = 1488.40
+... bkg_sum (median_sigclip*area_sum0)           = 1672770.94
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1673260.74
+... bg_subtracted_sum = 157881.24
+... bg_subtracted_err = 2268.55
+... mag_instrument (sum) = -12.9958
+... mag_instrument (sum+err) = -13.0113
+... mag_instrument (err) = 0.0155
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1060.8963 1108.4367 ...         157881.24         2268.5512
+
+=================================
+... measurement error after background subtraction (counts): 2184.9421
+... magnitude error after background subtraction (mag): 0.0283
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.512300574298964
+... fitting residual: [-1.0658141e-14  0.0000000e+00]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0291
+... error of (calibration + observation) [mag]: 0.0283
+label_source[k] ['CTA102, Rmag=15.51', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 157881.24469673936
+... InstMag_width = 2.06 , Rmag_width = 1.95
+=================================
+idx 321 ) ID = 322 , # 24 / 28 image of CTA102
+... filename : CTA102-20171006@142752-R_30508_calib.fits
+calendar_date 2017-10-06 14:27:51.999996
+
+... bkg_mean,bkg_median,bkg_std
+... 1493.1359 1493.0676 43.6175
+... bkg_err_ratio = bkg_std/bkg_median = 0.0292
+
+idx 321 - 1 / 3 , Ref.Star: CTA102 ) # 24 / 28 image of CTA102
+... aper_annu_sum0 = 790885.76
+... aper_annu_sum1 = 1314850.49
+... aper_annu_sum_err0 = 1044.30
+... aper_annu_sum_err1 = 1292.33
+... area of sum0 = 505.18
+... area of sum1 = 884.07
+... median_sigclip (annual mask per pix)  = 1488.49
+... bkg_mean (imdata statistic per pix)   = 1493.14
+... bkg_median (imdata statistic per pix) = 1493.07
+... bkg_sum (median_sigclip*area_sum0)           = 751961.92
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 751343.14
+... bg_subtracted_sum = 39542.62
+... bg_subtracted_err = 1661.53
+... mag_instrument (sum) = -11.4927
+... mag_instrument (sum+err) = -11.5374
+... mag_instrument (err) = 0.0447
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1039.2363 873.69135 ...         39542.618          1661.527
+
+idx 321 - 2 / 3 , Ref.Star: 1 ) # 24 / 28 image of CTA102
+... aper_annu_sum0 = 1940386.24
+... aper_annu_sum1 = 1675903.70
+... aper_annu_sum_err0 = 2078.55
+... aper_annu_sum_err1 = 1452.69
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 1473.50
+... bkg_mean (imdata statistic per pix)   = 1493.14
+... bkg_median (imdata statistic per pix) = 1493.07
+... bkg_sum (median_sigclip*area_sum0)           = 1674868.76
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1675903.70
+... bg_subtracted_sum = 264482.54
+... bg_subtracted_err = 2535.88
+... mag_instrument (sum) = -13.5560
+... mag_instrument (sum+err) = -13.5664
+... mag_instrument (err) = 0.0104
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 904.61389 1126.9607 ...         264482.54         2535.8766
+
+idx 321 - 3 / 3 , Ref.Star: 2 ) # 24 / 28 image of CTA102
+... aper_annu_sum0 = 1836778.62
+... aper_annu_sum1 = 1684171.96
+... aper_annu_sum_err0 = 1754.26
+... aper_annu_sum_err1 = 1459.89
+... area of sum0 = 1136.66
+... area of sum1 = 1136.66
+... median_sigclip (annual mask per pix)  = 1480.26
+... bkg_mean (imdata statistic per pix)   = 1493.14
+... bkg_median (imdata statistic per pix) = 1493.07
+... bkg_sum (median_sigclip*area_sum0)           = 1682551.32
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1684171.96
+... bg_subtracted_sum = 152606.66
+... bg_subtracted_err = 2282.26
+... mag_instrument (sum) = -12.9589
+... mag_instrument (sum+err) = -12.9751
+... mag_instrument (err) = 0.0161
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1061.0417 1108.3508 ...         152606.66         2282.2569
+
+=================================
+... measurement error after background subtraction (counts): 2190.8932
+... magnitude error after background subtraction (mag): 0.0281
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.32246927294491
+... fitting residual: [-1.59872116e-14 -1.06581410e-14]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0292
+... error of (calibration + observation) [mag]: 0.0281
+label_source[k] ['CTA102, Rmag=15.32', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 152606.6602126886
+... InstMag_width = 2.06 , Rmag_width = 1.76
+=================================
+idx 338 ) ID = 339 , # 25 / 28 image of CTA102
+... filename : CTA102-20171009@175153-R_30508_calib.fits
+calendar_date 2017-10-09 17:52:14.999987
+
+... bkg_mean,bkg_median,bkg_std
+... 1356.8438 1356.5581 40.4836
+... bkg_err_ratio = bkg_std/bkg_median = 0.0298
+
+idx 338 - 1 / 3 , Ref.Star: CTA102 ) # 25 / 28 image of CTA102
+... aper_annu_sum0 = 703064.44
+... aper_annu_sum1 = 1188227.49
+... aper_annu_sum_err0 = 934.42
+... aper_annu_sum_err1 = 1193.03
+... area of sum0 = 505.23
+... area of sum1 = 884.15
+... median_sigclip (annual mask per pix)  = 1343.84
+... bkg_mean (imdata statistic per pix)   = 1356.84
+... bkg_median (imdata statistic per pix) = 1356.56
+... bkg_sum (median_sigclip*area_sum0)           = 678948.09
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 678987.14
+... bg_subtracted_sum = 24077.30
+... bg_subtracted_err = 1515.40
+... mag_instrument (sum) = -10.9540
+... mag_instrument (sum+err) = -11.0203
+... mag_instrument (err) = 0.0663
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.6159 1020.4198 ...         24077.298         1515.4039
+
+idx 338 - 2 / 3 , Ref.Star: 1 ) # 25 / 28 image of CTA102
+... aper_annu_sum0 = 1732304.13
+... aper_annu_sum1 = 1514980.66
+... aper_annu_sum_err0 = 1570.70
+... aper_annu_sum_err1 = 1341.51
+... area of sum0 = 1136.76
+... area of sum1 = 1136.76
+... median_sigclip (annual mask per pix)  = 1331.90
+... bkg_mean (imdata statistic per pix)   = 1356.84
+... bkg_median (imdata statistic per pix) = 1356.56
+... bkg_sum (median_sigclip*area_sum0)           = 1514057.04
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1514980.66
+... bg_subtracted_sum = 217323.47
+... bg_subtracted_err = 2065.61
+... mag_instrument (sum) = -13.3428
+... mag_instrument (sum+err) = -13.3530
+... mag_instrument (err) = 0.0103
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 883.76923 1271.8647 ...         217323.47         2065.6096
+
+idx 338 - 3 / 3 , Ref.Star: 2 ) # 25 / 28 image of CTA102
+... aper_annu_sum0 = 1647616.42
+... aper_annu_sum1 = 1520799.01
+... aper_annu_sum_err0 = 1472.81
+... aper_annu_sum_err1 = 1346.69
+... area of sum0 = 1136.76
+... area of sum1 = 1136.76
+... median_sigclip (annual mask per pix)  = 1336.06
+... bkg_mean (imdata statistic per pix)   = 1356.84
+... bkg_median (imdata statistic per pix) = 1356.56
+... bkg_sum (median_sigclip*area_sum0)           = 1518784.74
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1520799.01
+... bg_subtracted_sum = 126817.40
+... bg_subtracted_err = 1995.69
+... mag_instrument (sum) = -12.7579
+... mag_instrument (sum+err) = -12.7749
+... mag_instrument (err) = 0.0170
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.4292 1255.2562 ...          126817.4         1995.6873
+
+=================================
+... measurement error after background subtraction (counts): 1874.9187
+... magnitude error after background subtraction (mag): 0.0399
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.643140562104982
+... fitting residual: [-7.10542736e-15 -5.32907052e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0298
+... error of (calibration + observation) [mag]: 0.0399
+label_source[k] ['CTA102, Rmag=15.64', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 126817.40285696276
+... InstMag_width = 2.39 , Rmag_width = 2.08
+=================================
+idx 339 ) ID = 340 , # 26 / 28 image of CTA102
+... filename : CTA102-20171009@175547-R_30508_calib.fits
+calendar_date 2017-10-09 17:56:08.000011
+
+... bkg_mean,bkg_median,bkg_std
+... 1356.3157 1355.9700 40.7288
+... bkg_err_ratio = bkg_std/bkg_median = 0.0300
+
+idx 339 - 1 / 3 , Ref.Star: CTA102 ) # 26 / 28 image of CTA102
+... aper_annu_sum0 = 702482.29
+... aper_annu_sum1 = 1187092.53
+... aper_annu_sum_err0 = 940.63
+... aper_annu_sum_err1 = 1200.78
+... area of sum0 = 504.29
+... area of sum1 = 882.51
+... median_sigclip (annual mask per pix)  = 1344.17
+... bkg_mean (imdata statistic per pix)   = 1356.32
+... bkg_median (imdata statistic per pix) = 1355.97
+... bkg_sum (median_sigclip*area_sum0)           = 677855.73
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 678338.59
+... bg_subtracted_sum = 24143.70
+... bg_subtracted_err = 1525.34
+... mag_instrument (sum) = -10.9570
+... mag_instrument (sum+err) = -11.0235
+... mag_instrument (err) = 0.0665
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1024.2158 1021.6936 ...         24143.702         1525.3424
+
+idx 339 - 2 / 3 , Ref.Star: 1 ) # 26 / 28 image of CTA102
+... aper_annu_sum0 = 1732048.41
+... aper_annu_sum1 = 1518213.03
+... aper_annu_sum_err0 = 1582.88
+... aper_annu_sum_err1 = 1354.40
+... area of sum0 = 1134.66
+... area of sum1 = 1134.66
+... median_sigclip (annual mask per pix)  = 1336.72
+... bkg_mean (imdata statistic per pix)   = 1356.32
+... bkg_median (imdata statistic per pix) = 1355.97
+... bkg_sum (median_sigclip*area_sum0)           = 1516719.18
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1518213.03
+... bg_subtracted_sum = 213835.37
+... bg_subtracted_err = 2083.24
+... mag_instrument (sum) = -13.3252
+... mag_instrument (sum+err) = -13.3357
+... mag_instrument (err) = 0.0105
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 886.44244 1273.0193 ...         213835.37         2083.2418
+
+idx 339 - 3 / 3 , Ref.Star: 2 ) # 26 / 28 image of CTA102
+... aper_annu_sum0 = 1646587.85
+... aper_annu_sum1 = 1517768.83
+... aper_annu_sum_err0 = 1483.13
+... aper_annu_sum_err1 = 1353.96
+... area of sum0 = 1134.66
+... area of sum1 = 1134.66
+... median_sigclip (annual mask per pix)  = 1336.62
+... bkg_mean (imdata statistic per pix)   = 1356.32
+... bkg_median (imdata statistic per pix) = 1355.97
+... bkg_sum (median_sigclip*area_sum0)           = 1516610.47
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1517768.83
+... bg_subtracted_sum = 128819.02
+... bg_subtracted_err = 2008.21
+... mag_instrument (sum) = -12.7749
+... mag_instrument (sum+err) = -12.7917
+... mag_instrument (err) = 0.0168
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1042.9601 1256.451 ...         128819.02         2008.2076
+
+=================================
+... measurement error after background subtraction (counts): 1888.5147
+... magnitude error after background subtraction (mag): 0.0401
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.754963879647242
+... fitting residual: [5.32907052e-15 3.55271368e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0300
+... error of (calibration + observation) [mag]: 0.0401
+label_source[k] ['CTA102, Rmag=15.75', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 128819.01715645194
+... InstMag_width = 2.37 , Rmag_width = 2.19
+=================================
+idx 364 ) ID = 365 , # 27 / 28 image of CTA102
+... filename : CTA102-20171010@171251-R_30508_calib.fits
+calendar_date 2017-10-10 17:13:13.000017
+
+... bkg_mean,bkg_median,bkg_std
+... 756.8228 756.5901 29.8036
+... bkg_err_ratio = bkg_std/bkg_median = 0.0394
+
+idx 364 - 1 / 3 , Ref.Star: CTA102 ) # 27 / 28 image of CTA102
+... aper_annu_sum0 = 406188.29
+... aper_annu_sum1 = 666315.03
+... aper_annu_sum_err0 = 723.79
+... aper_annu_sum_err1 = 883.48
+... area of sum0 = 505.12
+... area of sum1 = 883.96
+... median_sigclip (annual mask per pix)  = 753.20
+... bkg_mean (imdata statistic per pix)   = 756.82
+... bkg_median (imdata statistic per pix) = 756.59
+... bkg_sum (median_sigclip*area_sum0)           = 380456.09
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 380751.45
+... bg_subtracted_sum = 25436.84
+... bg_subtracted_err = 1142.11
+... mag_instrument (sum) = -11.0137
+... mag_instrument (sum+err) = -11.0613
+... mag_instrument (err) = 0.0477
+
+ id xcenter  ycenter  ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+      pix      pix    ...                                                       
+--- -------- -------- ... ------------------ ----------------- -----------------
+  1 1020.564 1022.541 ...          883.47744         25436.844         1142.1057
+
+idx 364 - 2 / 3 , Ref.Star: 1 ) # 27 / 28 image of CTA102
+... aper_annu_sum0 = 1088439.59
+... aper_annu_sum1 = 852642.80
+... aper_annu_sum_err0 = 1694.26
+... aper_annu_sum_err1 = 997.03
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 750.04
+... bkg_mean (imdata statistic per pix)   = 756.82
+... bkg_median (imdata statistic per pix) = 756.59
+... bkg_sum (median_sigclip*area_sum0)           = 852438.57
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 852642.80
+... bg_subtracted_sum = 235796.79
+... bg_subtracted_err = 1965.85
+... mag_instrument (sum) = -13.4313
+... mag_instrument (sum+err) = -13.4404
+... mag_instrument (err) = 0.0090
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 883.03428 1274.1639 ...         235796.79         1965.8502
+
+idx 364 - 3 / 3 , Ref.Star: 2 ) # 27 / 28 image of CTA102
+... aper_annu_sum0 = 999780.34
+... aper_annu_sum1 = 850721.07
+... aper_annu_sum_err0 = 1347.39
+... aper_annu_sum_err1 = 994.75
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 748.93
+... bkg_mean (imdata statistic per pix)   = 756.82
+... bkg_median (imdata statistic per pix) = 756.59
+... bkg_sum (median_sigclip*area_sum0)           = 851172.48
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 850721.07
+... bg_subtracted_sum = 149059.27
+... bg_subtracted_err = 1674.81
+... mag_instrument (sum) = -12.9334
+... mag_instrument (sum+err) = -12.9455
+... mag_instrument (err) = 0.0121
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1039.6571 1257.3665 ...         149059.27         1674.8143
+
+=================================
+... measurement error after background subtraction (counts): 1630.3349
+... magnitude error after background subtraction (mag): 0.0289
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 16.036206367470214
+... fitting residual: [-1.24344979e-14 -1.77635684e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0394
+... error of (calibration + observation) [mag]: 0.0289
+label_source[k] ['CTA102, Rmag=16.04', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 149059.266289255
+... InstMag_width = 2.42 , Rmag_width = 2.48
+=================================
+idx 365 ) ID = 366 , # 28 / 28 image of CTA102
+... filename : CTA102-20171010@171625-R_30508_calib.fits
+calendar_date 2017-10-10 17:16:24.999981
+
+... bkg_mean,bkg_median,bkg_std
+... 780.4121 780.2142 30.2170
+... bkg_err_ratio = bkg_std/bkg_median = 0.0387
+
+idx 365 - 1 / 3 , Ref.Star: CTA102 ) # 28 / 28 image of CTA102
+... aper_annu_sum0 = 418530.13
+... aper_annu_sum1 = 687653.58
+... aper_annu_sum_err0 = 732.12
+... aper_annu_sum_err1 = 896.32
+... area of sum0 = 505.14
+... area of sum1 = 883.99
+... median_sigclip (annual mask per pix)  = 776.78
+... bkg_mean (imdata statistic per pix)   = 780.41
+... bkg_median (imdata statistic per pix) = 780.21
+... bkg_sum (median_sigclip*area_sum0)           = 392380.70
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 392944.90
+... bg_subtracted_sum = 25585.23
+... bg_subtracted_err = 1157.32
+... mag_instrument (sum) = -11.0200
+... mag_instrument (sum+err) = -11.0680
+... mag_instrument (err) = 0.0480
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.7671 1025.1105 ...         25585.231         1157.3158
+
+idx 365 - 2 / 3 , Ref.Star: 1 ) # 28 / 28 image of CTA102
+... aper_annu_sum0 = 1114380.11
+... aper_annu_sum1 = 878508.57
+... aper_annu_sum_err0 = 1682.26
+... aper_annu_sum_err1 = 1009.92
+... area of sum0 = 1136.56
+... area of sum1 = 1136.56
+... median_sigclip (annual mask per pix)  = 771.32
+... bkg_mean (imdata statistic per pix)   = 780.41
+... bkg_median (imdata statistic per pix) = 780.21
+... bkg_sum (median_sigclip*area_sum0)           = 876655.80
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 878508.57
+... bg_subtracted_sum = 235871.54
+... bg_subtracted_err = 1962.12
+... mag_instrument (sum) = -13.4317
+... mag_instrument (sum+err) = -13.4407
+... mag_instrument (err) = 0.0090
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 884.25853 1276.73 ...          1009.9173         235871.54          1962.122
+
+idx 365 - 3 / 3 , Ref.Star: 2 ) # 28 / 28 image of CTA102
+... aper_annu_sum0 = 1017862.69
+... aper_annu_sum1 = 878181.58
+... aper_annu_sum_err0 = 1341.07
+... aper_annu_sum_err1 = 1009.57
+... area of sum0 = 1136.56
+... area of sum1 = 1136.56
+... median_sigclip (annual mask per pix)  = 771.84
+... bkg_mean (imdata statistic per pix)   = 780.41
+... bkg_median (imdata statistic per pix) = 780.21
+... bkg_sum (median_sigclip*area_sum0)           = 877247.18
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 878181.58
+... bg_subtracted_sum = 139681.11
+... bg_subtracted_err = 1678.60
+... mag_instrument (sum) = -12.8628
+... mag_instrument (sum+err) = -12.8758
+... mag_instrument (err) = 0.0130
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1040.8827 1259.919 ...         139681.11          1678.598
+
+=================================
+... measurement error after background subtraction (counts): 1633.7068
+... magnitude error after background subtraction (mag): 0.0292
+
+... rmag_fitting (Ref.Stars only): [13.56 14.07]
+... rmag_fitting (Target only): 15.722233258192496
+... fitting residual: [1.59872116e-14 8.88178420e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0387
+... error of (calibration + observation) [mag]: 0.0292
+label_source[k] ['CTA102, Rmag=15.72', 'CTA102, Rmag=13.56', 'CTA102, Rmag=14.07']
+... bg_subtracted_sum = 139681.10713718692
+... InstMag_width = 2.41 , Rmag_width = 2.16
+
+Rmag [15.36837075 15.49275555 15.3331153  15.46064855 15.77709173 15.65631723
+ 15.6911696  15.77387082 15.79051969 15.772352   15.69471151 15.71770716
+ 15.53513811 15.51401433 15.52448677 15.47257741 15.55672394 15.58739096
+ 15.59295461 15.5916099  15.43756057 15.3293634  15.51230057 15.32246927
+ 15.64314056 15.75496388 16.03620637 15.72223326]
+
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+10    11  2017-09-05  15:50:50  ...       0.1413       0.0000    0.1413
+11    12  2017-09-05  15:54:02  ...       0.1600       0.0000    0.1600
+24    25  2017-09-06  18:01:55  ...       0.0599       0.0000    0.0599
+25    26  2017-09-06  18:05:07  ...       0.0683       0.0000    0.0683
+38    39  2017-09-07  17:48:33  ...       0.0700       0.0000    0.0700
+39    40  2017-09-07  17:51:44  ...       0.0763       0.0000    0.0763
+58    59  2017-09-16  14:57:43  ...       0.0249       0.0000    0.0249
+59    60  2017-09-16  15:00:55  ...       0.0247       0.0000    0.0247
+78    79  2017-09-17  18:21:56  ...       0.0256       0.0000    0.0256
+79    80  2017-09-17  18:25:09  ...       0.0255       0.0000    0.0255
+114  115  2017-09-23  14:39:08  ...       0.0227       0.0000    0.0227
+115  116  2017-09-23  14:42:20  ...       0.0234       0.0000    0.0234
+160  161  2017-09-25  12:52:18  ...       0.0208       0.0000    0.0208
+161  162  2017-09-25  12:55:30  ...       0.0205       0.0000    0.0205
+193  194  2017-09-27  14:46:54  ...       0.0194       0.0000    0.0194
+194  195  2017-09-27  14:50:06  ...       0.0195       0.0000    0.0195
+207  208  2017-09-28  16:20:04  ...       0.0232       0.0000    0.0232
+208  209  2017-09-28  16:23:16  ...       0.0244       0.0000    0.0244
+266  267  2017-10-03  13:53:01  ...       0.1401       0.0000    0.1401
+267  268  2017-10-03  13:56:13  ...       0.1353       0.0000    0.1353
+290  291  2017-10-05  13:53:41  ...       0.0352       0.0000    0.0352
+291  292  2017-10-05  13:56:53  ...       0.0351       0.0000    0.0351
+320  321  2017-10-06  14:24:40  ...       0.0283       0.0000    0.0283
+321  322  2017-10-06  14:27:52  ...       0.0281       0.0000    0.0281
+338  339  2017-10-09  17:52:15  ...       0.0399       0.0000    0.0399
+339  340  2017-10-09  17:56:08  ...       0.0401       0.0000    0.0401
+364  365  2017-10-10  17:13:13  ...       0.0289       0.0000    0.0289
+365  366  2017-10-10  17:16:25  ...       0.0292       0.0000    0.0292
+
+[28 rows x 23 columns]
+... there are 0 bad fits
+before drop bad fits: idx_fitsheader_canfit = Int64Index([ 10,  11,  24,  25,  38,  39,  58,  59,  78,  79, 114, 115, 160,
+            161, 193, 194, 207, 208, 266, 267, 290, 291, 320, 321, 338, 339,
+            364, 365],
+           dtype='int64')
+0 10 CTA102-20170905@155029-R_30508_calib.fits
+1 11 CTA102-20170905@155402-R_30508_calib.fits
+2 24 CTA102-20170906@180134-R_30508_calib.fits
+3 25 CTA102-20170906@180507-R_30508_calib.fits
+4 38 CTA102-20170907@174811-R_30508_calib.fits
+5 39 CTA102-20170907@175144-R_30508_calib.fits
+6 58 CTA102-20170916@145721-R_30508_calib.fits
+7 59 CTA102-20170916@150055-R_30508_calib.fits
+8 78 CTA102-20170917@182134-R_30508_calib.fits
+9 79 CTA102-20170917@182509-R_30508_calib.fits
+10 114 CTA102-20170923@143847-R_30508_calib.fits
+11 115 CTA102-20170923@144220-R_30508_calib.fits
+12 160 CTA102-20170925@125157-R_30508_calib.fits
+13 161 CTA102-20170925@125530-R_30508_calib.fits
+14 193 CTA102-20170927@144633-R_30508_calib.fits
+15 194 CTA102-20170927@145006-R_30508_calib.fits
+16 207 CTA102-20170928@161943-R_30508_calib.fits
+17 208 CTA102-20170928@162315-R_30508_calib.fits
+18 266 CTA102-20171003@135239-R_30508_calib.fits
+19 267 CTA102-20171003@135612-R_30508_calib.fits
+20 290 CTA102-20171005@135319-R_30508_calib.fits
+21 291 CTA102-20171005@135652-R_30508_calib.fits
+22 320 CTA102-20171006@142418-R_30508_calib.fits
+23 321 CTA102-20171006@142752-R_30508_calib.fits
+24 338 CTA102-20171009@175153-R_30508_calib.fits
+25 339 CTA102-20171009@175547-R_30508_calib.fits
+26 364 CTA102-20171010@171251-R_30508_calib.fits
+27 365 CTA102-20171010@171625-R_30508_calib.fits
+Int64Index([ 10,  11,  24,  25,  38,  39,  58,  59,  78,  79, 114, 115, 160,
+            161, 193, 194, 207, 208, 266, 267, 290, 291, 320, 321, 338, 339,
+            364, 365],
+           dtype='int64')
+Int64Index([ 11,  12,  25,  26,  39,  40,  59,  60,  79,  80, 115, 116, 161,
+            162, 194, 195, 208, 209, 267, 268, 291, 292, 321, 322, 339, 340,
+            365, 366],
+           dtype='int64')
+Int64Index([], dtype='int64')
+
+... skip idx_fitsheader_keep [] = Int64Index([], dtype='int64') ... bad fits ...
+
+after drop bad fits: idx_fitsheader_keep = Int64Index([ 10,  11,  24,  25,  38,  39,  58,  59,  78,  79, 114, 115, 160,
+            161, 193, 194, 207, 208, 266, 267, 290, 291, 320, 321, 338, 339,
+            364, 365],
+           dtype='int64')
+... keep fits ...
+10     CTA102-20170905@155029-R_30508_calib.fits
+11     CTA102-20170905@155402-R_30508_calib.fits
+24     CTA102-20170906@180134-R_30508_calib.fits
+25     CTA102-20170906@180507-R_30508_calib.fits
+38     CTA102-20170907@174811-R_30508_calib.fits
+39     CTA102-20170907@175144-R_30508_calib.fits
+58     CTA102-20170916@145721-R_30508_calib.fits
+59     CTA102-20170916@150055-R_30508_calib.fits
+78     CTA102-20170917@182134-R_30508_calib.fits
+79     CTA102-20170917@182509-R_30508_calib.fits
+114    CTA102-20170923@143847-R_30508_calib.fits
+115    CTA102-20170923@144220-R_30508_calib.fits
+160    CTA102-20170925@125157-R_30508_calib.fits
+161    CTA102-20170925@125530-R_30508_calib.fits
+193    CTA102-20170927@144633-R_30508_calib.fits
+194    CTA102-20170927@145006-R_30508_calib.fits
+207    CTA102-20170928@161943-R_30508_calib.fits
+208    CTA102-20170928@162315-R_30508_calib.fits
+266    CTA102-20171003@135239-R_30508_calib.fits
+267    CTA102-20171003@135612-R_30508_calib.fits
+290    CTA102-20171005@135319-R_30508_calib.fits
+291    CTA102-20171005@135652-R_30508_calib.fits
+320    CTA102-20171006@142418-R_30508_calib.fits
+321    CTA102-20171006@142752-R_30508_calib.fits
+338    CTA102-20171009@175153-R_30508_calib.fits
+339    CTA102-20171009@175547-R_30508_calib.fits
+364    CTA102-20171010@171251-R_30508_calib.fits
+365    CTA102-20171010@171625-R_30508_calib.fits
+Name: Filename, dtype: object
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+10    11  2017-09-05  15:50:50  ...       0.1413       0.0000    0.1413
+11    12  2017-09-05  15:54:02  ...       0.1600       0.0000    0.1600
+24    25  2017-09-06  18:01:55  ...       0.0599       0.0000    0.0599
+25    26  2017-09-06  18:05:07  ...       0.0683       0.0000    0.0683
+38    39  2017-09-07  17:48:33  ...       0.0700       0.0000    0.0700
+39    40  2017-09-07  17:51:44  ...       0.0763       0.0000    0.0763
+58    59  2017-09-16  14:57:43  ...       0.0249       0.0000    0.0249
+59    60  2017-09-16  15:00:55  ...       0.0247       0.0000    0.0247
+78    79  2017-09-17  18:21:56  ...       0.0256       0.0000    0.0256
+79    80  2017-09-17  18:25:09  ...       0.0255       0.0000    0.0255
+114  115  2017-09-23  14:39:08  ...       0.0227       0.0000    0.0227
+115  116  2017-09-23  14:42:20  ...       0.0234       0.0000    0.0234
+160  161  2017-09-25  12:52:18  ...       0.0208       0.0000    0.0208
+161  162  2017-09-25  12:55:30  ...       0.0205       0.0000    0.0205
+193  194  2017-09-27  14:46:54  ...       0.0194       0.0000    0.0194
+194  195  2017-09-27  14:50:06  ...       0.0195       0.0000    0.0195
+207  208  2017-09-28  16:20:04  ...       0.0232       0.0000    0.0232
+208  209  2017-09-28  16:23:16  ...       0.0244       0.0000    0.0244
+266  267  2017-10-03  13:53:01  ...       0.1401       0.0000    0.1401
+267  268  2017-10-03  13:56:13  ...       0.1353       0.0000    0.1353
+290  291  2017-10-05  13:53:41  ...       0.0352       0.0000    0.0352
+291  292  2017-10-05  13:56:53  ...       0.0351       0.0000    0.0351
+320  321  2017-10-06  14:24:40  ...       0.0283       0.0000    0.0283
+321  322  2017-10-06  14:27:52  ...       0.0281       0.0000    0.0281
+338  339  2017-10-09  17:52:15  ...       0.0399       0.0000    0.0399
+339  340  2017-10-09  17:56:08  ...       0.0401       0.0000    0.0401
+364  365  2017-10-10  17:13:13  ...       0.0289       0.0000    0.0289
+365  366  2017-10-10  17:16:25  ...       0.0292       0.0000    0.0292
+
+[28 rows x 23 columns]
+              JD     Rmag  ErrorRmag
+0   2.458002e+06  15.3684     0.1413
+1   2.458002e+06  15.4928     0.1600
+2   2.458003e+06  15.3331     0.0599
+3   2.458003e+06  15.4606     0.0683
+4   2.458004e+06  15.7771     0.0700
+5   2.458004e+06  15.6563     0.0763
+6   2.458013e+06  15.6912     0.0249
+7   2.458013e+06  15.7739     0.0247
+8   2.458014e+06  15.7905     0.0256
+9   2.458014e+06  15.7724     0.0255
+10  2.458020e+06  15.6947     0.0227
+11  2.458020e+06  15.7177     0.0234
+12  2.458022e+06  15.5351     0.0208
+13  2.458022e+06  15.5140     0.0205
+14  2.458024e+06  15.5245     0.0194
+15  2.458024e+06  15.4726     0.0195
+16  2.458025e+06  15.5567     0.0232
+17  2.458025e+06  15.5874     0.0244
+18  2.458030e+06  15.5930     0.1401
+19  2.458030e+06  15.5916     0.1353
+20  2.458032e+06  15.4376     0.0352
+21  2.458032e+06  15.3294     0.0351
+22  2.458033e+06  15.5123     0.0283
+23  2.458033e+06  15.3225     0.0281
+24  2.458036e+06  15.6431     0.0399
+25  2.458036e+06  15.7550     0.0401
+26  2.458037e+06  16.0362     0.0289
+27  2.458037e+06  15.7222     0.0292
+0
+[2458002.160300926, 2458002.162523148, 2458003.2513310187, 2458003.253553241, 2458004.242048611, 2458004.244259259, 2458013.123414352, 2458013.125636574, 2458014.2652314813, 2458014.2674652776, 2458020.110509259, 2458020.1127314814, 2458022.0363194444, 2458022.0385416667, 2458024.1159027773, 2458024.118125, 2458025.180601852, 2458025.1828240743, 2458030.0784837957, 2458030.0807060185, 2458032.0789467595, 2458032.0811689813, 2458033.1004629633, 2458033.102685185, 2458036.2446180554, 2458036.247314815, 2458037.2175115743, 2458037.219733796]
+[15.36837075 15.49275555 15.3331153  15.46064855 15.77709173 15.65631723
+ 15.6911696  15.77387082 15.79051969 15.772352   15.69471151 15.71770716
+ 15.53513811 15.51401433 15.52448677 15.47257741 15.55672394 15.58739096
+ 15.59295461 15.5916099  15.43756057 15.3293634  15.51230057 15.32246927
+ 15.64314056 15.75496388 16.03620637 15.72223326]
+i= 0
+1
+[2458002.160300926, 2458002.162523148, 2458003.2513310187, 2458003.253553241, 2458004.242048611, 2458004.244259259, 2458013.123414352, 2458013.125636574, 2458014.2652314813, 2458014.2674652776, 2458020.110509259, 2458020.1127314814, 2458022.0363194444, 2458022.0385416667, 2458024.1159027773, 2458024.118125, 2458025.180601852, 2458025.1828240743, 2458030.0784837957, 2458030.0807060185, 2458032.0789467595, 2458032.0811689813, 2458033.1004629633, 2458033.102685185, 2458036.2446180554, 2458036.247314815, 2458037.2175115743, 2458037.219733796]
+[13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56
+ 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56 13.56
+ 13.56 13.56 13.56 13.56]
+i= 1
+2
+[2458002.160300926, 2458002.162523148, 2458003.2513310187, 2458003.253553241, 2458004.242048611, 2458004.244259259, 2458013.123414352, 2458013.125636574, 2458014.2652314813, 2458014.2674652776, 2458020.110509259, 2458020.1127314814, 2458022.0363194444, 2458022.0385416667, 2458024.1159027773, 2458024.118125, 2458025.180601852, 2458025.1828240743, 2458030.0784837957, 2458030.0807060185, 2458032.0789467595, 2458032.0811689813, 2458033.1004629633, 2458033.102685185, 2458036.2446180554, 2458036.247314815, 2458037.2175115743, 2458037.219733796]
+[14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07
+ 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07 14.07
+ 14.07 14.07 14.07 14.07]
+i= 2
+
+Rmag with nan value: []
+
+... write file to: ./Rmag_InstMag/annu_w1/CTA102/Rmag_aperture_CTA102_annu.txt
+... write file to: ./Rmag_InstMag/annu_w1/CTA102/Rmag_CTA102_all.txt
+... finished ...

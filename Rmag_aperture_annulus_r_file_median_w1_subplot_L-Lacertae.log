@@ -1,0 +1,3251 @@
+... will read gasp_target_fitsheader_info_exclude_baddata_2017.txt ...
+      ID     DateObs   TimeObs  ...    FWHM Altitude Airmass
+0      1  2017-09-05  15:34:55  ...  6.5488   2862.0  2.0397
+1      2  2017-09-05  15:38:07  ...  6.3398   2862.0  2.0572
+2      3  2017-09-05  15:57:19  ...  5.4140   2862.0  1.0087
+3      4  2017-09-05  16:00:30  ...  5.0077   2862.0  1.0092
+4      5  2017-09-05  16:21:56  ...  4.5208   2862.0  1.3238
+..   ...         ...       ...  ...     ...      ...     ...
+377  378  2017-10-10  18:13:33  ...  4.9963   2862.0  1.7970
+378  379  2017-10-10  18:33:03  ...  6.2048   2862.0  2.7707
+379  380  2017-10-10  18:36:14  ...  6.0631   2862.0  2.7313
+380  381  2017-10-10  18:01:39  ...  3.7919   2862.0  1.8951
+381  382  2017-10-10  18:04:51  ...  4.0252   2862.0  1.8827
+
+[382 rows x 18 columns]
+... will generate files in: ./Rmag_InstMag/annu_w1/L-Lacertae/
+-----------------------
+Int64Index([ 14,  15,  28,  29,  42,  43,  62,  63,  82,  83, 118, 119, 166,
+            167, 197, 198, 211, 212, 270, 271, 294, 295, 324, 325, 368, 369],
+           dtype='int64')
+14     L-Lacertae-20170905@160521-R_30508_calib.fits
+15     L-Lacertae-20170905@160853-R_30508_calib.fits
+28     L-Lacertae-20170906@181615-R_30508_calib.fits
+29     L-Lacertae-20170906@181948-R_30508_calib.fits
+42     L-Lacertae-20170907@180251-R_30508_calib.fits
+43     L-Lacertae-20170907@180623-R_30508_calib.fits
+62     L-Lacertae-20170916@152056-R_30508_calib.fits
+63     L-Lacertae-20170916@152431-R_30508_calib.fits
+82     L-Lacertae-20170917@183530-R_30508_calib.fits
+83     L-Lacertae-20170917@183905-R_30508_calib.fits
+118    L-Lacertae-20170923@145340-R_30508_calib.fits
+119    L-Lacertae-20170923@145715-R_30508_calib.fits
+166    L-Lacertae-20170925@130642-R_30508_calib.fits
+167    L-Lacertae-20170925@131016-R_30508_calib.fits
+197    L-Lacertae-20170927@151650-R_30508_calib.fits
+198    L-Lacertae-20170927@152024-R_30508_calib.fits
+211    L-Lacertae-20170928@163426-R_30508_calib.fits
+212    L-Lacertae-20170928@163800-R_30508_calib.fits
+270    L-Lacertae-20171003@141334-R_30508_calib.fits
+271    L-Lacertae-20171003@141708-R_30508_calib.fits
+294    L-Lacertae-20171005@140917-R_30508_calib.fits
+295    L-Lacertae-20171005@141306-R_30508_calib.fits
+324    L-Lacertae-20171006@143926-R_30508_calib.fits
+325    L-Lacertae-20171006@144300-R_30508_calib.fits
+368    L-Lacertae-20171010@172733-R_30508_calib.fits
+369    L-Lacertae-20171010@173106-R_30508_calib.fits
+Name: Filename, dtype: object
+... there are 0 fits can not be fitted ...
+[]
+before drop bad fits: idx_fitsheader = Int64Index([ 14,  15,  28,  29,  42,  43,  62,  63,  82,  83, 118, 119, 166,
+            167, 197, 198, 211, 212, 270, 271, 294, 295, 324, 325, 368, 369],
+           dtype='int64')
+0 14 L-Lacertae-20170905@160521-R_30508_calib.fits
+1 15 L-Lacertae-20170905@160853-R_30508_calib.fits
+2 28 L-Lacertae-20170906@181615-R_30508_calib.fits
+3 29 L-Lacertae-20170906@181948-R_30508_calib.fits
+4 42 L-Lacertae-20170907@180251-R_30508_calib.fits
+5 43 L-Lacertae-20170907@180623-R_30508_calib.fits
+6 62 L-Lacertae-20170916@152056-R_30508_calib.fits
+7 63 L-Lacertae-20170916@152431-R_30508_calib.fits
+8 82 L-Lacertae-20170917@183530-R_30508_calib.fits
+9 83 L-Lacertae-20170917@183905-R_30508_calib.fits
+10 118 L-Lacertae-20170923@145340-R_30508_calib.fits
+11 119 L-Lacertae-20170923@145715-R_30508_calib.fits
+12 166 L-Lacertae-20170925@130642-R_30508_calib.fits
+13 167 L-Lacertae-20170925@131016-R_30508_calib.fits
+14 197 L-Lacertae-20170927@151650-R_30508_calib.fits
+15 198 L-Lacertae-20170927@152024-R_30508_calib.fits
+16 211 L-Lacertae-20170928@163426-R_30508_calib.fits
+17 212 L-Lacertae-20170928@163800-R_30508_calib.fits
+18 270 L-Lacertae-20171003@141334-R_30508_calib.fits
+19 271 L-Lacertae-20171003@141708-R_30508_calib.fits
+20 294 L-Lacertae-20171005@140917-R_30508_calib.fits
+21 295 L-Lacertae-20171005@141306-R_30508_calib.fits
+22 324 L-Lacertae-20171006@143926-R_30508_calib.fits
+23 325 L-Lacertae-20171006@144300-R_30508_calib.fits
+24 368 L-Lacertae-20171010@172733-R_30508_calib.fits
+25 369 L-Lacertae-20171010@173106-R_30508_calib.fits
+Int64Index([ 14,  15,  28,  29,  42,  43,  62,  63,  82,  83, 118, 119, 166,
+            167, 197, 198, 211, 212, 270, 271, 294, 295, 324, 325, 368, 369],
+           dtype='int64')
+Int64Index([ 15,  16,  29,  30,  43,  44,  63,  64,  83,  84, 119, 120, 167,
+            168, 198, 199, 212, 213, 271, 272, 295, 296, 325, 326, 369, 370],
+           dtype='int64')
+Int64Index([], dtype='int64')
+
+=================================
+idx 14 ) ID = 15 , # 1 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170905@160521-R_30508_calib.fits
+calendar_date 2017-09-05 16:05:43.000017
+
+... bkg_mean,bkg_median,bkg_std
+... 2606.8325 2605.9583 57.3536
+... bkg_err_ratio = bkg_std/bkg_median = 0.0220
+
+idx 14 - 1 / 4 , Ref.Star: BLLac ) # 1 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1637887.51
+... aper_annu_sum1 = 623235.66
+... aper_annu_sum_err0 = 1726.02
+... aper_annu_sum_err1 = 888.16
+... area of sum0 = 505.08
+... area of sum1 = 238.65
+... median_sigclip (annual mask per pix)  = 2610.02
+... bkg_mean (imdata statistic per pix)   = 2606.83
+... bkg_median (imdata statistic per pix) = 2605.96
+... bkg_sum (median_sigclip*area_sum0)           = 1318260.55
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1319017.27
+... bg_subtracted_sum = 318870.24
+... bg_subtracted_err = 1941.12
+... mag_instrument (sum) = -13.7590
+... mag_instrument (sum+err) = -13.7656
+... mag_instrument (err) = 0.0066
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1050.3646 988.10925 ...         318870.24         1941.1229
+
+idx 14 - 2 / 4 , Ref.Star: B ) # 1 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2220173.18
+... aper_annu_sum1 = 687255.85
+... aper_annu_sum_err0 = 2855.85
+... aper_annu_sum_err1 = 933.50
+... area of sum0 = 505.08
+... area of sum1 = 262.64
+... median_sigclip (annual mask per pix)  = 2617.96
+... bkg_mean (imdata statistic per pix)   = 2606.83
+... bkg_median (imdata statistic per pix) = 2605.96
+... bkg_sum (median_sigclip*area_sum0)           = 1322274.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1321645.87
+... bg_subtracted_sum = 898527.30
+... bg_subtracted_err = 3004.55
+... mag_instrument (sum) = -14.8838
+... mag_instrument (sum+err) = -14.8875
+... mag_instrument (err) = 0.0036
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1047.2354 957.38013 ...          898527.3         3004.5466
+
+idx 14 - 3 / 4 , Ref.Star: C ) # 1 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1489649.95
+... aper_annu_sum1 = 1999353.31
+... aper_annu_sum_err0 = 1505.14
+... aper_annu_sum_err1 = 1583.26
+... area of sum0 = 505.08
+... area of sum1 = 772.77
+... median_sigclip (annual mask per pix)  = 2588.72
+... bkg_mean (imdata statistic per pix)   = 2606.83
+... bkg_median (imdata statistic per pix) = 2605.96
+... bkg_sum (median_sigclip*area_sum0)           = 1307503.84
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1306766.87
+... bg_subtracted_sum = 182883.08
+... bg_subtracted_err = 2184.52
+... mag_instrument (sum) = -13.1554
+... mag_instrument (sum+err) = -13.1683
+... mag_instrument (err) = 0.0129
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1085.1286 1036.1699 ...         182883.08         2184.5234
+
+idx 14 - 4 / 4 , Ref.Star: H ) # 1 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1495688.21
+... aper_annu_sum1 = 1675340.71
+... aper_annu_sum_err0 = 1512.81
+... aper_annu_sum_err1 = 1450.43
+... area of sum0 = 505.08
+... area of sum1 = 646.50
+... median_sigclip (annual mask per pix)  = 2589.92
+... bkg_mean (imdata statistic per pix)   = 2606.83
+... bkg_median (imdata statistic per pix) = 2605.96
+... bkg_sum (median_sigclip*area_sum0)           = 1308111.78
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1308859.93
+... bg_subtracted_sum = 186828.29
+... bg_subtracted_err = 2095.79
+... mag_instrument (sum) = -13.1786
+... mag_instrument (sum+err) = -13.1907
+... mag_instrument (err) = 0.0121
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1047.4762 1139.3057 ...         186828.29         2095.7948
+
+=================================
+... measurement error after background subtraction (counts): 2343.0619
+... magnitude error after background subtraction (mag): 0.0096
+
+... rmag_fitting (Ref.Stars only): [11.98997952 13.77093378 13.74705632]
+... rmag_fitting (Target only): 13.14897728694111
+... fitting residual: [ 2.04787153e-05  1.90662248e-02 -1.70563224e-02]
+... fitting error (mag) = 0.0128
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0220
+... error of (calibration + observation) [mag]: 0.0160
+label_source[k] ['L-Lacertae, Rmag=13.15', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 186828.28526473534
+... InstMag_width = 1.73 , Rmag_width = 1.78
+=================================
+idx 15 ) ID = 16 , # 2 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170905@160853-R_30508_calib.fits
+calendar_date 2017-09-05 16:08:52.999992
+
+... bkg_mean,bkg_median,bkg_std
+... 2647.1439 2646.3686 57.0647
+... bkg_err_ratio = bkg_std/bkg_median = 0.0216
+
+idx 15 - 1 / 4 , Ref.Star: BLLac ) # 2 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1659636.39
+... aper_annu_sum1 = 634672.23
+... aper_annu_sum_err0 = 1723.11
+... aper_annu_sum_err1 = 886.17
+... area of sum0 = 505.07
+... area of sum1 = 238.65
+... median_sigclip (annual mask per pix)  = 2657.99
+... bkg_mean (imdata statistic per pix)   = 2647.14
+... bkg_median (imdata statistic per pix) = 2646.37
+... bkg_sum (median_sigclip*area_sum0)           = 1342473.42
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1343221.64
+... bg_subtracted_sum = 316414.75
+... bg_subtracted_err = 1937.63
+... mag_instrument (sum) = -13.7506
+... mag_instrument (sum+err) = -13.7573
+... mag_instrument (err) = 0.0066
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1050.1301 985.67429 ...         316414.75         1937.6282
+
+idx 15 - 2 / 4 , Ref.Star: B ) # 2 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2245414.63
+... aper_annu_sum1 = 696313.56
+... aper_annu_sum_err0 = 2875.35
+... aper_annu_sum_err1 = 926.69
+... area of sum0 = 505.07
+... area of sum1 = 262.64
+... median_sigclip (annual mask per pix)  = 2653.25
+... bkg_mean (imdata statistic per pix)   = 2647.14
+... bkg_median (imdata statistic per pix) = 2646.37
+... bkg_sum (median_sigclip*area_sum0)           = 1340080.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1339064.53
+... bg_subtracted_sum = 906350.09
+... bg_subtracted_err = 3020.99
+... mag_instrument (sum) = -14.8932
+... mag_instrument (sum+err) = -14.8969
+... mag_instrument (err) = 0.0036
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1046.9995 954.94715 ...         906350.09         3020.9894
+
+idx 15 - 3 / 4 , Ref.Star: C ) # 2 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1510616.48
+... aper_annu_sum1 = 2032257.92
+... aper_annu_sum_err0 = 1498.17
+... aper_annu_sum_err1 = 1576.77
+... area of sum0 = 505.07
+... area of sum1 = 772.76
+... median_sigclip (annual mask per pix)  = 2628.26
+... bkg_mean (imdata statistic per pix)   = 2647.14
+... bkg_median (imdata statistic per pix) = 2646.37
+... bkg_sum (median_sigclip*area_sum0)           = 1327457.74
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1328273.15
+... bg_subtracted_sum = 182343.33
+... bg_subtracted_err = 2175.02
+... mag_instrument (sum) = -13.1522
+... mag_instrument (sum+err) = -13.1651
+... mag_instrument (err) = 0.0129
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1084.8963 1033.7304 ...         182343.33         2175.0194
+
+idx 15 - 4 / 4 , Ref.Star: H ) # 2 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1518378.21
+... aper_annu_sum1 = 1704677.52
+... aper_annu_sum_err0 = 1508.61
+... aper_annu_sum_err1 = 1445.98
+... area of sum0 = 505.07
+... area of sum1 = 646.49
+... median_sigclip (annual mask per pix)  = 2634.84
+... bkg_mean (imdata statistic per pix)   = 2647.14
+... bkg_median (imdata statistic per pix) = 2646.37
+... bkg_sum (median_sigclip*area_sum0)           = 1330783.49
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1331779.32
+... bg_subtracted_sum = 186598.90
+... bg_subtracted_err = 2089.68
+... mag_instrument (sum) = -13.1773
+... mag_instrument (sum+err) = -13.1894
+... mag_instrument (err) = 0.0121
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1047.249 1136.8619 ...          186598.9         2089.6791
+
+=================================
+... measurement error after background subtraction (counts): 2344.0482
+... magnitude error after background subtraction (mag): 0.0096
+
+... rmag_fitting (Ref.Stars only): [11.98997915 13.77186554 13.74622955]
+... rmag_fitting (Target only): 13.159400334663367
+... fitting residual: [ 2.08467041e-05  1.81344631e-02 -1.62295537e-02]
+... fitting error (mag) = 0.0122
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0216
+... error of (calibration + observation) [mag]: 0.0155
+label_source[k] ['L-Lacertae, Rmag=13.16', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 186598.89949734602
+... InstMag_width = 1.74 , Rmag_width = 1.78
+=================================
+idx 28 ) ID = 29 , # 3 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170906@181615-R_30508_calib.fits
+calendar_date 2017-09-06 18:16:35.999988
+
+... bkg_mean,bkg_median,bkg_std
+... 3724.1108 3723.4546 66.1769
+... bkg_err_ratio = bkg_std/bkg_median = 0.0178
+
+idx 28 - 1 / 4 , Ref.Star: BLLac ) # 3 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2170099.65
+... aper_annu_sum1 = 890823.38
+... aper_annu_sum_err0 = 1978.82
+... aper_annu_sum_err1 = 1024.96
+... area of sum0 = 505.20
+... area of sum1 = 238.71
+... median_sigclip (annual mask per pix)  = 3729.28
+... bkg_mean (imdata statistic per pix)   = 3724.11
+... bkg_median (imdata statistic per pix) = 3723.45
+... bkg_sum (median_sigclip*area_sum0)           = 1884029.63
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1885340.49
+... bg_subtracted_sum = 284759.16
+... bg_subtracted_err = 2228.51
+... mag_instrument (sum) = -13.6362
+... mag_instrument (sum+err) = -13.6447
+... mag_instrument (err) = 0.0085
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.5938 999.04307 ...         284759.16         2228.5089
+
+idx 28 - 2 / 4 , Ref.Star: B ) # 3 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2701721.84
+... aper_annu_sum1 = 982027.63
+... aper_annu_sum_err0 = 3535.03
+... aper_annu_sum_err1 = 1077.00
+... area of sum0 = 505.20
+... area of sum1 = 262.70
+... median_sigclip (annual mask per pix)  = 3737.26
+... bkg_mean (imdata statistic per pix)   = 3724.11
+... bkg_median (imdata statistic per pix) = 3723.45
+... bkg_sum (median_sigclip*area_sum0)           = 1888058.86
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1888514.67
+... bg_subtracted_sum = 813207.16
+... bg_subtracted_err = 3695.45
+... mag_instrument (sum) = -14.7755
+... mag_instrument (sum+err) = -14.7804
+... mag_instrument (err) = 0.0049
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1038.5951 968.30561 ...         813207.16         3695.4523
+
+idx 28 - 3 / 4 , Ref.Star: C ) # 3 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2052860.52
+... aper_annu_sum1 = 2876674.31
+... aper_annu_sum_err0 = 1741.18
+... aper_annu_sum_err1 = 1839.24
+... area of sum0 = 505.20
+... area of sum1 = 772.95
+... median_sigclip (annual mask per pix)  = 3724.77
+... bkg_mean (imdata statistic per pix)   = 3724.11
+... bkg_median (imdata statistic per pix) = 3723.45
+... bkg_sum (median_sigclip*area_sum0)           = 1881753.36
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1880179.29
+... bg_subtracted_sum = 172681.23
+... bg_subtracted_err = 2532.69
+... mag_instrument (sum) = -13.0931
+... mag_instrument (sum+err) = -13.1089
+... mag_instrument (err) = 0.0158
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1076.1571 1047.2439 ...         172681.23         2532.6904
+
+idx 28 - 4 / 4 , Ref.Star: H ) # 3 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2059665.77
+... aper_annu_sum1 = 2405204.36
+... aper_annu_sum_err0 = 1754.81
+... aper_annu_sum_err1 = 1681.28
+... area of sum0 = 505.20
+... area of sum1 = 646.66
+... median_sigclip (annual mask per pix)  = 3715.00
+... bkg_mean (imdata statistic per pix)   = 3724.11
+... bkg_median (imdata statistic per pix) = 3723.45
+... bkg_sum (median_sigclip*area_sum0)           = 1876814.95
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1879065.90
+... bg_subtracted_sum = 180599.87
+... bg_subtracted_err = 2430.23
+... mag_instrument (sum) = -13.1418
+... mag_instrument (sum+err) = -13.1563
+... mag_instrument (err) = 0.0145
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1038.0613 1150.2027 ...         180599.87         2430.2347
+
+=================================
+... measurement error after background subtraction (counts): 2781.3298
+... magnitude error after background subtraction (mag): 0.0118
+
+... rmag_fitting (Ref.Stars only): [11.98998756 13.78569546 13.73373582]
+... rmag_fitting (Target only): 13.206034673824695
+... fitting residual: [ 1.24373864e-05  4.30453839e-03 -3.73581796e-03]
+... fitting error (mag) = 0.0028
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0178
+... error of (calibration + observation) [mag]: 0.0121
+label_source[k] ['L-Lacertae, Rmag=13.21', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.79', 'L-Lacertae, Rmag=13.73']
+... bg_subtracted_sum = 180599.86790907918
+... InstMag_width = 1.68 , Rmag_width = 1.80
+=================================
+idx 29 ) ID = 30 , # 4 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170906@181948-R_30508_calib.fits
+calendar_date 2017-09-06 18:19:47.999993
+
+... bkg_mean,bkg_median,bkg_std
+... 3792.3086 3791.4096 67.3538
+... bkg_err_ratio = bkg_std/bkg_median = 0.0178
+
+idx 29 - 1 / 4 , Ref.Star: BLLac ) # 4 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2201371.96
+... aper_annu_sum1 = 907110.36
+... aper_annu_sum_err0 = 1987.85
+... aper_annu_sum_err1 = 1043.23
+... area of sum0 = 505.14
+... area of sum1 = 238.68
+... median_sigclip (annual mask per pix)  = 3809.64
+... bkg_mean (imdata statistic per pix)   = 3792.31
+... bkg_median (imdata statistic per pix) = 3791.41
+... bkg_sum (median_sigclip*area_sum0)           = 1924412.29
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1919810.29
+... bg_subtracted_sum = 281561.68
+... bg_subtracted_err = 2244.97
+... mag_instrument (sum) = -13.6239
+... mag_instrument (sum+err) = -13.6326
+... mag_instrument (err) = 0.0086
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.7305 999.70068 ...         281561.68         2244.9684
+
+idx 29 - 2 / 4 , Ref.Star: B ) # 4 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2731173.86
+... aper_annu_sum1 = 999416.33
+... aper_annu_sum_err0 = 3505.87
+... aper_annu_sum_err1 = 1095.65
+... area of sum0 = 505.14
+... area of sum1 = 262.67
+... median_sigclip (annual mask per pix)  = 3811.20
+... bkg_mean (imdata statistic per pix)   = 3792.31
+... bkg_median (imdata statistic per pix) = 3791.41
+... bkg_sum (median_sigclip*area_sum0)           = 1925199.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1921954.49
+... bg_subtracted_sum = 809219.37
+... bg_subtracted_err = 3673.09
+... mag_instrument (sum) = -14.7702
+... mag_instrument (sum+err) = -14.7751
+... mag_instrument (err) = 0.0049
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1038.7321 968.96426 ...         809219.37         3673.0894
+
+idx 29 - 3 / 4 , Ref.Star: C ) # 4 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2081909.93
+... aper_annu_sum1 = 2925939.72
+... aper_annu_sum_err0 = 1757.83
+... aper_annu_sum_err1 = 1869.98
+... area of sum0 = 505.14
+... area of sum1 = 772.87
+... median_sigclip (annual mask per pix)  = 3785.28
+... bkg_mean (imdata statistic per pix)   = 3792.31
+... bkg_median (imdata statistic per pix) = 3791.41
+... bkg_sum (median_sigclip*area_sum0)           = 1912105.79
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1912378.90
+... bg_subtracted_sum = 169531.03
+... bg_subtracted_err = 2566.48
+... mag_instrument (sum) = -13.0731
+... mag_instrument (sum+err) = -13.0894
+... mag_instrument (err) = 0.0163
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 1076.2918  1047.9 ...          1869.9821         169531.03         2566.4785
+
+idx 29 - 4 / 4 , Ref.Star: H ) # 4 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2088730.43
+... aper_annu_sum1 = 2447366.80
+... aper_annu_sum_err0 = 1769.44
+... aper_annu_sum_err1 = 1710.04
+... area of sum0 = 505.14
+... area of sum1 = 646.58
+... median_sigclip (annual mask per pix)  = 3784.53
+... bkg_mean (imdata statistic per pix)   = 3792.31
+... bkg_median (imdata statistic per pix) = 3791.41
+... bkg_sum (median_sigclip*area_sum0)           = 1911728.15
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1912005.31
+... bg_subtracted_sum = 176725.12
+... bg_subtracted_err = 2460.72
+... mag_instrument (sum) = -13.1182
+... mag_instrument (sum+err) = -13.1333
+... mag_instrument (err) = 0.0150
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1038.1979 1150.8552 ...         176725.12         2460.7207
+
+=================================
+... measurement error after background subtraction (counts): 2791.6584
+... magnitude error after background subtraction (mag): 0.0121
+
+... rmag_fitting (Ref.Stars only): [11.98998366 13.78341516 13.73572957]
+... rmag_fitting (Target only): 13.201319293659067
+... fitting residual: [ 1.63407203e-05  6.58484354e-03 -5.72956533e-03]
+... fitting error (mag) = 0.0044
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0178
+... error of (calibration + observation) [mag]: 0.0129
+label_source[k] ['L-Lacertae, Rmag=13.20', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 176725.1208640316
+... InstMag_width = 1.70 , Rmag_width = 1.79
+=================================
+idx 42 ) ID = 43 , # 5 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170907@180251-R_30508_calib.fits
+calendar_date 2017-09-07 18:03:12.000004
+
+... bkg_mean,bkg_median,bkg_std
+... 3724.5192 3723.9248 66.2910
+... bkg_err_ratio = bkg_std/bkg_median = 0.0178
+
+idx 42 - 1 / 4 , Ref.Star: BLLac ) # 5 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2101994.80
+... aper_annu_sum1 = 886914.05
+... aper_annu_sum_err0 = 1845.00
+... aper_annu_sum_err1 = 1022.07
+... area of sum0 = 505.17
+... area of sum1 = 238.69
+... median_sigclip (annual mask per pix)  = 3716.78
+... bkg_mean (imdata statistic per pix)   = 3724.52
+... bkg_median (imdata statistic per pix) = 3723.92
+... bkg_sum (median_sigclip*area_sum0)           = 1877600.42
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1877066.78
+... bg_subtracted_sum = 224928.02
+... bg_subtracted_err = 2109.18
+... mag_instrument (sum) = -13.3801
+... mag_instrument (sum+err) = -13.3902
+... mag_instrument (err) = 0.0101
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1043.4288 995.97604 ...         224928.02         2109.1802
+
+idx 42 - 2 / 4 , Ref.Star: B ) # 5 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2614852.56
+... aper_annu_sum1 = 978723.73
+... aper_annu_sum_err0 = 3409.88
+... aper_annu_sum_err1 = 1075.15
+... area of sum0 = 505.17
+... area of sum1 = 262.69
+... median_sigclip (annual mask per pix)  = 3727.28
+... bkg_mean (imdata statistic per pix)   = 3724.52
+... bkg_median (imdata statistic per pix) = 3723.92
+... bkg_sum (median_sigclip*area_sum0)           = 1882909.23
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1882161.01
+... bg_subtracted_sum = 732691.55
+... bg_subtracted_err = 3575.36
+... mag_instrument (sum) = -14.6623
+... mag_instrument (sum+err) = -14.6676
+... mag_instrument (err) = 0.0053
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.3288 965.24784 ...         732691.55          3575.363
+
+idx 42 - 3 / 4 , Ref.Star: C ) # 5 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2030076.30
+... aper_annu_sum1 = 2870228.38
+... aper_annu_sum_err0 = 1713.29
+... aper_annu_sum_err1 = 1838.12
+... area of sum0 = 505.17
+... area of sum1 = 772.91
+... median_sigclip (annual mask per pix)  = 3711.35
+... bkg_mean (imdata statistic per pix)   = 3724.52
+... bkg_median (imdata statistic per pix) = 3723.92
+... bkg_sum (median_sigclip*area_sum0)           = 1874861.06
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1875966.26
+... bg_subtracted_sum = 154110.04
+... bg_subtracted_err = 2512.78
+... mag_instrument (sum) = -12.9696
+... mag_instrument (sum+err) = -12.9871
+... mag_instrument (err) = 0.0176
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1078.1499 1044.0639 ...         154110.04         2512.7762
+
+idx 42 - 4 / 4 , Ref.Star: H ) # 5 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2032615.96
+... aper_annu_sum1 = 2401978.41
+... aper_annu_sum_err0 = 1721.62
+... aper_annu_sum_err1 = 1681.72
+... area of sum0 = 505.17
+... area of sum1 = 646.62
+... median_sigclip (annual mask per pix)  = 3717.97
+... bkg_mean (imdata statistic per pix)   = 3724.52
+... bkg_median (imdata statistic per pix) = 3723.92
+... bkg_sum (median_sigclip*area_sum0)           = 1878205.15
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1876545.63
+... bg_subtracted_sum = 156070.33
+... bg_subtracted_err = 2406.69
+... mag_instrument (sum) = -12.9833
+... mag_instrument (sum+err) = -12.9999
+... mag_instrument (err) = 0.0166
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.3952 1147.1504 ...         156070.33         2406.6947
+
+=================================
+... measurement error after background subtraction (counts): 2708.2321
+... magnitude error after background subtraction (mag): 0.0134
+
+... rmag_fitting (Ref.Stars only): [11.98998225 13.76603164 13.75163258]
+... rmag_fitting (Target only): 13.335291815077968
+... fitting residual: [ 1.77469447e-05  2.39683569e-02 -2.16325785e-02]
+... fitting error (mag) = 0.0161
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0178
+... error of (calibration + observation) [mag]: 0.0210
+label_source[k] ['L-Lacertae, Rmag=13.34', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 156070.32649281947
+... InstMag_width = 1.69 , Rmag_width = 1.78
+=================================
+idx 43 ) ID = 44 , # 6 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170907@180623-R_30508_calib.fits
+calendar_date 2017-09-07 18:06:23.000014
+
+... bkg_mean,bkg_median,bkg_std
+... 4205.6966 4205.2980 70.7911
+... bkg_err_ratio = bkg_std/bkg_median = 0.0168
+
+idx 43 - 1 / 4 , Ref.Star: BLLac ) # 6 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2339268.64
+... aper_annu_sum1 = 1007234.96
+... aper_annu_sum_err0 = 1891.17
+... aper_annu_sum_err1 = 1097.68
+... area of sum0 = 505.13
+... area of sum1 = 238.67
+... median_sigclip (annual mask per pix)  = 4210.42
+... bkg_mean (imdata statistic per pix)   = 4205.70
+... bkg_median (imdata statistic per pix) = 4205.30
+... bkg_sum (median_sigclip*area_sum0)           = 2126817.03
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2131714.19
+... bg_subtracted_sum = 207554.44
+... bg_subtracted_err = 2186.64
+... mag_instrument (sum) = -13.2928
+... mag_instrument (sum+err) = -13.3042
+... mag_instrument (err) = 0.0114
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1043.3521 996.61879 ...         207554.44         2186.6429
+
+idx 43 - 2 / 4 , Ref.Star: B ) # 6 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2810937.43
+... aper_annu_sum1 = 1111747.91
+... aper_annu_sum_err0 = 3163.36
+... aper_annu_sum_err1 = 1154.87
+... area of sum0 = 505.13
+... area of sum1 = 262.67
+... median_sigclip (annual mask per pix)  = 4232.55
+... bkg_mean (imdata statistic per pix)   = 4205.70
+... bkg_median (imdata statistic per pix) = 4205.30
+... bkg_sum (median_sigclip*area_sum0)           = 2137995.38
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2137976.74
+... bg_subtracted_sum = 672960.68
+... bg_subtracted_err = 3367.58
+... mag_instrument (sum) = -14.5700
+... mag_instrument (sum+err) = -14.5754
+... mag_instrument (err) = 0.0054
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.2501 965.89029 ...         672960.68         3367.5778
+
+idx 43 - 3 / 4 , Ref.Star: C ) # 6 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2271999.00
+... aper_annu_sum1 = 3254399.63
+... aper_annu_sum_err0 = 1781.36
+... aper_annu_sum_err1 = 1970.88
+... area of sum0 = 505.13
+... area of sum1 = 772.85
+... median_sigclip (annual mask per pix)  = 4209.29
+... bkg_mean (imdata statistic per pix)   = 4205.70
+... bkg_median (imdata statistic per pix) = 4205.30
+... bkg_sum (median_sigclip*area_sum0)           = 2126246.45
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2127058.58
+... bg_subtracted_sum = 144940.42
+... bg_subtracted_err = 2656.62
+... mag_instrument (sum) = -12.9030
+... mag_instrument (sum+err) = -12.9227
+... mag_instrument (err) = 0.0197
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1078.0753 1044.705 ...         144940.42         2656.6188
+
+idx 43 - 4 / 4 , Ref.Star: H ) # 6 / 26 image of L-Lacertae
+... aper_annu_sum0 = 2276113.00
+... aper_annu_sum1 = 2720661.26
+... aper_annu_sum_err0 = 1791.49
+... aper_annu_sum_err1 = 1801.36
+... area of sum0 = 505.13
+... area of sum1 = 646.57
+... median_sigclip (annual mask per pix)  = 4202.88
+... bkg_mean (imdata statistic per pix)   = 4205.70
+... bkg_median (imdata statistic per pix) = 4205.30
+... bkg_sum (median_sigclip*area_sum0)           = 2123006.95
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2125516.61
+... bg_subtracted_sum = 150596.39
+... bg_subtracted_err = 2540.54
+... mag_instrument (sum) = -12.9445
+... mag_instrument (sum+err) = -12.9627
+... mag_instrument (err) = 0.0182
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.3291 1147.7959 ...         150596.39         2540.5445
+
+=================================
+... measurement error after background subtraction (counts): 2721.8549
+... magnitude error after background subtraction (mag): 0.0148
+
+... rmag_fitting (Ref.Stars only): [11.98998417 13.78180476 13.73713012]
+... rmag_fitting (Target only): 13.362757171311998
+... fitting residual: [ 1.58271023e-05  8.19524068e-03 -7.13011744e-03]
+... fitting error (mag) = 0.0054
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0168
+... error of (calibration + observation) [mag]: 0.0158
+label_source[k] ['L-Lacertae, Rmag=13.36', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 150596.3865372846
+... InstMag_width = 1.67 , Rmag_width = 1.79
+=================================
+idx 62 ) ID = 63 , # 7 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170916@152056-R_30508_calib.fits
+calendar_date 2017-09-16 15:21:17.999947
+
+... bkg_mean,bkg_median,bkg_std
+... 242.3675 241.8238 19.0126
+... bkg_err_ratio = bkg_std/bkg_median = 0.0786
+
+idx 62 - 1 / 4 , Ref.Star: BLLac ) # 7 / 26 image of L-Lacertae
+... aper_annu_sum0 = 485029.70
+... aper_annu_sum1 = 61048.05
+... aper_annu_sum_err0 = 5640.67
+... aper_annu_sum_err1 = 312.01
+... area of sum0 = 505.18
+... area of sum1 = 238.70
+... median_sigclip (annual mask per pix)  = 247.32
+... bkg_mean (imdata statistic per pix)   = 242.37
+... bkg_median (imdata statistic per pix) = 241.82
+... bkg_sum (median_sigclip*area_sum0)           = 124940.31
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 129202.22
+... bg_subtracted_sum = 355827.48
+... bg_subtracted_err = 5649.29
+... mag_instrument (sum) = -13.8781
+... mag_instrument (sum+err) = -13.8952
+... mag_instrument (err) = 0.0171
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1057.1391 980.03062 ...         355827.48         5649.2885
+
+idx 62 - 2 / 4 , Ref.Star: B ) # 7 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1104568.39
+... aper_annu_sum1 = 67857.13
+... aper_annu_sum_err0 = 15078.45
+... aper_annu_sum_err1 = 330.23
+... area of sum0 = 505.18
+... area of sum1 = 262.69
+... median_sigclip (annual mask per pix)  = 255.68
+... bkg_mean (imdata statistic per pix)   = 242.37
+... bkg_median (imdata statistic per pix) = 241.82
+... bkg_sum (median_sigclip*area_sum0)           = 129161.72
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 130494.48
+... bg_subtracted_sum = 974073.91
+... bg_subtracted_err = 15082.06
+... mag_instrument (sum) = -14.9715
+... mag_instrument (sum+err) = -14.9882
+... mag_instrument (err) = 0.0167
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1054.0371 949.29657 ...         974073.91         15082.063
+
+idx 62 - 3 / 4 , Ref.Star: C ) # 7 / 26 image of L-Lacertae
+... aper_annu_sum0 = 331754.10
+... aper_annu_sum1 = 188085.82
+... aper_annu_sum_err0 = 3532.57
+... aper_annu_sum_err1 = 532.85
+... area of sum0 = 505.18
+... area of sum1 = 772.92
+... median_sigclip (annual mask per pix)  = 241.82
+... bkg_mean (imdata statistic per pix)   = 242.37
+... bkg_median (imdata statistic per pix) = 241.82
+... bkg_sum (median_sigclip*area_sum0)           = 122164.04
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 122931.91
+... bg_subtracted_sum = 208822.19
+... bg_subtracted_err = 3572.53
+... mag_instrument (sum) = -13.2994
+... mag_instrument (sum+err) = -13.3179
+... mag_instrument (err) = 0.0184
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1091.8637 1028.1256 ...         208822.19          3572.528
+
+idx 62 - 4 / 4 , Ref.Star: H ) # 7 / 26 image of L-Lacertae
+... aper_annu_sum0 = 337469.34
+... aper_annu_sum1 = 157303.17
+... aper_annu_sum_err0 = 3631.81
+... aper_annu_sum_err1 = 487.09
+... area of sum0 = 505.18
+... area of sum1 = 646.63
+... median_sigclip (annual mask per pix)  = 241.82
+... bkg_mean (imdata statistic per pix)   = 242.37
+... bkg_median (imdata statistic per pix) = 241.82
+... bkg_sum (median_sigclip*area_sum0)           = 122164.04
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 122893.10
+... bg_subtracted_sum = 214576.24
+... bg_subtracted_err = 3664.32
+... mag_instrument (sum) = -13.3290
+... mag_instrument (sum+err) = -13.3473
+... mag_instrument (err) = 0.0184
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1054.1156 1131.235 ...         214576.24         3664.3236
+
+=================================
+... measurement error after background subtraction (counts): 8449.4572
+... magnitude error after background subtraction (mag): 0.0177
+
+... rmag_fitting (Ref.Stars only): [11.98979162 13.7758638  13.74433859]
+... rmag_fitting (Target only): 13.157741947810884
+... fitting residual: [ 0.00020838  0.0141362  -0.01433859]
+... fitting error (mag) = 0.0101
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0786
+... error of (calibration + observation) [mag]: 0.0203
+label_source[k] ['L-Lacertae, Rmag=13.16', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 214576.23993391427
+... InstMag_width = 1.67 , Rmag_width = 1.79
+=================================
+idx 63 ) ID = 64 , # 8 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170916@152431-R_30508_calib.fits
+calendar_date 2017-09-16 15:24:31.000027
+
+... bkg_mean,bkg_median,bkg_std
+... 247.0462 246.5028 19.1021
+... bkg_err_ratio = bkg_std/bkg_median = 0.0775
+
+idx 63 - 1 / 4 , Ref.Star: BLLac ) # 8 / 26 image of L-Lacertae
+... aper_annu_sum0 = 487798.35
+... aper_annu_sum1 = 62381.36
+... aper_annu_sum_err0 = 5975.57
+... aper_annu_sum_err1 = 314.21
+... area of sum0 = 505.22
+... area of sum1 = 238.72
+... median_sigclip (annual mask per pix)  = 254.89
+... bkg_mean (imdata statistic per pix)   = 247.05
+... bkg_median (imdata statistic per pix) = 246.50
+... bkg_sum (median_sigclip*area_sum0)           = 128777.12
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 132024.05
+... bg_subtracted_sum = 355774.30
+... bg_subtracted_err = 5983.83
+... mag_instrument (sum) = -13.8779
+... mag_instrument (sum+err) = -13.8960
+... mag_instrument (err) = 0.0181
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1058.4852 978.32784 ...          355774.3         5983.8251
+
+idx 63 - 2 / 4 , Ref.Star: B ) # 8 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1057666.39
+... aper_annu_sum1 = 69227.67
+... aper_annu_sum_err0 = 14658.80
+... aper_annu_sum_err1 = 332.11
+... area of sum0 = 505.22
+... area of sum1 = 262.71
+... median_sigclip (annual mask per pix)  = 261.10
+... bkg_mean (imdata statistic per pix)   = 247.05
+... bkg_median (imdata statistic per pix) = 246.50
+... bkg_sum (median_sigclip*area_sum0)           = 131913.05
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 133130.13
+... bg_subtracted_sum = 924536.26
+... bg_subtracted_err = 14662.56
+... mag_instrument (sum) = -14.9148
+... mag_instrument (sum+err) = -14.9319
+... mag_instrument (err) = 0.0171
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1055.3813 947.59399 ...         924536.26         14662.564
+
+idx 63 - 3 / 4 , Ref.Star: C ) # 8 / 26 image of L-Lacertae
+... aper_annu_sum0 = 336314.19
+... aper_annu_sum1 = 190739.64
+... aper_annu_sum_err0 = 3759.53
+... aper_annu_sum_err1 = 532.54
+... area of sum0 = 505.22
+... area of sum1 = 772.98
+... median_sigclip (annual mask per pix)  = 246.50
+... bkg_mean (imdata statistic per pix)   = 247.05
+... bkg_median (imdata statistic per pix) = 246.50
+... bkg_sum (median_sigclip*area_sum0)           = 124537.62
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 124666.43
+... bg_subtracted_sum = 211647.76
+... bg_subtracted_err = 3797.06
+... mag_instrument (sum) = -13.3140
+... mag_instrument (sum+err) = -13.3333
+... mag_instrument (err) = 0.0193
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1093.2138 1026.4209 ...         211647.76         3797.0582
+
+idx 63 - 4 / 4 , Ref.Star: H ) # 8 / 26 image of L-Lacertae
+... aper_annu_sum0 = 340695.82
+... aper_annu_sum1 = 160416.86
+... aper_annu_sum_err0 = 3858.63
+... aper_annu_sum_err1 = 489.60
+... area of sum0 = 505.22
+... area of sum1 = 646.68
+... median_sigclip (annual mask per pix)  = 246.50
+... bkg_mean (imdata statistic per pix)   = 247.05
+... bkg_median (imdata statistic per pix) = 246.50
+... bkg_sum (median_sigclip*area_sum0)           = 124537.62
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 125325.67
+... bg_subtracted_sum = 215370.14
+... bg_subtracted_err = 3889.57
+... mag_instrument (sum) = -13.3330
+... mag_instrument (sum+err) = -13.3524
+... mag_instrument (err) = 0.0194
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1055.4697 1129.5323 ...         215370.14         3889.5665
+
+=================================
+... measurement error after background subtraction (counts): 8371.7282
+... magnitude error after background subtraction (mag): 0.0185
+
+... rmag_fitting (Ref.Stars only): [11.98981984 13.77077395 13.74971376]
+... rmag_fitting (Target only): 13.143400607527795
+... fitting residual: [ 0.00018016  0.01922605 -0.01971376]
+... fitting error (mag) = 0.0138
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0775
+... error of (calibration + observation) [mag]: 0.0231
+label_source[k] ['L-Lacertae, Rmag=13.14', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 215370.14379868162
+... InstMag_width = 1.60 , Rmag_width = 1.78
+=================================
+idx 82 ) ID = 83 , # 9 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170917@183530-R_30508_calib.fits
+calendar_date 2017-09-17 18:35:51.999995
+
+... bkg_mean,bkg_median,bkg_std
+... 517.2812 516.7445 25.8941
+... bkg_err_ratio = bkg_std/bkg_median = 0.0501
+
+idx 82 - 1 / 4 , Ref.Star: BLLac ) # 9 / 26 image of L-Lacertae
+... aper_annu_sum0 = 619784.97
+... aper_annu_sum1 = 126864.67
+... aper_annu_sum_err0 = 4236.72
+... aper_annu_sum_err1 = 412.06
+... area of sum0 = 505.20
+... area of sum1 = 238.71
+... median_sigclip (annual mask per pix)  = 526.80
+... bkg_mean (imdata statistic per pix)   = 517.28
+... bkg_median (imdata statistic per pix) = 516.74
+... bkg_sum (median_sigclip*area_sum0)           = 266140.23
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 268496.65
+... bg_subtracted_sum = 351288.31
+... bg_subtracted_err = 4256.71
+... mag_instrument (sum) = -13.8642
+... mag_instrument (sum+err) = -13.8772
+... mag_instrument (err) = 0.0131
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1045.3432 983.39524 ...         351288.31         4256.7122
+
+idx 82 - 2 / 4 , Ref.Star: B ) # 9 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1122689.32
+... aper_annu_sum1 = 140519.77
+... aper_annu_sum_err0 = 9268.98
+... aper_annu_sum_err1 = 434.98
+... area of sum0 = 505.20
+... area of sum1 = 262.71
+... median_sigclip (annual mask per pix)  = 532.27
+... bkg_mean (imdata statistic per pix)   = 517.28
+... bkg_median (imdata statistic per pix) = 516.74
+... bkg_sum (median_sigclip*area_sum0)           = 268904.08
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 270230.33
+... bg_subtracted_sum = 852458.99
+... bg_subtracted_err = 9279.18
+... mag_instrument (sum) = -14.8267
+... mag_instrument (sum+err) = -14.8384
+... mag_instrument (err) = 0.0118
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1042.4936 952.65059 ...         852458.99         9279.1779
+
+idx 82 - 3 / 4 , Ref.Star: C ) # 9 / 26 image of L-Lacertae
+... aper_annu_sum0 = 460006.71
+... aper_annu_sum1 = 397537.90
+... aper_annu_sum_err0 = 2597.78
+... aper_annu_sum_err1 = 717.23
+... area of sum0 = 505.20
+... area of sum1 = 772.96
+... median_sigclip (annual mask per pix)  = 514.31
+... bkg_mean (imdata statistic per pix)   = 517.28
+... bkg_median (imdata statistic per pix) = 516.74
+... bkg_sum (median_sigclip*area_sum0)           = 259832.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 259828.69
+... bg_subtracted_sum = 200178.01
+... bg_subtracted_err = 2694.97
+... mag_instrument (sum) = -13.2535
+... mag_instrument (sum+err) = -13.2681
+... mag_instrument (err) = 0.0145
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1079.6728 1031.752 ...         200178.01          2694.969
+
+idx 82 - 4 / 4 , Ref.Star: H ) # 9 / 26 image of L-Lacertae
+... aper_annu_sum0 = 466423.70
+... aper_annu_sum1 = 333819.82
+... aper_annu_sum_err0 = 2654.50
+... aper_annu_sum_err1 = 658.50
+... area of sum0 = 505.20
+... area of sum1 = 646.66
+... median_sigclip (annual mask per pix)  = 515.53
+... bkg_mean (imdata statistic per pix)   = 517.28
+... bkg_median (imdata statistic per pix) = 516.74
+... bkg_sum (median_sigclip*area_sum0)           = 260449.79
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 260796.73
+... bg_subtracted_sum = 205626.97
+... bg_subtracted_err = 2734.96
+... mag_instrument (sum) = -13.2827
+... mag_instrument (sum+err) = -13.2970
+... mag_instrument (err) = 0.0143
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1041.078 1134.5017 ...         205626.97         2734.9598
+
+=================================
+... measurement error after background subtraction (counts): 5453.5677
+... magnitude error after background subtraction (mag): 0.0135
+
+... rmag_fitting (Ref.Stars only): [11.98983318 13.77652256 13.74340508]
+... rmag_fitting (Target only): 13.083015745483463
+... fitting residual: [ 0.00016682  0.01347744 -0.01340508]
+... fitting error (mag) = 0.0095
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0501
+... error of (calibration + observation) [mag]: 0.0165
+label_source[k] ['L-Lacertae, Rmag=13.08', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 205626.96858331896
+... InstMag_width = 1.57 , Rmag_width = 1.79
+=================================
+idx 83 ) ID = 84 , # 10 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170917@183905-R_30508_calib.fits
+calendar_date 2017-09-17 18:39:05.000034
+
+... bkg_mean,bkg_median,bkg_std
+... 530.0033 529.4997 26.1540
+... bkg_err_ratio = bkg_std/bkg_median = 0.0494
+
+idx 83 - 1 / 4 , Ref.Star: BLLac ) # 10 / 26 image of L-Lacertae
+... aper_annu_sum0 = 626444.37
+... aper_annu_sum1 = 130116.04
+... aper_annu_sum_err0 = 4097.61
+... aper_annu_sum_err1 = 416.56
+... area of sum0 = 505.21
+... area of sum1 = 238.71
+... median_sigclip (annual mask per pix)  = 540.75
+... bkg_mean (imdata statistic per pix)   = 530.00
+... bkg_median (imdata statistic per pix) = 529.50
+... bkg_sum (median_sigclip*area_sum0)           = 273195.75
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 275377.86
+... bg_subtracted_sum = 351066.52
+... bg_subtracted_err = 4118.73
+... mag_instrument (sum) = -13.8635
+... mag_instrument (sum+err) = -13.8761
+... mag_instrument (err) = 0.0127
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1045.8855 984.19597 ...         351066.52         4118.7317
+
+idx 83 - 2 / 4 , Ref.Star: B ) # 10 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1124768.55
+... aper_annu_sum1 = 143107.34
+... aper_annu_sum_err0 = 9061.37
+... aper_annu_sum_err1 = 436.73
+... area of sum0 = 505.21
+... area of sum1 = 262.71
+... median_sigclip (annual mask per pix)  = 541.93
+... bkg_mean (imdata statistic per pix)   = 530.00
+... bkg_median (imdata statistic per pix) = 529.50
+... bkg_sum (median_sigclip*area_sum0)           = 273793.21
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 275206.43
+... bg_subtracted_sum = 849562.12
+... bg_subtracted_err = 9071.88
+... mag_instrument (sum) = -14.8230
+... mag_instrument (sum+err) = -14.8345
+... mag_instrument (err) = 0.0115
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1043.0352 953.45302 ...         849562.12          9071.884
+
+idx 83 - 3 / 4 , Ref.Star: C ) # 10 / 26 image of L-Lacertae
+... aper_annu_sum0 = 465126.09
+... aper_annu_sum1 = 406991.65
+... aper_annu_sum_err0 = 2514.69
+... aper_annu_sum_err1 = 723.72
+... area of sum0 = 505.21
+... area of sum1 = 772.98
+... median_sigclip (annual mask per pix)  = 525.42
+... bkg_mean (imdata statistic per pix)   = 530.00
+... bkg_median (imdata statistic per pix) = 529.50
+... bkg_sum (median_sigclip*area_sum0)           = 265447.78
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 266007.62
+... bg_subtracted_sum = 199118.47
+... bg_subtracted_err = 2616.76
+... mag_instrument (sum) = -13.2478
+... mag_instrument (sum+err) = -13.2620
+... mag_instrument (err) = 0.0142
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1080.2163 1032.5495 ...         199118.47         2616.7632
+
+idx 83 - 4 / 4 , Ref.Star: H ) # 10 / 26 image of L-Lacertae
+... aper_annu_sum0 = 472515.95
+... aper_annu_sum1 = 341940.82
+... aper_annu_sum_err0 = 2594.05
+... aper_annu_sum_err1 = 664.82
+... area of sum0 = 505.21
+... area of sum1 = 646.67
+... median_sigclip (annual mask per pix)  = 528.99
+... bkg_mean (imdata statistic per pix)   = 530.00
+... bkg_median (imdata statistic per pix) = 529.50
+... bkg_sum (median_sigclip*area_sum0)           = 267255.19
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 267141.27
+... bg_subtracted_sum = 205374.68
+... bg_subtracted_err = 2677.89
+... mag_instrument (sum) = -13.2814
+... mag_instrument (sum+err) = -13.2954
+... mag_instrument (err) = 0.0141
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.6232 1135.2944 ...         205374.68         2677.8868
+
+=================================
+... measurement error after background subtraction (counts): 5321.6904
+... magnitude error after background subtraction (mag): 0.0132
+
+... rmag_fitting (Ref.Stars only): [11.98984295 13.77910894 13.7409562 ]
+... rmag_fitting (Target only): 13.079746811829134
+... fitting residual: [ 0.00015705  0.01089106 -0.0109562 ]
+... fitting error (mag) = 0.0077
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0494
+... error of (calibration + observation) [mag]: 0.0153
+label_source[k] ['L-Lacertae, Rmag=13.08', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 205374.6813659583
+... InstMag_width = 1.58 , Rmag_width = 1.79
+=================================
+idx 118 ) ID = 119 , # 11 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170923@145340-R_30508_calib.fits
+calendar_date 2017-09-23 14:54:02.000010
+
+... bkg_mean,bkg_median,bkg_std
+... 206.7209 206.0767 17.5781
+... bkg_err_ratio = bkg_std/bkg_median = 0.0853
+
+idx 118 - 1 / 4 , Ref.Star: BLLac ) # 11 / 26 image of L-Lacertae
+... aper_annu_sum0 = 468890.99
+... aper_annu_sum1 = 53079.11
+... aper_annu_sum_err0 = 5697.40
+... aper_annu_sum_err1 = 294.92
+... area of sum0 = 505.13
+... area of sum1 = 238.67
+... median_sigclip (annual mask per pix)  = 215.57
+... bkg_mean (imdata statistic per pix)   = 206.72
+... bkg_median (imdata statistic per pix) = 206.08
+... bkg_sum (median_sigclip*area_sum0)           = 108892.88
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 112336.73
+... bg_subtracted_sum = 356554.26
+... bg_subtracted_err = 5705.03
+... mag_instrument (sum) = -13.8803
+... mag_instrument (sum+err) = -13.8975
+... mag_instrument (err) = 0.0172
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1054.0106 984.76975 ...         356554.26          5705.025
+
+idx 118 - 2 / 4 , Ref.Star: B ) # 11 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1112403.18
+... aper_annu_sum1 = 58725.44
+... aper_annu_sum_err0 = 15937.69
+... aper_annu_sum_err1 = 310.35
+... area of sum0 = 505.13
+... area of sum1 = 262.67
+... median_sigclip (annual mask per pix)  = 220.41
+... bkg_mean (imdata statistic per pix)   = 206.72
+... bkg_median (imdata statistic per pix) = 206.08
+... bkg_sum (median_sigclip*area_sum0)           = 111337.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 112933.55
+... bg_subtracted_sum = 999469.63
+... bg_subtracted_err = 15940.71
+... mag_instrument (sum) = -14.9994
+... mag_instrument (sum+err) = -15.0166
+... mag_instrument (err) = 0.0172
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1051.3384 953.99571 ...         999469.63         15940.714
+
+idx 118 - 3 / 4 , Ref.Star: C ) # 11 / 26 image of L-Lacertae
+... aper_annu_sum0 = 313688.61
+... aper_annu_sum1 = 159528.01
+... aper_annu_sum_err0 = 3550.41
+... aper_annu_sum_err1 = 490.34
+... area of sum0 = 505.13
+... area of sum1 = 772.85
+... median_sigclip (annual mask per pix)  = 206.08
+... bkg_mean (imdata statistic per pix)   = 206.72
+... bkg_median (imdata statistic per pix) = 206.08
+... bkg_sum (median_sigclip*area_sum0)           = 104095.75
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 104266.67
+... bg_subtracted_sum = 209421.94
+... bg_subtracted_err = 3584.11
+... mag_instrument (sum) = -13.3026
+... mag_instrument (sum+err) = -13.3210
+... mag_instrument (err) = 0.0184
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1088.0583 1033.3447 ...         209421.94         3584.1066
+
+idx 118 - 4 / 4 , Ref.Star: H ) # 11 / 26 image of L-Lacertae
+... aper_annu_sum0 = 320640.36
+... aper_annu_sum1 = 135070.18
+... aper_annu_sum_err0 = 3622.36
+... aper_annu_sum_err1 = 454.02
+... area of sum0 = 505.13
+... area of sum1 = 646.57
+... median_sigclip (annual mask per pix)  = 206.08
+... bkg_mean (imdata statistic per pix)   = 206.72
+... bkg_median (imdata statistic per pix) = 206.08
+... bkg_sum (median_sigclip*area_sum0)           = 104095.75
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 105523.58
+... bg_subtracted_sum = 215116.78
+... bg_subtracted_err = 3650.70
+... mag_instrument (sum) = -13.3317
+... mag_instrument (sum+err) = -13.3500
+... mag_instrument (err) = 0.0183
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1048.875 1135.9154 ...         215116.78          3650.702
+
+=================================
+... measurement error after background subtraction (counts): 8843.4597
+... magnitude error after background subtraction (mag): 0.0178
+
+... rmag_fitting (Ref.Stars only): [11.98977722 13.77533089 13.74467818]
+... rmag_fitting (Target only): 13.167376298065463
+... fitting residual: [ 0.00022278  0.01466911 -0.01467818]
+... fitting error (mag) = 0.0104
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0853
+... error of (calibration + observation) [mag]: 0.0206
+label_source[k] ['L-Lacertae, Rmag=13.17', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 215116.7750459372
+... InstMag_width = 1.70 , Rmag_width = 1.79
+=================================
+idx 119 ) ID = 120 , # 12 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170923@145715-R_30508_calib.fits
+calendar_date 2017-09-23 14:57:15.000050
+
+... bkg_mean,bkg_median,bkg_std
+... 208.3902 207.7107 17.7260
+... bkg_err_ratio = bkg_std/bkg_median = 0.0853
+
+idx 119 - 1 / 4 , Ref.Star: BLLac ) # 12 / 26 image of L-Lacertae
+... aper_annu_sum0 = 470342.71
+... aper_annu_sum1 = 53600.10
+... aper_annu_sum_err0 = 5520.45
+... aper_annu_sum_err1 = 297.74
+... area of sum0 = 505.09
+... area of sum1 = 238.66
+... median_sigclip (annual mask per pix)  = 221.26
+... bkg_mean (imdata statistic per pix)   = 208.39
+... bkg_median (imdata statistic per pix) = 207.71
+... bkg_sum (median_sigclip*area_sum0)           = 111755.89
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 113439.36
+... bg_subtracted_sum = 356903.35
+... bg_subtracted_err = 5528.47
+... mag_instrument (sum) = -13.8814
+... mag_instrument (sum+err) = -13.8981
+... mag_instrument (err) = 0.0167
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1053.9962 982.52242 ...         356903.35          5528.475
+
+idx 119 - 2 / 4 , Ref.Star: B ) # 12 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1126843.20
+... aper_annu_sum1 = 58591.62
+... aper_annu_sum_err0 = 15699.06
+... aper_annu_sum_err1 = 309.75
+... area of sum0 = 505.09
+... area of sum1 = 262.65
+... median_sigclip (annual mask per pix)  = 218.44
+... bkg_mean (imdata statistic per pix)   = 208.39
+... bkg_median (imdata statistic per pix) = 207.71
+... bkg_sum (median_sigclip*area_sum0)           = 110334.21
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 112676.20
+... bg_subtracted_sum = 1014167.00
+... bg_subtracted_err = 15702.12
+... mag_instrument (sum) = -15.0153
+... mag_instrument (sum+err) = -15.0320
+... mag_instrument (err) = 0.0167
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1051.3235 951.74987 ...           1014167         15702.118
+
+idx 119 - 3 / 4 , Ref.Star: C ) # 12 / 26 image of L-Lacertae
+... aper_annu_sum0 = 314728.58
+... aper_annu_sum1 = 160722.28
+... aper_annu_sum_err0 = 3415.77
+... aper_annu_sum_err1 = 494.24
+... area of sum0 = 505.09
+... area of sum1 = 772.79
+... median_sigclip (annual mask per pix)  = 207.71
+... bkg_mean (imdata statistic per pix)   = 208.39
+... bkg_median (imdata statistic per pix) = 207.71
+... bkg_sum (median_sigclip*area_sum0)           = 104913.46
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 105047.24
+... bg_subtracted_sum = 209681.34
+... bg_subtracted_err = 3451.34
+... mag_instrument (sum) = -13.3039
+... mag_instrument (sum+err) = -13.3216
+... mag_instrument (err) = 0.0177
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1088.0437 1031.0944 ...         209681.34         3451.3421
+
+idx 119 - 4 / 4 , Ref.Star: H ) # 12 / 26 image of L-Lacertae
+... aper_annu_sum0 = 321273.30
+... aper_annu_sum1 = 135921.97
+... aper_annu_sum_err0 = 3499.67
+... aper_annu_sum_err1 = 457.09
+... area of sum0 = 505.09
+... area of sum1 = 646.52
+... median_sigclip (annual mask per pix)  = 207.71
+... bkg_mean (imdata statistic per pix)   = 208.39
+... bkg_median (imdata statistic per pix) = 207.71
+... bkg_sum (median_sigclip*area_sum0)           = 104913.46
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 106189.04
+... bg_subtracted_sum = 215084.26
+... bg_subtracted_err = 3529.39
+... mag_instrument (sum) = -13.3315
+... mag_instrument (sum+err) = -13.3492
+... mag_instrument (err) = 0.0177
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1048.864 1133.6611 ...         215084.26         3529.3901
+
+=================================
+... measurement error after background subtraction (counts): 8681.7179
+... magnitude error after background subtraction (mag): 0.0172
+
+... rmag_fitting (Ref.Stars only): [11.98977454 13.77448215 13.74567638]
+... rmag_fitting (Target only): 13.172259814241075
+... fitting residual: [ 0.00022546  0.01551785 -0.01567638]
+... fitting error (mag) = 0.0110
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0853
+... error of (calibration + observation) [mag]: 0.0204
+label_source[k] ['L-Lacertae, Rmag=13.17', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 215084.26288759985
+... InstMag_width = 1.71 , Rmag_width = 1.78
+=================================
+idx 166 ) ID = 167 , # 13 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170925@130642-R_30508_calib.fits
+calendar_date 2017-09-25 13:07:03.999980
+
+... bkg_mean,bkg_median,bkg_std
+... 254.2553 253.6778 19.4407
+... bkg_err_ratio = bkg_std/bkg_median = 0.0766
+
+idx 166 - 1 / 4 , Ref.Star: BLLac ) # 13 / 26 image of L-Lacertae
+... aper_annu_sum0 = 507134.34
+... aper_annu_sum1 = 64904.64
+... aper_annu_sum_err0 = 4795.43
+... aper_annu_sum_err1 = 323.54
+... area of sum0 = 505.22
+... area of sum1 = 238.72
+... median_sigclip (annual mask per pix)  = 264.19
+... bkg_mean (imdata statistic per pix)   = 254.26
+... bkg_median (imdata statistic per pix) = 253.68
+... bkg_sum (median_sigclip*area_sum0)           = 133474.18
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 137364.32
+... bg_subtracted_sum = 369770.02
+... bg_subtracted_err = 4806.33
+... mag_instrument (sum) = -13.9198
+... mag_instrument (sum+err) = -13.9339
+... mag_instrument (err) = 0.0140
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 994.37266 1100.6216 ...         369770.02         4806.3283
+
+idx 166 - 2 / 4 , Ref.Star: B ) # 13 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1095842.65
+... aper_annu_sum1 = 71093.79
+... aper_annu_sum_err0 = 12552.09
+... aper_annu_sum_err1 = 337.06
+... area of sum0 = 505.22
+... area of sum1 = 262.72
+... median_sigclip (annual mask per pix)  = 268.04
+... bkg_mean (imdata statistic per pix)   = 254.26
+... bkg_median (imdata statistic per pix) = 253.68
+... bkg_sum (median_sigclip*area_sum0)           = 135420.75
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 136718.82
+... bg_subtracted_sum = 959123.83
+... bg_subtracted_err = 12556.61
+... mag_instrument (sum) = -14.9547
+... mag_instrument (sum+err) = -14.9688
+... mag_instrument (err) = 0.0141
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 997.18876 1131.3832 ...         959123.83         12556.612
+
+idx 166 - 3 / 4 , Ref.Star: C ) # 13 / 26 image of L-Lacertae
+... aper_annu_sum0 = 324977.30
+... aper_annu_sum1 = 197159.86
+... aper_annu_sum_err0 = 2699.90
+... aper_annu_sum_err1 = 544.46
+... area of sum0 = 505.22
+... area of sum1 = 772.99
+... median_sigclip (annual mask per pix)  = 253.68
+... bkg_mean (imdata statistic per pix)   = 254.26
+... bkg_median (imdata statistic per pix) = 253.68
+... bkg_sum (median_sigclip*area_sum0)           = 128163.56
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 128862.65
+... bg_subtracted_sum = 196114.65
+... bg_subtracted_err = 2754.25
+... mag_instrument (sum) = -13.2313
+... mag_instrument (sum+err) = -13.2464
+... mag_instrument (err) = 0.0151
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 960.0955 1052.2055 ...         196114.65         2754.2497
+
+idx 166 - 4 / 4 , Ref.Star: H ) # 13 / 26 image of L-Lacertae
+... aper_annu_sum0 = 331187.04
+... aper_annu_sum1 = 165640.21
+... aper_annu_sum_err0 = 2783.43
+... aper_annu_sum_err1 = 500.10
+... area of sum0 = 505.22
+... area of sum1 = 646.68
+... median_sigclip (annual mask per pix)  = 253.68
+... bkg_mean (imdata statistic per pix)   = 254.26
+... bkg_median (imdata statistic per pix) = 253.68
+... bkg_sum (median_sigclip*area_sum0)           = 128163.56
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 129406.41
+... bg_subtracted_sum = 201780.63
+... bg_subtracted_err = 2828.00
+... mag_instrument (sum) = -13.2622
+... mag_instrument (sum+err) = -13.2773
+... mag_instrument (err) = 0.0151
+
+ id xcenter  ycenter  ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+      pix      pix    ...                                                       
+--- ------- --------- ... ------------------ ----------------- -----------------
+  1 998.803 949.45166 ...          500.10192         201780.63         2827.9955
+
+=================================
+... measurement error after background subtraction (counts): 7006.2963
+... magnitude error after background subtraction (mag): 0.0146
+
+... rmag_fitting (Ref.Stars only): [11.98977949 13.77612435 13.74407152]
+... rmag_fitting (Target only): 13.062426490441462
+... fitting residual: [ 0.00022051  0.01387565 -0.01407152]
+... fitting error (mag) = 0.0099
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0766
+... error of (calibration + observation) [mag]: 0.0176
+label_source[k] ['L-Lacertae, Rmag=13.06', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 201780.62787264938
+... InstMag_width = 1.72 , Rmag_width = 1.79
+=================================
+idx 167 ) ID = 168 , # 14 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170925@131016-R_30508_calib.fits
+calendar_date 2017-09-25 13:10:15.999984
+
+... bkg_mean,bkg_median,bkg_std
+... 251.1724 250.6004 19.3242
+... bkg_err_ratio = bkg_std/bkg_median = 0.0771
+
+idx 167 - 1 / 4 , Ref.Star: BLLac ) # 14 / 26 image of L-Lacertae
+... aper_annu_sum0 = 510414.05
+... aper_annu_sum1 = 64245.01
+... aper_annu_sum_err0 = 4881.18
+... aper_annu_sum_err1 = 322.32
+... area of sum0 = 505.15
+... area of sum1 = 238.68
+... median_sigclip (annual mask per pix)  = 262.89
+... bkg_mean (imdata statistic per pix)   = 251.17
+... bkg_median (imdata statistic per pix) = 250.60
+... bkg_sum (median_sigclip*area_sum0)           = 132797.56
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 135968.29
+... bg_subtracted_sum = 374445.77
+... bg_subtracted_err = 4891.81
+... mag_instrument (sum) = -13.9335
+... mag_instrument (sum+err) = -13.9476
+... mag_instrument (err) = 0.0141
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 994.35874 1104.2017 ...         374445.77         4891.8131
+
+idx 167 - 2 / 4 , Ref.Star: B ) # 14 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1105018.74
+... aper_annu_sum1 = 70663.77
+... aper_annu_sum_err0 = 12853.14
+... aper_annu_sum_err1 = 337.32
+... area of sum0 = 505.15
+... area of sum1 = 262.68
+... median_sigclip (annual mask per pix)  = 267.21
+... bkg_mean (imdata statistic per pix)   = 251.17
+... bkg_median (imdata statistic per pix) = 250.60
+... bkg_sum (median_sigclip*area_sum0)           = 134979.94
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 135891.86
+... bg_subtracted_sum = 969126.88
+... bg_subtracted_err = 12857.57
+... mag_instrument (sum) = -14.9660
+... mag_instrument (sum+err) = -14.9803
+... mag_instrument (err) = 0.0143
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 997.17497 1134.9637 ...         969126.88         12857.566
+
+idx 167 - 3 / 4 , Ref.Star: C ) # 14 / 26 image of L-Lacertae
+... aper_annu_sum0 = 324398.00
+... aper_annu_sum1 = 195336.05
+... aper_annu_sum_err0 = 2724.08
+... aper_annu_sum_err1 = 542.78
+... area of sum0 = 505.15
+... area of sum1 = 772.87
+... median_sigclip (annual mask per pix)  = 250.60
+... bkg_mean (imdata statistic per pix)   = 251.17
+... bkg_median (imdata statistic per pix) = 250.60
+... bkg_sum (median_sigclip*area_sum0)           = 126589.69
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 127670.62
+... bg_subtracted_sum = 196727.38
+... bg_subtracted_err = 2777.63
+... mag_instrument (sum) = -13.2347
+... mag_instrument (sum+err) = -13.2499
+... mag_instrument (err) = 0.0152
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 960.08366 1055.7853 ...         196727.38         2777.6275
+
+idx 167 - 4 / 4 , Ref.Star: H ) # 14 / 26 image of L-Lacertae
+... aper_annu_sum0 = 329707.71
+... aper_annu_sum1 = 163422.70
+... aper_annu_sum_err0 = 2784.58
+... aper_annu_sum_err1 = 496.47
+... area of sum0 = 505.15
+... area of sum1 = 646.59
+... median_sigclip (annual mask per pix)  = 250.60
+... bkg_mean (imdata statistic per pix)   = 251.17
+... bkg_median (imdata statistic per pix) = 250.60
+... bkg_sum (median_sigclip*area_sum0)           = 126589.69
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 127673.99
+... bg_subtracted_sum = 202033.73
+... bg_subtracted_err = 2828.49
+... mag_instrument (sum) = -13.2636
+... mag_instrument (sum+err) = -13.2787
+... mag_instrument (err) = 0.0151
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 998.78708 953.02947 ...         202033.73         2828.4917
+
+=================================
+... measurement error after background subtraction (counts): 7158.2543
+... magnitude error after background subtraction (mag): 0.0147
+
+... rmag_fitting (Ref.Stars only): [11.98977347 13.77489821 13.74510196]
+... rmag_fitting (Target only): 13.054358124125297
+... fitting residual: [ 0.00022653  0.01510179 -0.01510196]
+... fitting error (mag) = 0.0107
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0771
+... error of (calibration + observation) [mag]: 0.0182
+label_source[k] ['L-Lacertae, Rmag=13.05', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 202033.7276923819
+... InstMag_width = 1.73 , Rmag_width = 1.79
+=================================
+idx 197 ) ID = 198 , # 15 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170927@151650-R_30508_calib.fits
+calendar_date 2017-09-27 15:17:11.999994
+
+... bkg_mean,bkg_median,bkg_std
+... 237.4508 236.9020 18.8490
+... bkg_err_ratio = bkg_std/bkg_median = 0.0796
+
+idx 197 - 1 / 4 , Ref.Star: BLLac ) # 15 / 26 image of L-Lacertae
+... aper_annu_sum0 = 510142.93
+... aper_annu_sum1 = 60093.76
+... aper_annu_sum_err0 = 6356.11
+... aper_annu_sum_err1 = 311.05
+... area of sum0 = 505.13
+... area of sum1 = 238.68
+... median_sigclip (annual mask per pix)  = 245.74
+... bkg_mean (imdata statistic per pix)   = 237.45
+... bkg_median (imdata statistic per pix) = 236.90
+... bkg_sum (median_sigclip*area_sum0)           = 124132.03
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 127182.55
+... bg_subtracted_sum = 382960.38
+... bg_subtracted_err = 6363.72
+... mag_instrument (sum) = -13.9579
+... mag_instrument (sum+err) = -13.9758
+... mag_instrument (err) = 0.0179
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.4225 1023.2722 ...         382960.38         6363.7188
+
+idx 197 - 2 / 4 , Ref.Star: B ) # 15 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1066560.43
+... aper_annu_sum1 = 67524.89
+... aper_annu_sum_err0 = 14909.61
+... aper_annu_sum_err1 = 332.91
+... area of sum0 = 505.13
+... area of sum1 = 262.67
+... median_sigclip (annual mask per pix)  = 254.27
+... bkg_mean (imdata statistic per pix)   = 237.45
+... bkg_median (imdata statistic per pix) = 236.90
+... bkg_sum (median_sigclip*area_sum0)           = 128437.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 129855.57
+... bg_subtracted_sum = 936704.87
+... bg_subtracted_err = 14913.33
+... mag_instrument (sum) = -14.9290
+... mag_instrument (sum+err) = -14.9462
+... mag_instrument (err) = 0.0171
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1018.633 992.50659 ...         936704.87         14913.327
+
+idx 197 - 3 / 4 , Ref.Star: C ) # 15 / 26 image of L-Lacertae
+... aper_annu_sum0 = 326558.97
+... aper_annu_sum1 = 183900.21
+... aper_annu_sum_err0 = 3637.47
+... aper_annu_sum_err1 = 527.23
+... area of sum0 = 505.13
+... area of sum1 = 772.85
+... median_sigclip (annual mask per pix)  = 236.90
+... bkg_mean (imdata statistic per pix)   = 237.45
+... bkg_median (imdata statistic per pix) = 236.90
+... bkg_sum (median_sigclip*area_sum0)           = 119666.83
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 120196.21
+... bg_subtracted_sum = 206362.76
+... bg_subtracted_err = 3675.48
+... mag_instrument (sum) = -13.2866
+... mag_instrument (sum+err) = -13.3057
+... mag_instrument (err) = 0.0192
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1055.6552 1071.7201 ...         206362.76          3675.478
+
+idx 197 - 4 / 4 , Ref.Star: H ) # 15 / 26 image of L-Lacertae
+... aper_annu_sum0 = 330778.08
+... aper_annu_sum1 = 154185.76
+... aper_annu_sum_err0 = 3675.29
+... aper_annu_sum_err1 = 483.29
+... area of sum0 = 505.13
+... area of sum1 = 646.57
+... median_sigclip (annual mask per pix)  = 236.90
+... bkg_mean (imdata statistic per pix)   = 237.45
+... bkg_median (imdata statistic per pix) = 236.90
+... bkg_sum (median_sigclip*area_sum0)           = 119666.83
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 120457.62
+... bg_subtracted_sum = 210320.46
+... bg_subtracted_err = 3706.93
+... mag_instrument (sum) = -13.3072
+... mag_instrument (sum+err) = -13.3262
+... mag_instrument (err) = 0.0190
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1016.8633 1174.4463 ...         210320.46         3706.9336
+
+=================================
+... measurement error after background subtraction (counts): 8516.9646
+... magnitude error after background subtraction (mag): 0.0183
+
+... rmag_fitting (Ref.Stars only): [11.98980766 13.77110824 13.7487388 ]
+... rmag_fitting (Target only): 13.043041117833473
+... fitting residual: [ 0.00019234  0.01889176 -0.0187388 ]
+... fitting error (mag) = 0.0133
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0796
+... error of (calibration + observation) [mag]: 0.0226
+label_source[k] ['L-Lacertae, Rmag=13.04', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 210320.4613596794
+... InstMag_width = 1.64 , Rmag_width = 1.78
+=================================
+idx 198 ) ID = 199 , # 16 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170927@152024-R_30508_calib.fits
+calendar_date 2017-09-27 15:20:23.999999
+
+... bkg_mean,bkg_median,bkg_std
+... 240.7561 240.1285 18.6576
+... bkg_err_ratio = bkg_std/bkg_median = 0.0777
+
+idx 198 - 1 / 4 , Ref.Star: BLLac ) # 16 / 26 image of L-Lacertae
+... aper_annu_sum0 = 512048.85
+... aper_annu_sum1 = 61733.30
+... aper_annu_sum_err0 = 6206.71
+... aper_annu_sum_err1 = 311.92
+... area of sum0 = 505.19
+... area of sum1 = 238.70
+... median_sigclip (annual mask per pix)  = 253.83
+... bkg_mean (imdata statistic per pix)   = 240.76
+... bkg_median (imdata statistic per pix) = 240.13
+... bkg_sum (median_sigclip*area_sum0)           = 128234.84
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 130652.48
+... bg_subtracted_sum = 381396.37
+... bg_subtracted_err = 6214.54
+... mag_instrument (sum) = -13.9534
+... mag_instrument (sum+err) = -13.9710
+... mag_instrument (err) = 0.0175
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.2862 1023.7881 ...         381396.37         6214.5414
+
+idx 198 - 2 / 4 , Ref.Star: B ) # 16 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1071218.12
+... aper_annu_sum1 = 67714.70
+... aper_annu_sum_err0 = 14586.69
+... aper_annu_sum_err1 = 325.94
+... area of sum0 = 505.19
+... area of sum1 = 262.70
+... median_sigclip (annual mask per pix)  = 254.57
+... bkg_mean (imdata statistic per pix)   = 240.76
+... bkg_median (imdata statistic per pix) = 240.13
+... bkg_sum (median_sigclip*area_sum0)           = 128607.83
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 130220.58
+... bg_subtracted_sum = 940997.54
+... bg_subtracted_err = 14590.33
+... mag_instrument (sum) = -14.9340
+... mag_instrument (sum+err) = -14.9507
+... mag_instrument (err) = 0.0167
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1018.4967 993.02514 ...         940997.54         14590.334
+
+idx 198 - 3 / 4 , Ref.Star: C ) # 16 / 26 image of L-Lacertae
+... aper_annu_sum0 = 328038.16
+... aper_annu_sum1 = 186402.48
+... aper_annu_sum_err0 = 3552.13
+... aper_annu_sum_err1 = 521.92
+... area of sum0 = 505.19
+... area of sum1 = 772.94
+... median_sigclip (annual mask per pix)  = 240.13
+... bkg_mean (imdata statistic per pix)   = 240.76
+... bkg_median (imdata statistic per pix) = 240.13
+... bkg_sum (median_sigclip*area_sum0)           = 121310.66
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 121831.68
+... bg_subtracted_sum = 206206.48
+... bg_subtracted_err = 3590.27
+... mag_instrument (sum) = -13.2858
+... mag_instrument (sum+err) = -13.3045
+... mag_instrument (err) = 0.0187
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1055.5206 1072.2319 ...         206206.48         3590.2674
+
+idx 198 - 4 / 4 , Ref.Star: H ) # 16 / 26 image of L-Lacertae
+... aper_annu_sum0 = 333323.01
+... aper_annu_sum1 = 155929.93
+... aper_annu_sum_err0 = 3618.70
+... aper_annu_sum_err1 = 477.31
+... area of sum0 = 505.19
+... area of sum1 = 646.64
+... median_sigclip (annual mask per pix)  = 240.13
+... bkg_mean (imdata statistic per pix)   = 240.76
+... bkg_median (imdata statistic per pix) = 240.13
+... bkg_sum (median_sigclip*area_sum0)           = 121310.66
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 121820.26
+... bg_subtracted_sum = 211502.75
+... bg_subtracted_err = 3650.04
+... mag_instrument (sum) = -13.3133
+... mag_instrument (sum+err) = -13.3319
+... mag_instrument (err) = 0.0186
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1016.7259 1174.9488 ...         211502.75         3650.0425
+
+=================================
+... measurement error after background subtraction (counts): 8332.3348
+... magnitude error after background subtraction (mag): 0.0179
+
+... rmag_fitting (Ref.Stars only): [11.98979624 13.7749053  13.74508416]
+... rmag_fitting (Target only): 13.0517646174441
+... fitting residual: [ 0.00020376  0.0150947  -0.01508416]
+... fitting error (mag) = 0.0107
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0777
+... error of (calibration + observation) [mag]: 0.0208
+label_source[k] ['L-Lacertae, Rmag=13.05', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 211502.7468144851
+... InstMag_width = 1.65 , Rmag_width = 1.79
+=================================
+idx 211 ) ID = 212 , # 17 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170928@163426-R_30508_calib.fits
+calendar_date 2017-09-28 16:34:47.999966
+
+... bkg_mean,bkg_median,bkg_std
+... 255.2008 254.6706 19.3096
+... bkg_err_ratio = bkg_std/bkg_median = 0.0758
+
+idx 211 - 1 / 4 , Ref.Star: BLLac ) # 17 / 26 image of L-Lacertae
+... aper_annu_sum0 = 433342.89
+... aper_annu_sum1 = 64212.53
+... aper_annu_sum_err0 = 4782.68
+... aper_annu_sum_err1 = 316.43
+... area of sum0 = 505.19
+... area of sum1 = 238.70
+... median_sigclip (annual mask per pix)  = 264.59
+... bkg_mean (imdata statistic per pix)   = 255.20
+... bkg_median (imdata statistic per pix) = 254.67
+... bkg_sum (median_sigclip*area_sum0)           = 133665.86
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 135899.53
+... bg_subtracted_sum = 297443.36
+... bg_subtracted_err = 4793.13
+... mag_instrument (sum) = -13.6835
+... mag_instrument (sum+err) = -13.7009
+... mag_instrument (err) = 0.0174
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1044.6232 997.71378 ...         297443.36         4793.1322
+
+idx 211 - 2 / 4 , Ref.Star: B ) # 17 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1001883.90
+... aper_annu_sum1 = 70613.29
+... aper_annu_sum_err0 = 13444.93
+... aper_annu_sum_err1 = 331.42
+... area of sum0 = 505.19
+... area of sum1 = 262.70
+... median_sigclip (annual mask per pix)  = 265.98
+... bkg_mean (imdata statistic per pix)   = 255.20
+... bkg_median (imdata statistic per pix) = 254.67
+... bkg_sum (median_sigclip*area_sum0)           = 134370.67
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 135794.78
+... bg_subtracted_sum = 866089.12
+... bg_subtracted_err = 13449.01
+... mag_instrument (sum) = -14.8439
+... mag_instrument (sum+err) = -14.8606
+... mag_instrument (err) = 0.0167
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.8115 966.95877 ...         866089.12         13449.013
+
+idx 211 - 3 / 4 , Ref.Star: C ) # 17 / 26 image of L-Lacertae
+... aper_annu_sum0 = 316174.40
+... aper_annu_sum1 = 197480.17
+... aper_annu_sum_err0 = 3188.28
+... aper_annu_sum_err1 = 539.43
+... area of sum0 = 505.19
+... area of sum1 = 772.94
+... median_sigclip (annual mask per pix)  = 254.67
+... bkg_mean (imdata statistic per pix)   = 255.20
+... bkg_median (imdata statistic per pix) = 254.67
+... bkg_sum (median_sigclip*area_sum0)           = 128656.82
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 129072.00
+... bg_subtracted_sum = 187102.40
+... bg_subtracted_err = 3233.59
+... mag_instrument (sum) = -13.1802
+... mag_instrument (sum+err) = -13.1988
+... mag_instrument (err) = 0.0186
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1078.8926 1046.1236 ...          187102.4         3233.5873
+
+idx 211 - 4 / 4 , Ref.Star: H ) # 17 / 26 image of L-Lacertae
+... aper_annu_sum0 = 321822.37
+... aper_annu_sum1 = 165173.50
+... aper_annu_sum_err0 = 3251.82
+... aper_annu_sum_err1 = 493.41
+... area of sum0 = 505.19
+... area of sum1 = 646.64
+... median_sigclip (annual mask per pix)  = 254.67
+... bkg_mean (imdata statistic per pix)   = 255.20
+... bkg_median (imdata statistic per pix) = 254.67
+... bkg_sum (median_sigclip*area_sum0)           = 128656.82
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 129041.80
+... bg_subtracted_sum = 192780.57
+... bg_subtracted_err = 3289.04
+... mag_instrument (sum) = -13.2127
+... mag_instrument (sum+err) = -13.2310
+... mag_instrument (err) = 0.0184
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.1721 1148.8487 ...         192780.57         3289.0399
+
+=================================
+... measurement error after background subtraction (counts): 7502.0654
+... magnitude error after background subtraction (mag): 0.0178
+
+... rmag_fitting (Ref.Stars only): [11.98979726 13.77740169 13.74252464]
+... rmag_fitting (Target only): 13.236607703905097
+... fitting residual: [ 0.00020274  0.01259831 -0.01252464]
+... fitting error (mag) = 0.0089
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0758
+... error of (calibration + observation) [mag]: 0.0199
+label_source[k] ['L-Lacertae, Rmag=13.24', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 192780.5690419998
+... InstMag_width = 1.66 , Rmag_width = 1.79
+=================================
+idx 212 ) ID = 213 , # 18 / 26 image of L-Lacertae
+... filename : L-Lacertae-20170928@163800-R_30508_calib.fits
+calendar_date 2017-09-28 16:38:00.000051
+
+... bkg_mean,bkg_median,bkg_std
+... 262.6230 262.0564 19.5781
+... bkg_err_ratio = bkg_std/bkg_median = 0.0747
+
+idx 212 - 1 / 4 , Ref.Star: BLLac ) # 18 / 26 image of L-Lacertae
+... aper_annu_sum0 = 433221.81
+... aper_annu_sum1 = 65914.98
+... aper_annu_sum_err0 = 4519.12
+... aper_annu_sum_err1 = 319.87
+... area of sum0 = 505.17
+... area of sum1 = 238.69
+... median_sigclip (annual mask per pix)  = 272.47
+... bkg_mean (imdata statistic per pix)   = 262.62
+... bkg_median (imdata statistic per pix) = 262.06
+... bkg_sum (median_sigclip*area_sum0)           = 137641.19
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 139502.61
+... bg_subtracted_sum = 293719.20
+... bg_subtracted_err = 4530.43
+... mag_instrument (sum) = -13.6698
+... mag_instrument (sum+err) = -13.6864
+... mag_instrument (err) = 0.0166
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1043.6322 1000.0692 ...          293719.2         4530.4284
+
+idx 212 - 2 / 4 , Ref.Star: B ) # 18 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1018362.48
+... aper_annu_sum1 = 72907.87
+... aper_annu_sum_err0 = 13367.21
+... aper_annu_sum_err1 = 337.19
+... area of sum0 = 505.17
+... area of sum1 = 262.69
+... median_sigclip (annual mask per pix)  = 273.78
+... bkg_mean (imdata statistic per pix)   = 262.62
+... bkg_median (imdata statistic per pix) = 262.06
+... bkg_sum (median_sigclip*area_sum0)           = 138306.51
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 140207.44
+... bg_subtracted_sum = 878155.04
+... bg_subtracted_err = 13371.46
+... mag_instrument (sum) = -14.8589
+... mag_instrument (sum+err) = -14.8753
+... mag_instrument (err) = 0.0164
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.8216 969.31231 ...         878155.04         13371.463
+
+idx 212 - 3 / 4 , Ref.Star: C ) # 18 / 26 image of L-Lacertae
+... aper_annu_sum0 = 317385.58
+... aper_annu_sum1 = 202256.88
+... aper_annu_sum_err0 = 3015.44
+... aper_annu_sum_err1 = 544.40
+... area of sum0 = 505.17
+... area of sum1 = 772.90
+... median_sigclip (annual mask per pix)  = 262.06
+... bkg_mean (imdata statistic per pix)   = 262.62
+... bkg_median (imdata statistic per pix) = 262.06
+... bkg_sum (median_sigclip*area_sum0)           = 132382.05
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 132194.04
+... bg_subtracted_sum = 185191.55
+... bg_subtracted_err = 3064.18
+... mag_instrument (sum) = -13.1691
+... mag_instrument (sum+err) = -13.1869
+... mag_instrument (err) = 0.0178
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1077.8991 1048.4831 ...         185191.55         3064.1848
+
+idx 212 - 4 / 4 , Ref.Star: H ) # 18 / 26 image of L-Lacertae
+... aper_annu_sum0 = 323486.28
+... aper_annu_sum1 = 170042.90
+... aper_annu_sum_err0 = 3080.61
+... aper_annu_sum_err1 = 500.50
+... area of sum0 = 505.17
+... area of sum1 = 646.61
+... median_sigclip (annual mask per pix)  = 262.06
+... bkg_mean (imdata statistic per pix)   = 262.62
+... bkg_median (imdata statistic per pix) = 262.06
+... bkg_sum (median_sigclip*area_sum0)           = 132382.05
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 132846.02
+... bg_subtracted_sum = 190640.26
+... bg_subtracted_err = 3121.00
+... mag_instrument (sum) = -13.2005
+... mag_instrument (sum+err) = -13.2182
+... mag_instrument (err) = 0.0176
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1039.1759 1151.213 ...         190640.26         3120.9983
+
+=================================
+... measurement error after background subtraction (counts): 7390.0382
+... magnitude error after background subtraction (mag): 0.0171
+
+... rmag_fitting (Ref.Stars only): [11.98978476 13.77662997 13.74333968]
+... rmag_fitting (Target only): 13.247115881347082
+... fitting residual: [ 0.00021524  0.01337003 -0.01333968]
+... fitting error (mag) = 0.0094
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0747
+... error of (calibration + observation) [mag]: 0.0196
+label_source[k] ['L-Lacertae, Rmag=13.25', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 190640.25988904512
+... InstMag_width = 1.69 , Rmag_width = 1.79
+=================================
+idx 270 ) ID = 271 , # 19 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171003@141334-R_30508_calib.fits
+calendar_date 2017-10-03 14:13:55.999985
+
+... bkg_mean,bkg_median,bkg_std
+... 1295.8239 1295.0078 39.9740
+... bkg_err_ratio = bkg_std/bkg_median = 0.0309
+
+idx 270 - 1 / 4 , Ref.Star: BLLac ) # 19 / 26 image of L-Lacertae
+... aper_annu_sum0 = 999819.53
+... aper_annu_sum1 = 310468.83
+... aper_annu_sum_err0 = 2401.22
+... aper_annu_sum_err1 = 620.65
+... area of sum0 = 505.16
+... area of sum1 = 238.69
+... median_sigclip (annual mask per pix)  = 1297.52
+... bkg_mean (imdata statistic per pix)   = 1295.82
+... bkg_median (imdata statistic per pix) = 1295.01
+... bkg_sum (median_sigclip*area_sum0)           = 655451.40
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 657076.89
+... bg_subtracted_sum = 342742.64
+... bg_subtracted_err = 2480.13
+... mag_instrument (sum) = -13.8374
+... mag_instrument (sum+err) = -13.8452
+... mag_instrument (err) = 0.0078
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1020.6265 1022.0416 ...         342742.64         2480.1349
+
+idx 270 - 2 / 4 , Ref.Star: B ) # 19 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1610284.97
+... aper_annu_sum1 = 342507.48
+... aper_annu_sum_err0 = 5931.58
+... aper_annu_sum_err1 = 652.68
+... area of sum0 = 505.16
+... area of sum1 = 262.68
+... median_sigclip (annual mask per pix)  = 1304.03
+... bkg_mean (imdata statistic per pix)   = 1295.82
+... bkg_median (imdata statistic per pix) = 1295.01
+... bkg_sum (median_sigclip*area_sum0)           = 658737.74
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 658668.23
+... bg_subtracted_sum = 951616.73
+... bg_subtracted_err = 5967.38
+... mag_instrument (sum) = -14.9462
+... mag_instrument (sum+err) = -14.9529
+... mag_instrument (err) = 0.0068
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1017.6448 991.29679 ...         951616.73         5967.3765
+
+idx 270 - 3 / 4 , Ref.Star: C ) # 19 / 26 image of L-Lacertae
+... aper_annu_sum0 = 848280.75
+... aper_annu_sum1 = 992951.53
+... aper_annu_sum_err0 = 1671.86
+... aper_annu_sum_err1 = 1103.01
+... area of sum0 = 505.16
+... area of sum1 = 772.89
+... median_sigclip (annual mask per pix)  = 1283.62
+... bkg_mean (imdata statistic per pix)   = 1295.82
+... bkg_median (imdata statistic per pix) = 1295.01
+... bkg_sum (median_sigclip*area_sum0)           = 648431.28
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 648987.93
+... bg_subtracted_sum = 199292.83
+... bg_subtracted_err = 2002.94
+... mag_instrument (sum) = -13.2487
+... mag_instrument (sum+err) = -13.2596
+... mag_instrument (err) = 0.0109
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1055.162 1070.2703 ...         199292.83         2002.9352
+
+idx 270 - 4 / 4 , Ref.Star: H ) # 19 / 26 image of L-Lacertae
+... aper_annu_sum0 = 852881.13
+... aper_annu_sum1 = 829658.13
+... aper_annu_sum_err0 = 1695.48
+... aper_annu_sum_err1 = 1007.57
+... area of sum0 = 505.16
+... area of sum1 = 646.60
+... median_sigclip (annual mask per pix)  = 1279.83
+... bkg_mean (imdata statistic per pix)   = 1295.82
+... bkg_median (imdata statistic per pix) = 1295.01
+... bkg_sum (median_sigclip*area_sum0)           = 646517.88
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 648170.42
+... bg_subtracted_sum = 204710.72
+... bg_subtracted_err = 1972.27
+... mag_instrument (sum) = -13.2779
+... mag_instrument (sum+err) = -13.2883
+... mag_instrument (err) = 0.0104
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1017.0116 1173.2274 ...         204710.72          1972.273
+
+=================================
+... measurement error after background subtraction (counts): 3523.5728
+... magnitude error after background subtraction (mag): 0.0091
+
+... rmag_fitting (Ref.Stars only): [11.98989646 13.77482147 13.74419799]
+... rmag_fitting (Target only): 13.15578440774464
+... fitting residual: [ 0.00010354  0.01517853 -0.01419799]
+... fitting error (mag) = 0.0104
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0309
+... error of (calibration + observation) [mag]: 0.0138
+label_source[k] ['L-Lacertae, Rmag=13.16', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 204710.71957162907
+... InstMag_width = 1.70 , Rmag_width = 1.78
+=================================
+idx 271 ) ID = 272 , # 20 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171003@141708-R_30508_calib.fits
+calendar_date 2017-10-03 14:17:09.000024
+
+... bkg_mean,bkg_median,bkg_std
+... 1300.4925 1299.6635 40.3217
+... bkg_err_ratio = bkg_std/bkg_median = 0.0310
+
+idx 271 - 1 / 4 , Ref.Star: BLLac ) # 20 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1001927.58
+... aper_annu_sum1 = 311038.55
+... aper_annu_sum_err0 = 2388.73
+... aper_annu_sum_err1 = 624.95
+... area of sum0 = 505.16
+... area of sum1 = 238.69
+... median_sigclip (annual mask per pix)  = 1300.61
+... bkg_mean (imdata statistic per pix)   = 1300.49
+... bkg_median (imdata statistic per pix) = 1299.66
+... bkg_sum (median_sigclip*area_sum0)           = 657020.81
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 658282.65
+... bg_subtracted_sum = 343644.93
+... bg_subtracted_err = 2469.13
+... mag_instrument (sum) = -13.8403
+... mag_instrument (sum+err) = -13.8480
+... mag_instrument (err) = 0.0078
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1020.7378 1021.8281 ...         343644.93         2469.1265
+
+idx 271 - 2 / 4 , Ref.Star: B ) # 20 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1608419.66
+... aper_annu_sum1 = 343326.62
+... aper_annu_sum_err0 = 5817.20
+... aper_annu_sum_err1 = 657.54
+... area of sum0 = 505.16
+... area of sum1 = 262.69
+... median_sigclip (annual mask per pix)  = 1305.98
+... bkg_mean (imdata statistic per pix)   = 1300.49
+... bkg_median (imdata statistic per pix) = 1299.66
+... bkg_sum (median_sigclip*area_sum0)           = 659736.50
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 660243.50
+... bg_subtracted_sum = 948176.17
+... bg_subtracted_err = 5854.25
+... mag_instrument (sum) = -14.9422
+... mag_instrument (sum+err) = -14.9489
+... mag_instrument (err) = 0.0067
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1017.7554 991.08454 ...         948176.17         5854.2475
+
+idx 271 - 3 / 4 , Ref.Star: C ) # 20 / 26 image of L-Lacertae
+... aper_annu_sum0 = 850744.75
+... aper_annu_sum1 = 993396.79
+... aper_annu_sum_err0 = 1665.31
+... aper_annu_sum_err1 = 1109.06
+... area of sum0 = 505.16
+... area of sum1 = 772.90
+... median_sigclip (annual mask per pix)  = 1285.22
+... bkg_mean (imdata statistic per pix)   = 1300.49
+... bkg_median (imdata statistic per pix) = 1299.66
+... bkg_sum (median_sigclip*area_sum0)           = 649248.56
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 649278.95
+... bg_subtracted_sum = 201465.80
+... bg_subtracted_err = 2000.82
+... mag_instrument (sum) = -13.2605
+... mag_instrument (sum+err) = -13.2712
+... mag_instrument (err) = 0.0107
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1055.2745 1070.0543 ...          201465.8         2000.8178
+
+idx 271 - 4 / 4 , Ref.Star: H ) # 20 / 26 image of L-Lacertae
+... aper_annu_sum0 = 852792.00
+... aper_annu_sum1 = 831438.83
+... aper_annu_sum_err0 = 1679.06
+... aper_annu_sum_err1 = 1014.89
+... area of sum0 = 505.16
+... area of sum1 = 646.61
+... median_sigclip (annual mask per pix)  = 1285.69
+... bkg_mean (imdata statistic per pix)   = 1300.49
+... bkg_median (imdata statistic per pix) = 1299.66
+... bkg_sum (median_sigclip*area_sum0)           = 649487.05
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 649561.59
+... bg_subtracted_sum = 203230.41
+... bg_subtracted_err = 1961.95
+... mag_instrument (sum) = -13.2700
+... mag_instrument (sum+err) = -13.2804
+... mag_instrument (err) = 0.0104
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1017.1259 1173.0084 ...         203230.41         1961.9467
+
+=================================
+... measurement error after background subtraction (counts): 3472.0781
+... magnitude error after background subtraction (mag): 0.0091
+
+... rmag_fitting (Ref.Stars only): [11.98994368 13.7643607  13.75437039]
+... rmag_fitting (Target only): 13.152631691989463
+... fitting residual: [ 5.63188718e-05  2.56393040e-02 -2.43703883e-02]
+... fitting error (mag) = 0.0177
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0310
+... error of (calibration + observation) [mag]: 0.0199
+label_source[k] ['L-Lacertae, Rmag=13.15', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.76', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 203230.40967394318
+... InstMag_width = 1.68 , Rmag_width = 1.77
+=================================
+idx 294 ) ID = 295 , # 21 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171005@140917-R_30508_calib.fits
+calendar_date 2017-10-05 14:09:39.000011
+
+... bkg_mean,bkg_median,bkg_std
+... 1745.2383 1744.5529 47.7412
+... bkg_err_ratio = bkg_std/bkg_median = 0.0274
+
+idx 294 - 1 / 4 , Ref.Star: BLLac ) # 21 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1232601.84
+... aper_annu_sum1 = 417416.39
+... aper_annu_sum_err0 = 2482.71
+... aper_annu_sum_err1 = 739.63
+... area of sum0 = 505.19
+... area of sum1 = 238.70
+... median_sigclip (annual mask per pix)  = 1747.40
+... bkg_mean (imdata statistic per pix)   = 1745.24
+... bkg_median (imdata statistic per pix) = 1744.55
+... bkg_sum (median_sigclip*area_sum0)           = 882776.33
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 883420.93
+... bg_subtracted_sum = 349180.91
+... bg_subtracted_err = 2590.54
+... mag_instrument (sum) = -13.8576
+... mag_instrument (sum+err) = -13.8657
+... mag_instrument (err) = 0.0080
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1074.9852 960.49278 ...         349180.91         2590.5366
+
+idx 294 - 2 / 4 , Ref.Star: B ) # 21 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1787177.08
+... aper_annu_sum1 = 458683.07
+... aper_annu_sum_err0 = 5236.08
+... aper_annu_sum_err1 = 774.73
+... area of sum0 = 505.19
+... area of sum1 = 262.70
+... median_sigclip (annual mask per pix)  = 1745.75
+... bkg_mean (imdata statistic per pix)   = 1745.24
+... bkg_median (imdata statistic per pix) = 1744.55
+... bkg_sum (median_sigclip*area_sum0)           = 881938.94
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 882082.83
+... bg_subtracted_sum = 905094.25
+... bg_subtracted_err = 5293.09
+... mag_instrument (sum) = -14.8917
+... mag_instrument (sum+err) = -14.8981
+... mag_instrument (err) = 0.0063
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1072.1256 929.73548 ...         905094.25         5293.0864
+
+idx 294 - 3 / 4 , Ref.Star: C ) # 21 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1079775.34
+... aper_annu_sum1 = 1332241.84
+... aper_annu_sum_err0 = 1797.67
+... aper_annu_sum_err1 = 1311.75
+... area of sum0 = 505.19
+... area of sum1 = 772.95
+... median_sigclip (annual mask per pix)  = 1721.67
+... bkg_mean (imdata statistic per pix)   = 1745.24
+... bkg_median (imdata statistic per pix) = 1744.55
+... bkg_sum (median_sigclip*area_sum0)           = 869775.83
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 870746.30
+... bg_subtracted_sum = 209029.04
+... bg_subtracted_err = 2225.37
+... mag_instrument (sum) = -13.3005
+... mag_instrument (sum+err) = -13.3120
+... mag_instrument (err) = 0.0115
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1109.3299 1008.8598 ...         209029.04         2225.3743
+
+idx 294 - 4 / 4 , Ref.Star: H ) # 21 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1084367.88
+... aper_annu_sum1 = 1113946.28
+... aper_annu_sum_err0 = 1818.31
+... aper_annu_sum_err1 = 1199.17
+... area of sum0 = 505.19
+... area of sum1 = 646.65
+... median_sigclip (annual mask per pix)  = 1721.92
+... bkg_mean (imdata statistic per pix)   = 1745.24
+... bkg_median (imdata statistic per pix) = 1744.55
+... bkg_sum (median_sigclip*area_sum0)           = 869903.85
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 870270.53
+... bg_subtracted_sum = 214097.35
+... bg_subtracted_err = 2178.14
+... mag_instrument (sum) = -13.3265
+... mag_instrument (sum+err) = -13.3375
+... mag_instrument (err) = 0.0110
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1070.7691 1111.6673 ...         214097.35         2178.1386
+
+=================================
+... measurement error after background subtraction (counts): 3332.5749
+... magnitude error after background subtraction (mag): 0.0095
+
+... rmag_fitting (Ref.Stars only): [11.98991945 13.77401309 13.74484847]
+... rmag_fitting (Target only): 13.149374718900212
+... fitting residual: [ 8.05505273e-05  1.59869093e-02 -1.48484684e-02]
+... fitting error (mag) = 0.0109
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0274
+... error of (calibration + observation) [mag]: 0.0144
+label_source[k] ['L-Lacertae, Rmag=13.15', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 214097.35313732387
+... InstMag_width = 1.59 , Rmag_width = 1.78
+=================================
+idx 295 ) ID = 296 , # 22 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171005@141306-R_30508_calib.fits
+calendar_date 2017-10-05 14:13:06.000014
+
+... bkg_mean,bkg_median,bkg_std
+... 1747.6578 1747.0051 47.2411
+... bkg_err_ratio = bkg_std/bkg_median = 0.0270
+
+idx 295 - 1 / 4 , Ref.Star: BLLac ) # 22 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1233918.64
+... aper_annu_sum1 = 418118.51
+... aper_annu_sum_err0 = 2426.61
+... aper_annu_sum_err1 = 732.11
+... area of sum0 = 505.17
+... area of sum1 = 238.69
+... median_sigclip (annual mask per pix)  = 1750.51
+... bkg_mean (imdata statistic per pix)   = 1747.66
+... bkg_median (imdata statistic per pix) = 1747.01
+... bkg_sum (median_sigclip*area_sum0)           = 884303.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 884906.89
+... bg_subtracted_sum = 349011.74
+... bg_subtracted_err = 2534.64
+... mag_instrument (sum) = -13.8571
+... mag_instrument (sum+err) = -13.8650
+... mag_instrument (err) = 0.0079
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1075.3995 960.47764 ...         349011.74         2534.6396
+
+idx 295 - 2 / 4 , Ref.Star: B ) # 22 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1804995.90
+... aper_annu_sum1 = 459136.43
+... aper_annu_sum_err0 = 5234.88
+... aper_annu_sum_err1 = 766.30
+... area of sum0 = 505.17
+... area of sum1 = 262.69
+... median_sigclip (annual mask per pix)  = 1748.05
+... bkg_mean (imdata statistic per pix)   = 1747.66
+... bkg_median (imdata statistic per pix) = 1747.01
+... bkg_sum (median_sigclip*area_sum0)           = 883057.68
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 882954.68
+... bg_subtracted_sum = 922041.22
+... bg_subtracted_err = 5290.67
+... mag_instrument (sum) = -14.9119
+... mag_instrument (sum+err) = -14.9181
+... mag_instrument (err) = 0.0062
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1072.5387 929.72275 ...         922041.22         5290.6721
+
+idx 295 - 3 / 4 , Ref.Star: C ) # 22 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1080626.22
+... aper_annu_sum1 = 1337071.14
+... aper_annu_sum_err0 = 1763.32
+... aper_annu_sum_err1 = 1300.91
+... area of sum0 = 505.17
+... area of sum1 = 772.91
+... median_sigclip (annual mask per pix)  = 1728.54
+... bkg_mean (imdata statistic per pix)   = 1747.66
+... bkg_median (imdata statistic per pix) = 1747.01
+... bkg_sum (median_sigclip*area_sum0)           = 873202.15
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 873902.70
+... bg_subtracted_sum = 206723.52
+... bg_subtracted_err = 2191.27
+... mag_instrument (sum) = -13.2885
+... mag_instrument (sum+err) = -13.2999
+... mag_instrument (err) = 0.0114
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1109.7454 1008.8396 ...         206723.52         2191.2672
+
+idx 295 - 4 / 4 , Ref.Star: H ) # 22 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1089114.42
+... aper_annu_sum1 = 1119137.34
+... aper_annu_sum_err0 = 1787.73
+... aper_annu_sum_err1 = 1190.49
+... area of sum0 = 505.17
+... area of sum1 = 646.61
+... median_sigclip (annual mask per pix)  = 1729.70
+... bkg_mean (imdata statistic per pix)   = 1747.66
+... bkg_median (imdata statistic per pix) = 1747.01
+... bkg_sum (median_sigclip*area_sum0)           = 873788.95
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 874326.04
+... bg_subtracted_sum = 214788.38
+... bg_subtracted_err = 2147.85
+... mag_instrument (sum) = -13.3300
+... mag_instrument (sum+err) = -13.3408
+... mag_instrument (err) = 0.0108
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1071.1898 1111.6411 ...         214788.38         2147.8478
+
+=================================
+... measurement error after background subtraction (counts): 3310.2308
+... magnitude error after background subtraction (mag): 0.0093
+
+... rmag_fitting (Ref.Stars only): [11.98994296 13.78262502 13.73673992]
+... rmag_fitting (Target only): 13.154705951150179
+... fitting residual: [ 5.70423611e-05  7.37498002e-03 -6.73991859e-03]
+... fitting error (mag) = 0.0050
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0270
+... error of (calibration + observation) [mag]: 0.0106
+label_source[k] ['L-Lacertae, Rmag=13.15', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 214788.37799362594
+... InstMag_width = 1.62 , Rmag_width = 1.79
+=================================
+idx 324 ) ID = 325 , # 23 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171006@143926-R_30508_calib.fits
+calendar_date 2017-10-06 14:39:48.000015
+
+... bkg_mean,bkg_median,bkg_std
+... 1328.6065 1327.5869 41.2305
+... bkg_err_ratio = bkg_std/bkg_median = 0.0311
+
+idx 324 - 1 / 4 , Ref.Star: BLLac ) # 23 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1016490.73
+... aper_annu_sum1 = 319148.17
+... aper_annu_sum_err0 = 2043.35
+... aper_annu_sum_err1 = 642.02
+... area of sum0 = 505.14
+... area of sum1 = 238.68
+... median_sigclip (annual mask per pix)  = 1335.58
+... bkg_mean (imdata statistic per pix)   = 1328.61
+... bkg_median (imdata statistic per pix) = 1327.59
+... bkg_sum (median_sigclip*area_sum0)           = 674652.68
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 675445.87
+... bg_subtracted_sum = 341044.87
+... bg_subtracted_err = 2141.84
+... mag_instrument (sum) = -13.8320
+... mag_instrument (sum+err) = -13.8388
+... mag_instrument (err) = 0.0068
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1068.5583 964.46258 ...         341044.87         2141.8408
+
+idx 324 - 2 / 4 , Ref.Star: B ) # 23 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1708630.00
+... aper_annu_sum1 = 352026.15
+... aper_annu_sum_err0 = 5268.92
+... aper_annu_sum_err1 = 674.89
+... area of sum0 = 505.14
+... area of sum1 = 262.67
+... median_sigclip (annual mask per pix)  = 1339.63
+... bkg_mean (imdata statistic per pix)   = 1328.61
+... bkg_median (imdata statistic per pix) = 1327.59
+... bkg_sum (median_sigclip*area_sum0)           = 676700.03
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 676973.37
+... bg_subtracted_sum = 1031656.63
+... bg_subtracted_err = 5311.96
+... mag_instrument (sum) = -15.0338
+... mag_instrument (sum+err) = -15.0394
+... mag_instrument (err) = 0.0056
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1065.6712 933.71026 ...         1031656.6         5311.9638
+
+idx 324 - 3 / 4 , Ref.Star: C ) # 23 / 26 image of L-Lacertae
+... aper_annu_sum0 = 875530.57
+... aper_annu_sum1 = 1018578.95
+... aper_annu_sum_err0 = 1538.27
+... aper_annu_sum_err1 = 1138.33
+... area of sum0 = 505.14
+... area of sum1 = 772.86
+... median_sigclip (annual mask per pix)  = 1318.16
+... bkg_mean (imdata statistic per pix)   = 1328.61
+... bkg_median (imdata statistic per pix) = 1327.59
+... bkg_sum (median_sigclip*area_sum0)           = 665852.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 665737.88
+... bg_subtracted_sum = 209792.70
+... bg_subtracted_err = 1913.66
+... mag_instrument (sum) = -13.3045
+... mag_instrument (sum+err) = -13.3143
+... mag_instrument (err) = 0.0099
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1102.9446 1012.7949 ...          209792.7         1913.6564
+
+idx 324 - 4 / 4 , Ref.Star: H ) # 23 / 26 image of L-Lacertae
+... aper_annu_sum0 = 880996.29
+... aper_annu_sum1 = 852997.89
+... aper_annu_sum_err0 = 1553.15
+... aper_annu_sum_err1 = 1042.28
+... area of sum0 = 505.14
+... area of sum1 = 646.58
+... median_sigclip (annual mask per pix)  = 1319.28
+... bkg_mean (imdata statistic per pix)   = 1328.61
+... bkg_median (imdata statistic per pix) = 1327.59
+... bkg_sum (median_sigclip*area_sum0)           = 666418.02
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 666404.60
+... bg_subtracted_sum = 214591.69
+... bg_subtracted_err = 1870.46
+... mag_instrument (sum) = -13.3290
+... mag_instrument (sum+err) = -13.3385
+... mag_instrument (err) = 0.0094
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1064.4783 1115.6291 ...         214591.69         1870.4613
+
+=================================
+... measurement error after background subtraction (counts): 3160.8997
+... magnitude error after background subtraction (mag): 0.0081
+
+... rmag_fitting (Ref.Stars only): [11.98991702 13.77199186 13.74668703]
+... rmag_fitting (Target only): 13.228358596032443
+... fitting residual: [ 8.29784157e-05  1.80081438e-02 -1.66870344e-02]
+... fitting error (mag) = 0.0123
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0311
+... error of (calibration + observation) [mag]: 0.0147
+label_source[k] ['L-Lacertae, Rmag=13.23', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.77', 'L-Lacertae, Rmag=13.75']
+... bg_subtracted_sum = 214591.68684445194
+... InstMag_width = 1.73 , Rmag_width = 1.78
+=================================
+idx 325 ) ID = 326 , # 24 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171006@144300-R_30508_calib.fits
+calendar_date 2017-10-06 14:43:01.000015
+
+... bkg_mean,bkg_median,bkg_std
+... 1332.8894 1331.9399 41.1604
+... bkg_err_ratio = bkg_std/bkg_median = 0.0309
+
+idx 325 - 1 / 4 , Ref.Star: BLLac ) # 24 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1020730.25
+... aper_annu_sum1 = 319875.84
+... aper_annu_sum_err0 = 2189.83
+... aper_annu_sum_err1 = 640.14
+... area of sum0 = 505.20
+... area of sum1 = 238.71
+... median_sigclip (annual mask per pix)  = 1339.96
+... bkg_mean (imdata statistic per pix)   = 1332.89
+... bkg_median (imdata statistic per pix) = 1331.94
+... bkg_sum (median_sigclip*area_sum0)           = 676947.61
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 676985.91
+... bg_subtracted_sum = 343744.34
+... bg_subtracted_err = 2281.47
+... mag_instrument (sum) = -13.8406
+... mag_instrument (sum+err) = -13.8478
+... mag_instrument (err) = 0.0072
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1068.2513 965.01404 ...         343744.34         2281.4744
+
+idx 325 - 2 / 4 , Ref.Star: B ) # 24 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1699016.13
+... aper_annu_sum1 = 352119.79
+... aper_annu_sum_err0 = 5698.76
+... aper_annu_sum_err1 = 671.63
+... area of sum0 = 505.20
+... area of sum1 = 262.70
+... median_sigclip (annual mask per pix)  = 1339.38
+... bkg_mean (imdata statistic per pix)   = 1332.89
+... bkg_median (imdata statistic per pix) = 1331.94
+... bkg_sum (median_sigclip*area_sum0)           = 676654.61
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 677153.44
+... bg_subtracted_sum = 1021862.69
+... bg_subtracted_err = 5738.20
+... mag_instrument (sum) = -15.0235
+... mag_instrument (sum+err) = -15.0296
+... mag_instrument (err) = 0.0061
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1065.3627 934.26156 ...         1021862.7         5738.2031
+
+idx 325 - 3 / 4 , Ref.Star: C ) # 24 / 26 image of L-Lacertae
+... aper_annu_sum0 = 877165.13
+... aper_annu_sum1 = 1021036.28
+... aper_annu_sum_err0 = 1615.01
+... aper_annu_sum_err1 = 1135.38
+... area of sum0 = 505.20
+... area of sum1 = 772.96
+... median_sigclip (annual mask per pix)  = 1318.20
+... bkg_mean (imdata statistic per pix)   = 1332.89
+... bkg_median (imdata statistic per pix) = 1331.94
+... bkg_sum (median_sigclip*area_sum0)           = 665953.31
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 667343.98
+... bg_subtracted_sum = 209821.16
+... bg_subtracted_err = 1974.17
+... mag_instrument (sum) = -13.3046
+... mag_instrument (sum+err) = -13.3148
+... mag_instrument (err) = 0.0102
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1102.6419 1013.3453 ...         209821.16         1974.1727
+
+idx 325 - 4 / 4 , Ref.Star: H ) # 24 / 26 image of L-Lacertae
+... aper_annu_sum0 = 884879.03
+... aper_annu_sum1 = 856135.54
+... aper_annu_sum_err0 = 1640.42
+... aper_annu_sum_err1 = 1040.84
+... area of sum0 = 505.20
+... area of sum1 = 646.66
+... median_sigclip (annual mask per pix)  = 1322.46
+... bkg_mean (imdata statistic per pix)   = 1332.89
+... bkg_median (imdata statistic per pix) = 1331.94
+... bkg_sum (median_sigclip*area_sum0)           = 668107.83
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 668855.89
+... bg_subtracted_sum = 216023.13
+... bg_subtracted_err = 1942.76
+... mag_instrument (sum) = -13.3363
+... mag_instrument (sum+err) = -13.3460
+... mag_instrument (err) = 0.0097
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1064.1778 1116.1822 ...         216023.13         1942.7635
+
+=================================
+... measurement error after background subtraction (counts): 3383.9248
+... magnitude error after background subtraction (mag): 0.0085
+
+... rmag_fitting (Ref.Stars only): [11.98990582 13.77594799 13.74308431]
+... rmag_fitting (Target only): 13.219033294337635
+... fitting residual: [ 9.41804563e-05  1.40520124e-02 -1.30843095e-02]
+... fitting error (mag) = 0.0096
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0309
+... error of (calibration + observation) [mag]: 0.0128
+label_source[k] ['L-Lacertae, Rmag=13.22', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 216023.13458318042
+... InstMag_width = 1.72 , Rmag_width = 1.79
+=================================
+idx 368 ) ID = 369 , # 25 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171010@172733-R_30508_calib.fits
+calendar_date 2017-10-10 17:27:54.999940
+
+... bkg_mean,bkg_median,bkg_std
+... 829.4734 828.1755 33.6009
+... bkg_err_ratio = bkg_std/bkg_median = 0.0406
+
+idx 368 - 1 / 4 , Ref.Star: BLLac ) # 25 / 26 image of L-Lacertae
+... aper_annu_sum0 = 698817.74
+... aper_annu_sum1 = 201347.22
+... aper_annu_sum_err0 = 1710.98
+... aper_annu_sum_err1 = 529.37
+... area of sum0 = 505.07
+... area of sum1 = 238.65
+... median_sigclip (annual mask per pix)  = 835.31
+... bkg_mean (imdata statistic per pix)   = 829.47
+... bkg_median (imdata statistic per pix) = 828.18
+... bkg_sum (median_sigclip*area_sum0)           = 421892.79
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 426131.69
+... bg_subtracted_sum = 272686.05
+... bg_subtracted_err = 1791.00
+... mag_instrument (sum) = -13.5892
+... mag_instrument (sum+err) = -13.5963
+... mag_instrument (err) = 0.0071
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1031.8101 1009.8532 ...         272686.05         1791.0047
+
+idx 368 - 2 / 4 , Ref.Star: B ) # 25 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1365097.86
+... aper_annu_sum1 = 221984.27
+... aper_annu_sum_err0 = 4816.76
+... aper_annu_sum_err1 = 556.16
+... area of sum0 = 505.07
+... area of sum1 = 262.64
+... median_sigclip (annual mask per pix)  = 843.42
+... bkg_mean (imdata statistic per pix)   = 829.47
+... bkg_median (imdata statistic per pix) = 828.18
+... bkg_sum (median_sigclip*area_sum0)           = 425989.55
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 426892.83
+... bg_subtracted_sum = 938205.03
+... bg_subtracted_err = 4848.76
+... mag_instrument (sum) = -14.9307
+... mag_instrument (sum+err) = -14.9363
+... mag_instrument (err) = 0.0056
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1029.3186 979.08936 ...         938205.03         4848.7618
+
+idx 368 - 3 / 4 , Ref.Star: C ) # 25 / 26 image of L-Lacertae
+... aper_annu_sum0 = 605261.50
+... aper_annu_sum1 = 635583.96
+... aper_annu_sum_err0 = 1369.32
+... aper_annu_sum_err1 = 928.29
+... area of sum0 = 505.07
+... area of sum1 = 772.76
+... median_sigclip (annual mask per pix)  = 820.53
+... bkg_mean (imdata statistic per pix)   = 829.47
+... bkg_median (imdata statistic per pix) = 828.18
+... bkg_sum (median_sigclip*area_sum0)           = 414425.96
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 415414.35
+... bg_subtracted_sum = 189847.14
+... bg_subtracted_err = 1654.32
+... mag_instrument (sum) = -13.1960
+... mag_instrument (sum+err) = -13.2054
+... mag_instrument (err) = 0.0094
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1065.5705 1058.5871 ...         189847.14         1654.3181
+
+idx 368 - 4 / 4 , Ref.Star: H ) # 25 / 26 image of L-Lacertae
+... aper_annu_sum0 = 611751.19
+... aper_annu_sum1 = 530259.53
+... aper_annu_sum_err0 = 1397.09
+... aper_annu_sum_err1 = 846.74
+... area of sum0 = 505.07
+... area of sum1 = 646.49
+... median_sigclip (annual mask per pix)  = 819.04
+... bkg_mean (imdata statistic per pix)   = 829.47
+... bkg_median (imdata statistic per pix) = 828.18
+... bkg_sum (median_sigclip*area_sum0)           = 413674.58
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 414265.26
+... bg_subtracted_sum = 197485.93
+... bg_subtracted_err = 1633.66
+... mag_instrument (sum) = -13.2388
+... mag_instrument (sum+err) = -13.2478
+... mag_instrument (err) = 0.0089
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1025.7881 1160.8419 ...         197485.93         1633.6607
+
+=================================
+... measurement error after background subtraction (counts): 2833.8933
+... magnitude error after background subtraction (mag): 0.0079
+
+... rmag_fitting (Ref.Stars only): [11.98992682 13.78181118 13.7375699 ]
+... rmag_fitting (Target only): 13.375711967089401
+... fitting residual: [ 7.31751172e-05  8.18881681e-03 -7.56990272e-03]
+... fitting error (mag) = 0.0056
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0406
+... error of (calibration + observation) [mag]: 0.0097
+label_source[k] ['L-Lacertae, Rmag=13.38', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.78', 'L-Lacertae, Rmag=13.74']
+... bg_subtracted_sum = 197485.9317255955
+... InstMag_width = 1.73 , Rmag_width = 1.79
+=================================
+idx 369 ) ID = 370 , # 26 / 26 image of L-Lacertae
+... filename : L-Lacertae-20171010@173106-R_30508_calib.fits
+calendar_date 2017-10-10 17:31:06.999945
+
+... bkg_mean,bkg_median,bkg_std
+... 850.4238 849.5073 34.2114
+... bkg_err_ratio = bkg_std/bkg_median = 0.0403
+
+idx 369 - 1 / 4 , Ref.Star: BLLac ) # 26 / 26 image of L-Lacertae
+... aper_annu_sum0 = 708432.55
+... aper_annu_sum1 = 205459.48
+... aper_annu_sum_err0 = 1772.20
+... aper_annu_sum_err1 = 536.12
+... area of sum0 = 505.09
+... area of sum1 = 238.66
+... median_sigclip (annual mask per pix)  = 860.89
+... bkg_mean (imdata statistic per pix)   = 850.42
+... bkg_median (imdata statistic per pix) = 849.51
+... bkg_sum (median_sigclip*area_sum0)           = 434826.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 434834.87
+... bg_subtracted_sum = 273597.68
+... bg_subtracted_err = 1851.51
+... mag_instrument (sum) = -13.5928
+... mag_instrument (sum+err) = -13.6001
+... mag_instrument (err) = 0.0073
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1031.1661 1012.3166 ...         273597.68         1851.5131
+
+idx 369 - 2 / 4 , Ref.Star: B ) # 26 / 26 image of L-Lacertae
+... aper_annu_sum0 = 1374300.47
+... aper_annu_sum1 = 226900.51
+... aper_annu_sum_err0 = 5060.11
+... aper_annu_sum_err1 = 564.20
+... area of sum0 = 505.09
+... area of sum1 = 262.65
+... median_sigclip (annual mask per pix)  = 862.39
+... bkg_mean (imdata statistic per pix)   = 850.42
+... bkg_median (imdata statistic per pix) = 849.51
+... bkg_sum (median_sigclip*area_sum0)           = 435586.86
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 436347.13
+... bg_subtracted_sum = 937953.35
+... bg_subtracted_err = 5091.47
+... mag_instrument (sum) = -14.9305
+... mag_instrument (sum+err) = -14.9363
+... mag_instrument (err) = 0.0059
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1028.6753 981.54768 ...         937953.35          5091.469
+
+idx 369 - 3 / 4 , Ref.Star: C ) # 26 / 26 image of L-Lacertae
+... aper_annu_sum0 = 614728.84
+... aper_annu_sum1 = 653926.07
+... aper_annu_sum_err0 = 1412.33
+... aper_annu_sum_err1 = 947.98
+... area of sum0 = 505.09
+... area of sum1 = 772.79
+... median_sigclip (annual mask per pix)  = 844.04
+... bkg_mean (imdata statistic per pix)   = 850.42
+... bkg_median (imdata statistic per pix) = 849.51
+... bkg_sum (median_sigclip*area_sum0)           = 426318.29
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 427402.66
+... bg_subtracted_sum = 187326.17
+... bg_subtracted_err = 1700.98
+... mag_instrument (sum) = -13.1815
+... mag_instrument (sum+err) = -13.1913
+... mag_instrument (err) = 0.0098
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1064.926 1061.0591 ...         187326.17         1700.9794
+
+idx 369 - 4 / 4 , Ref.Star: H ) # 26 / 26 image of L-Lacertae
+... aper_annu_sum0 = 621218.08
+... aper_annu_sum1 = 544230.37
+... aper_annu_sum_err0 = 1436.31
+... aper_annu_sum_err1 = 862.63
+... area of sum0 = 505.09
+... area of sum1 = 646.52
+... median_sigclip (annual mask per pix)  = 837.71
+... bkg_mean (imdata statistic per pix)   = 850.42
+... bkg_median (imdata statistic per pix) = 849.51
+... bkg_sum (median_sigclip*area_sum0)           = 423120.72
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 425179.97
+... bg_subtracted_sum = 196038.10
+... bg_subtracted_err = 1675.45
+... mag_instrument (sum) = -13.2309
+... mag_instrument (sum+err) = -13.2401
+... mag_instrument (err) = 0.0092
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1025.1406 1163.3296 ...          196038.1           1675.45
+
+=================================
+... measurement error after background subtraction (counts): 2960.2205
+... magnitude error after background subtraction (mag): 0.0082
+
+... rmag_fitting (Ref.Stars only): [11.98994912 13.78511484 13.73445576]
+... rmag_fitting (Target only): 13.36296350194085
+... fitting residual: [ 5.08818084e-05  4.88516000e-03 -4.45575762e-03]
+... fitting error (mag) = 0.0033
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0403
+... error of (calibration + observation) [mag]: 0.0089
+label_source[k] ['L-Lacertae, Rmag=13.36', 'L-Lacertae, Rmag=11.99', 'L-Lacertae, Rmag=13.79', 'L-Lacertae, Rmag=13.73']
+... bg_subtracted_sum = 196038.10365433147
+... InstMag_width = 1.75 , Rmag_width = 1.80
+
+Rmag [13.14897729 13.15940033 13.20603467 13.20131929 13.33529182 13.36275717
+ 13.15774195 13.14340061 13.08301575 13.07974681 13.1673763  13.17225981
+ 13.06242649 13.05435812 13.04304112 13.05176462 13.2366077  13.24711588
+ 13.15578441 13.15263169 13.14937472 13.15470595 13.2283586  13.21903329
+ 13.37571197 13.3629635 ]
+
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+14    15  2017-09-05  16:05:43  ...       0.0096       0.0128    0.0160
+15    16  2017-09-05  16:08:53  ...       0.0096       0.0122    0.0155
+28    29  2017-09-06  18:16:36  ...       0.0118       0.0028    0.0121
+29    30  2017-09-06  18:19:48  ...       0.0121       0.0044    0.0129
+42    43  2017-09-07  18:03:12  ...       0.0134       0.0161    0.0210
+43    44  2017-09-07  18:06:23  ...       0.0148       0.0054    0.0158
+62    63  2017-09-16  15:21:18  ...       0.0177       0.0101    0.0203
+63    64  2017-09-16  15:24:31  ...       0.0185       0.0138    0.0231
+82    83  2017-09-17  18:35:52  ...       0.0135       0.0095    0.0165
+83    84  2017-09-17  18:39:05  ...       0.0132       0.0077    0.0153
+118  119  2017-09-23  14:54:02  ...       0.0178       0.0104    0.0206
+119  120  2017-09-23  14:57:15  ...       0.0172       0.0110    0.0204
+166  167  2017-09-25  13:07:04  ...       0.0146       0.0099    0.0176
+167  168  2017-09-25  13:10:16  ...       0.0147       0.0107    0.0182
+197  198  2017-09-27  15:17:12  ...       0.0183       0.0133    0.0226
+198  199  2017-09-27  15:20:24  ...       0.0179       0.0107    0.0208
+211  212  2017-09-28  16:34:48  ...       0.0178       0.0089    0.0199
+212  213  2017-09-28  16:38:00  ...       0.0171       0.0094    0.0196
+270  271  2017-10-03  14:13:56  ...       0.0091       0.0104    0.0138
+271  272  2017-10-03  14:17:09  ...       0.0091       0.0177    0.0199
+294  295  2017-10-05  14:09:39  ...       0.0095       0.0109    0.0144
+295  296  2017-10-05  14:13:06  ...       0.0093       0.0050    0.0106
+324  325  2017-10-06  14:39:48  ...       0.0081       0.0123    0.0147
+325  326  2017-10-06  14:43:01  ...       0.0085       0.0096    0.0128
+368  369  2017-10-10  17:27:55  ...       0.0079       0.0056    0.0097
+369  370  2017-10-10  17:31:07  ...       0.0082       0.0033    0.0089
+
+[26 rows x 23 columns]
+... there are 0 bad fits
+before drop bad fits: idx_fitsheader_canfit = Int64Index([ 14,  15,  28,  29,  42,  43,  62,  63,  82,  83, 118, 119, 166,
+            167, 197, 198, 211, 212, 270, 271, 294, 295, 324, 325, 368, 369],
+           dtype='int64')
+0 14 L-Lacertae-20170905@160521-R_30508_calib.fits
+1 15 L-Lacertae-20170905@160853-R_30508_calib.fits
+2 28 L-Lacertae-20170906@181615-R_30508_calib.fits
+3 29 L-Lacertae-20170906@181948-R_30508_calib.fits
+4 42 L-Lacertae-20170907@180251-R_30508_calib.fits
+5 43 L-Lacertae-20170907@180623-R_30508_calib.fits
+6 62 L-Lacertae-20170916@152056-R_30508_calib.fits
+7 63 L-Lacertae-20170916@152431-R_30508_calib.fits
+8 82 L-Lacertae-20170917@183530-R_30508_calib.fits
+9 83 L-Lacertae-20170917@183905-R_30508_calib.fits
+10 118 L-Lacertae-20170923@145340-R_30508_calib.fits
+11 119 L-Lacertae-20170923@145715-R_30508_calib.fits
+12 166 L-Lacertae-20170925@130642-R_30508_calib.fits
+13 167 L-Lacertae-20170925@131016-R_30508_calib.fits
+14 197 L-Lacertae-20170927@151650-R_30508_calib.fits
+15 198 L-Lacertae-20170927@152024-R_30508_calib.fits
+16 211 L-Lacertae-20170928@163426-R_30508_calib.fits
+17 212 L-Lacertae-20170928@163800-R_30508_calib.fits
+18 270 L-Lacertae-20171003@141334-R_30508_calib.fits
+19 271 L-Lacertae-20171003@141708-R_30508_calib.fits
+20 294 L-Lacertae-20171005@140917-R_30508_calib.fits
+21 295 L-Lacertae-20171005@141306-R_30508_calib.fits
+22 324 L-Lacertae-20171006@143926-R_30508_calib.fits
+23 325 L-Lacertae-20171006@144300-R_30508_calib.fits
+24 368 L-Lacertae-20171010@172733-R_30508_calib.fits
+25 369 L-Lacertae-20171010@173106-R_30508_calib.fits
+Int64Index([ 14,  15,  28,  29,  42,  43,  62,  63,  82,  83, 118, 119, 166,
+            167, 197, 198, 211, 212, 270, 271, 294, 295, 324, 325, 368, 369],
+           dtype='int64')
+Int64Index([ 15,  16,  29,  30,  43,  44,  63,  64,  83,  84, 119, 120, 167,
+            168, 198, 199, 212, 213, 271, 272, 295, 296, 325, 326, 369, 370],
+           dtype='int64')
+Int64Index([], dtype='int64')
+
+... skip idx_fitsheader_keep [] = Int64Index([], dtype='int64') ... bad fits ...
+
+after drop bad fits: idx_fitsheader_keep = Int64Index([ 14,  15,  28,  29,  42,  43,  62,  63,  82,  83, 118, 119, 166,
+            167, 197, 198, 211, 212, 270, 271, 294, 295, 324, 325, 368, 369],
+           dtype='int64')
+... keep fits ...
+14     L-Lacertae-20170905@160521-R_30508_calib.fits
+15     L-Lacertae-20170905@160853-R_30508_calib.fits
+28     L-Lacertae-20170906@181615-R_30508_calib.fits
+29     L-Lacertae-20170906@181948-R_30508_calib.fits
+42     L-Lacertae-20170907@180251-R_30508_calib.fits
+43     L-Lacertae-20170907@180623-R_30508_calib.fits
+62     L-Lacertae-20170916@152056-R_30508_calib.fits
+63     L-Lacertae-20170916@152431-R_30508_calib.fits
+82     L-Lacertae-20170917@183530-R_30508_calib.fits
+83     L-Lacertae-20170917@183905-R_30508_calib.fits
+118    L-Lacertae-20170923@145340-R_30508_calib.fits
+119    L-Lacertae-20170923@145715-R_30508_calib.fits
+166    L-Lacertae-20170925@130642-R_30508_calib.fits
+167    L-Lacertae-20170925@131016-R_30508_calib.fits
+197    L-Lacertae-20170927@151650-R_30508_calib.fits
+198    L-Lacertae-20170927@152024-R_30508_calib.fits
+211    L-Lacertae-20170928@163426-R_30508_calib.fits
+212    L-Lacertae-20170928@163800-R_30508_calib.fits
+270    L-Lacertae-20171003@141334-R_30508_calib.fits
+271    L-Lacertae-20171003@141708-R_30508_calib.fits
+294    L-Lacertae-20171005@140917-R_30508_calib.fits
+295    L-Lacertae-20171005@141306-R_30508_calib.fits
+324    L-Lacertae-20171006@143926-R_30508_calib.fits
+325    L-Lacertae-20171006@144300-R_30508_calib.fits
+368    L-Lacertae-20171010@172733-R_30508_calib.fits
+369    L-Lacertae-20171010@173106-R_30508_calib.fits
+Name: Filename, dtype: object
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+14    15  2017-09-05  16:05:43  ...       0.0096       0.0128    0.0160
+15    16  2017-09-05  16:08:53  ...       0.0096       0.0122    0.0155
+28    29  2017-09-06  18:16:36  ...       0.0118       0.0028    0.0121
+29    30  2017-09-06  18:19:48  ...       0.0121       0.0044    0.0129
+42    43  2017-09-07  18:03:12  ...       0.0134       0.0161    0.0210
+43    44  2017-09-07  18:06:23  ...       0.0148       0.0054    0.0158
+62    63  2017-09-16  15:21:18  ...       0.0177       0.0101    0.0203
+63    64  2017-09-16  15:24:31  ...       0.0185       0.0138    0.0231
+82    83  2017-09-17  18:35:52  ...       0.0135       0.0095    0.0165
+83    84  2017-09-17  18:39:05  ...       0.0132       0.0077    0.0153
+118  119  2017-09-23  14:54:02  ...       0.0178       0.0104    0.0206
+119  120  2017-09-23  14:57:15  ...       0.0172       0.0110    0.0204
+166  167  2017-09-25  13:07:04  ...       0.0146       0.0099    0.0176
+167  168  2017-09-25  13:10:16  ...       0.0147       0.0107    0.0182
+197  198  2017-09-27  15:17:12  ...       0.0183       0.0133    0.0226
+198  199  2017-09-27  15:20:24  ...       0.0179       0.0107    0.0208
+211  212  2017-09-28  16:34:48  ...       0.0178       0.0089    0.0199
+212  213  2017-09-28  16:38:00  ...       0.0171       0.0094    0.0196
+270  271  2017-10-03  14:13:56  ...       0.0091       0.0104    0.0138
+271  272  2017-10-03  14:17:09  ...       0.0091       0.0177    0.0199
+294  295  2017-10-05  14:09:39  ...       0.0095       0.0109    0.0144
+295  296  2017-10-05  14:13:06  ...       0.0093       0.0050    0.0106
+324  325  2017-10-06  14:39:48  ...       0.0081       0.0123    0.0147
+325  326  2017-10-06  14:43:01  ...       0.0085       0.0096    0.0128
+368  369  2017-10-10  17:27:55  ...       0.0079       0.0056    0.0097
+369  370  2017-10-10  17:31:07  ...       0.0082       0.0033    0.0089
+
+[26 rows x 23 columns]
+              JD     Rmag  ErrorRmag
+0   2.458002e+06  13.1490     0.0160
+1   2.458002e+06  13.1594     0.0155
+2   2.458003e+06  13.2060     0.0121
+3   2.458003e+06  13.2013     0.0129
+4   2.458004e+06  13.3353     0.0210
+5   2.458004e+06  13.3628     0.0158
+6   2.458013e+06  13.1577     0.0203
+7   2.458013e+06  13.1434     0.0231
+8   2.458014e+06  13.0830     0.0165
+9   2.458014e+06  13.0797     0.0153
+10  2.458020e+06  13.1674     0.0206
+11  2.458020e+06  13.1723     0.0204
+12  2.458022e+06  13.0624     0.0176
+13  2.458022e+06  13.0544     0.0182
+14  2.458024e+06  13.0430     0.0226
+15  2.458024e+06  13.0518     0.0208
+16  2.458025e+06  13.2366     0.0199
+17  2.458025e+06  13.2471     0.0196
+18  2.458030e+06  13.1558     0.0138
+19  2.458030e+06  13.1526     0.0199
+20  2.458032e+06  13.1494     0.0144
+21  2.458032e+06  13.1547     0.0106
+22  2.458033e+06  13.2284     0.0147
+23  2.458033e+06  13.2190     0.0128
+24  2.458037e+06  13.3757     0.0097
+25  2.458037e+06  13.3630     0.0089
+0
+[2458002.1706365743, 2458002.172835648, 2458003.2615277776, 2458003.26375, 2458004.2522222223, 2458004.2544328705, 2458013.139791666, 2458013.1420254633, 2458014.2749074074, 2458014.277141204, 2458020.1208564816, 2458020.1230902784, 2458022.046574074, 2458022.048796296, 2458024.1369444444, 2458024.1391666667, 2458025.190833333, 2458025.193055556, 2458030.093009259, 2458030.095243056, 2458032.0900347224, 2458032.0924305557, 2458033.1109722224, 2458033.1132060187, 2458037.2277199067, 2458037.229942129]
+[13.14897729 13.15940033 13.20603467 13.20131929 13.33529182 13.36275717
+ 13.15774195 13.14340061 13.08301575 13.07974681 13.1673763  13.17225981
+ 13.06242649 13.05435812 13.04304112 13.05176462 13.2366077  13.24711588
+ 13.15578441 13.15263169 13.14937472 13.15470595 13.2283586  13.21903329
+ 13.37571197 13.3629635 ]
+i= 0
+1
+[2458002.1706365743, 2458002.172835648, 2458003.2615277776, 2458003.26375, 2458004.2522222223, 2458004.2544328705, 2458013.139791666, 2458013.1420254633, 2458014.2749074074, 2458014.277141204, 2458020.1208564816, 2458020.1230902784, 2458022.046574074, 2458022.048796296, 2458024.1369444444, 2458024.1391666667, 2458025.190833333, 2458025.193055556, 2458030.093009259, 2458030.095243056, 2458032.0900347224, 2458032.0924305557, 2458033.1109722224, 2458033.1132060187, 2458037.2277199067, 2458037.229942129]
+[11.98997952 11.98997915 11.98998756 11.98998366 11.98998225 11.98998417
+ 11.98979162 11.98981984 11.98983318 11.98984295 11.98977722 11.98977454
+ 11.98977949 11.98977347 11.98980766 11.98979624 11.98979726 11.98978476
+ 11.98989646 11.98994368 11.98991945 11.98994296 11.98991702 11.98990582
+ 11.98992682 11.98994912]
+i= 1
+2
+[2458002.1706365743, 2458002.172835648, 2458003.2615277776, 2458003.26375, 2458004.2522222223, 2458004.2544328705, 2458013.139791666, 2458013.1420254633, 2458014.2749074074, 2458014.277141204, 2458020.1208564816, 2458020.1230902784, 2458022.046574074, 2458022.048796296, 2458024.1369444444, 2458024.1391666667, 2458025.190833333, 2458025.193055556, 2458030.093009259, 2458030.095243056, 2458032.0900347224, 2458032.0924305557, 2458033.1109722224, 2458033.1132060187, 2458037.2277199067, 2458037.229942129]
+[13.77093378 13.77186554 13.78569546 13.78341516 13.76603164 13.78180476
+ 13.7758638  13.77077395 13.77652256 13.77910894 13.77533089 13.77448215
+ 13.77612435 13.77489821 13.77110824 13.7749053  13.77740169 13.77662997
+ 13.77482147 13.7643607  13.77401309 13.78262502 13.77199186 13.77594799
+ 13.78181118 13.78511484]
+i= 2
+3
+[2458002.1706365743, 2458002.172835648, 2458003.2615277776, 2458003.26375, 2458004.2522222223, 2458004.2544328705, 2458013.139791666, 2458013.1420254633, 2458014.2749074074, 2458014.277141204, 2458020.1208564816, 2458020.1230902784, 2458022.046574074, 2458022.048796296, 2458024.1369444444, 2458024.1391666667, 2458025.190833333, 2458025.193055556, 2458030.093009259, 2458030.095243056, 2458032.0900347224, 2458032.0924305557, 2458033.1109722224, 2458033.1132060187, 2458037.2277199067, 2458037.229942129]
+[13.74705632 13.74622955 13.73373582 13.73572957 13.75163258 13.73713012
+ 13.74433859 13.74971376 13.74340508 13.7409562  13.74467818 13.74567638
+ 13.74407152 13.74510196 13.7487388  13.74508416 13.74252464 13.74333968
+ 13.74419799 13.75437039 13.74484847 13.73673992 13.74668703 13.74308431
+ 13.7375699  13.73445576]
+i= 3
+
+Rmag with nan value: []
+
+... write file to: ./Rmag_InstMag/annu_w1/L-Lacertae/Rmag_aperture_L-Lacertae_annu.txt
+... write file to: ./Rmag_InstMag/annu_w1/L-Lacertae/Rmag_L-Lacertae_all.txt
+... finished ...

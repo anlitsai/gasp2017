@@ -1,0 +1,17 @@
+python  slt_calibration_science_calibration_180S.py  #python slt_calibration_master_1month_180S.py '201910'
+python  slt_calibration_science_calibration_180S.py  slt20190301
+python  slt_calibration_science_calibration_180S.py  slt20190302
+python  slt_calibration_science_calibration_180S.py  slt20190303
+python  slt_calibration_science_calibration_180S.py  slt20190312
+python  slt_calibration_science_calibration_180S.py  slt20190313
+python  slt_calibration_science_calibration_180S.py  slt20190317
+python  slt_calibration_science_calibration_180S.py  slt20190319
+python  slt_calibration_science_calibration_180S.py  slt20190320
+python  slt_calibration_science_calibration_180S.py  slt20190321
+python  slt_calibration_science_calibration_180S.py  slt20190325
+python  slt_calibration_science_calibration_180S.py  slt20190326
+python  slt_calibration_science_calibration_180S.py  slt20190327
+python  slt_calibration_science_calibration_180S.py  slt20190328
+python  slt_calibration_science_calibration_180S.py  slt20190329
+python  slt_calibration_science_calibration_180S.py  slt20190330
+python  slt_calibration_science_calibration_180S.py  slt20190331

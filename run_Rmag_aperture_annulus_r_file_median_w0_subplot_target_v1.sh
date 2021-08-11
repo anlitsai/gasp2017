@@ -1,0 +1,1 @@
+../gasp/run_Rmag_aperture_annulus_r_file_median_w0_subplot_target_v1.sh

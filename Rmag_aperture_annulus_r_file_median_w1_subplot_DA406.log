@@ -1,0 +1,261 @@
+... will read gasp_target_fitsheader_info_exclude_baddata_2017.txt ...
+      ID     DateObs   TimeObs  ...    FWHM Altitude Airmass
+0      1  2017-09-05  15:34:55  ...  6.5488   2862.0  2.0397
+1      2  2017-09-05  15:38:07  ...  6.3398   2862.0  2.0572
+2      3  2017-09-05  15:57:19  ...  5.4140   2862.0  1.0087
+3      4  2017-09-05  16:00:30  ...  5.0077   2862.0  1.0092
+4      5  2017-09-05  16:21:56  ...  4.5208   2862.0  1.3238
+..   ...         ...       ...  ...     ...      ...     ...
+377  378  2017-10-10  18:13:33  ...  4.9963   2862.0  1.7970
+378  379  2017-10-10  18:33:03  ...  6.2048   2862.0  2.7707
+379  380  2017-10-10  18:36:14  ...  6.0631   2862.0  2.7313
+380  381  2017-10-10  18:01:39  ...  3.7919   2862.0  1.8951
+381  382  2017-10-10  18:04:51  ...  4.0252   2862.0  1.8827
+
+[382 rows x 18 columns]
+... will generate files in: ./Rmag_InstMag/annu_w1/DA406/
+-----------------------
+Int64Index([162, 163], dtype='int64')
+162    DA406-20170925@120152-R_30508_calib.fits
+163    DA406-20170925@120525-R_30508_calib.fits
+Name: Filename, dtype: object
+... there are 0 fits can not be fitted ...
+[]
+before drop bad fits: idx_fitsheader = Int64Index([162, 163], dtype='int64')
+0 162 DA406-20170925@120152-R_30508_calib.fits
+1 163 DA406-20170925@120525-R_30508_calib.fits
+Int64Index([162, 163], dtype='int64')
+Int64Index([163, 164], dtype='int64')
+Int64Index([], dtype='int64')
+
+=================================
+idx 162 ) ID = 163 , # 1 / 2 image of DA406
+... filename : DA406-20170925@120152-R_30508_calib.fits
+calendar_date 2017-09-25 12:02:13.000002
+
+... bkg_mean,bkg_median,bkg_std
+... 435.5362 435.5076 23.4818
+... bkg_err_ratio = bkg_std/bkg_median = 0.0539
+
+idx 162 - 1 / 3 , Ref.Star: DA406 ) # 1 / 2 image of DA406
+... aper_annu_sum0 = 226611.08
+... aper_annu_sum1 = 499681.25
+... aper_annu_sum_err0 = 546.24
+... aper_annu_sum_err1 = 800.14
+... area of sum0 = 505.15
+... area of sum1 = 1136.59
+... median_sigclip (annual mask per pix)  = 438.13
+... bkg_mean (imdata statistic per pix)   = 435.54
+... bkg_median (imdata statistic per pix) = 435.51
+... bkg_sum (median_sigclip*area_sum0)           = 221322.47
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 222080.56
+... bg_subtracted_sum = 4530.52
+... bg_subtracted_err = 968.81
+... mag_instrument (sum) = -9.1404
+... mag_instrument (sum+err) = -9.3508
+... mag_instrument (err) = 0.2104
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1102.461 900.03607 ...         4530.5224          968.8104
+
+idx 162 - 2 / 3 , Ref.Star: C ) # 1 / 2 image of DA406
+... aper_annu_sum0 = 573853.93
+... aper_annu_sum1 = 610278.73
+... aper_annu_sum_err0 = 2186.37
+... aper_annu_sum_err1 = 884.18
+... area of sum0 = 853.71
+... area of sum1 = 1389.17
+... median_sigclip (annual mask per pix)  = 437.00
+... bkg_mean (imdata statistic per pix)   = 435.54
+... bkg_median (imdata statistic per pix) = 435.51
+... bkg_sum (median_sigclip*area_sum0)           = 373069.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 375044.02
+... bg_subtracted_sum = 198809.91
+... bg_subtracted_err = 2358.39
+... mag_instrument (sum) = -13.2461
+... mag_instrument (sum+err) = -13.2589
+... mag_instrument (err) = 0.0128
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1031.6034 758.66013 ...         198809.91           2358.39
+
+idx 162 - 3 / 3 , Ref.Star: C2 ) # 1 / 2 image of DA406
+... aper_annu_sum0 = 788343.87
+... aper_annu_sum1 = 503404.41
+... aper_annu_sum_err0 = 3056.70
+... aper_annu_sum_err1 = 806.11
+... area of sum0 = 1136.59
+... area of sum1 = 1136.59
+... median_sigclip (annual mask per pix)  = 442.37
+... bkg_mean (imdata statistic per pix)   = 435.54
+... bkg_median (imdata statistic per pix) = 435.51
+... bkg_sum (median_sigclip*area_sum0)           = 502800.42
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 503404.41
+... bg_subtracted_sum = 284939.46
+... bg_subtracted_err = 3161.21
+... mag_instrument (sum) = -13.6369
+... mag_instrument (sum+err) = -13.6489
+... mag_instrument (err) = 0.0120
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1186.9681 961.16288 ...         284939.46         3161.2053
+
+=================================
+... measurement error after background subtraction (counts): 2344.7684
+... magnitude error after background subtraction (mag): 0.1219
+
+... rmag_fitting (Ref.Stars only): [13.69 13.34]
+... rmag_fitting (Target only): 17.367209408462827
+... fitting residual: [ 1.77635684e-15 -1.77635684e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0539
+... error of (calibration + observation) [mag]: 0.1219
+label_source[k] ['DA406, Rmag=17.37', 'DA406, Rmag=13.69', 'DA406, Rmag=13.34']
+... bg_subtracted_sum = 284939.4593806959
+... InstMag_width = 4.50 , Rmag_width = 4.03
+=================================
+idx 163 ) ID = 164 , # 2 / 2 image of DA406
+... filename : DA406-20170925@120525-R_30508_calib.fits
+calendar_date 2017-09-25 12:05:25.000007
+
+... bkg_mean,bkg_median,bkg_std
+... 433.4728 433.4295 23.5216
+... bkg_err_ratio = bkg_std/bkg_median = 0.0543
+
+idx 163 - 1 / 3 , Ref.Star: DA406 ) # 2 / 2 image of DA406
+... aper_annu_sum0 = 224665.91
+... aper_annu_sum1 = 496024.68
+... aper_annu_sum_err0 = 544.94
+... aper_annu_sum_err1 = 799.47
+... area of sum0 = 505.10
+... area of sum1 = 1136.48
+... median_sigclip (annual mask per pix)  = 435.13
+... bkg_mean (imdata statistic per pix)   = 433.47
+... bkg_median (imdata statistic per pix) = 433.43
+... bkg_sum (median_sigclip*area_sum0)           = 219782.66
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 220455.41
+... bg_subtracted_sum = 4210.49
+... bg_subtracted_err = 967.53
+... mag_instrument (sum) = -9.0608
+... mag_instrument (sum+err) = -9.2854
+... mag_instrument (err) = 0.2246
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1102.8044 900.70385 ...         4210.4917         967.52865
+
+idx 163 - 2 / 3 , Ref.Star: C ) # 2 / 2 image of DA406
+... aper_annu_sum0 = 573184.24
+... aper_annu_sum1 = 605263.78
+... aper_annu_sum_err0 = 2071.81
+... aper_annu_sum_err1 = 882.33
+... area of sum0 = 853.62
+... area of sum1 = 1389.03
+... median_sigclip (annual mask per pix)  = 433.95
+... bkg_mean (imdata statistic per pix)   = 433.47
+... bkg_median (imdata statistic per pix) = 433.43
+... bkg_sum (median_sigclip*area_sum0)           = 370426.07
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 371962.11
+... bg_subtracted_sum = 201222.14
+... bg_subtracted_err = 2251.87
+... mag_instrument (sum) = -13.2592
+... mag_instrument (sum+err) = -13.2713
+... mag_instrument (err) = 0.0121
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1031.958 759.32768 ...         201222.14         2251.8694
+
+idx 163 - 3 / 3 , Ref.Star: C2 ) # 2 / 2 image of DA406
+... aper_annu_sum0 = 788738.46
+... aper_annu_sum1 = 499452.84
+... aper_annu_sum_err0 = 2843.19
+... aper_annu_sum_err1 = 805.07
+... area of sum0 = 1136.48
+... area of sum1 = 1136.48
+... median_sigclip (annual mask per pix)  = 438.14
+... bkg_mean (imdata statistic per pix)   = 433.47
+... bkg_median (imdata statistic per pix) = 433.43
+... bkg_sum (median_sigclip*area_sum0)           = 497939.48
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 499452.84
+... bg_subtracted_sum = 289285.63
+... bg_subtracted_err = 2954.97
+... mag_instrument (sum) = -13.6533
+... mag_instrument (sum+err) = -13.6644
+... mag_instrument (err) = 0.0110
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1187.304 961.83357 ...         289285.63         2954.9729
+
+=================================
+... measurement error after background subtraction (counts): 2216.5207
+... magnitude error after background subtraction (mag): 0.1300
+
+... rmag_fitting (Ref.Stars only): [13.69 13.34]
+... rmag_fitting (Target only): 17.418296531177358
+... fitting residual: [ 1.77635684e-15 -5.32907052e-15]
+... fitting error (mag) = 0.0000
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0543
+... error of (calibration + observation) [mag]: 0.1300
+label_source[k] ['DA406, Rmag=17.42', 'DA406, Rmag=13.69', 'DA406, Rmag=13.34']
+... bg_subtracted_sum = 289285.6280570367
+... InstMag_width = 4.59 , Rmag_width = 4.08
+
+Rmag [17.36720941 17.41829653]
+
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+162  163  2017-09-25  12:02:13  ...       0.1219       0.0000    0.1219
+163  164  2017-09-25  12:05:25  ...       0.1300       0.0000    0.1300
+
+[2 rows x 23 columns]
+... there are 0 bad fits
+before drop bad fits: idx_fitsheader_canfit = Int64Index([162, 163], dtype='int64')
+0 162 DA406-20170925@120152-R_30508_calib.fits
+1 163 DA406-20170925@120525-R_30508_calib.fits
+Int64Index([162, 163], dtype='int64')
+Int64Index([163, 164], dtype='int64')
+Int64Index([], dtype='int64')
+
+... skip idx_fitsheader_keep [] = Int64Index([], dtype='int64') ... bad fits ...
+
+after drop bad fits: idx_fitsheader_keep = Int64Index([162, 163], dtype='int64')
+... keep fits ...
+162    DA406-20170925@120152-R_30508_calib.fits
+163    DA406-20170925@120525-R_30508_calib.fits
+Name: Filename, dtype: object
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+162  163  2017-09-25  12:02:13  ...       0.1219       0.0000    0.1219
+163  164  2017-09-25  12:05:25  ...       0.1300       0.0000    0.1300
+
+[2 rows x 23 columns]
+             JD     Rmag  ErrorRmag
+0  2.458022e+06  17.3672     0.1219
+1  2.458022e+06  17.4183     0.1300
+0
+[2458022.001539352, 2458022.003761574]
+[17.36720941 17.41829653]
+i= 0
+1
+[2458022.001539352, 2458022.003761574]
+[13.69 13.69]
+i= 1
+2
+[2458022.001539352, 2458022.003761574]
+[13.34 13.34]
+i= 2
+
+Rmag with nan value: []
+
+... write file to: ./Rmag_InstMag/annu_w1/DA406/Rmag_aperture_DA406_annu.txt
+... write file to: ./Rmag_InstMag/annu_w1/DA406/Rmag_DA406_all.txt
+... finished ...

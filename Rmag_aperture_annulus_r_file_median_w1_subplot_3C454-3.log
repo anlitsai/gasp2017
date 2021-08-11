@@ -1,0 +1,2900 @@
+... will read gasp_target_fitsheader_info_exclude_baddata_2017.txt ...
+      ID     DateObs   TimeObs  ...    FWHM Altitude Airmass
+0      1  2017-09-05  15:34:55  ...  6.5488   2862.0  2.0397
+1      2  2017-09-05  15:38:07  ...  6.3398   2862.0  2.0572
+2      3  2017-09-05  15:57:19  ...  5.4140   2862.0  1.0087
+3      4  2017-09-05  16:00:30  ...  5.0077   2862.0  1.0092
+4      5  2017-09-05  16:21:56  ...  4.5208   2862.0  1.3238
+..   ...         ...       ...  ...     ...      ...     ...
+377  378  2017-10-10  18:13:33  ...  4.9963   2862.0  1.7970
+378  379  2017-10-10  18:33:03  ...  6.2048   2862.0  2.7707
+379  380  2017-10-10  18:36:14  ...  6.0631   2862.0  2.7313
+380  381  2017-10-10  18:01:39  ...  3.7919   2862.0  1.8951
+381  382  2017-10-10  18:04:51  ...  4.0252   2862.0  1.8827
+
+[382 rows x 18 columns]
+... will generate files in: ./Rmag_InstMag/annu_w1/3C454-3/
+-----------------------
+Int64Index([  2,   3,  18,  19,  32,  33,  50,  51,  70,  71, 106, 107, 124,
+            125, 150, 151, 185, 186, 201, 202, 256, 257, 280, 281, 314, 315,
+            330, 331, 354, 355],
+           dtype='int64')
+2      3C454-3-20170905@155719-R_30508_calib.fits
+3      3C454-3-20170905@160030-R_30508_calib.fits
+18     3C454-3-20170906@180844-R_30508_calib.fits
+19     3C454-3-20170906@181218-R_30508_calib.fits
+32     3C454-3-20170907@175521-R_30508_calib.fits
+33     3C454-3-20170907@175854-R_30508_calib.fits
+50     3C454-3-20170916@151232-R_30508_calib.fits
+51     3C454-3-20170916@151606-R_30508_calib.fits
+70     3C454-3-20170917@182827-R_30508_calib.fits
+71     3C454-3-20170917@183138-R_30508_calib.fits
+106    3C454-3-20170923@144537-R_30508_calib.fits
+107    3C454-3-20170923@144849-R_30508_calib.fits
+124    3C454-3-20170924@191717-R_30508_calib.fits
+125    3C454-3-20170924@192050-R_30508_calib.fits
+150    3C454-3-20170925@125847-R_30508_calib.fits
+151    3C454-3-20170925@130158-R_30508_calib.fits
+185    3C454-3-20170927@145350-R_30508_calib.fits
+186    3C454-3-20170927@145716-R_30508_calib.fits
+201    3C454-3-20170928@162659-R_30508_calib.fits
+202    3C454-3-20170928@163011-R_30508_calib.fits
+256    3C454-3-20171003@140407-R_30508_calib.fits
+257    3C454-3-20171003@140750-R_30508_calib.fits
+280    3C454-3-20171005@140058-R_30508_calib.fits
+281    3C454-3-20171005@140408-R_30508_calib.fits
+314    3C454-3-20171006@143133-R_30508_calib.fits
+315    3C454-3-20171006@143444-R_30508_calib.fits
+330    3C454-3-20171009@182538-R_30508_calib.fits
+331    3C454-3-20171009@182911-R_30508_calib.fits
+354    3C454-3-20171010@172007-R_30508_calib.fits
+355    3C454-3-20171010@172317-R_30508_calib.fits
+Name: Filename, dtype: object
+... there are 0 fits can not be fitted ...
+[]
+before drop bad fits: idx_fitsheader = Int64Index([  2,   3,  18,  19,  32,  33,  50,  51,  70,  71, 106, 107, 124,
+            125, 150, 151, 185, 186, 201, 202, 256, 257, 280, 281, 314, 315,
+            330, 331, 354, 355],
+           dtype='int64')
+0 2 3C454-3-20170905@155719-R_30508_calib.fits
+1 3 3C454-3-20170905@160030-R_30508_calib.fits
+2 18 3C454-3-20170906@180844-R_30508_calib.fits
+3 19 3C454-3-20170906@181218-R_30508_calib.fits
+4 32 3C454-3-20170907@175521-R_30508_calib.fits
+5 33 3C454-3-20170907@175854-R_30508_calib.fits
+6 50 3C454-3-20170916@151232-R_30508_calib.fits
+7 51 3C454-3-20170916@151606-R_30508_calib.fits
+8 70 3C454-3-20170917@182827-R_30508_calib.fits
+9 71 3C454-3-20170917@183138-R_30508_calib.fits
+10 106 3C454-3-20170923@144537-R_30508_calib.fits
+11 107 3C454-3-20170923@144849-R_30508_calib.fits
+12 124 3C454-3-20170924@191717-R_30508_calib.fits
+13 125 3C454-3-20170924@192050-R_30508_calib.fits
+14 150 3C454-3-20170925@125847-R_30508_calib.fits
+15 151 3C454-3-20170925@130158-R_30508_calib.fits
+16 185 3C454-3-20170927@145350-R_30508_calib.fits
+17 186 3C454-3-20170927@145716-R_30508_calib.fits
+18 201 3C454-3-20170928@162659-R_30508_calib.fits
+19 202 3C454-3-20170928@163011-R_30508_calib.fits
+20 256 3C454-3-20171003@140407-R_30508_calib.fits
+21 257 3C454-3-20171003@140750-R_30508_calib.fits
+22 280 3C454-3-20171005@140058-R_30508_calib.fits
+23 281 3C454-3-20171005@140408-R_30508_calib.fits
+24 314 3C454-3-20171006@143133-R_30508_calib.fits
+25 315 3C454-3-20171006@143444-R_30508_calib.fits
+26 330 3C454-3-20171009@182538-R_30508_calib.fits
+27 331 3C454-3-20171009@182911-R_30508_calib.fits
+28 354 3C454-3-20171010@172007-R_30508_calib.fits
+29 355 3C454-3-20171010@172317-R_30508_calib.fits
+Int64Index([  2,   3,  18,  19,  32,  33,  50,  51,  70,  71, 106, 107, 124,
+            125, 150, 151, 185, 186, 201, 202, 256, 257, 280, 281, 314, 315,
+            330, 331, 354, 355],
+           dtype='int64')
+Int64Index([  3,   4,  19,  20,  33,  34,  51,  52,  71,  72, 107, 108, 125,
+            126, 151, 152, 186, 187, 202, 203, 257, 258, 281, 282, 315, 316,
+            331, 332, 355, 356],
+           dtype='int64')
+Int64Index([], dtype='int64')
+
+=================================
+idx 2 ) ID = 3 , # 1 / 30 image of 3C454-3
+... filename : 3C454-3-20170905@155719-R_30508_calib.fits
+calendar_date 2017-09-05 15:57:19.000014
+
+... bkg_mean,bkg_median,bkg_std
+... 5720.1824 5718.7828 90.3731
+... bkg_err_ratio = bkg_std/bkg_median = 0.0158
+
+idx 2 - 1 / 5 , Ref.Star: 3C454.3 ) # 1 / 30 image of 3C454-3
+... aper_annu_sum0 = 1438273.17
+... aper_annu_sum1 = 4303208.55
+... aper_annu_sum_err0 = 1445.64
+... aper_annu_sum_err1 = 2481.58
+... area of sum0 = 247.32
+... area of sum1 = 751.09
+... median_sigclip (annual mask per pix)  = 5727.18
+... bkg_mean (imdata statistic per pix)   = 5720.18
+... bkg_median (imdata statistic per pix) = 5718.78
+... bkg_sum (median_sigclip*area_sum0)           = 1416454.01
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1416976.99
+... bg_subtracted_sum = 21296.18
+... bg_subtracted_err = 2871.95
+... mag_instrument (sum) = -10.8208
+... mag_instrument (sum+err) = -10.9581
+... mag_instrument (err) = 0.1374
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1016.4673 1029.2803 ...         21296.184         2871.9496
+
+idx 2 - 2 / 5 , Ref.Star: 1 ) # 1 / 30 image of 3C454-3
+... aper_annu_sum0 = 2180395.12
+... aper_annu_sum1 = 7941614.89
+... aper_annu_sum_err0 = 1955.23
+... aper_annu_sum_err1 = 3368.88
+... area of sum0 = 323.03
+... area of sum1 = 1388.03
+... median_sigclip (annual mask per pix)  = 5724.97
+... bkg_mean (imdata statistic per pix)   = 5720.18
+... bkg_median (imdata statistic per pix) = 5718.78
+... bkg_sum (median_sigclip*area_sum0)           = 1849346.49
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1848230.38
+... bg_subtracted_sum = 332164.74
+... bg_subtracted_err = 3895.16
+... mag_instrument (sum) = -13.8034
+... mag_instrument (sum+err) = -13.8160
+... mag_instrument (err) = 0.0127
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1034.4564 1021.4156 ...         332164.74         3895.1631
+
+idx 2 - 3 / 5 , Ref.Star: 2 ) # 1 / 30 image of 3C454-3
+... aper_annu_sum0 = 6783735.38
+... aper_annu_sum1 = 6467747.30
+... aper_annu_sum_err0 = 3207.24
+... aper_annu_sum_err1 = 3033.25
+... area of sum0 = 1135.66
+... area of sum1 = 1135.66
+... median_sigclip (annual mask per pix)  = 5694.42
+... bkg_mean (imdata statistic per pix)   = 5720.18
+... bkg_median (imdata statistic per pix) = 5718.78
+... bkg_sum (median_sigclip*area_sum0)           = 6466919.40
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6467747.30
+... bg_subtracted_sum = 315988.08
+... bg_subtracted_err = 4414.41
+... mag_instrument (sum) = -13.7492
+... mag_instrument (sum+err) = -13.7642
+... mag_instrument (err) = 0.0151
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 732.60755 1085.0689 ...         315988.08          4414.411
+
+idx 2 - 4 / 5 , Ref.Star: 3 ) # 1 / 30 image of 3C454-3
+... aper_annu_sum0 = 6593532.39
+... aper_annu_sum1 = 6437819.29
+... aper_annu_sum_err0 = 3098.62
+... aper_annu_sum_err1 = 3019.19
+... area of sum0 = 1135.66
+... area of sum1 = 1135.66
+... median_sigclip (annual mask per pix)  = 5670.16
+... bkg_mean (imdata statistic per pix)   = 5720.18
+... bkg_median (imdata statistic per pix) = 5718.78
+... bkg_sum (median_sigclip*area_sum0)           = 6439363.80
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6437819.29
+... bg_subtracted_sum = 155713.10
+... bg_subtracted_err = 4326.31
+... mag_instrument (sum) = -12.9808
+... mag_instrument (sum+err) = -13.0106
+... mag_instrument (err) = 0.0298
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 780.07307 1134.8816 ...          155713.1          4326.312
+
+idx 2 - 5 / 5 , Ref.Star: 4 ) # 1 / 30 image of 3C454-3
+... aper_annu_sum0 = 2940703.47
+... aper_annu_sum1 = 5011712.50
+... aper_annu_sum_err0 = 2070.66
+... aper_annu_sum_err1 = 2665.10
+... area of sum0 = 504.74
+... area of sum1 = 883.29
+... median_sigclip (annual mask per pix)  = 5672.81
+... bkg_mean (imdata statistic per pix)   = 5720.18
+... bkg_median (imdata statistic per pix) = 5718.78
+... bkg_sum (median_sigclip*area_sum0)           = 2863280.25
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2863835.71
+... bg_subtracted_sum = 76867.76
+... bg_subtracted_err = 3374.97
+... mag_instrument (sum) = -12.2144
+... mag_instrument (sum+err) = -12.2610
+... mag_instrument (err) = 0.0467
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 878.19357 1066.2458 ...         76867.762         3374.9687
+
+=================================
+... measurement error after background subtraction (counts): 3821.3821
+... magnitude error after background subtraction (mag): 0.0668
+
+... rmag_fitting (Ref.Stars only): [13.14360958 13.19981551 13.99651213 14.79122674]
+... rmag_fitting (Target only): 16.2362209261374
+... fitting residual: [ 0.00639042 -0.00981551  0.00348787 -0.00122674]
+... fitting error (mag) = 0.0055
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0158
+... error of (calibration + observation) [mag]: 0.0670
+label_source[k] ['3C454-3, Rmag=16.24', '3C454-3, Rmag=13.14', '3C454-3, Rmag=13.20', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 76867.7615832081
+... InstMag_width = 2.98 , Rmag_width = 3.09
+=================================
+idx 3 ) ID = 4 , # 2 / 30 image of 3C454-3
+... filename : 3C454-3-20170905@160030-R_30508_calib.fits
+calendar_date 2017-09-05 16:00:29.999984
+
+... bkg_mean,bkg_median,bkg_std
+... 5609.7538 5608.6571 90.2871
+... bkg_err_ratio = bkg_std/bkg_median = 0.0161
+
+idx 3 - 1 / 5 , Ref.Star: 3C454.3 ) # 2 / 30 image of 3C454-3
+... aper_annu_sum0 = 1412992.93
+... aper_annu_sum1 = 4222428.77
+... aper_annu_sum_err0 = 1445.79
+... aper_annu_sum_err1 = 2478.55
+... area of sum0 = 247.70
+... area of sum1 = 752.24
+... median_sigclip (annual mask per pix)  = 5609.60
+... bkg_mean (imdata statistic per pix)   = 5609.75
+... bkg_median (imdata statistic per pix) = 5608.66
+... bkg_sum (median_sigclip*area_sum0)           = 1389496.68
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1390377.51
+... bg_subtracted_sum = 22615.42
+... bg_subtracted_err = 2869.41
+... mag_instrument (sum) = -10.8860
+... mag_instrument (sum+err) = -11.0157
+... mag_instrument (err) = 0.1297
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1017.0873 1027.2103 ...         22615.419         2869.4079
+
+idx 3 - 2 / 5 , Ref.Star: 1 ) # 2 / 30 image of 3C454-3
+... aper_annu_sum0 = 2153923.92
+... aper_annu_sum1 = 7808046.66
+... aper_annu_sum_err0 = 1982.20
+... aper_annu_sum_err1 = 3371.50
+... area of sum0 = 323.53
+... area of sum1 = 1390.15
+... median_sigclip (annual mask per pix)  = 5618.52
+... bkg_mean (imdata statistic per pix)   = 5609.75
+... bkg_median (imdata statistic per pix) = 5608.66
+... bkg_sum (median_sigclip*area_sum0)           = 1817737.14
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1817145.40
+... bg_subtracted_sum = 336778.52
+... bg_subtracted_err = 3911.03
+... mag_instrument (sum) = -13.8184
+... mag_instrument (sum+err) = -13.8309
+... mag_instrument (err) = 0.0125
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1035.0895 1019.3466 ...         336778.52         3911.0254
+
+idx 3 - 3 / 5 , Ref.Star: 2 ) # 2 / 30 image of 3C454-3
+... aper_annu_sum0 = 6658467.01
+... aper_annu_sum1 = 6341339.48
+... aper_annu_sum_err0 = 3212.86
+... aper_annu_sum_err1 = 3027.16
+... area of sum0 = 1137.40
+... area of sum1 = 1137.40
+... median_sigclip (annual mask per pix)  = 5575.30
+... bkg_mean (imdata statistic per pix)   = 5609.75
+... bkg_median (imdata statistic per pix) = 5608.66
+... bkg_sum (median_sigclip*area_sum0)           = 6341324.95
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6341339.48
+... bg_subtracted_sum = 317127.53
+... bg_subtracted_err = 4414.31
+... mag_instrument (sum) = -13.7531
+... mag_instrument (sum+err) = -13.7681
+... mag_instrument (err) = 0.0150
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 733.01429 1083.0073 ...         317127.53         4414.3136
+
+idx 3 - 4 / 5 , Ref.Star: 3 ) # 2 / 30 image of 3C454-3
+... aper_annu_sum0 = 6476094.93
+... aper_annu_sum1 = 6315430.70
+... aper_annu_sum_err0 = 3100.01
+... aper_annu_sum_err1 = 3014.78
+... area of sum0 = 1137.40
+... area of sum1 = 1137.40
+... median_sigclip (annual mask per pix)  = 5555.01
+... bkg_mean (imdata statistic per pix)   = 5609.75
+... bkg_median (imdata statistic per pix) = 5608.66
+... bkg_sum (median_sigclip*area_sum0)           = 6318251.23
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6315430.70
+... bg_subtracted_sum = 160664.23
+... bg_subtracted_err = 4324.22
+... mag_instrument (sum) = -13.0148
+... mag_instrument (sum+err) = -13.0436
+... mag_instrument (err) = 0.0288
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 780.52152 1132.7968 ...         160664.23         4324.2246
+
+idx 3 - 5 / 5 , Ref.Star: 4 ) # 2 / 30 image of 3C454-3
+... aper_annu_sum0 = 2888463.50
+... aper_annu_sum1 = 4921139.97
+... aper_annu_sum_err0 = 2071.10
+... aper_annu_sum_err1 = 2663.73
+... area of sum0 = 505.51
+... area of sum1 = 884.64
+... median_sigclip (annual mask per pix)  = 5563.90
+... bkg_mean (imdata statistic per pix)   = 5609.75
+... bkg_median (imdata statistic per pix) = 5608.66
+... bkg_sum (median_sigclip*area_sum0)           = 2812604.50
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2812079.98
+... bg_subtracted_sum = 76383.52
+... bg_subtracted_err = 3374.16
+... mag_instrument (sum) = -12.2075
+... mag_instrument (sum+err) = -12.2544
+... mag_instrument (err) = 0.0469
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 878.71068 1064.1763 ...         76383.517         3374.1561
+
+=================================
+... measurement error after background subtraction (counts): 3823.6013
+... magnitude error after background subtraction (mag): 0.0636
+
+... rmag_fitting (Ref.Stars only): [13.14020728 13.208074   13.97566141 14.81499968]
+... rmag_fitting (Target only): 16.188933327480704
+... fitting residual: [ 0.00979272 -0.018074    0.02433859 -0.02499968]
+... fitting error (mag) = 0.0181
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0161
+... error of (calibration + observation) [mag]: 0.0661
+label_source[k] ['3C454-3, Rmag=16.19', '3C454-3, Rmag=13.14', '3C454-3, Rmag=13.21', '3C454-3, Rmag=13.98', '3C454-3, Rmag=14.81']
+... bg_subtracted_sum = 76383.5174243371
+... InstMag_width = 2.93 , Rmag_width = 3.05
+=================================
+idx 18 ) ID = 19 , # 3 / 30 image of 3C454-3
+... filename : 3C454-3-20170906@180844-R_30508_calib.fits
+calendar_date 2017-09-06 18:09:06.000015
+
+... bkg_mean,bkg_median,bkg_std
+... 6890.3312 6889.3359 99.1944
+... bkg_err_ratio = bkg_std/bkg_median = 0.0144
+
+idx 18 - 1 / 5 , Ref.Star: 3C454.3 ) # 3 / 30 image of 3C454-3
+... aper_annu_sum0 = 1731754.97
+... aper_annu_sum1 = 5183909.94
+... aper_annu_sum_err0 = 1587.15
+... aper_annu_sum_err1 = 2722.92
+... area of sum0 = 247.46
+... area of sum1 = 751.51
+... median_sigclip (annual mask per pix)  = 6899.17
+... bkg_mean (imdata statistic per pix)   = 6890.33
+... bkg_median (imdata statistic per pix) = 6889.34
+... bkg_sum (median_sigclip*area_sum0)           = 1707262.85
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1706977.72
+... bg_subtracted_sum = 24777.25
+... bg_subtracted_err = 3151.72
+... mag_instrument (sum) = -10.9851
+... mag_instrument (sum+err) = -11.1151
+... mag_instrument (err) = 0.1300
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1021.301 1016.0252 ...         24777.252         3151.7206
+
+idx 18 - 2 / 5 , Ref.Star: 1 ) # 3 / 30 image of 3C454-3
+... aper_annu_sum0 = 2573773.58
+... aper_annu_sum1 = 9582070.10
+... aper_annu_sum_err0 = 2328.70
+... aper_annu_sum_err1 = 3702.38
+... area of sum0 = 323.21
+... area of sum1 = 1388.80
+... median_sigclip (annual mask per pix)  = 6897.35
+... bkg_mean (imdata statistic per pix)   = 6890.33
+... bkg_median (imdata statistic per pix) = 6889.34
+... bkg_sum (median_sigclip*area_sum0)           = 2229307.08
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2230009.04
+... bg_subtracted_sum = 343764.54
+... bg_subtracted_err = 4373.84
+... mag_instrument (sum) = -13.8407
+... mag_instrument (sum+err) = -13.8544
+... mag_instrument (err) = 0.0137
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1039.3249 1008.2299 ...         343764.54         4373.8418
+
+idx 18 - 3 / 5 , Ref.Star: 2 ) # 3 / 30 image of 3C454-3
+... aper_annu_sum0 = 8134427.44
+... aper_annu_sum1 = 7816502.03
+... aper_annu_sum_err0 = 3616.40
+... aper_annu_sum_err1 = 3338.97
+... area of sum0 = 1136.29
+... area of sum1 = 1136.29
+... median_sigclip (annual mask per pix)  = 6880.79
+... bkg_mean (imdata statistic per pix)   = 6890.33
+... bkg_median (imdata statistic per pix) = 6889.34
+... bkg_sum (median_sigclip*area_sum0)           = 7818583.22
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 7816502.03
+... bg_subtracted_sum = 317925.40
+... bg_subtracted_err = 4922.10
+... mag_instrument (sum) = -13.7558
+... mag_instrument (sum+err) = -13.7725
+... mag_instrument (err) = 0.0167
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 737.15224 1070.7286 ...          317925.4         4922.1035
+
+idx 18 - 4 / 5 , Ref.Star: 3 ) # 3 / 30 image of 3C454-3
+... aper_annu_sum0 = 7969762.74
+... aper_annu_sum1 = 7814120.87
+... aper_annu_sum_err0 = 3440.06
+... aper_annu_sum_err1 = 3337.94
+... area of sum0 = 1136.29
+... area of sum1 = 1136.29
+... median_sigclip (annual mask per pix)  = 6874.96
+... bkg_mean (imdata statistic per pix)   = 6890.33
+... bkg_median (imdata statistic per pix) = 6889.34
+... bkg_sum (median_sigclip*area_sum0)           = 7811962.57
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 7814120.87
+... bg_subtracted_sum = 155641.87
+... bg_subtracted_err = 4793.31
+... mag_instrument (sum) = -12.9803
+... mag_instrument (sum+err) = -13.0132
+... mag_instrument (err) = 0.0329
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 784.4422 1120.7127 ...         155641.87         4793.3124
+
+idx 18 - 5 / 5 , Ref.Star: 4 ) # 3 / 30 image of 3C454-3
+... aper_annu_sum0 = 3557366.49
+... aper_annu_sum1 = 6087586.97
+... aper_annu_sum_err0 = 2292.43
+... aper_annu_sum_err1 = 2948.61
+... area of sum0 = 505.02
+... area of sum1 = 883.78
+... median_sigclip (annual mask per pix)  = 6890.50
+... bkg_mean (imdata statistic per pix)   = 6890.33
+... bkg_median (imdata statistic per pix) = 6889.34
+... bkg_sum (median_sigclip*area_sum0)           = 3479831.53
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 3478621.13
+... bg_subtracted_sum = 78745.36
+... bg_subtracted_err = 3734.91
+... mag_instrument (sum) = -12.2406
+... mag_instrument (sum+err) = -12.2909
+... mag_instrument (err) = 0.0503
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 882.84944 1052.4604 ...         78745.361          3734.905
+
+=================================
+... measurement error after background subtraction (counts): 4247.7358
+... magnitude error after background subtraction (mag): 0.0648
+
+... rmag_fitting (Ref.Stars only): [13.13132692 13.21792596 14.00950546 14.76460039]
+... rmag_fitting (Target only): 16.04606553449154
+... fitting residual: [ 0.01867308 -0.02792596 -0.00950546  0.02539961]
+... fitting error (mag) = 0.0193
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0144
+... error of (calibration + observation) [mag]: 0.0676
+label_source[k] ['3C454-3, Rmag=16.05', '3C454-3, Rmag=13.13', '3C454-3, Rmag=13.22', '3C454-3, Rmag=14.01', '3C454-3, Rmag=14.76']
+... bg_subtracted_sum = 78745.36082933284
+... InstMag_width = 2.86 , Rmag_width = 2.91
+=================================
+idx 19 ) ID = 20 , # 4 / 30 image of 3C454-3
+... filename : 3C454-3-20170906@181218-R_30508_calib.fits
+calendar_date 2017-09-06 18:12:17.999980
+
+... bkg_mean,bkg_median,bkg_std
+... 7115.3302 7114.6110 96.1842
+... bkg_err_ratio = bkg_std/bkg_median = 0.0135
+
+idx 19 - 1 / 5 , Ref.Star: 3C454.3 ) # 4 / 30 image of 3C454-3
+... aper_annu_sum0 = 1786966.67
+... aper_annu_sum1 = 5350896.52
+... aper_annu_sum_err0 = 1537.29
+... aper_annu_sum_err1 = 2638.77
+... area of sum0 = 247.51
+... area of sum1 = 751.66
+... median_sigclip (annual mask per pix)  = 7113.19
+... bkg_mean (imdata statistic per pix)   = 7115.33
+... bkg_median (imdata statistic per pix) = 7114.61
+... bkg_sum (median_sigclip*area_sum0)           = 1760578.48
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1761963.70
+... bg_subtracted_sum = 25002.97
+... bg_subtracted_err = 3053.91
+... mag_instrument (sum) = -10.9950
+... mag_instrument (sum+err) = -11.1201
+... mag_instrument (err) = 0.1251
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.5516 1016.6046 ...         25002.971         3053.9079
+
+idx 19 - 2 / 5 , Ref.Star: 1 ) # 4 / 30 image of 3C454-3
+... aper_annu_sum0 = 2640487.29
+... aper_annu_sum1 = 9889248.44
+... aper_annu_sum_err0 = 2226.56
+... aper_annu_sum_err1 = 3587.47
+... area of sum0 = 323.28
+... area of sum1 = 1389.08
+... median_sigclip (annual mask per pix)  = 7118.98
+... bkg_mean (imdata statistic per pix)   = 7115.33
+... bkg_median (imdata statistic per pix) = 7114.61
+... bkg_sum (median_sigclip*area_sum0)           = 2301401.71
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2301497.82
+... bg_subtracted_sum = 338989.47
+... bg_subtracted_err = 4222.26
+... mag_instrument (sum) = -13.8255
+... mag_instrument (sum+err) = -13.8389
+... mag_instrument (err) = 0.0134
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1039.5773 1008.8089 ...         338989.47         4222.2609
+
+idx 19 - 3 / 5 , Ref.Star: 2 ) # 4 / 30 image of 3C454-3
+... aper_annu_sum0 = 8384769.77
+... aper_annu_sum1 = 8069175.27
+... aper_annu_sum_err0 = 3488.10
+... aper_annu_sum_err1 = 3236.13
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 7096.79
+... bkg_mean (imdata statistic per pix)   = 7115.33
+... bkg_median (imdata statistic per pix) = 7114.61
+... bkg_sum (median_sigclip*area_sum0)           = 8065652.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 8069175.27
+... bg_subtracted_sum = 315594.50
+... bg_subtracted_err = 4758.09
+... mag_instrument (sum) = -13.7478
+... mag_instrument (sum+err) = -13.7641
+... mag_instrument (err) = 0.0162
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 737.37413 1071.3107 ...          315594.5         4758.0892
+
+idx 19 - 4 / 5 , Ref.Star: 3 ) # 4 / 30 image of 3C454-3
+... aper_annu_sum0 = 8208517.99
+... aper_annu_sum1 = 8056940.71
+... aper_annu_sum_err0 = 3323.73
+... aper_annu_sum_err1 = 3231.23
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 7089.39
+... bkg_mean (imdata statistic per pix)   = 7115.33
+... bkg_median (imdata statistic per pix) = 7114.61
+... bkg_sum (median_sigclip*area_sum0)           = 8057245.56
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 8056940.71
+... bg_subtracted_sum = 151577.28
+... bg_subtracted_err = 4635.52
+... mag_instrument (sum) = -12.9516
+... mag_instrument (sum+err) = -12.9843
+... mag_instrument (err) = 0.0327
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 784.66887 1121.2971 ...         151577.28         4635.5236
+
+idx 19 - 5 / 5 , Ref.Star: 4 ) # 4 / 30 image of 3C454-3
+... aper_annu_sum0 = 3671162.41
+... aper_annu_sum1 = 6287195.44
+... aper_annu_sum_err0 = 2220.11
+... aper_annu_sum_err1 = 2859.09
+... area of sum0 = 505.12
+... area of sum1 = 883.96
+... median_sigclip (annual mask per pix)  = 7117.34
+... bkg_mean (imdata statistic per pix)   = 7115.33
+... bkg_median (imdata statistic per pix) = 7114.61
+... bkg_sum (median_sigclip*area_sum0)           = 3595112.70
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 3592683.11
+... bg_subtracted_sum = 78479.30
+... bg_subtracted_err = 3619.85
+... mag_instrument (sum) = -12.2369
+... mag_instrument (sum+err) = -12.2858
+... mag_instrument (err) = 0.0490
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 883.08604 1053.0416 ...         78479.301         3619.8469
+
+=================================
+... measurement error after background subtraction (counts): 4108.1535
+... magnitude error after background subtraction (mag): 0.0626
+
+... rmag_fitting (Ref.Stars only): [13.13352388 13.21258562 14.02338438 14.75115123]
+... rmag_fitting (Target only): 16.0157702705839
+... fitting residual: [ 0.01647612 -0.02258562 -0.02338438  0.03884877]
+... fitting error (mag) = 0.0238
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0135
+... error of (calibration + observation) [mag]: 0.0669
+label_source[k] ['3C454-3, Rmag=16.02', '3C454-3, Rmag=13.13', '3C454-3, Rmag=13.21', '3C454-3, Rmag=14.02', '3C454-3, Rmag=14.75']
+... bg_subtracted_sum = 78479.30056643393
+... InstMag_width = 2.83 , Rmag_width = 2.88
+=================================
+idx 32 ) ID = 33 , # 5 / 30 image of 3C454-3
+... filename : 3C454-3-20170907@175521-R_30508_calib.fits
+calendar_date 2017-09-07 17:55:42.000031
+
+... bkg_mean,bkg_median,bkg_std
+... 5226.6363 5224.7154 95.5760
+... bkg_err_ratio = bkg_std/bkg_median = 0.0183
+
+idx 32 - 1 / 5 , Ref.Star: 3C454.3 ) # 5 / 30 image of 3C454-3
+... aper_annu_sum0 = 1315282.93
+... aper_annu_sum1 = 3919577.73
+... aper_annu_sum_err0 = 1532.51
+... aper_annu_sum_err1 = 2615.65
+... area of sum0 = 247.49
+... area of sum1 = 751.59
+... median_sigclip (annual mask per pix)  = 5215.26
+... bkg_mean (imdata statistic per pix)   = 5226.64
+... bkg_median (imdata statistic per pix) = 5224.72
+... bkg_sum (median_sigclip*area_sum0)           = 1290709.54
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1290653.56
+... bg_subtracted_sum = 24629.37
+... bg_subtracted_err = 3031.54
+... mag_instrument (sum) = -10.9786
+... mag_instrument (sum+err) = -11.1047
+... mag_instrument (err) = 0.1260
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.8387 1018.4306 ...         24629.367          3031.539
+
+idx 32 - 2 / 5 , Ref.Star: 1 ) # 5 / 30 image of 3C454-3
+... aper_annu_sum0 = 2017139.84
+... aper_annu_sum1 = 7244413.08
+... aper_annu_sum_err0 = 2453.84
+... aper_annu_sum_err1 = 3556.23
+... area of sum0 = 323.25
+... area of sum1 = 1388.96
+... median_sigclip (annual mask per pix)  = 5211.52
+... bkg_mean (imdata statistic per pix)   = 5226.64
+... bkg_median (imdata statistic per pix) = 5224.72
+... bkg_sum (median_sigclip*area_sum0)           = 1684616.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1685972.50
+... bg_subtracted_sum = 331167.34
+... bg_subtracted_err = 4320.66
+... mag_instrument (sum) = -13.8001
+... mag_instrument (sum+err) = -13.8142
+... mag_instrument (err) = 0.0141
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1039.838 1010.5761 ...         331167.34         4320.6646
+
+idx 32 - 3 / 5 , Ref.Star: 2 ) # 5 / 30 image of 3C454-3
+... aper_annu_sum0 = 6228711.60
+... aper_annu_sum1 = 5928488.52
+... aper_annu_sum_err0 = 3597.65
+... aper_annu_sum_err1 = 3217.39
+... area of sum0 = 1136.42
+... area of sum1 = 1136.42
+... median_sigclip (annual mask per pix)  = 5217.80
+... bkg_mean (imdata statistic per pix)   = 5226.64
+... bkg_median (imdata statistic per pix) = 5224.72
+... bkg_sum (median_sigclip*area_sum0)           = 5929617.48
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 5928488.52
+... bg_subtracted_sum = 300223.08
+... bg_subtracted_err = 4826.46
+... mag_instrument (sum) = -13.6936
+... mag_instrument (sum+err) = -13.7109
+... mag_instrument (err) = 0.0173
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 737.85482 1074.0669 ...         300223.08         4826.4584
+
+idx 32 - 4 / 5 , Ref.Star: 3 ) # 5 / 30 image of 3C454-3
+... aper_annu_sum0 = 6074516.69
+... aper_annu_sum1 = 5920387.50
+... aper_annu_sum_err0 = 3353.46
+... aper_annu_sum_err1 = 3213.00
+... area of sum0 = 1136.42
+... area of sum1 = 1136.42
+... median_sigclip (annual mask per pix)  = 5207.84
+... bkg_mean (imdata statistic per pix)   = 5226.64
+... bkg_median (imdata statistic per pix) = 5224.72
+... bkg_sum (median_sigclip*area_sum0)           = 5918290.18
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 5920387.50
+... bg_subtracted_sum = 154129.19
+... bg_subtracted_err = 4644.25
+... mag_instrument (sum) = -12.9697
+... mag_instrument (sum+err) = -13.0019
+... mag_instrument (err) = 0.0322
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 785.31116 1123.8963 ...         154129.19          4644.253
+
+idx 32 - 5 / 5 , Ref.Star: 4 ) # 5 / 30 image of 3C454-3
+... aper_annu_sum0 = 2706016.61
+... aper_annu_sum1 = 4610517.17
+... aper_annu_sum_err0 = 2223.17
+... aper_annu_sum_err1 = 2837.16
+... area of sum0 = 505.08
+... area of sum1 = 883.88
+... median_sigclip (annual mask per pix)  = 5213.53
+... bkg_mean (imdata statistic per pix)   = 5226.64
+... bkg_median (imdata statistic per pix) = 5224.72
+... bkg_sum (median_sigclip*area_sum0)           = 2633225.59
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2634581.24
+... bg_subtracted_sum = 71435.37
+... bg_subtracted_err = 3604.44
+... mag_instrument (sum) = -12.1348
+... mag_instrument (sum+err) = -12.1882
+... mag_instrument (err) = 0.0534
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 883.49957 1055.3205 ...         71435.373         3604.4382
+
+=================================
+... measurement error after background subtraction (counts): 4140.3897
+... magnitude error after background subtraction (mag): 0.0637
+
+... rmag_fitting (Ref.Stars only): [13.12615023 13.23384993 13.96584371 14.81011014]
+... rmag_fitting (Target only): 15.979190225880131
+... fitting residual: [ 0.02384977 -0.04384993  0.03415629 -0.02011014]
+... fitting error (mag) = 0.0285
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0183
+... error of (calibration + observation) [mag]: 0.0698
+label_source[k] ['3C454-3, Rmag=15.98', '3C454-3, Rmag=13.13', '3C454-3, Rmag=13.23', '3C454-3, Rmag=13.97', '3C454-3, Rmag=14.81']
+... bg_subtracted_sum = 71435.372692646
+... InstMag_width = 2.82 , Rmag_width = 2.85
+=================================
+idx 33 ) ID = 34 , # 6 / 30 image of 3C454-3
+... filename : 3C454-3-20170907@175854-R_30508_calib.fits
+calendar_date 2017-09-07 17:58:53.999995
+
+... bkg_mean,bkg_median,bkg_std
+... 5863.1485 5860.8595 102.5907
+... bkg_err_ratio = bkg_std/bkg_median = 0.0175
+
+idx 33 - 1 / 5 , Ref.Star: 3C454.3 ) # 6 / 30 image of 3C454-3
+... aper_annu_sum0 = 1471946.72
+... aper_annu_sum1 = 4399066.33
+... aper_annu_sum_err0 = 1640.38
+... aper_annu_sum_err1 = 2809.26
+... area of sum0 = 247.45
+... area of sum1 = 751.47
+... median_sigclip (annual mask per pix)  = 5851.24
+... bkg_mean (imdata statistic per pix)   = 5863.15
+... bkg_median (imdata statistic per pix) = 5860.86
+... bkg_sum (median_sigclip*area_sum0)           = 1447878.01
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1448541.41
+... bg_subtracted_sum = 23405.32
+... bg_subtracted_err = 3253.12
+... mag_instrument (sum) = -10.9233
+... mag_instrument (sum+err) = -11.0646
+... mag_instrument (err) = 0.1413
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1022.5642 1018.9108 ...         23405.315          3253.123
+
+idx 33 - 2 / 5 , Ref.Star: 1 ) # 6 / 30 image of 3C454-3
+... aper_annu_sum0 = 2213550.16
+... aper_annu_sum1 = 8130947.00
+... aper_annu_sum_err0 = 2488.75
+... aper_annu_sum_err1 = 3819.61
+... area of sum0 = 323.20
+... area of sum1 = 1388.74
+... median_sigclip (annual mask per pix)  = 5853.66
+... bkg_mean (imdata statistic per pix)   = 5863.15
+... bkg_median (imdata statistic per pix) = 5860.86
+... bkg_sum (median_sigclip*area_sum0)           = 1891886.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1892293.12
+... bg_subtracted_sum = 321257.04
+... bg_subtracted_err = 4558.87
+... mag_instrument (sum) = -13.7671
+... mag_instrument (sum+err) = -13.7824
+... mag_instrument (err) = 0.0153
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.5618 1011.0566 ...         321257.04         4558.8707
+
+idx 33 - 3 / 5 , Ref.Star: 2 ) # 6 / 30 image of 3C454-3
+... aper_annu_sum0 = 6942475.45
+... aper_annu_sum1 = 6645838.07
+... aper_annu_sum_err0 = 3784.68
+... aper_annu_sum_err1 = 3451.45
+... area of sum0 = 1136.24
+... area of sum1 = 1136.24
+... median_sigclip (annual mask per pix)  = 5850.05
+... bkg_mean (imdata statistic per pix)   = 5863.15
+... bkg_median (imdata statistic per pix) = 5860.86
+... bkg_sum (median_sigclip*area_sum0)           = 6647065.72
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6645838.07
+... bg_subtracted_sum = 296637.38
+... bg_subtracted_err = 5122.14
+... mag_instrument (sum) = -13.6806
+... mag_instrument (sum+err) = -13.6992
+... mag_instrument (err) = 0.0186
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 738.60371 1074.5471 ...         296637.38         5122.1429
+
+idx 33 - 4 / 5 , Ref.Star: 3 ) # 6 / 30 image of 3C454-3
+... aper_annu_sum0 = 6793968.90
+... aper_annu_sum1 = 6645767.46
+... aper_annu_sum_err0 = 3575.15
+... aper_annu_sum_err1 = 3451.40
+... area of sum0 = 1136.24
+... area of sum1 = 1136.24
+... median_sigclip (annual mask per pix)  = 5849.84
+... bkg_mean (imdata statistic per pix)   = 5863.15
+... bkg_median (imdata statistic per pix) = 5860.86
+... bkg_sum (median_sigclip*area_sum0)           = 6646823.45
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 6645767.46
+... bg_subtracted_sum = 148201.44
+... bg_subtracted_err = 4969.29
+... mag_instrument (sum) = -12.9271
+... mag_instrument (sum+err) = -12.9629
+... mag_instrument (err) = 0.0358
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 786.05718 1124.3711 ...         148201.44         4969.2915
+
+idx 33 - 5 / 5 , Ref.Star: 4 ) # 6 / 30 image of 3C454-3
+... aper_annu_sum0 = 3028010.58
+... aper_annu_sum1 = 5171150.26
+... aper_annu_sum_err0 = 2375.30
+... aper_annu_sum_err1 = 3045.15
+... area of sum0 = 505.00
+... area of sum1 = 883.74
+... median_sigclip (annual mask per pix)  = 5850.60
+... bkg_mean (imdata statistic per pix)   = 5863.15
+... bkg_median (imdata statistic per pix) = 5860.86
+... bkg_sum (median_sigclip*area_sum0)           = 2954528.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2954943.00
+... bg_subtracted_sum = 73067.57
+... bg_subtracted_err = 3861.99
+... mag_instrument (sum) = -12.1593
+... mag_instrument (sum+err) = -12.2152
+... mag_instrument (err) = 0.0559
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 884.23661 1055.7997 ...         73067.572         3861.9918
+
+=================================
+... measurement error after background subtraction (counts): 4409.3378
+... magnitude error after background subtraction (mag): 0.0706
+
+... rmag_fitting (Ref.Stars only): [13.1312028  13.22012896 13.9940958  14.78284043]
+... rmag_fitting (Target only): 16.05255111897206
+... fitting residual: [ 0.0187972  -0.03012896  0.0059042   0.00715957]
+... fitting error (mag) = 0.0164
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0175
+... error of (calibration + observation) [mag]: 0.0725
+label_source[k] ['3C454-3, Rmag=16.05', '3C454-3, Rmag=13.13', '3C454-3, Rmag=13.22', '3C454-3, Rmag=13.99', '3C454-3, Rmag=14.78']
+... bg_subtracted_sum = 73067.57225882448
+... InstMag_width = 2.84 , Rmag_width = 2.92
+=================================
+idx 50 ) ID = 51 , # 7 / 30 image of 3C454-3
+... filename : 3C454-3-20170916@151232-R_30508_calib.fits
+calendar_date 2017-09-16 15:12:53.999986
+
+... bkg_mean,bkg_median,bkg_std
+... 210.5343 210.2334 16.5467
+... bkg_err_ratio = bkg_std/bkg_median = 0.0787
+
+idx 50 - 1 / 5 , Ref.Star: 3C454.3 ) # 7 / 30 image of 3C454-3
+... aper_annu_sum0 = 84414.94
+... aper_annu_sum1 = 161940.35
+... aper_annu_sum_err0 = 713.13
+... aper_annu_sum_err1 = 465.96
+... area of sum0 = 247.53
+... area of sum1 = 751.72
+... median_sigclip (annual mask per pix)  = 211.81
+... bkg_mean (imdata statistic per pix)   = 210.53
+... bkg_median (imdata statistic per pix) = 210.23
+... bkg_sum (median_sigclip*area_sum0)           = 52430.01
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 53324.34
+... bg_subtracted_sum = 31090.60
+... bg_subtracted_err = 851.87
+... mag_instrument (sum) = -11.2316
+... mag_instrument (sum+err) = -11.2609
+... mag_instrument (err) = 0.0293
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1020.9834 1023.683 ...           31090.6         851.86681
+
+idx 50 - 2 / 5 , Ref.Star: 1 ) # 7 / 30 image of 3C454-3
+... aper_annu_sum0 = 458033.14
+... aper_annu_sum1 = 296556.95
+... aper_annu_sum_err0 = 7612.91
+... aper_annu_sum_err1 = 627.51
+... area of sum0 = 323.30
+... area of sum1 = 1389.19
+... median_sigclip (annual mask per pix)  = 210.57
+... bkg_mean (imdata statistic per pix)   = 210.53
+... bkg_median (imdata statistic per pix) = 210.23
+... bkg_sum (median_sigclip*area_sum0)           = 68077.56
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 69016.89
+... bg_subtracted_sum = 389016.25
+... bg_subtracted_err = 7638.73
+... mag_instrument (sum) = -13.9749
+... mag_instrument (sum+err) = -13.9960
+... mag_instrument (err) = 0.0211
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1038.9841 1015.8276 ...         389016.25         7638.7284
+
+idx 50 - 3 / 5 , Ref.Star: 2 ) # 7 / 30 image of 3C454-3
+... aper_annu_sum0 = 596035.84
+... aper_annu_sum1 = 242306.70
+... aper_annu_sum_err0 = 6854.04
+... aper_annu_sum_err1 = 566.74
+... area of sum0 = 1136.61
+... area of sum1 = 1136.61
+... median_sigclip (annual mask per pix)  = 210.41
+... bkg_mean (imdata statistic per pix)   = 210.53
+... bkg_median (imdata statistic per pix) = 210.23
+... bkg_sum (median_sigclip*area_sum0)           = 239150.64
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 242306.70
+... bg_subtracted_sum = 353729.14
+... bg_subtracted_err = 6877.43
+... mag_instrument (sum) = -13.8717
+... mag_instrument (sum+err) = -13.8926
+... mag_instrument (err) = 0.0209
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 736.9759 1079.3267 ...         353729.14         6877.4313
+
+idx 50 - 4 / 5 , Ref.Star: 3 ) # 7 / 30 image of 3C454-3
+... aper_annu_sum0 = 418434.89
+... aper_annu_sum1 = 241771.24
+... aper_annu_sum_err0 = 3499.33
+... aper_annu_sum_err1 = 565.57
+... area of sum0 = 1136.61
+... area of sum1 = 1136.61
+... median_sigclip (annual mask per pix)  = 210.23
+... bkg_mean (imdata statistic per pix)   = 210.53
+... bkg_median (imdata statistic per pix) = 210.23
+... bkg_sum (median_sigclip*area_sum0)           = 238953.47
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 241771.24
+... bg_subtracted_sum = 176663.65
+... bg_subtracted_err = 3544.74
+... mag_instrument (sum) = -13.1179
+... mag_instrument (sum+err) = -13.1394
+... mag_instrument (err) = 0.0216
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 784.43631 1129.162 ...         176663.65         3544.7447
+
+idx 50 - 5 / 5 , Ref.Star: 4 ) # 7 / 30 image of 3C454-3
+... aper_annu_sum0 = 192641.79
+... aper_annu_sum1 = 188068.93
+... aper_annu_sum_err0 = 1769.20
+... aper_annu_sum_err1 = 498.78
+... area of sum0 = 505.16
+... area of sum1 = 884.03
+... median_sigclip (annual mask per pix)  = 210.23
+... bkg_mean (imdata statistic per pix)   = 210.53
+... bkg_median (imdata statistic per pix) = 210.23
+... bkg_sum (median_sigclip*area_sum0)           = 106201.54
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 107467.96
+... bg_subtracted_sum = 85173.83
+... bg_subtracted_err = 1838.17
+... mag_instrument (sum) = -12.3258
+... mag_instrument (sum+err) = -12.3489
+... mag_instrument (err) = 0.0232
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 882.63276 1060.5777 ...         85173.832         1838.1655
+
+=================================
+... measurement error after background subtraction (counts): 4946.0889
+... magnitude error after background subtraction (mag): 0.0234
+
+... rmag_fitting (Ref.Stars only): [13.12073797 13.22544576 13.98995526 14.79330171]
+... rmag_fitting (Target only): 15.903026547745839
+... fitting residual: [ 0.02926203 -0.03544576  0.01004474 -0.00330171]
+... fitting error (mag) = 0.0211
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0787
+... error of (calibration + observation) [mag]: 0.0315
+label_source[k] ['3C454-3, Rmag=15.90', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.23', '3C454-3, Rmag=13.99', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 85173.83186738519
+... InstMag_width = 2.74 , Rmag_width = 2.78
+=================================
+idx 51 ) ID = 52 , # 8 / 30 image of 3C454-3
+... filename : 3C454-3-20170916@151606-R_30508_calib.fits
+calendar_date 2017-09-16 15:16:05.999990
+
+... bkg_mean,bkg_median,bkg_std
+... 213.4150 213.1720 16.5870
+... bkg_err_ratio = bkg_std/bkg_median = 0.0778
+
+idx 51 - 1 / 5 , Ref.Star: 3C454.3 ) # 8 / 30 image of 3C454-3
+... aper_annu_sum0 = 84804.15
+... aper_annu_sum1 = 164284.81
+... aper_annu_sum_err0 = 680.07
+... aper_annu_sum_err1 = 467.29
+... area of sum0 = 247.50
+... area of sum1 = 751.64
+... median_sigclip (annual mask per pix)  = 215.68
+... bkg_mean (imdata statistic per pix)   = 213.41
+... bkg_median (imdata statistic per pix) = 213.17
+... bkg_sum (median_sigclip*area_sum0)           = 53380.91
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 54096.33
+... bg_subtracted_sum = 30707.82
+... bg_subtracted_err = 825.14
+... mag_instrument (sum) = -11.2181
+... mag_instrument (sum+err) = -11.2469
+... mag_instrument (err) = 0.0288
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.3244 1021.8736 ...         30707.823         825.14397
+
+idx 51 - 2 / 5 , Ref.Star: 1 ) # 8 / 30 image of 3C454-3
+... aper_annu_sum0 = 459451.91
+... aper_annu_sum1 = 300230.03
+... aper_annu_sum_err0 = 7126.20
+... aper_annu_sum_err1 = 628.10
+... area of sum0 = 323.27
+... area of sum1 = 1389.05
+... median_sigclip (annual mask per pix)  = 213.17
+... bkg_mean (imdata statistic per pix)   = 213.41
+... bkg_median (imdata statistic per pix) = 213.17
+... bkg_sum (median_sigclip*area_sum0)           = 68912.26
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 69871.72
+... bg_subtracted_sum = 389580.19
+... bg_subtracted_err = 7153.83
+... mag_instrument (sum) = -13.9765
+... mag_instrument (sum+err) = -13.9962
+... mag_instrument (err) = 0.0198
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1039.3243 1014.0179 ...         389580.19         7153.8294
+
+idx 51 - 3 / 5 , Ref.Star: 2 ) # 8 / 30 image of 3C454-3
+... aper_annu_sum0 = 601261.69
+... aper_annu_sum1 = 245334.40
+... aper_annu_sum_err0 = 6507.74
+... aper_annu_sum_err1 = 567.41
+... area of sum0 = 1136.50
+... area of sum1 = 1136.50
+... median_sigclip (annual mask per pix)  = 213.17
+... bkg_mean (imdata statistic per pix)   = 213.41
+... bkg_median (imdata statistic per pix) = 213.17
+... bkg_sum (median_sigclip*area_sum0)           = 242269.66
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 245334.40
+... bg_subtracted_sum = 355927.29
+... bg_subtracted_err = 6532.43
+... mag_instrument (sum) = -13.8784
+... mag_instrument (sum+err) = -13.8981
+... mag_instrument (err) = 0.0197
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 737.33072 1077.5183 ...         355927.29          6532.428
+
+idx 51 - 4 / 5 , Ref.Star: 3 ) # 8 / 30 image of 3C454-3
+... aper_annu_sum0 = 421875.87
+... aper_annu_sum1 = 245004.64
+... aper_annu_sum_err0 = 3297.13
+... aper_annu_sum_err1 = 566.58
+... area of sum0 = 1136.50
+... area of sum1 = 1136.50
+... median_sigclip (annual mask per pix)  = 213.17
+... bkg_mean (imdata statistic per pix)   = 213.41
+... bkg_median (imdata statistic per pix) = 213.17
+... bkg_sum (median_sigclip*area_sum0)           = 242269.66
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 245004.64
+... bg_subtracted_sum = 176871.23
+... bg_subtracted_err = 3345.45
+... mag_instrument (sum) = -13.1191
+... mag_instrument (sum+err) = -13.1395
+... mag_instrument (err) = 0.0203
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 784.78846 1127.3564 ...         176871.23         3345.4525
+
+idx 51 - 5 / 5 , Ref.Star: 4 ) # 8 / 30 image of 3C454-3
+... aper_annu_sum0 = 194875.98
+... aper_annu_sum1 = 191598.71
+... aper_annu_sum_err0 = 1691.93
+... aper_annu_sum_err1 = 502.51
+... area of sum0 = 505.11
+... area of sum1 = 883.94
+... median_sigclip (annual mask per pix)  = 213.17
+... bkg_mean (imdata statistic per pix)   = 213.41
+... bkg_median (imdata statistic per pix) = 213.17
+... bkg_sum (median_sigclip*area_sum0)           = 107675.40
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 109484.98
+... bg_subtracted_sum = 85391.00
+... bg_subtracted_err = 1764.98
+... mag_instrument (sum) = -12.3285
+... mag_instrument (sum+err) = -12.3507
+... mag_instrument (err) = 0.0222
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 882.98045 1058.7692 ...         85391.002         1764.9765
+
+=================================
+... measurement error after background subtraction (counts): 4665.5749
+... magnitude error after background subtraction (mag): 0.0224
+
+... rmag_fitting (Ref.Stars only): [13.12313814 13.22251201 13.99171813 14.79268746]
+... rmag_fitting (Target only): 15.917640920593445
+... fitting residual: [ 0.02686186 -0.03251201  0.00828187 -0.00268746]
+... fitting error (mag) = 0.0193
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0778
+... error of (calibration + observation) [mag]: 0.0296
+label_source[k] ['3C454-3, Rmag=15.92', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.22', '3C454-3, Rmag=13.99', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 85391.0015601384
+... InstMag_width = 2.76 , Rmag_width = 2.79
+=================================
+idx 70 ) ID = 71 , # 9 / 30 image of 3C454-3
+... filename : 3C454-3-20170917@182827-R_30508_calib.fits
+calendar_date 2017-09-17 18:28:26.999994
+
+... bkg_mean,bkg_median,bkg_std
+... 398.8620 398.6919 22.8306
+... bkg_err_ratio = bkg_std/bkg_median = 0.0573
+
+idx 70 - 1 / 5 , Ref.Star: 3C454.3 ) # 9 / 30 image of 3C454-3
+... aper_annu_sum0 = 130391.14
+... aper_annu_sum1 = 301595.77
+... aper_annu_sum_err0 = 615.45
+... aper_annu_sum_err1 = 630.81
+... area of sum0 = 247.50
+... area of sum1 = 751.64
+... median_sigclip (annual mask per pix)  = 398.77
+... bkg_mean (imdata statistic per pix)   = 398.86
+... bkg_median (imdata statistic per pix) = 398.69
+... bkg_sum (median_sigclip*area_sum0)           = 98696.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 99310.61
+... bg_subtracted_sum = 31080.53
+... bg_subtracted_err = 881.30
+... mag_instrument (sum) = -11.2312
+... mag_instrument (sum+err) = -11.2616
+... mag_instrument (err) = 0.0304
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1021.564 1009.0804 ...         31080.525         881.30026
+
+idx 70 - 2 / 5 , Ref.Star: 1 ) # 9 / 30 image of 3C454-3
+... aper_annu_sum0 = 508831.95
+... aper_annu_sum1 = 556305.17
+... aper_annu_sum_err0 = 5111.27
+... aper_annu_sum_err1 = 855.82
+... area of sum0 = 323.27
+... area of sum1 = 1389.04
+... median_sigclip (annual mask per pix)  = 398.69
+... bkg_mean (imdata statistic per pix)   = 398.86
+... bkg_median (imdata statistic per pix) = 398.69
+... bkg_sum (median_sigclip*area_sum0)           = 128884.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 129467.38
+... bg_subtracted_sum = 379364.56
+... bg_subtracted_err = 5182.43
+... mag_instrument (sum) = -13.9476
+... mag_instrument (sum+err) = -13.9624
+... mag_instrument (err) = 0.0147
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1039.6257 1001.3702 ...         379364.56         5182.4255
+
+idx 70 - 3 / 5 , Ref.Star: 2 ) # 9 / 30 image of 3C454-3
+... aper_annu_sum0 = 800269.56
+... aper_annu_sum1 = 455390.66
+... aper_annu_sum_err0 = 4728.00
+... aper_annu_sum_err1 = 774.49
+... area of sum0 = 1136.49
+... area of sum1 = 1136.49
+... median_sigclip (annual mask per pix)  = 398.69
+... bkg_mean (imdata statistic per pix)   = 398.86
+... bkg_median (imdata statistic per pix) = 398.69
+... bkg_sum (median_sigclip*area_sum0)           = 453109.34
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 455390.66
+... bg_subtracted_sum = 344878.90
+... bg_subtracted_err = 4791.01
+... mag_instrument (sum) = -13.8442
+... mag_instrument (sum+err) = -13.8591
+... mag_instrument (err) = 0.0150
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 737.1382 1062.4513 ...          344878.9         4791.0141
+
+idx 70 - 4 / 5 , Ref.Star: 3 ) # 9 / 30 image of 3C454-3
+... aper_annu_sum0 = 624693.71
+... aper_annu_sum1 = 454952.12
+... aper_annu_sum_err0 = 2479.12
+... aper_annu_sum_err1 = 773.81
+... area of sum0 = 1136.49
+... area of sum1 = 1136.49
+... median_sigclip (annual mask per pix)  = 398.69
+... bkg_mean (imdata statistic per pix)   = 398.86
+... bkg_median (imdata statistic per pix) = 398.69
+... bkg_sum (median_sigclip*area_sum0)           = 453109.34
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 454952.12
+... bg_subtracted_sum = 169741.59
+... bg_subtracted_err = 2597.07
+... mag_instrument (sum) = -13.0745
+... mag_instrument (sum+err) = -13.0910
+... mag_instrument (err) = 0.0165
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 784.19875 1112.6492 ...         169741.59         2597.0747
+
+idx 70 - 5 / 5 , Ref.Star: 4 ) # 9 / 30 image of 3C454-3
+... aper_annu_sum0 = 285934.82
+... aper_annu_sum1 = 353612.82
+... aper_annu_sum_err0 = 1308.51
+... aper_annu_sum_err1 = 681.97
+... area of sum0 = 505.11
+... area of sum1 = 883.94
+... median_sigclip (annual mask per pix)  = 398.69
+... bkg_mean (imdata statistic per pix)   = 398.86
+... bkg_median (imdata statistic per pix) = 398.69
+... bkg_sum (median_sigclip*area_sum0)           = 201381.93
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 202064.47
+... bg_subtracted_sum = 83870.35
+... bg_subtracted_err = 1475.56
+... mag_instrument (sum) = -12.3090
+... mag_instrument (sum+err) = -12.3280
+... mag_instrument (err) = 0.0189
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 882.93186 1044.865 ...         83870.347         1475.5618
+
+=================================
+... measurement error after background subtraction (counts): 3449.9310
+... magnitude error after background subtraction (mag): 0.0200
+
+... rmag_fitting (Ref.Stars only): [13.11801169 13.22315095 14.00522393 14.7829823 ]
+... rmag_fitting (Target only): 15.878114083769276
+... fitting residual: [ 0.03198831 -0.03315095 -0.00522393  0.0070177 ]
+... fitting error (mag) = 0.0210
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0573
+... error of (calibration + observation) [mag]: 0.0290
+label_source[k] ['3C454-3, Rmag=15.88', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.22', '3C454-3, Rmag=14.01', '3C454-3, Rmag=14.78']
+... bg_subtracted_sum = 83870.34686347109
+... InstMag_width = 2.72 , Rmag_width = 2.76
+=================================
+idx 71 ) ID = 72 , # 10 / 30 image of 3C454-3
+... filename : 3C454-3-20170917@183138-R_30508_calib.fits
+calendar_date 2017-09-17 18:31:38.000004
+
+... bkg_mean,bkg_median,bkg_std
+... 404.9311 404.7878 22.9015
+... bkg_err_ratio = bkg_std/bkg_median = 0.0566
+
+idx 71 - 1 / 5 , Ref.Star: 3C454.3 ) # 10 / 30 image of 3C454-3
+... aper_annu_sum0 = 132124.57
+... aper_annu_sum1 = 307006.15
+... aper_annu_sum_err0 = 626.29
+... aper_annu_sum_err1 = 634.47
+... area of sum0 = 247.48
+... area of sum1 = 751.58
+... median_sigclip (annual mask per pix)  = 405.94
+... bkg_mean (imdata statistic per pix)   = 404.93
+... bkg_median (imdata statistic per pix) = 404.79
+... bkg_sum (median_sigclip*area_sum0)           = 100462.10
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 101092.16
+... bg_subtracted_sum = 31032.41
+... bg_subtracted_err = 891.51
+... mag_instrument (sum) = -11.2295
+... mag_instrument (sum+err) = -11.2603
+... mag_instrument (err) = 0.0308
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1022.424 1010.4262 ...         31032.411         891.50718
+
+idx 71 - 2 / 5 , Ref.Star: 1 ) # 10 / 30 image of 3C454-3
+... aper_annu_sum0 = 510002.70
+... aper_annu_sum1 = 564579.76
+... aper_annu_sum_err0 = 5304.03
+... aper_annu_sum_err1 = 858.20
+... area of sum0 = 323.24
+... area of sum1 = 1388.93
+... median_sigclip (annual mask per pix)  = 404.79
+... bkg_mean (imdata statistic per pix)   = 404.93
+... bkg_median (imdata statistic per pix) = 404.79
+... bkg_sum (median_sigclip*area_sum0)           = 130844.34
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 131393.11
+... bg_subtracted_sum = 378609.59
+... bg_subtracted_err = 5373.01
+... mag_instrument (sum) = -13.9455
+... mag_instrument (sum+err) = -13.9608
+... mag_instrument (err) = 0.0153
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.4847 1002.7153 ...         378609.59         5373.0139
+
+idx 71 - 3 / 5 , Ref.Star: 2 ) # 10 / 30 image of 3C454-3
+... aper_annu_sum0 = 806345.77
+... aper_annu_sum1 = 461089.71
+... aper_annu_sum_err0 = 4868.53
+... aper_annu_sum_err1 = 774.84
+... area of sum0 = 1136.40
+... area of sum1 = 1136.40
+... median_sigclip (annual mask per pix)  = 404.79
+... bkg_mean (imdata statistic per pix)   = 404.93
+... bkg_median (imdata statistic per pix) = 404.79
+... bkg_sum (median_sigclip*area_sum0)           = 459999.65
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 461089.71
+... bg_subtracted_sum = 345256.06
+... bg_subtracted_err = 4929.81
+... mag_instrument (sum) = -13.8454
+... mag_instrument (sum+err) = -13.8607
+... mag_instrument (err) = 0.0154
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 738.01147 1063.807 ...         345256.06         4929.8072
+
+idx 71 - 4 / 5 , Ref.Star: 3 ) # 10 / 30 image of 3C454-3
+... aper_annu_sum0 = 632462.43
+... aper_annu_sum1 = 461056.18
+... aper_annu_sum_err0 = 2556.41
+... aper_annu_sum_err1 = 774.77
+... area of sum0 = 1136.40
+... area of sum1 = 1136.40
+... median_sigclip (annual mask per pix)  = 404.79
+... bkg_mean (imdata statistic per pix)   = 404.93
+... bkg_median (imdata statistic per pix) = 404.79
+... bkg_sum (median_sigclip*area_sum0)           = 459999.65
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 461056.18
+... bg_subtracted_sum = 171406.25
+... bg_subtracted_err = 2671.24
+... mag_instrument (sum) = -13.0851
+... mag_instrument (sum+err) = -13.1019
+... mag_instrument (err) = 0.0168
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 785.07149 1114.0053 ...         171406.25         2671.2374
+
+idx 71 - 5 / 5 , Ref.Star: 4 ) # 10 / 30 image of 3C454-3
+... aper_annu_sum0 = 288918.69
+... aper_annu_sum1 = 357926.48
+... aper_annu_sum_err0 = 1352.14
+... aper_annu_sum_err1 = 681.97
+... area of sum0 = 505.07
+... area of sum1 = 883.86
+... median_sigclip (annual mask per pix)  = 404.75
+... bkg_mean (imdata statistic per pix)   = 404.93
+... bkg_median (imdata statistic per pix) = 404.79
+... bkg_sum (median_sigclip*area_sum0)           = 204426.92
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 204529.42
+... bg_subtracted_sum = 84389.28
+... bg_subtracted_err = 1514.38
+... mag_instrument (sum) = -12.3157
+... mag_instrument (sum+err) = -12.3350
+... mag_instrument (err) = 0.0193
+
+ id xcenter  ycenter  ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+      pix      pix    ...                                                       
+--- -------- -------- ... ------------------ ----------------- -----------------
+  1 883.7986 1046.216 ...          681.96952         84389.276         1514.3819
+
+=================================
+... measurement error after background subtraction (counts): 3560.7843
+... magnitude error after background subtraction (mag): 0.0204
+
+... rmag_fitting (Ref.Stars only): [13.11997617 13.22238342 13.99999409 14.78687306]
+... rmag_fitting (Target only): 15.897802267458358
+... fitting residual: [ 3.00238272e-02 -3.23834182e-02  5.90598885e-06  3.12694263e-03]
+... fitting error (mag) = 0.0198
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0566
+... error of (calibration + observation) [mag]: 0.0284
+label_source[k] ['3C454-3, Rmag=15.90', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.22', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 84389.27566487546
+... InstMag_width = 2.72 , Rmag_width = 2.78
+=================================
+idx 106 ) ID = 107 , # 11 / 30 image of 3C454-3
+... filename : 3C454-3-20170923@144537-R_30508_calib.fits
+calendar_date 2017-09-23 14:45:37.000013
+
+... bkg_mean,bkg_median,bkg_std
+... 180.7913 180.6763 15.5368
+... bkg_err_ratio = bkg_std/bkg_median = 0.0860
+
+idx 106 - 1 / 5 , Ref.Star: 3C454.3 ) # 11 / 30 image of 3C454-3
+... aper_annu_sum0 = 84317.31
+... aper_annu_sum1 = 139452.56
+... aper_annu_sum_err0 = 812.87
+... aper_annu_sum_err1 = 438.92
+... area of sum0 = 247.50
+... area of sum1 = 751.64
+... median_sigclip (annual mask per pix)  = 182.47
+... bkg_mean (imdata statistic per pix)   = 180.79
+... bkg_median (imdata statistic per pix) = 180.68
+... bkg_sum (median_sigclip*area_sum0)           = 45162.78
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 45919.47
+... bg_subtracted_sum = 38397.83
+... bg_subtracted_err = 923.80
+... mag_instrument (sum) = -11.4608
+... mag_instrument (sum+err) = -11.4866
+... mag_instrument (err) = 0.0258
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1018.0281 1028.0361 ...         38397.831         923.79899
+
+idx 106 - 2 / 5 , Ref.Star: 1 ) # 11 / 30 image of 3C454-3
+... aper_annu_sum0 = 447527.22
+... aper_annu_sum1 = 255245.56
+... aper_annu_sum_err0 = 7153.17
+... aper_annu_sum_err1 = 590.24
+... area of sum0 = 323.27
+... area of sum1 = 1389.06
+... median_sigclip (annual mask per pix)  = 180.68
+... bkg_mean (imdata statistic per pix)   = 180.79
+... bkg_median (imdata statistic per pix) = 180.68
+... bkg_sum (median_sigclip*area_sum0)           = 58407.45
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 59402.60
+... bg_subtracted_sum = 388124.62
+... bg_subtracted_err = 7177.48
+... mag_instrument (sum) = -13.9724
+... mag_instrument (sum+err) = -13.9923
+... mag_instrument (err) = 0.0199
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1036.1402 1020.4435 ...         388124.62          7177.478
+
+idx 106 - 3 / 5 , Ref.Star: 2 ) # 11 / 30 image of 3C454-3
+... aper_annu_sum0 = 563853.67
+... aper_annu_sum1 = 208467.98
+... aper_annu_sum_err0 = 6451.98
+... aper_annu_sum_err1 = 532.86
+... area of sum0 = 1136.50
+... area of sum1 = 1136.50
+... median_sigclip (annual mask per pix)  = 180.68
+... bkg_mean (imdata statistic per pix)   = 180.79
+... bkg_median (imdata statistic per pix) = 180.68
+... bkg_sum (median_sigclip*area_sum0)           = 205338.69
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 208467.98
+... bg_subtracted_sum = 355385.69
+... bg_subtracted_err = 6473.95
+... mag_instrument (sum) = -13.8767
+... mag_instrument (sum+err) = -13.8964
+... mag_instrument (err) = 0.0196
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 733.25537 1079.5406 ...         355385.69         6473.9512
+
+idx 106 - 4 / 5 , Ref.Star: 3 ) # 11 / 30 image of 3C454-3
+... aper_annu_sum0 = 385640.28
+... aper_annu_sum1 = 208451.86
+... aper_annu_sum_err0 = 3277.09
+... aper_annu_sum_err1 = 532.79
+... area of sum0 = 1136.50
+... area of sum1 = 1136.50
+... median_sigclip (annual mask per pix)  = 180.68
+... bkg_mean (imdata statistic per pix)   = 180.79
+... bkg_median (imdata statistic per pix) = 180.68
+... bkg_sum (median_sigclip*area_sum0)           = 205338.69
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 208451.86
+... bg_subtracted_sum = 177188.42
+... bg_subtracted_err = 3320.12
+... mag_instrument (sum) = -13.1211
+... mag_instrument (sum+err) = -13.1412
+... mag_instrument (err) = 0.0202
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 779.98362 1130.0603 ...         177188.42         3320.1179
+
+idx 106 - 5 / 5 , Ref.Star: 4 ) # 11 / 30 image of 3C454-3
+... aper_annu_sum0 = 191787.76
+... aper_annu_sum1 = 162936.31
+... aper_annu_sum_err0 = 1931.11
+... aper_annu_sum_err1 = 472.34
+... area of sum0 = 505.11
+... area of sum1 = 883.94
+... median_sigclip (annual mask per pix)  = 181.41
+... bkg_mean (imdata statistic per pix)   = 180.79
+... bkg_median (imdata statistic per pix) = 180.68
+... bkg_sum (median_sigclip*area_sum0)           = 91631.48
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 93106.46
+... bg_subtracted_sum = 98681.30
+... bg_subtracted_err = 1988.04
+... mag_instrument (sum) = -12.4856
+... mag_instrument (sum+err) = -12.5072
+... mag_instrument (err) = 0.0217
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 879.16232 1062.9132 ...         98681.295         1988.0383
+
+=================================
+... measurement error after background subtraction (counts): 4674.5506
+... magnitude error after background subtraction (mag): 0.0215
+
+... rmag_fitting (Ref.Stars only): [13.10688146 13.21292737 14.0504731  14.75483791]
+... rmag_fitting (Target only): 15.890708852045163
+... fitting residual: [ 0.04311854 -0.02292737 -0.0504731   0.03516209]
+... fitting error (mag) = 0.0351
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0860
+... error of (calibration + observation) [mag]: 0.0412
+label_source[k] ['3C454-3, Rmag=15.89', '3C454-3, Rmag=13.11', '3C454-3, Rmag=13.21', '3C454-3, Rmag=14.05', '3C454-3, Rmag=14.75']
+... bg_subtracted_sum = 98681.29521111154
+... InstMag_width = 2.51 , Rmag_width = 2.78
+=================================
+idx 107 ) ID = 108 , # 12 / 30 image of 3C454-3
+... filename : 3C454-3-20170923@144849-R_30508_calib.fits
+calendar_date 2017-09-23 14:48:48.999978
+
+... bkg_mean,bkg_median,bkg_std
+... 179.8643 179.7422 15.5586
+... bkg_err_ratio = bkg_std/bkg_median = 0.0866
+
+idx 107 - 1 / 5 , Ref.Star: 3C454.3 ) # 12 / 30 image of 3C454-3
+... aper_annu_sum0 = 84555.20
+... aper_annu_sum1 = 138911.60
+... aper_annu_sum_err0 = 783.26
+... aper_annu_sum_err1 = 439.76
+... area of sum0 = 247.51
+... area of sum1 = 751.66
+... median_sigclip (annual mask per pix)  = 181.97
+... bkg_mean (imdata statistic per pix)   = 179.86
+... bkg_median (imdata statistic per pix) = 179.74
+... bkg_sum (median_sigclip*area_sum0)           = 45040.20
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 45741.34
+... bg_subtracted_sum = 38813.86
+... bg_subtracted_err = 898.27
+... mag_instrument (sum) = -11.4725
+... mag_instrument (sum+err) = -11.4973
+... mag_instrument (err) = 0.0248
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1018.2087 1026.4457 ...         38813.859         898.27316
+
+idx 107 - 2 / 5 , Ref.Star: 1 ) # 12 / 30 image of 3C454-3
+... aper_annu_sum0 = 448371.60
+... aper_annu_sum1 = 253903.20
+... aper_annu_sum_err0 = 6804.46
+... aper_annu_sum_err1 = 590.93
+... area of sum0 = 323.28
+... area of sum1 = 1389.08
+... median_sigclip (annual mask per pix)  = 179.74
+... bkg_mean (imdata statistic per pix)   = 179.86
+... bkg_median (imdata statistic per pix) = 179.74
+... bkg_sum (median_sigclip*area_sum0)           = 58106.32
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 59090.20
+... bg_subtracted_sum = 389281.40
+... bg_subtracted_err = 6830.07
+... mag_instrument (sum) = -13.9757
+... mag_instrument (sum+err) = -13.9945
+... mag_instrument (err) = 0.0189
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1036.3209 1018.8525 ...          389281.4         6830.0741
+
+idx 107 - 3 / 5 , Ref.Star: 2 ) # 12 / 30 image of 3C454-3
+... aper_annu_sum0 = 563299.67
+... aper_annu_sum1 = 208302.55
+... aper_annu_sum_err0 = 6100.28
+... aper_annu_sum_err1 = 535.99
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 180.02
+... bkg_mean (imdata statistic per pix)   = 179.86
+... bkg_median (imdata statistic per pix) = 179.74
+... bkg_sum (median_sigclip*area_sum0)           = 204591.78
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 208302.55
+... bg_subtracted_sum = 354997.13
+... bg_subtracted_err = 6123.79
+... mag_instrument (sum) = -13.8756
+... mag_instrument (sum+err) = -13.8941
+... mag_instrument (err) = 0.0186
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 733.43503 1077.9579 ...         354997.13         6123.7853
+
+idx 107 - 4 / 5 , Ref.Star: 3 ) # 12 / 30 image of 3C454-3
+... aper_annu_sum0 = 384339.45
+... aper_annu_sum1 = 207485.00
+... aper_annu_sum_err0 = 3096.93
+... aper_annu_sum_err1 = 533.86
+... area of sum0 = 1136.52
+... area of sum1 = 1136.52
+... median_sigclip (annual mask per pix)  = 179.74
+... bkg_mean (imdata statistic per pix)   = 179.86
+... bkg_median (imdata statistic per pix) = 179.74
+... bkg_sum (median_sigclip*area_sum0)           = 204280.02
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 207485.00
+... bg_subtracted_sum = 176854.44
+... bg_subtracted_err = 3142.61
+... mag_instrument (sum) = -13.1190
+... mag_instrument (sum+err) = -13.1382
+... mag_instrument (err) = 0.0191
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 780.16465 1128.4784 ...         176854.44         3142.6056
+
+idx 107 - 5 / 5 , Ref.Star: 4 ) # 12 / 30 image of 3C454-3
+... aper_annu_sum0 = 177203.50
+... aper_annu_sum1 = 161279.42
+... aper_annu_sum_err0 = 1586.60
+... aper_annu_sum_err1 = 470.59
+... area of sum0 = 505.12
+... area of sum1 = 883.96
+... median_sigclip (annual mask per pix)  = 179.74
+... bkg_mean (imdata statistic per pix)   = 179.86
+... bkg_median (imdata statistic per pix) = 179.74
+... bkg_sum (median_sigclip*area_sum0)           = 90791.12
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 92159.67
+... bg_subtracted_sum = 85043.83
+... bg_subtracted_err = 1654.92
+... mag_instrument (sum) = -12.3241
+... mag_instrument (sum+err) = -12.3450
+... mag_instrument (err) = 0.0209
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 879.34269 1061.3269 ...         85043.831         1654.9163
+
+=================================
+... measurement error after background subtraction (counts): 4417.5168
+... magnitude error after background subtraction (mag): 0.0206
+
+... rmag_fitting (Ref.Stars only): [13.1223124  13.22363026 13.98937919 14.79400736]
+... rmag_fitting (Target only): 15.656034227845499
+... fitting residual: [ 0.0276876  -0.03363026  0.01062081 -0.00400736]
+... fitting error (mag) = 0.0201
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0866
+... error of (calibration + observation) [mag]: 0.0288
+label_source[k] ['3C454-3, Rmag=15.66', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.22', '3C454-3, Rmag=13.99', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 85043.83084412059
+... InstMag_width = 2.50 , Rmag_width = 2.53
+=================================
+idx 124 ) ID = 125 , # 13 / 30 image of 3C454-3
+... filename : 3C454-3-20170924@191717-R_30508_calib.fits
+calendar_date 2017-09-24 19:17:38.999995
+
+... bkg_mean,bkg_median,bkg_std
+... 581.8128 581.3838 26.4860
+... bkg_err_ratio = bkg_std/bkg_median = 0.0456
+
+idx 124 - 1 / 5 , Ref.Star: 3C454.3 ) # 13 / 30 image of 3C454-3
+... aper_annu_sum0 = 173342.54
+... aper_annu_sum1 = 438209.98
+... aper_annu_sum_err0 = 544.71
+... aper_annu_sum_err1 = 729.01
+... area of sum0 = 247.41
+... area of sum1 = 751.35
+... median_sigclip (annual mask per pix)  = 582.74
+... bkg_mean (imdata statistic per pix)   = 581.81
+... bkg_median (imdata statistic per pix) = 581.38
+... bkg_sum (median_sigclip*area_sum0)           = 144173.86
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 144295.46
+... bg_subtracted_sum = 29047.08
+... bg_subtracted_err = 910.03
+... mag_instrument (sum) = -11.1578
+... mag_instrument (sum+err) = -11.1912
+... mag_instrument (err) = 0.0335
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1034.5546 1134.5367 ...          29047.08         910.03467
+
+idx 124 - 2 / 5 , Ref.Star: 1 ) # 13 / 30 image of 3C454-3
+... aper_annu_sum0 = 531436.49
+... aper_annu_sum1 = 807780.82
+... aper_annu_sum_err0 = 2904.56
+... aper_annu_sum_err1 = 988.46
+... area of sum0 = 323.15
+... area of sum1 = 1388.51
+... median_sigclip (annual mask per pix)  = 581.38
+... bkg_mean (imdata statistic per pix)   = 581.81
+... bkg_median (imdata statistic per pix) = 581.38
+... bkg_sum (median_sigclip*area_sum0)           = 187871.32
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 187992.63
+... bg_subtracted_sum = 343443.86
+... bg_subtracted_err = 3068.15
+... mag_instrument (sum) = -13.8396
+... mag_instrument (sum+err) = -13.8493
+... mag_instrument (err) = 0.0097
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 1052.7008 1127.04 ...          988.46289         343443.86         3068.1517
+
+idx 124 - 3 / 5 , Ref.Star: 2 ) # 13 / 30 image of 3C454-3
+... aper_annu_sum0 = 964539.35
+... aper_annu_sum1 = 655381.30
+... aper_annu_sum_err0 = 2759.97
+... aper_annu_sum_err1 = 886.63
+... area of sum0 = 1136.06
+... area of sum1 = 1136.06
+... median_sigclip (annual mask per pix)  = 574.68
+... bkg_mean (imdata statistic per pix)   = 581.81
+... bkg_median (imdata statistic per pix) = 581.38
+... bkg_sum (median_sigclip*area_sum0)           = 652866.07
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 655381.30
+... bg_subtracted_sum = 309158.04
+... bg_subtracted_err = 2898.89
+... mag_instrument (sum) = -13.7255
+... mag_instrument (sum+err) = -13.7356
+... mag_instrument (err) = 0.0101
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 749.5834 1184.5856 ...         309158.04         2898.8893
+
+idx 124 - 4 / 5 , Ref.Star: 3 ) # 13 / 30 image of 3C454-3
+... aper_annu_sum0 = 808307.35
+... aper_annu_sum1 = 653710.45
+... aper_annu_sum_err0 = 1621.66
+... aper_annu_sum_err1 = 884.31
+... area of sum0 = 1136.06
+... area of sum1 = 1136.06
+... median_sigclip (annual mask per pix)  = 575.08
+... bkg_mean (imdata statistic per pix)   = 581.81
+... bkg_median (imdata statistic per pix) = 581.38
+... bkg_sum (median_sigclip*area_sum0)           = 653318.32
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 653710.45
+... bg_subtracted_sum = 154596.90
+... bg_subtracted_err = 1847.10
+... mag_instrument (sum) = -12.9730
+... mag_instrument (sum+err) = -12.9859
+... mag_instrument (err) = 0.0129
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 796.0511 1235.2978 ...          154596.9         1847.1013
+
+idx 124 - 5 / 5 , Ref.Star: 4 ) # 13 / 30 image of 3C454-3
+... aper_annu_sum0 = 369011.39
+... aper_annu_sum1 = 512270.07
+... aper_annu_sum_err0 = 951.28
+... aper_annu_sum_err1 = 785.79
+... area of sum0 = 504.91
+... area of sum1 = 883.60
+... median_sigclip (annual mask per pix)  = 579.53
+... bkg_mean (imdata statistic per pix)   = 581.81
+... bkg_median (imdata statistic per pix) = 581.38
+... bkg_sum (median_sigclip*area_sum0)           = 292611.70
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 292725.75
+... bg_subtracted_sum = 76285.64
+... bg_subtracted_err = 1233.86
+... mag_instrument (sum) = -12.2061
+... mag_instrument (sum+err) = -12.2235
+... mag_instrument (err) = 0.0174
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 895.54352 1168.6963 ...         76285.635         1233.8576
+
+=================================
+... measurement error after background subtraction (counts): 2171.6107
+... magnitude error after background subtraction (mag): 0.0189
+
+... rmag_fitting (Ref.Stars only): [13.11504597 13.23156928 13.99940715 14.7819861 ]
+... rmag_fitting (Target only): 15.85177682003169
+... fitting residual: [ 0.03495403 -0.04156928  0.00059285  0.0080139 ]
+... fitting error (mag) = 0.0246
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0456
+... error of (calibration + observation) [mag]: 0.0310
+label_source[k] ['3C454-3, Rmag=15.85', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.23', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.78']
+... bg_subtracted_sum = 76285.63537413406
+... InstMag_width = 2.68 , Rmag_width = 2.74
+=================================
+idx 125 ) ID = 126 , # 14 / 30 image of 3C454-3
+... filename : 3C454-3-20170924@192050-R_30508_calib.fits
+calendar_date 2017-09-24 19:20:50.000046
+
+... bkg_mean,bkg_median,bkg_std
+... 603.8557 603.6147 27.1627
+... bkg_err_ratio = bkg_std/bkg_median = 0.0450
+
+idx 125 - 1 / 5 , Ref.Star: 3C454.3 ) # 14 / 30 image of 3C454-3
+... aper_annu_sum0 = 178940.45
+... aper_annu_sum1 = 454334.06
+... aper_annu_sum_err0 = 561.99
+... aper_annu_sum_err1 = 746.49
+... area of sum0 = 247.45
+... area of sum1 = 751.48
+... median_sigclip (annual mask per pix)  = 603.61
+... bkg_mean (imdata statistic per pix)   = 603.86
+... bkg_median (imdata statistic per pix) = 603.61
+... bkg_sum (median_sigclip*area_sum0)           = 149364.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 149604.86
+... bg_subtracted_sum = 29335.59
+... bg_subtracted_err = 934.39
+... mag_instrument (sum) = -11.1685
+... mag_instrument (sum+err) = -11.2025
+... mag_instrument (err) = 0.0340
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1037.4581 1133.4726 ...         29335.593         934.38727
+
+idx 125 - 2 / 5 , Ref.Star: 1 ) # 14 / 30 image of 3C454-3
+... aper_annu_sum0 = 536041.04
+... aper_annu_sum1 = 837394.74
+... aper_annu_sum_err0 = 3127.57
+... aper_annu_sum_err1 = 1012.11
+... area of sum0 = 323.20
+... area of sum1 = 1388.75
+... median_sigclip (annual mask per pix)  = 603.32
+... bkg_mean (imdata statistic per pix)   = 603.86
+... bkg_median (imdata statistic per pix) = 603.61
+... bkg_sum (median_sigclip*area_sum0)           = 194993.60
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 194884.59
+... bg_subtracted_sum = 341156.44
+... bg_subtracted_err = 3287.25
+... mag_instrument (sum) = -13.8324
+... mag_instrument (sum+err) = -13.8428
+... mag_instrument (err) = 0.0104
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1055.6059 1125.977 ...         341156.44         3287.2548
+
+idx 125 - 3 / 5 , Ref.Star: 2 ) # 14 / 30 image of 3C454-3
+... aper_annu_sum0 = 989822.97
+... aper_annu_sum1 = 680110.15
+... aper_annu_sum_err0 = 2998.45
+... aper_annu_sum_err1 = 908.75
+... area of sum0 = 1136.25
+... area of sum1 = 1136.25
+... median_sigclip (annual mask per pix)  = 597.80
+... bkg_mean (imdata statistic per pix)   = 603.86
+... bkg_median (imdata statistic per pix) = 603.61
+... bkg_sum (median_sigclip*area_sum0)           = 679256.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 680110.15
+... bg_subtracted_sum = 309712.82
+... bg_subtracted_err = 3133.13
+... mag_instrument (sum) = -13.7274
+... mag_instrument (sum+err) = -13.7383
+... mag_instrument (err) = 0.0109
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 752.46188 1183.5158 ...         309712.82         3133.1319
+
+idx 125 - 4 / 5 , Ref.Star: 3 ) # 14 / 30 image of 3C454-3
+... aper_annu_sum0 = 831383.92
+... aper_annu_sum1 = 679182.51
+... aper_annu_sum_err0 = 1711.24
+... aper_annu_sum_err1 = 907.51
+... area of sum0 = 1136.25
+... area of sum1 = 1136.25
+... median_sigclip (annual mask per pix)  = 596.33
+... bkg_mean (imdata statistic per pix)   = 603.86
+... bkg_median (imdata statistic per pix) = 603.61
+... bkg_sum (median_sigclip*area_sum0)           = 677584.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 679182.51
+... bg_subtracted_sum = 152201.41
+... bg_subtracted_err = 1936.99
+... mag_instrument (sum) = -12.9560
+... mag_instrument (sum+err) = -12.9698
+... mag_instrument (err) = 0.0137
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 798.93395 1234.2206 ...         152201.41         1936.9879
+
+idx 125 - 5 / 5 , Ref.Star: 4 ) # 14 / 30 image of 3C454-3
+... aper_annu_sum0 = 378636.30
+... aper_annu_sum1 = 532244.78
+... aper_annu_sum_err0 = 996.45
+... aper_annu_sum_err1 = 806.43
+... area of sum0 = 505.00
+... area of sum1 = 883.75
+... median_sigclip (annual mask per pix)  = 602.01
+... bkg_mean (imdata statistic per pix)   = 603.86
+... bkg_median (imdata statistic per pix) = 603.61
+... bkg_sum (median_sigclip*area_sum0)           = 304013.94
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 304139.88
+... bg_subtracted_sum = 74496.42
+... bg_subtracted_err = 1281.89
+... mag_instrument (sum) = -12.1803
+... mag_instrument (sum+err) = -12.1989
+... mag_instrument (err) = 0.0185
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 898.43487 1167.6281 ...          74496.42         1281.8931
+
+=================================
+... measurement error after background subtraction (counts): 2319.0865
+... magnitude error after background subtraction (mag): 0.0196
+
+... rmag_fitting (Ref.Stars only): [13.11961796 13.22526806 14.00149867 14.78211375]
+... rmag_fitting (Target only): 15.80036572708795
+... fitting residual: [ 0.03038204 -0.03526806 -0.00149867  0.00788625]
+... fitting error (mag) = 0.0211
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0450
+... error of (calibration + observation) [mag]: 0.0288
+label_source[k] ['3C454-3, Rmag=15.80', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.23', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.78']
+... bg_subtracted_sum = 74496.41964737239
+... InstMag_width = 2.66 , Rmag_width = 2.68
+=================================
+idx 150 ) ID = 151 , # 15 / 30 image of 3C454-3
+... filename : 3C454-3-20170925@125847-R_30508_calib.fits
+calendar_date 2017-09-25 12:58:46.999980
+
+... bkg_mean,bkg_median,bkg_std
+... 232.0379 231.7784 17.4491
+... bkg_err_ratio = bkg_std/bkg_median = 0.0753
+
+idx 150 - 1 / 5 , Ref.Star: 3C454.3 ) # 15 / 30 image of 3C454-3
+... aper_annu_sum0 = 85782.98
+... aper_annu_sum1 = 177063.83
+... aper_annu_sum_err0 = 536.10
+... aper_annu_sum_err1 = 487.14
+... area of sum0 = 247.50
+... area of sum1 = 751.62
+... median_sigclip (annual mask per pix)  = 232.87
+... bkg_mean (imdata statistic per pix)   = 232.04
+... bkg_median (imdata statistic per pix) = 231.78
+... bkg_sum (median_sigclip*area_sum0)           = 57635.21
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 58304.26
+... bg_subtracted_sum = 27478.72
+... bg_subtracted_err = 724.37
+... mag_instrument (sum) = -11.0975
+... mag_instrument (sum+err) = -11.1257
+... mag_instrument (err) = 0.0283
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1025.1853 1011.952 ...         27478.722         724.36511
+
+idx 150 - 2 / 5 , Ref.Star: 1 ) # 15 / 30 image of 3C454-3
+... aper_annu_sum0 = 430054.21
+... aper_annu_sum1 = 325825.76
+... aper_annu_sum_err0 = 4990.77
+... aper_annu_sum_err1 = 659.38
+... area of sum0 = 323.26
+... area of sum1 = 1389.01
+... median_sigclip (annual mask per pix)  = 231.78
+... bkg_mean (imdata statistic per pix)   = 232.04
+... bkg_median (imdata statistic per pix) = 231.78
+... bkg_sum (median_sigclip*area_sum0)           = 74924.94
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 75828.54
+... bg_subtracted_sum = 354225.67
+... bg_subtracted_err = 5034.14
+... mag_instrument (sum) = -13.8732
+... mag_instrument (sum+err) = -13.8885
+... mag_instrument (err) = 0.0153
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1007.0852 1019.5717 ...         354225.67         5034.1376
+
+idx 150 - 3 / 5 , Ref.Star: 2 ) # 15 / 30 image of 3C454-3
+... aper_annu_sum0 = 579776.14
+... aper_annu_sum1 = 264643.61
+... aper_annu_sum_err0 = 4482.07
+... aper_annu_sum_err1 = 592.02
+... area of sum0 = 1136.46
+... area of sum1 = 1136.46
+... median_sigclip (annual mask per pix)  = 231.78
+... bkg_mean (imdata statistic per pix)   = 232.04
+... bkg_median (imdata statistic per pix) = 231.78
+... bkg_sum (median_sigclip*area_sum0)           = 263408.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 264643.61
+... bg_subtracted_sum = 315132.54
+... bg_subtracted_err = 4521.00
+... mag_instrument (sum) = -13.7462
+... mag_instrument (sum+err) = -13.7617
+... mag_instrument (err) = 0.0155
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1309.8737 960.0126 ...         315132.54         4520.9956
+
+idx 150 - 4 / 5 , Ref.Star: 3 ) # 15 / 30 image of 3C454-3
+... aper_annu_sum0 = 420431.77
+... aper_annu_sum1 = 264848.52
+... aper_annu_sum_err0 = 2317.94
+... aper_annu_sum_err1 = 592.41
+... area of sum0 = 1136.46
+... area of sum1 = 1136.46
+... median_sigclip (annual mask per pix)  = 231.78
+... bkg_mean (imdata statistic per pix)   = 232.04
+... bkg_median (imdata statistic per pix) = 231.78
+... bkg_sum (median_sigclip*area_sum0)           = 263408.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 264848.52
+... bg_subtracted_sum = 155583.25
+... bg_subtracted_err = 2392.44
+... mag_instrument (sum) = -12.9799
+... mag_instrument (sum+err) = -12.9965
+... mag_instrument (err) = 0.0166
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1263.0679 909.57202 ...         155583.25         2392.4422
+
+idx 150 - 5 / 5 , Ref.Star: 4 ) # 15 / 30 image of 3C454-3
+... aper_annu_sum0 = 194434.20
+... aper_annu_sum1 = 207291.81
+... aper_annu_sum_err0 = 1222.85
+... aper_annu_sum_err1 = 525.87
+... area of sum0 = 505.10
+... area of sum1 = 883.92
+... median_sigclip (annual mask per pix)  = 231.78
+... bkg_mean (imdata statistic per pix)   = 232.04
+... bkg_median (imdata statistic per pix) = 231.78
+... bkg_sum (median_sigclip*area_sum0)           = 117070.22
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 118452.47
+... bg_subtracted_sum = 75981.73
+... bg_subtracted_err = 1331.13
+... mag_instrument (sum) = -12.2018
+... mag_instrument (sum+err) = -12.2206
+... mag_instrument (err) = 0.0189
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1163.9948 976.86414 ...         75981.731         1331.1266
+
+=================================
+... measurement error after background subtraction (counts): 3280.3148
+... magnitude error after background subtraction (mag): 0.0195
+
+... rmag_fitting (Ref.Stars only): [13.10787874 13.23511126 14.00303997 14.78280154]
+... rmag_fitting (Target only): 15.889392710980188
+... fitting residual: [ 0.04212126 -0.04511126 -0.00303997  0.00719846]
+... fitting error (mag) = 0.0278
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0753
+... error of (calibration + observation) [mag]: 0.0340
+label_source[k] ['3C454-3, Rmag=15.89', '3C454-3, Rmag=13.11', '3C454-3, Rmag=13.24', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.78']
+... bg_subtracted_sum = 75981.7308609213
+... InstMag_width = 2.78 , Rmag_width = 2.78
+=================================
+idx 151 ) ID = 152 , # 16 / 30 image of 3C454-3
+... filename : 3C454-3-20170925@130158-R_30508_calib.fits
+calendar_date 2017-09-25 13:01:57.999990
+
+... bkg_mean,bkg_median,bkg_std
+... 230.1333 229.8710 17.3700
+... bkg_err_ratio = bkg_std/bkg_median = 0.0756
+
+idx 151 - 1 / 5 , Ref.Star: 3C454.3 ) # 16 / 30 image of 3C454-3
+... aper_annu_sum0 = 85453.72
+... aper_annu_sum1 = 176365.18
+... aper_annu_sum_err0 = 531.14
+... aper_annu_sum_err1 = 487.00
+... area of sum0 = 247.53
+... area of sum1 = 751.73
+... median_sigclip (annual mask per pix)  = 232.30
+... bkg_mean (imdata statistic per pix)   = 230.13
+... bkg_median (imdata statistic per pix) = 229.87
+... bkg_sum (median_sigclip*area_sum0)           = 57502.31
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 58074.20
+... bg_subtracted_sum = 27379.52
+... bg_subtracted_err = 720.61
+... mag_instrument (sum) = -11.0936
+... mag_instrument (sum+err) = -11.1218
+... mag_instrument (err) = 0.0282
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1025.317 1014.6257 ...         27379.518         720.61066
+
+idx 151 - 2 / 5 , Ref.Star: 1 ) # 16 / 30 image of 3C454-3
+... aper_annu_sum0 = 436958.61
+... aper_annu_sum1 = 323057.32
+... aper_annu_sum_err0 = 4908.39
+... aper_annu_sum_err1 = 656.15
+... area of sum0 = 323.31
+... area of sum1 = 1389.22
+... median_sigclip (annual mask per pix)  = 229.87
+... bkg_mean (imdata statistic per pix)   = 230.13
+... bkg_median (imdata statistic per pix) = 229.87
+... bkg_sum (median_sigclip*area_sum0)           = 74319.33
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 75184.25
+... bg_subtracted_sum = 361774.36
+... bg_subtracted_err = 4952.05
+... mag_instrument (sum) = -13.8961
+... mag_instrument (sum+err) = -13.9109
+... mag_instrument (err) = 0.0148
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1007.2157 1022.2465 ...         361774.36         4952.0522
+
+idx 151 - 3 / 5 , Ref.Star: 2 ) # 16 / 30 image of 3C454-3
+... aper_annu_sum0 = 583132.59
+... aper_annu_sum1 = 263096.14
+... aper_annu_sum_err0 = 4425.69
+... aper_annu_sum_err1 = 590.83
+... area of sum0 = 1136.63
+... area of sum1 = 1136.63
+... median_sigclip (annual mask per pix)  = 229.87
+... bkg_mean (imdata statistic per pix)   = 230.13
+... bkg_median (imdata statistic per pix) = 229.87
+... bkg_sum (median_sigclip*area_sum0)           = 261278.89
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 263096.14
+... bg_subtracted_sum = 320036.45
+... bg_subtracted_err = 4464.96
+... mag_instrument (sum) = -13.7630
+... mag_instrument (sum+err) = -13.7780
+... mag_instrument (err) = 0.0150
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1310.0259 962.67783 ...         320036.45         4464.9574
+
+idx 151 - 4 / 5 , Ref.Star: 3 ) # 16 / 30 image of 3C454-3
+... aper_annu_sum0 = 420386.62
+... aper_annu_sum1 = 262747.38
+... aper_annu_sum_err0 = 2281.22
+... aper_annu_sum_err1 = 589.94
+... area of sum0 = 1136.63
+... area of sum1 = 1136.63
+... median_sigclip (annual mask per pix)  = 229.87
+... bkg_mean (imdata statistic per pix)   = 230.13
+... bkg_median (imdata statistic per pix) = 229.87
+... bkg_sum (median_sigclip*area_sum0)           = 261278.89
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 262747.38
+... bg_subtracted_sum = 157639.24
+... bg_subtracted_err = 2356.27
+... mag_instrument (sum) = -12.9942
+... mag_instrument (sum+err) = -13.0103
+... mag_instrument (err) = 0.0161
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1263.2161 912.23201 ...         157639.24         2356.2694
+
+idx 151 - 5 / 5 , Ref.Star: 4 ) # 16 / 30 image of 3C454-3
+... aper_annu_sum0 = 195391.06
+... aper_annu_sum1 = 204706.42
+... aper_annu_sum_err0 = 1213.96
+... aper_annu_sum_err1 = 521.13
+... area of sum0 = 505.17
+... area of sum1 = 884.05
+... median_sigclip (annual mask per pix)  = 229.87
+... bkg_mean (imdata statistic per pix)   = 230.13
+... bkg_median (imdata statistic per pix) = 229.87
+... bkg_sum (median_sigclip*area_sum0)           = 116123.95
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 116975.10
+... bg_subtracted_sum = 78415.96
+... bg_subtracted_err = 1321.09
+... mag_instrument (sum) = -12.2360
+... mag_instrument (sum+err) = -12.2542
+... mag_instrument (err) = 0.0181
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1164.1364 979.53263 ...         78415.962         1321.0928
+
+=================================
+... measurement error after background subtraction (counts): 3233.4266
+... magnitude error after background subtraction (mag): 0.0191
+
+... rmag_fitting (Ref.Stars only): [13.10332476 13.23743798 14.01215272 14.77609758]
+... rmag_fitting (Target only): 15.927277043452206
+... fitting residual: [ 0.04667524 -0.04743798 -0.01215272  0.01390242]
+... fitting error (mag) = 0.0309
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0756
+... error of (calibration + observation) [mag]: 0.0363
+label_source[k] ['3C454-3, Rmag=15.93', '3C454-3, Rmag=13.10', '3C454-3, Rmag=13.24', '3C454-3, Rmag=14.01', '3C454-3, Rmag=14.78']
+... bg_subtracted_sum = 78415.9619097231
+... InstMag_width = 2.80 , Rmag_width = 2.82
+=================================
+idx 185 ) ID = 186 , # 17 / 30 image of 3C454-3
+... filename : 3C454-3-20170927@145350-R_30508_calib.fits
+calendar_date 2017-09-27 14:53:50.999949
+
+... bkg_mean,bkg_median,bkg_std
+... 206.0766 205.7690 16.4505
+... bkg_err_ratio = bkg_std/bkg_median = 0.0799
+
+idx 185 - 1 / 5 , Ref.Star: 3C454.3 ) # 17 / 30 image of 3C454-3
+... aper_annu_sum0 = 79583.51
+... aper_annu_sum1 = 158250.34
+... aper_annu_sum_err0 = 552.11
+... aper_annu_sum_err1 = 462.48
+... area of sum0 = 247.52
+... area of sum1 = 751.68
+... median_sigclip (annual mask per pix)  = 207.86
+... bkg_mean (imdata statistic per pix)   = 206.08
+... bkg_median (imdata statistic per pix) = 205.77
+... bkg_sum (median_sigclip*area_sum0)           = 51447.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 52109.28
+... bg_subtracted_sum = 27474.23
+... bg_subtracted_err = 720.22
+... mag_instrument (sum) = -11.0973
+... mag_instrument (sum+err) = -11.1254
+... mag_instrument (err) = 0.0281
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.5037 1015.7467 ...         27474.234         720.21867
+
+idx 185 - 2 / 5 , Ref.Star: 1 ) # 17 / 30 image of 3C454-3
+... aper_annu_sum0 = 451428.46
+... aper_annu_sum1 = 290273.70
+... aper_annu_sum_err0 = 5680.76
+... aper_annu_sum_err1 = 623.90
+... area of sum0 = 323.29
+... area of sum1 = 1389.12
+... median_sigclip (annual mask per pix)  = 205.77
+... bkg_mean (imdata statistic per pix)   = 206.08
+... bkg_median (imdata statistic per pix) = 205.77
+... bkg_sum (median_sigclip*area_sum0)           = 66522.14
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 67554.61
+... bg_subtracted_sum = 383873.85
+... bg_subtracted_err = 5714.91
+... mag_instrument (sum) = -13.9605
+... mag_instrument (sum+err) = -13.9765
+... mag_instrument (err) = 0.0160
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1039.5916 1008.0947 ...         383873.85          5714.914
+
+idx 185 - 3 / 5 , Ref.Star: 2 ) # 17 / 30 image of 3C454-3
+... aper_annu_sum0 = 587901.10
+... aper_annu_sum1 = 237139.62
+... aper_annu_sum_err0 = 5083.41
+... aper_annu_sum_err1 = 563.51
+... area of sum0 = 1136.55
+... area of sum1 = 1136.55
+... median_sigclip (annual mask per pix)  = 205.77
+... bkg_mean (imdata statistic per pix)   = 206.08
+... bkg_median (imdata statistic per pix) = 205.77
+... bkg_sum (median_sigclip*area_sum0)           = 233866.88
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 237139.62
+... bg_subtracted_sum = 350761.48
+... bg_subtracted_err = 5114.54
+... mag_instrument (sum) = -13.8625
+... mag_instrument (sum+err) = -13.8782
+... mag_instrument (err) = 0.0157
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 736.89349 1068.1796 ...         350761.48          5114.544
+
+idx 185 - 4 / 5 , Ref.Star: 3 ) # 17 / 30 image of 3C454-3
+... aper_annu_sum0 = 411660.57
+... aper_annu_sum1 = 237290.41
+... aper_annu_sum_err0 = 2605.52
+... aper_annu_sum_err1 = 563.95
+... area of sum0 = 1136.55
+... area of sum1 = 1136.55
+... median_sigclip (annual mask per pix)  = 205.77
+... bkg_mean (imdata statistic per pix)   = 206.08
+... bkg_median (imdata statistic per pix) = 205.77
+... bkg_sum (median_sigclip*area_sum0)           = 233866.88
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 237290.41
+... bg_subtracted_sum = 174370.16
+... bg_subtracted_err = 2665.85
+... mag_instrument (sum) = -13.1037
+... mag_instrument (sum+err) = -13.1202
+... mag_instrument (err) = 0.0165
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 783.78656 1118.5507 ...         174370.16         2665.8514
+
+idx 185 - 5 / 5 , Ref.Star: 4 ) # 17 / 30 image of 3C454-3
+... aper_annu_sum0 = 190142.10
+... aper_annu_sum1 = 184641.02
+... aper_annu_sum_err0 = 1365.37
+... aper_annu_sum_err1 = 497.54
+... area of sum0 = 505.13
+... area of sum1 = 883.98
+... median_sigclip (annual mask per pix)  = 206.05
+... bkg_mean (imdata statistic per pix)   = 206.08
+... bkg_median (imdata statistic per pix) = 205.77
+... bkg_sum (median_sigclip*area_sum0)           = 104084.81
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 105509.15
+... bg_subtracted_sum = 84632.95
+... bg_subtracted_err = 1453.19
+... mag_instrument (sum) = -12.3188
+... mag_instrument (sum+err) = -12.3373
+... mag_instrument (err) = 0.0185
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 882.7489 1051.0771 ...         84632.946         1453.1924
+
+=================================
+... measurement error after background subtraction (counts): 3702.8651
+... magnitude error after background subtraction (mag): 0.0195
+
+... rmag_fitting (Ref.Stars only): [13.12199526 13.22161227 13.99344277 14.79170013]
+... rmag_fitting (Target only): 16.034130807554973
+... fitting residual: [ 0.02800474 -0.03161227  0.00655723 -0.00170013]
+... fitting error (mag) = 0.0191
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0799
+... error of (calibration + observation) [mag]: 0.0273
+label_source[k] ['3C454-3, Rmag=16.03', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.22', '3C454-3, Rmag=13.99', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 84632.94630837927
+... InstMag_width = 2.86 , Rmag_width = 2.91
+=================================
+idx 186 ) ID = 187 , # 18 / 30 image of 3C454-3
+... filename : 3C454-3-20170927@145716-R_30508_calib.fits
+calendar_date 2017-09-27 14:57:16.000004
+
+... bkg_mean,bkg_median,bkg_std
+... 201.8909 201.7067 16.2178
+... bkg_err_ratio = bkg_std/bkg_median = 0.0804
+
+idx 186 - 1 / 5 , Ref.Star: 3C454.3 ) # 18 / 30 image of 3C454-3
+... aper_annu_sum0 = 78585.02
+... aper_annu_sum1 = 155067.39
+... aper_annu_sum_err0 = 537.98
+... aper_annu_sum_err1 = 455.70
+... area of sum0 = 247.52
+... area of sum1 = 751.70
+... median_sigclip (annual mask per pix)  = 203.34
+... bkg_mean (imdata statistic per pix)   = 201.89
+... bkg_median (imdata statistic per pix) = 201.71
+... bkg_sum (median_sigclip*area_sum0)           = 50332.47
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 51061.18
+... bg_subtracted_sum = 27523.83
+... bg_subtracted_err = 705.04
+... mag_instrument (sum) = -11.0993
+... mag_instrument (sum+err) = -11.1267
+... mag_instrument (err) = 0.0275
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1022.0307 1015.674 ...         27523.833         705.04015
+
+idx 186 - 2 / 5 , Ref.Star: 1 ) # 18 / 30 image of 3C454-3
+... aper_annu_sum0 = 450865.34
+... aper_annu_sum1 = 285336.89
+... aper_annu_sum_err0 = 5527.93
+... aper_annu_sum_err1 = 616.82
+... area of sum0 = 323.29
+... area of sum1 = 1389.16
+... median_sigclip (annual mask per pix)  = 202.89
+... bkg_mean (imdata statistic per pix)   = 201.89
+... bkg_median (imdata statistic per pix) = 201.71
+... bkg_sum (median_sigclip*area_sum0)           = 65592.40
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 66405.68
+... bg_subtracted_sum = 384459.66
+... bg_subtracted_err = 5562.24
+... mag_instrument (sum) = -13.9621
+... mag_instrument (sum+err) = -13.9777
+... mag_instrument (err) = 0.0156
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1040.1186 1008.0219 ...         384459.66         5562.2367
+
+idx 186 - 3 / 5 , Ref.Star: 2 ) # 18 / 30 image of 3C454-3
+... aper_annu_sum0 = 584521.01
+... aper_annu_sum1 = 233765.13
+... aper_annu_sum_err0 = 4967.14
+... aper_annu_sum_err1 = 558.71
+... area of sum0 = 1136.58
+... area of sum1 = 1136.58
+... median_sigclip (annual mask per pix)  = 202.73
+... bkg_mean (imdata statistic per pix)   = 201.89
+... bkg_median (imdata statistic per pix) = 201.71
+... bkg_sum (median_sigclip*area_sum0)           = 230419.71
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 233765.13
+... bg_subtracted_sum = 350755.88
+... bg_subtracted_err = 4998.46
+... mag_instrument (sum) = -13.8625
+... mag_instrument (sum+err) = -13.8779
+... mag_instrument (err) = 0.0154
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 737.41752 1068.1114 ...         350755.88         4998.4591
+
+idx 186 - 4 / 5 , Ref.Star: 3 ) # 18 / 30 image of 3C454-3
+... aper_annu_sum0 = 405582.32
+... aper_annu_sum1 = 232957.80
+... aper_annu_sum_err0 = 2540.30
+... aper_annu_sum_err1 = 556.71
+... area of sum0 = 1136.58
+... area of sum1 = 1136.58
+... median_sigclip (annual mask per pix)  = 201.93
+... bkg_mean (imdata statistic per pix)   = 201.89
+... bkg_median (imdata statistic per pix) = 201.71
+... bkg_sum (median_sigclip*area_sum0)           = 229508.29
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 232957.80
+... bg_subtracted_sum = 172624.52
+... bg_subtracted_err = 2600.58
+... mag_instrument (sum) = -13.0928
+... mag_instrument (sum+err) = -13.1090
+... mag_instrument (err) = 0.0162
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 784.3125 1118.4791 ...         172624.52          2600.584
+
+idx 186 - 5 / 5 , Ref.Star: 4 ) # 18 / 30 image of 3C454-3
+... aper_annu_sum0 = 187676.52
+... aper_annu_sum1 = 181286.91
+... aper_annu_sum_err0 = 1324.39
+... aper_annu_sum_err1 = 491.26
+... area of sum0 = 505.15
+... area of sum1 = 884.01
+... median_sigclip (annual mask per pix)  = 201.71
+... bkg_mean (imdata statistic per pix)   = 201.89
+... bkg_median (imdata statistic per pix) = 201.71
+... bkg_sum (median_sigclip*area_sum0)           = 101891.73
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 103592.52
+... bg_subtracted_sum = 84083.99
+... bg_subtracted_err = 1412.57
+... mag_instrument (sum) = -12.3118
+... mag_instrument (sum+err) = -12.3299
+... mag_instrument (err) = 0.0181
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 883.27466 1051.0061 ...         84083.995         1412.5658
+
+=================================
+... measurement error after background subtraction (counts): 3610.4994
+... magnitude error after background subtraction (mag): 0.0191
+
+... rmag_fitting (Ref.Stars only): [13.12039749 13.22106035 13.99891738 14.78810907]
+... rmag_fitting (Target only): 16.013380410059813
+... fitting residual: [ 0.02960251 -0.03106035  0.00108262  0.00189093]
+... fitting error (mag) = 0.0192
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0804
+... error of (calibration + observation) [mag]: 0.0271
+label_source[k] ['3C454-3, Rmag=16.01', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.22', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 84083.99470140315
+... InstMag_width = 2.86 , Rmag_width = 2.89
+=================================
+idx 201 ) ID = 202 , # 19 / 30 image of 3C454-3
+... filename : 3C454-3-20170928@162659-R_30508_calib.fits
+calendar_date 2017-09-28 16:27:00.000010
+
+... bkg_mean,bkg_median,bkg_std
+... 194.8853 194.6706 15.9220
+... bkg_err_ratio = bkg_std/bkg_median = 0.0818
+
+idx 201 - 1 / 5 , Ref.Star: 3C454.3 ) # 19 / 30 image of 3C454-3
+... aper_annu_sum0 = 75259.54
+... aper_annu_sum1 = 149009.51
+... aper_annu_sum_err0 = 602.30
+... aper_annu_sum_err1 = 445.55
+... area of sum0 = 247.50
+... area of sum1 = 751.64
+... median_sigclip (annual mask per pix)  = 194.76
+... bkg_mean (imdata statistic per pix)   = 194.89
+... bkg_median (imdata statistic per pix) = 194.67
+... bkg_sum (median_sigclip*area_sum0)           = 48205.17
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 49066.42
+... bg_subtracted_sum = 26193.12
+... bg_subtracted_err = 749.19
+... mag_instrument (sum) = -11.0455
+... mag_instrument (sum+err) = -11.0761
+... mag_instrument (err) = 0.0306
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1025.9811 1004.0616 ...         26193.115         749.18585
+
+idx 201 - 2 / 5 , Ref.Star: 1 ) # 19 / 30 image of 3C454-3
+... aper_annu_sum0 = 421245.74
+... aper_annu_sum1 = 274217.17
+... aper_annu_sum_err0 = 6562.61
+... aper_annu_sum_err1 = 603.00
+... area of sum0 = 323.27
+... area of sum1 = 1389.06
+... median_sigclip (annual mask per pix)  = 194.67
+... bkg_mean (imdata statistic per pix)   = 194.89
+... bkg_median (imdata statistic per pix) = 194.67
+... bkg_sum (median_sigclip*area_sum0)           = 62931.37
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 63817.82
+... bg_subtracted_sum = 357427.92
+... bg_subtracted_err = 6590.26
+... mag_instrument (sum) = -13.8830
+... mag_instrument (sum+err) = -13.9028
+... mag_instrument (err) = 0.0198
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1044.054 996.37639 ...         357427.92         6590.2582
+
+idx 201 - 3 / 5 , Ref.Star: 2 ) # 19 / 30 image of 3C454-3
+... aper_annu_sum0 = 550289.60
+... aper_annu_sum1 = 225128.68
+... aper_annu_sum_err0 = 5890.87
+... aper_annu_sum_err1 = 547.39
+... area of sum0 = 1136.50
+... area of sum1 = 1136.50
+... median_sigclip (annual mask per pix)  = 194.87
+... bkg_mean (imdata statistic per pix)   = 194.89
+... bkg_median (imdata statistic per pix) = 194.67
+... bkg_sum (median_sigclip*area_sum0)           = 221469.63
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 225128.68
+... bg_subtracted_sum = 325160.92
+... bg_subtracted_err = 5916.25
+... mag_instrument (sum) = -13.7802
+... mag_instrument (sum+err) = -13.7998
+... mag_instrument (err) = 0.0196
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 741.47678 1057.0269 ...         325160.92          5916.246
+
+idx 201 - 4 / 5 , Ref.Star: 3 ) # 19 / 30 image of 3C454-3
+... aper_annu_sum0 = 385581.58
+... aper_annu_sum1 = 224873.04
+... aper_annu_sum_err0 = 2997.86
+... aper_annu_sum_err1 = 546.66
+... area of sum0 = 1136.50
+... area of sum1 = 1136.50
+... median_sigclip (annual mask per pix)  = 194.67
+... bkg_mean (imdata statistic per pix)   = 194.89
+... bkg_median (imdata statistic per pix) = 194.67
+... bkg_sum (median_sigclip*area_sum0)           = 221243.11
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 224873.04
+... bg_subtracted_sum = 160708.54
+... bg_subtracted_err = 3047.30
+... mag_instrument (sum) = -13.0151
+... mag_instrument (sum+err) = -13.0355
+... mag_instrument (err) = 0.0204
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 788.46407 1107.3029 ...         160708.54         3047.2982
+
+idx 201 - 5 / 5 , Ref.Star: 4 ) # 19 / 30 image of 3C454-3
+... aper_annu_sum0 = 178527.85
+... aper_annu_sum1 = 174588.99
+... aper_annu_sum_err0 = 1541.55
+... aper_annu_sum_err1 = 481.32
+... area of sum0 = 505.11
+... area of sum1 = 883.94
+... median_sigclip (annual mask per pix)  = 194.67
+... bkg_mean (imdata statistic per pix)   = 194.89
+... bkg_median (imdata statistic per pix) = 194.67
+... bkg_sum (median_sigclip*area_sum0)           = 98330.27
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 99765.14
+... bg_subtracted_sum = 78762.71
+... bg_subtracted_err = 1614.95
+... mag_instrument (sum) = -12.2408
+... mag_instrument (sum+err) = -12.2628
+... mag_instrument (err) = 0.0220
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 887.29639 1039.6503 ...         78762.708          1614.947
+
+=================================
+... measurement error after background subtraction (counts): 4263.5391
+... magnitude error after background subtraction (mag): 0.0229
+
+... rmag_fitting (Ref.Stars only): [13.11834503 13.22273995 14.00032441 14.78720488]
+... rmag_fitting (Target only): 16.001966407151357
+... fitting residual: [ 0.03165497 -0.03273995 -0.00032441  0.00279512]
+... fitting error (mag) = 0.0204
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0818
+... error of (calibration + observation) [mag]: 0.0307
+label_source[k] ['3C454-3, Rmag=16.00', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.22', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 78762.70802486842
+... InstMag_width = 2.84 , Rmag_width = 2.88
+=================================
+idx 202 ) ID = 203 , # 20 / 30 image of 3C454-3
+... filename : 3C454-3-20170928@163011-R_30508_calib.fits
+calendar_date 2017-09-28 16:30:10.999980
+
+... bkg_mean,bkg_median,bkg_std
+... 202.4214 202.1489 16.1784
+... bkg_err_ratio = bkg_std/bkg_median = 0.0800
+
+idx 202 - 1 / 5 , Ref.Star: 3C454.3 ) # 20 / 30 image of 3C454-3
+... aper_annu_sum0 = 76887.88
+... aper_annu_sum1 = 154860.78
+... aper_annu_sum_err0 = 587.62
+... aper_annu_sum_err1 = 453.13
+... area of sum0 = 247.48
+... area of sum1 = 751.58
+... median_sigclip (annual mask per pix)  = 202.15
+... bkg_mean (imdata statistic per pix)   = 202.42
+... bkg_median (imdata statistic per pix) = 202.15
+... bkg_sum (median_sigclip*area_sum0)           = 50028.72
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 50993.15
+... bg_subtracted_sum = 25894.74
+... bg_subtracted_err = 742.04
+... mag_instrument (sum) = -11.0330
+... mag_instrument (sum+err) = -11.0637
+... mag_instrument (err) = 0.0307
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1025.6727 1006.0899 ...         25894.735         742.04159
+
+idx 202 - 2 / 5 , Ref.Star: 1 ) # 20 / 30 image of 3C454-3
+... aper_annu_sum0 = 423642.16
+... aper_annu_sum1 = 283967.97
+... aper_annu_sum_err0 = 6438.72
+... aper_annu_sum_err1 = 611.01
+... area of sum0 = 323.25
+... area of sum1 = 1388.94
+... median_sigclip (annual mask per pix)  = 202.15
+... bkg_mean (imdata statistic per pix)   = 202.42
+... bkg_median (imdata statistic per pix) = 202.15
+... bkg_sum (median_sigclip*area_sum0)           = 65343.63
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 66087.09
+... bg_subtracted_sum = 357555.07
+... bg_subtracted_err = 6467.65
+... mag_instrument (sum) = -13.8834
+... mag_instrument (sum+err) = -13.9028
+... mag_instrument (err) = 0.0195
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1043.7451 998.40579 ...         357555.07         6467.6486
+
+idx 202 - 3 / 5 , Ref.Star: 2 ) # 20 / 30 image of 3C454-3
+... aper_annu_sum0 = 558341.26
+... aper_annu_sum1 = 234350.89
+... aper_annu_sum_err0 = 5808.78
+... aper_annu_sum_err1 = 557.56
+... area of sum0 = 1136.41
+... area of sum1 = 1136.41
+... median_sigclip (annual mask per pix)  = 202.93
+... bkg_mean (imdata statistic per pix)   = 202.42
+... bkg_median (imdata statistic per pix) = 202.15
+... bkg_sum (median_sigclip*area_sum0)           = 230611.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 234350.89
+... bg_subtracted_sum = 323990.37
+... bg_subtracted_err = 5835.48
+... mag_instrument (sum) = -13.7763
+... mag_instrument (sum+err) = -13.7957
+... mag_instrument (err) = 0.0194
+
+ id xcenter  ycenter  ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+      pix      pix    ...                                                       
+--- ------- --------- ... ------------------ ----------------- -----------------
+  1 741.178 1059.0425 ...          557.55947         323990.37          5835.482
+
+idx 202 - 4 / 5 , Ref.Star: 3 ) # 20 / 30 image of 3C454-3
+... aper_annu_sum0 = 393711.73
+... aper_annu_sum1 = 232060.54
+... aper_annu_sum_err0 = 2951.70
+... aper_annu_sum_err1 = 552.04
+... area of sum0 = 1136.41
+... area of sum1 = 1136.41
+... median_sigclip (annual mask per pix)  = 202.15
+... bkg_mean (imdata statistic per pix)   = 202.42
+... bkg_median (imdata statistic per pix) = 202.15
+... bkg_sum (median_sigclip*area_sum0)           = 229723.71
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 232060.54
+... bg_subtracted_sum = 161651.20
+... bg_subtracted_err = 3002.88
+... mag_instrument (sum) = -13.0214
+... mag_instrument (sum+err) = -13.0414
+... mag_instrument (err) = 0.0200
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 788.16186 1109.3164 ...          161651.2         3002.8804
+
+idx 202 - 5 / 5 , Ref.Star: 4 ) # 20 / 30 image of 3C454-3
+... aper_annu_sum0 = 182433.21
+... aper_annu_sum1 = 181068.85
+... aper_annu_sum_err0 = 1520.94
+... aper_annu_sum_err1 = 488.43
+... area of sum0 = 505.07
+... area of sum1 = 883.87
+... median_sigclip (annual mask per pix)  = 202.15
+... bkg_mean (imdata statistic per pix)   = 202.42
+... bkg_median (imdata statistic per pix) = 202.15
+... bkg_sum (median_sigclip*area_sum0)           = 102099.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 103467.92
+... bg_subtracted_sum = 78965.30
+... bg_subtracted_err = 1597.45
+... mag_instrument (sum) = -12.2436
+... mag_instrument (sum+err) = -12.2653
+... mag_instrument (err) = 0.0217
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 886.99235 1041.6718 ...         78965.297         1597.4466
+
+=================================
+... measurement error after background subtraction (counts): 4195.3088
+... magnitude error after background subtraction (mag): 0.0227
+
+... rmag_fitting (Ref.Stars only): [13.11733249 13.22646568 13.99620339 14.78936684]
+... rmag_fitting (Target only): 16.02375054165331
+... fitting residual: [ 0.03266751 -0.03646568  0.00379661  0.00063316]
+... fitting error (mag) = 0.0220
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0800
+... error of (calibration + observation) [mag]: 0.0316
+label_source[k] ['3C454-3, Rmag=16.02', '3C454-3, Rmag=13.12', '3C454-3, Rmag=13.23', '3C454-3, Rmag=14.00', '3C454-3, Rmag=14.79']
+... bg_subtracted_sum = 78965.29664181598
+... InstMag_width = 2.85 , Rmag_width = 2.91
+=================================
+idx 256 ) ID = 257 , # 21 / 30 image of 3C454-3
+... filename : 3C454-3-20171003@140407-R_30508_calib.fits
+calendar_date 2017-10-03 14:04:07.000001
+
+... bkg_mean,bkg_median,bkg_std
+... 22144.1262 22138.4991 187.4497
+... bkg_err_ratio = bkg_std/bkg_median = 0.0085
+
+idx 256 - 1 / 5 , Ref.Star: 3C454.3 ) # 21 / 30 image of 3C454-3
+... aper_annu_sum0 = nan
+... aper_annu_sum1 = 2095376.92
+... aper_annu_sum_err0 = nan
+... aper_annu_sum_err1 = 1832.28
+... area of sum0 = 247.62
+... area of sum1 = 751.98
+... median_sigclip (annual mask per pix)  = 0.00
+... bkg_mean (imdata statistic per pix)   = 22144.13
+... bkg_median (imdata statistic per pix) = 22138.50
+... bkg_sum (median_sigclip*area_sum0)           = 0.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 689973.73
+... bg_subtracted_sum = nan
+... bg_subtracted_err = nan
+... mag_instrument (sum) = nan
+... mag_instrument (sum+err) = nan
+... mag_instrument (err) = nan
+
+ id  xcenter    ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix        pix    ...                                    
+--- ---------- --------- ... ----------------- -----------------
+  1 -28.927192 930.49378 ...               nan               nan
+
+idx 256 - 2 / 5 , Ref.Star: 1 ) # 21 / 30 image of 3C454-3
+... aper_annu_sum0 = nan
+... aper_annu_sum1 = 12530439.13
+... aper_annu_sum_err0 = nan
+... aper_annu_sum_err1 = 4479.33
+... area of sum0 = 323.42
+... area of sum1 = 1389.68
+... median_sigclip (annual mask per pix)  = 0.00
+... bkg_mean (imdata statistic per pix)   = 22144.13
+... bkg_median (imdata statistic per pix) = 22138.50
+... bkg_sum (median_sigclip*area_sum0)           = 0.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2916174.92
+... bg_subtracted_sum = nan
+... bg_subtracted_err = nan
+... mag_instrument (sum) = nan
+... mag_instrument (sum+err) = nan
+... mag_instrument (err) = nan
+
+ id  xcenter    ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix        pix    ...                                    
+--- ---------- --------- ... ----------------- -----------------
+  1 -10.887892 922.71927 ...               nan               nan
+
+idx 256 - 3 / 5 , Ref.Star: 2 ) # 21 / 30 image of 3C454-3
+... aper_annu_sum0 = nan
+... aper_annu_sum1 = nan
+... aper_annu_sum_err0 = nan
+... aper_annu_sum_err1 = nan
+... area of sum0 = 1137.01
+... area of sum1 = 1137.01

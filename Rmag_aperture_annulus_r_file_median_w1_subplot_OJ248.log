@@ -1,0 +1,2613 @@
+... will read gasp_target_fitsheader_info_exclude_baddata_2017.txt ...
+      ID     DateObs   TimeObs  ...    FWHM Altitude Airmass
+0      1  2017-09-05  15:34:55  ...  6.5488   2862.0  2.0397
+1      2  2017-09-05  15:38:07  ...  6.3398   2862.0  2.0572
+2      3  2017-09-05  15:57:19  ...  5.4140   2862.0  1.0087
+3      4  2017-09-05  16:00:30  ...  5.0077   2862.0  1.0092
+4      5  2017-09-05  16:21:56  ...  4.5208   2862.0  1.3238
+..   ...         ...       ...  ...     ...      ...     ...
+377  378  2017-10-10  18:13:33  ...  4.9963   2862.0  1.7970
+378  379  2017-10-10  18:33:03  ...  6.2048   2862.0  2.7707
+379  380  2017-10-10  18:36:14  ...  6.0631   2862.0  2.7313
+380  381  2017-10-10  18:01:39  ...  3.7919   2862.0  1.8951
+381  382  2017-10-10  18:04:51  ...  4.0252   2862.0  1.8827
+
+[382 rows x 18 columns]
+... will generate files in: ./Rmag_InstMag/annu_w1/OJ248/
+-----------------------
+Int64Index([94, 95, 134, 135, 178, 235, 236, 243, 244, 298, 299, 342, 343, 370,
+            371],
+           dtype='int64')
+94     OJ248-20170922@203459-R_30508_calib.fits
+95     OJ248-20170922@203832-R_30508_calib.fits
+134    OJ248-20170924@200344-R_30508_calib.fits
+135    OJ248-20170924@200717-R_30508_calib.fits
+178    OJ248-20170926@205321-R_30508_calib.fits
+235    OJ248-20171001@190348-R_30508_calib.fits
+236    OJ248-20171001@190722-R_30508_calib.fits
+243    OJ248-20171002@200121-R_30508_calib.fits
+244    OJ248-20171002@202129-R_30508_calib.fits
+298    OJ248-20171005@190231-R_30508_calib.fits
+299    OJ248-20171005@190604-R_30508_calib.fits
+342    OJ248-20171009@191444-R_30508_calib.fits
+343    OJ248-20171009@191817-R_30508_calib.fits
+370    OJ248-20171010@181740-R_30508_calib.fits
+371    OJ248-20171010@182113-R_30508_calib.fits
+Name: Filename, dtype: object
+... there are 0 fits can not be fitted ...
+[]
+before drop bad fits: idx_fitsheader = Int64Index([94, 95, 134, 135, 178, 235, 236, 243, 244, 298, 299, 342, 343, 370,
+            371],
+           dtype='int64')
+0 94 OJ248-20170922@203459-R_30508_calib.fits
+1 95 OJ248-20170922@203832-R_30508_calib.fits
+2 134 OJ248-20170924@200344-R_30508_calib.fits
+3 135 OJ248-20170924@200717-R_30508_calib.fits
+4 178 OJ248-20170926@205321-R_30508_calib.fits
+5 235 OJ248-20171001@190348-R_30508_calib.fits
+6 236 OJ248-20171001@190722-R_30508_calib.fits
+7 243 OJ248-20171002@200121-R_30508_calib.fits
+8 244 OJ248-20171002@202129-R_30508_calib.fits
+9 298 OJ248-20171005@190231-R_30508_calib.fits
+10 299 OJ248-20171005@190604-R_30508_calib.fits
+11 342 OJ248-20171009@191444-R_30508_calib.fits
+12 343 OJ248-20171009@191817-R_30508_calib.fits
+13 370 OJ248-20171010@181740-R_30508_calib.fits
+14 371 OJ248-20171010@182113-R_30508_calib.fits
+Int64Index([94, 95, 134, 135, 178, 235, 236, 243, 244, 298, 299, 342, 343, 370,
+            371],
+           dtype='int64')
+Int64Index([95, 96, 135, 136, 179, 236, 237, 244, 245, 299, 300, 343, 344, 371,
+            372],
+           dtype='int64')
+Int64Index([], dtype='int64')
+
+=================================
+idx 94 ) ID = 95 , # 1 / 15 image of OJ248
+... filename : OJ248-20170922@203459-R_30508_calib.fits
+calendar_date 2017-09-22 20:35:21.000015
+
+... bkg_mean,bkg_median,bkg_std
+... 440.7025 440.3334 25.9583
+... bkg_err_ratio = bkg_std/bkg_median = 0.0590
+
+idx 94 - 1 / 6 , Ref.Star: OJ248 ) # 1 / 15 image of OJ248
+... aper_annu_sum0 = 154099.85
+... aper_annu_sum1 = 251600.31
+... aper_annu_sum_err0 = 511.63
+... aper_annu_sum_err1 = 624.31
+... area of sum0 = 323.37
+... area of sum1 = 565.91
+... median_sigclip (annual mask per pix)  = 442.77
+... bkg_mean (imdata statistic per pix)   = 440.70
+... bkg_median (imdata statistic per pix) = 440.33
+... bkg_sum (median_sigclip*area_sum0)           = 143182.03
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 143771.60
+... bg_subtracted_sum = 10328.25
+... bg_subtracted_err = 807.17
+... mag_instrument (sum) = -10.0351
+... mag_instrument (sum+err) = -10.1168
+... mag_instrument (err) = 0.0817
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1018.2438 977.66591 ...         10328.246         807.17406
+
+idx 94 - 2 / 6 , Ref.Star: 1 ) # 1 / 15 image of OJ248
+... aper_annu_sum0 = 519626.11
+... aper_annu_sum1 = 840355.65
+... aper_annu_sum_err0 = 1887.67
+... aper_annu_sum_err1 = 1139.41
+... area of sum0 = 727.59
+... area of sum1 = 1894.77
+... median_sigclip (annual mask per pix)  = 441.81
+... bkg_mean (imdata statistic per pix)   = 440.70
+... bkg_median (imdata statistic per pix) = 440.33
+... bkg_sum (median_sigclip*area_sum0)           = 321456.35
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 322696.57
+... bg_subtracted_sum = 196929.54
+... bg_subtracted_err = 2204.89
+... mag_instrument (sum) = -13.2358
+... mag_instrument (sum+err) = -13.2479
+... mag_instrument (err) = 0.0121
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1153.1115 1088.2257 ...         196929.54          2204.893
+
+idx 94 - 3 / 6 , Ref.Star: 2 ) # 1 / 15 image of OJ248
+... aper_annu_sum0 = 609419.00
+... aper_annu_sum1 = 502613.60
+... aper_annu_sum_err0 = 1350.69
+... aper_annu_sum_err1 = 879.83
+... area of sum0 = 1136.86
+... area of sum1 = 1136.86
+... median_sigclip (annual mask per pix)  = 440.33
+... bkg_mean (imdata statistic per pix)   = 440.70
+... bkg_median (imdata statistic per pix) = 440.33
+... bkg_sum (median_sigclip*area_sum0)           = 500599.61
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 502613.60
+... bg_subtracted_sum = 106805.40
+... bg_subtracted_err = 1611.97
+... mag_instrument (sum) = -12.5715
+... mag_instrument (sum+err) = -12.5877
+... mag_instrument (err) = 0.0163
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1065.8045 946.63873 ...          106805.4         1611.9741
+
+idx 94 - 4 / 6 , Ref.Star: 3 ) # 1 / 15 image of OJ248
+... aper_annu_sum0 = 440010.72
+... aper_annu_sum1 = 996045.24
+... aper_annu_sum_err0 = 1319.83
+... aper_annu_sum_err1 = 1239.77
+... area of sum0 = 727.59
+... area of sum1 = 2248.47
+... median_sigclip (annual mask per pix)  = 441.13
+... bkg_mean (imdata statistic per pix)   = 440.70
+... bkg_median (imdata statistic per pix) = 440.33
+... bkg_sum (median_sigclip*area_sum0)           = 320965.56
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 322315.76
+... bg_subtracted_sum = 117694.95
+... bg_subtracted_err = 1810.79
+... mag_instrument (sum) = -12.6769
+... mag_instrument (sum+err) = -12.6935
+... mag_instrument (err) = 0.0166
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1178.7427 1077.8852 ...         117694.95         1810.7912
+
+idx 94 - 5 / 6 , Ref.Star: 4 ) # 1 / 15 image of OJ248
+... aper_annu_sum0 = 558883.89
+... aper_annu_sum1 = 505349.52
+... aper_annu_sum_err0 = 1066.24
+... aper_annu_sum_err1 = 884.60
+... area of sum0 = 1136.86
+... area of sum1 = 1136.86
+... median_sigclip (annual mask per pix)  = 442.28
+... bkg_mean (imdata statistic per pix)   = 440.70
+... bkg_median (imdata statistic per pix) = 440.33
+... bkg_sum (median_sigclip*area_sum0)           = 502810.32
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 505349.52
+... bg_subtracted_sum = 53534.37
+... bg_subtracted_err = 1385.42
+... mag_instrument (sum) = -11.8216
+... mag_instrument (sum+err) = -11.8493
+... mag_instrument (err) = 0.0277
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 892.90819 867.96822 ...         53534.375         1385.4205
+
+idx 94 - 6 / 6 , Ref.Star: 5 ) # 1 / 15 image of OJ248
+... aper_annu_sum0 = 268994.32
+... aper_annu_sum1 = 393486.27
+... aper_annu_sum_err0 = 784.70
+... aper_annu_sum_err1 = 781.06
+... area of sum0 = 505.27
+... area of sum1 = 884.23
+... median_sigclip (annual mask per pix)  = 443.34
+... bkg_mean (imdata statistic per pix)   = 440.70
+... bkg_median (imdata statistic per pix) = 440.33
+... bkg_sum (median_sigclip*area_sum0)           = 224005.76
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 224849.30
+... bg_subtracted_sum = 44145.02
+... bg_subtracted_err = 1107.17
+... mag_instrument (sum) = -11.6122
+... mag_instrument (sum+err) = -11.6391
+... mag_instrument (err) = 0.0269
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1043.4068 1004.883 ...         44145.023         1107.1662
+
+=================================
+... measurement error after background subtraction (counts): 1556.4765
+... magnitude error after background subtraction (mag): 0.0384
+
+... rmag_fitting (Ref.Stars only): [13.76416463 14.43606129 14.32944334 15.19454475 15.40631845]
+... rmag_fitting (Target only): 17.001505984454155
+... fitting residual: [-0.00416463  0.02393871 -0.00944334 -0.01454475 -0.00631845]
+... fitting error (mag) = 0.0125
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0590
+... error of (calibration + observation) [mag]: 0.0404
+label_source[k] ['OJ248, Rmag=17.00', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.44', 'OJ248, Rmag=14.33', 'OJ248, Rmag=15.19', 'OJ248, Rmag=15.41']
+... bg_subtracted_sum = 44145.02261084941
+... InstMag_width = 3.20 , Rmag_width = 3.24
+=================================
+idx 95 ) ID = 96 , # 2 / 15 image of OJ248
+... filename : OJ248-20170922@203832-R_30508_calib.fits
+calendar_date 2017-09-22 20:38:32.999980
+
+... bkg_mean,bkg_median,bkg_std
+... 467.7358 467.2049 25.3161
+... bkg_err_ratio = bkg_std/bkg_median = 0.0542
+
+idx 95 - 1 / 6 , Ref.Star: OJ248 ) # 2 / 15 image of OJ248
+... aper_annu_sum0 = 163153.13
+... aper_annu_sum1 = 267173.19
+... aper_annu_sum_err0 = 497.34
+... aper_annu_sum_err1 = 609.39
+... area of sum0 = 323.28
+... area of sum1 = 565.74
+... median_sigclip (annual mask per pix)  = 471.76
+... bkg_mean (imdata statistic per pix)   = 467.74
+... bkg_median (imdata statistic per pix) = 467.20
+... bkg_sum (median_sigclip*area_sum0)           = 152512.57
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 152670.40
+... bg_subtracted_sum = 10482.74
+... bg_subtracted_err = 786.58
+... mag_instrument (sum) = -10.0512
+... mag_instrument (sum+err) = -10.1297
+... mag_instrument (err) = 0.0786
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1019.4333 984.78586 ...         10482.737         786.57892
+
+idx 95 - 2 / 6 , Ref.Star: 1 ) # 2 / 15 image of OJ248
+... aper_annu_sum0 = 544018.01
+... aper_annu_sum1 = 889381.93
+... aper_annu_sum_err0 = 1772.83
+... aper_annu_sum_err1 = 1108.50
+... area of sum0 = 727.38
+... area of sum1 = 1894.23
+... median_sigclip (annual mask per pix)  = 469.15
+... bkg_mean (imdata statistic per pix)   = 467.74
+... bkg_median (imdata statistic per pix) = 467.20
+... bkg_sum (median_sigclip*area_sum0)           = 341252.09
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 341522.66
+... bg_subtracted_sum = 202495.35
+... bg_subtracted_err = 2090.87
+... mag_instrument (sum) = -13.2660
+... mag_instrument (sum+err) = -13.2772
+... mag_instrument (err) = 0.0112
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1154.2756 1095.3762 ...         202495.35         2090.8663
+
+idx 95 - 3 / 6 , Ref.Star: 2 ) # 2 / 15 image of OJ248
+... aper_annu_sum0 = 642454.25
+... aper_annu_sum1 = 534348.40
+... aper_annu_sum_err0 = 1284.02
+... aper_annu_sum_err1 = 859.83
+... area of sum0 = 1136.54
+... area of sum1 = 1136.54
+... median_sigclip (annual mask per pix)  = 467.80
+... bkg_mean (imdata statistic per pix)   = 467.74
+... bkg_median (imdata statistic per pix) = 467.20
+... bkg_sum (median_sigclip*area_sum0)           = 531667.69
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 534348.40
+... bg_subtracted_sum = 108105.85
+... bg_subtracted_err = 1545.32
+... mag_instrument (sum) = -12.5846
+... mag_instrument (sum+err) = -12.6000
+... mag_instrument (err) = 0.0154
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1066.9884 953.75436 ...         108105.85         1545.3165
+
+idx 95 - 4 / 6 , Ref.Star: 3 ) # 2 / 15 image of OJ248
+... aper_annu_sum0 = 460782.63
+... aper_annu_sum1 = 1055001.11
+... aper_annu_sum_err0 = 1241.88
+... aper_annu_sum_err1 = 1207.16
+... area of sum0 = 727.38
+... area of sum1 = 2247.82
+... median_sigclip (annual mask per pix)  = 467.52
+... bkg_mean (imdata statistic per pix)   = 467.74
+... bkg_median (imdata statistic per pix) = 467.20
+... bkg_sum (median_sigclip*area_sum0)           = 340065.89
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 341393.62
+... bg_subtracted_sum = 119389.01
+... bg_subtracted_err = 1731.91
+... mag_instrument (sum) = -12.6924
+... mag_instrument (sum+err) = -12.7080
+... mag_instrument (err) = 0.0156
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1179.9035 1085.0347 ...         119389.01         1731.9103
+
+idx 95 - 5 / 6 , Ref.Star: 4 ) # 2 / 15 image of OJ248
+... aper_annu_sum0 = 592458.98
+... aper_annu_sum1 = 537771.37
+... aper_annu_sum_err0 = 1029.57
+... aper_annu_sum_err1 = 865.39
+... area of sum0 = 1136.54
+... area of sum1 = 1136.54
+... median_sigclip (annual mask per pix)  = 470.99
+... bkg_mean (imdata statistic per pix)   = 467.74
+... bkg_median (imdata statistic per pix) = 467.20
+... bkg_sum (median_sigclip*area_sum0)           = 535301.45
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 537771.37
+... bg_subtracted_sum = 54687.61
+... bg_subtracted_err = 1344.96
+... mag_instrument (sum) = -11.8447
+... mag_instrument (sum+err) = -11.8711
+... mag_instrument (err) = 0.0264
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 894.12157 875.05833 ...         54687.607         1344.9592
+
+idx 95 - 6 / 6 , Ref.Star: 5 ) # 2 / 15 image of OJ248
+... aper_annu_sum0 = 284335.86
+... aper_annu_sum1 = 416832.68
+... aper_annu_sum_err0 = 755.74
+... aper_annu_sum_err1 = 760.59
+... area of sum0 = 505.13
+... area of sum1 = 883.97
+... median_sigclip (annual mask per pix)  = 471.29
+... bkg_mean (imdata statistic per pix)   = 467.74
+... bkg_median (imdata statistic per pix) = 467.20
+... bkg_sum (median_sigclip*area_sum0)           = 238062.81
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 238190.10
+... bg_subtracted_sum = 46145.75
+... bg_subtracted_err = 1072.22
+... mag_instrument (sum) = -11.6603
+... mag_instrument (sum+err) = -11.6853
+... mag_instrument (err) = 0.0249
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 1044.5912 1012.01 ...          760.59395         46145.754         1072.2185
+
+=================================
+... measurement error after background subtraction (counts): 1490.8897
+... magnitude error after background subtraction (mag): 0.0367
+
+... rmag_fitting (Ref.Stars only): [13.75739315 14.44755507 14.33838351 15.19695388 15.38371387]
+... rmag_fitting (Target only): 17.01351305792779
+... fitting residual: [ 0.00260685  0.01244493 -0.01838351 -0.01695388  0.01628613]
+... fitting error (mag) = 0.0132
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0542
+... error of (calibration + observation) [mag]: 0.0390
+label_source[k] ['OJ248, Rmag=17.01', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.45', 'OJ248, Rmag=14.34', 'OJ248, Rmag=15.20', 'OJ248, Rmag=15.38']
+... bg_subtracted_sum = 46145.75368235569
+... InstMag_width = 3.21 , Rmag_width = 3.26
+=================================
+idx 134 ) ID = 135 , # 3 / 15 image of OJ248
+... filename : OJ248-20170924@200344-R_30508_calib.fits
+calendar_date 2017-09-24 20:04:06.000047
+
+... bkg_mean,bkg_median,bkg_std
+... 471.0085 470.5960 25.7066
+... bkg_err_ratio = bkg_std/bkg_median = 0.0546
+
+idx 134 - 1 / 6 , Ref.Star: OJ248 ) # 3 / 15 image of OJ248
+... aper_annu_sum0 = 163626.17
+... aper_annu_sum1 = 269007.50
+... aper_annu_sum_err0 = 508.24
+... aper_annu_sum_err1 = 618.50
+... area of sum0 = 323.27
+... area of sum1 = 565.72
+... median_sigclip (annual mask per pix)  = 474.38
+... bkg_mean (imdata statistic per pix)   = 471.01
+... bkg_median (imdata statistic per pix) = 470.60
+... bkg_sum (median_sigclip*area_sum0)           = 153350.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 153718.57
+... bg_subtracted_sum = 9907.60
+... bg_subtracted_err = 800.53
+... mag_instrument (sum) = -9.9899
+... mag_instrument (sum+err) = -10.0743
+... mag_instrument (err) = 0.0844
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1010.9239 1010.6456 ...         9907.5964         800.52864
+
+idx 134 - 2 / 6 , Ref.Star: 1 ) # 3 / 15 image of OJ248
+... aper_annu_sum0 = 545460.23
+... aper_annu_sum1 = 897621.97
+... aper_annu_sum_err0 = 2256.88
+... aper_annu_sum_err1 = 1127.81
+... area of sum0 = 727.35
+... area of sum1 = 1894.15
+... median_sigclip (annual mask per pix)  = 473.41
+... bkg_mean (imdata statistic per pix)   = 471.01
+... bkg_median (imdata statistic per pix) = 470.60
+... bkg_sum (median_sigclip*area_sum0)           = 344338.09
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 344686.84
+... bg_subtracted_sum = 200773.39
+... bg_subtracted_err = 2522.99
+... mag_instrument (sum) = -13.2568
+... mag_instrument (sum+err) = -13.2703
+... mag_instrument (err) = 0.0136
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1145.4319 1121.626 ...         200773.39         2522.9904
+
+idx 134 - 3 / 6 , Ref.Star: 2 ) # 3 / 15 image of OJ248
+... aper_annu_sum0 = 645043.86
+... aper_annu_sum1 = 537992.05
+... aper_annu_sum_err0 = 1482.61
+... aper_annu_sum_err1 = 872.75
+... area of sum0 = 1136.49
+... area of sum1 = 1136.49
+... median_sigclip (annual mask per pix)  = 471.35
+... bkg_mean (imdata statistic per pix)   = 471.01
+... bkg_median (imdata statistic per pix) = 470.60
+... bkg_sum (median_sigclip*area_sum0)           = 535685.39
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 537992.05
+... bg_subtracted_sum = 107051.82
+... bg_subtracted_err = 1720.41
+... mag_instrument (sum) = -12.5740
+... mag_instrument (sum+err) = -12.5913
+... mag_instrument (err) = 0.0173
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1058.5709 979.76019 ...         107051.82         1720.4128
+
+idx 134 - 4 / 6 , Ref.Star: 3 ) # 3 / 15 image of OJ248
+... aper_annu_sum0 = 460448.03
+... aper_annu_sum1 = 1065138.92
+... aper_annu_sum_err0 = 1487.29
+... aper_annu_sum_err1 = 1228.69
+... area of sum0 = 727.35
+... area of sum1 = 2247.73
+... median_sigclip (annual mask per pix)  = 472.70
+... bkg_mean (imdata statistic per pix)   = 471.01
+... bkg_median (imdata statistic per pix) = 470.60
+... bkg_sum (median_sigclip*area_sum0)           = 343822.88
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 344674.17
+... bg_subtracted_sum = 115773.86
+... bg_subtracted_err = 1929.17
+... mag_instrument (sum) = -12.6590
+... mag_instrument (sum+err) = -12.6770
+... mag_instrument (err) = 0.0179
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1171.0902 1111.3625 ...         115773.86         1929.1693
+
+idx 134 - 5 / 6 , Ref.Star: 4 ) # 3 / 15 image of OJ248
+... aper_annu_sum0 = 594881.21
+... aper_annu_sum1 = 541535.16
+... aper_annu_sum_err0 = 1100.79
+... aper_annu_sum_err1 = 878.48
+... area of sum0 = 1136.49
+... area of sum1 = 1136.49
+... median_sigclip (annual mask per pix)  = 475.44
+... bkg_mean (imdata statistic per pix)   = 471.01
+... bkg_median (imdata statistic per pix) = 470.60
+... bkg_sum (median_sigclip*area_sum0)           = 540330.85
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 541535.16
+... bg_subtracted_sum = 53346.05
+... bg_subtracted_err = 1408.35
+... mag_instrument (sum) = -11.8178
+... mag_instrument (sum+err) = -11.8460
+... mag_instrument (err) = 0.0283
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 885.94373 900.55636 ...         53346.049         1408.3524
+
+idx 134 - 6 / 6 , Ref.Star: 5 ) # 3 / 15 image of OJ248
+... aper_annu_sum0 = 284858.16
+... aper_annu_sum1 = 418783.09
+... aper_annu_sum_err0 = 825.18
+... aper_annu_sum_err1 = 770.32
+... area of sum0 = 505.11
+... area of sum1 = 883.94
+... median_sigclip (annual mask per pix)  = 472.75
+... bkg_mean (imdata statistic per pix)   = 471.01
+... bkg_median (imdata statistic per pix) = 470.60
+... bkg_sum (median_sigclip*area_sum0)           = 238787.37
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 239304.62
+... bg_subtracted_sum = 45553.54
+... bg_subtracted_err = 1128.85
+... mag_instrument (sum) = -11.6463
+... mag_instrument (sum+err) = -11.6729
+... mag_instrument (err) = 0.0266
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1035.9998 1037.9417 ...         45553.538         1128.8515
+
+=================================
+... measurement error after background subtraction (counts): 1680.5556
+... magnitude error after background subtraction (mag): 0.0396
+
+... rmag_fitting (Ref.Stars only): [13.75372786 14.44062864 14.35507423 15.20142184 15.37390688]
+... rmag_fitting (Target only): 17.040287475997367
+... fitting residual: [ 0.00627214  0.01937136 -0.03507423 -0.02142184  0.02609312]
+... fitting error (mag) = 0.0215
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0546
+... error of (calibration + observation) [mag]: 0.0451
+label_source[k] ['OJ248, Rmag=17.04', 'OJ248, Rmag=13.75', 'OJ248, Rmag=14.44', 'OJ248, Rmag=14.36', 'OJ248, Rmag=15.20', 'OJ248, Rmag=15.37']
+... bg_subtracted_sum = 45553.538335700374
+... InstMag_width = 3.27 , Rmag_width = 3.29
+=================================
+idx 135 ) ID = 136 , # 4 / 15 image of OJ248
+... filename : OJ248-20170924@200717-R_30508_calib.fits
+calendar_date 2017-09-24 20:07:17.000016
+
+... bkg_mean,bkg_median,bkg_std
+... 480.4110 480.0008 25.0775
+... bkg_err_ratio = bkg_std/bkg_median = 0.0522
+
+idx 135 - 1 / 6 , Ref.Star: OJ248 ) # 4 / 15 image of OJ248
+... aper_annu_sum0 = 167366.97
+... aper_annu_sum1 = 273705.45
+... aper_annu_sum_err0 = 496.30
+... aper_annu_sum_err1 = 601.91
+... area of sum0 = 323.21
+... area of sum1 = 565.62
+... median_sigclip (annual mask per pix)  = 482.80
+... bkg_mean (imdata statistic per pix)   = 480.41
+... bkg_median (imdata statistic per pix) = 480.00
+... bkg_sum (median_sigclip*area_sum0)           = 156044.29
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 156403.11
+... bg_subtracted_sum = 10963.86
+... bg_subtracted_err = 780.14
+... mag_instrument (sum) = -10.0999
+... mag_instrument (sum+err) = -10.1745
+... mag_instrument (err) = 0.0746
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1011.821 1010.4685 ...          10963.86         780.13559
+
+idx 135 - 2 / 6 , Ref.Star: 1 ) # 4 / 15 image of OJ248
+... aper_annu_sum0 = 551468.45
+... aper_annu_sum1 = 912920.49
+... aper_annu_sum_err0 = 2173.48
+... aper_annu_sum_err1 = 1097.21
+... area of sum0 = 727.22
+... area of sum1 = 1893.80
+... median_sigclip (annual mask per pix)  = 480.99
+... bkg_mean (imdata statistic per pix)   = 480.41
+... bkg_median (imdata statistic per pix) = 480.00
+... bkg_sum (median_sigclip*area_sum0)           = 349784.08
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 350561.47
+... bg_subtracted_sum = 200906.98
+... bg_subtracted_err = 2434.72
+... mag_instrument (sum) = -13.2575
+... mag_instrument (sum+err) = -13.2706
+... mag_instrument (err) = 0.0131
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1146.3231 1121.4287 ...         200906.98         2434.7233
+
+idx 135 - 3 / 6 , Ref.Star: 2 ) # 4 / 15 image of OJ248
+... aper_annu_sum0 = 655365.94
+... aper_annu_sum1 = 546338.32
+... aper_annu_sum_err0 = 1436.74
+... aper_annu_sum_err1 = 847.65
+... area of sum0 = 1136.28
+... area of sum1 = 1136.28
+... median_sigclip (annual mask per pix)  = 480.00
+... bkg_mean (imdata statistic per pix)   = 480.41
+... bkg_median (imdata statistic per pix) = 480.00
+... bkg_sum (median_sigclip*area_sum0)           = 545415.84
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 546338.32
+... bg_subtracted_sum = 109027.61
+... bg_subtracted_err = 1668.15
+... mag_instrument (sum) = -12.5938
+... mag_instrument (sum+err) = -12.6103
+... mag_instrument (err) = 0.0165
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1059.4618 979.58376 ...         109027.61          1668.152
+
+idx 135 - 4 / 6 , Ref.Star: 3 ) # 4 / 15 image of OJ248
+... aper_annu_sum0 = 468793.71
+... aper_annu_sum1 = 1082922.70
+... aper_annu_sum_err0 = 1447.32
+... aper_annu_sum_err1 = 1194.92
+... area of sum0 = 727.22
+... area of sum1 = 2247.31
+... median_sigclip (annual mask per pix)  = 480.00
+... bkg_mean (imdata statistic per pix)   = 480.41
+... bkg_median (imdata statistic per pix) = 480.00
+... bkg_sum (median_sigclip*area_sum0)           = 349066.14
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 350428.92
+... bg_subtracted_sum = 118364.79
+... bg_subtracted_err = 1876.85
+... mag_instrument (sum) = -12.6831
+... mag_instrument (sum+err) = -12.7001
+... mag_instrument (err) = 0.0171
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1171.9783 1111.1648 ...         118364.79         1876.8508
+
+idx 135 - 5 / 6 , Ref.Star: 4 ) # 4 / 15 image of OJ248
+... aper_annu_sum0 = 607659.59
+... aper_annu_sum1 = 552361.31
+... aper_annu_sum_err0 = 1075.50
+... aper_annu_sum_err1 = 857.06
+... area of sum0 = 1136.28
+... area of sum1 = 1136.28
+... median_sigclip (annual mask per pix)  = 485.62
+... bkg_mean (imdata statistic per pix)   = 480.41
+... bkg_median (imdata statistic per pix) = 480.00
+... bkg_sum (median_sigclip*area_sum0)           = 551799.14
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 552361.31
+... bg_subtracted_sum = 55298.29
+... bg_subtracted_err = 1375.23
+... mag_instrument (sum) = -11.8568
+... mag_instrument (sum+err) = -11.8835
+... mag_instrument (err) = 0.0267
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 886.84589 900.39888 ...         55298.286         1375.2306
+
+idx 135 - 6 / 6 , Ref.Star: 5 ) # 4 / 15 image of OJ248
+... aper_annu_sum0 = 289950.64
+... aper_annu_sum1 = 428288.72
+... aper_annu_sum_err0 = 803.11
+... aper_annu_sum_err1 = 753.51
+... area of sum0 = 505.01
+... area of sum1 = 883.77
+... median_sigclip (annual mask per pix)  = 483.70
+... bkg_mean (imdata statistic per pix)   = 480.41
+... bkg_median (imdata statistic per pix) = 480.00
+... bkg_sum (median_sigclip*area_sum0)           = 244273.70
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 244736.41
+... bg_subtracted_sum = 45214.23
+... bg_subtracted_err = 1101.26
+... mag_instrument (sum) = -11.6382
+... mag_instrument (sum+err) = -11.6643
+... mag_instrument (err) = 0.0261
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1036.8961 1037.7601 ...         45214.234         1101.2571
+
+=================================
+... measurement error after background subtraction (counts): 1630.2257
+... magnitude error after background subtraction (mag): 0.0358
+
+... rmag_fitting (Ref.Stars only): [13.76048939 14.43429616 14.34371522 15.1826427  15.40458057]
+... rmag_fitting (Target only): 16.966410988380968
+... fitting residual: [-0.00048939  0.02570384 -0.02371522 -0.0026427  -0.00458057]
+... fitting error (mag) = 0.0144
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0522
+... error of (calibration + observation) [mag]: 0.0386
+label_source[k] ['OJ248, Rmag=16.97', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.43', 'OJ248, Rmag=14.34', 'OJ248, Rmag=15.18', 'OJ248, Rmag=15.40']
+... bg_subtracted_sum = 45214.234291283734
+... InstMag_width = 3.16 , Rmag_width = 3.21
+=================================
+idx 178 ) ID = 179 , # 5 / 15 image of OJ248
+... filename : OJ248-20170926@205321-R_30508_calib.fits
+calendar_date 2017-09-26 20:53:42.999992
+
+... bkg_mean,bkg_median,bkg_std
+... 862.2563 861.7676 34.0495
+... bkg_err_ratio = bkg_std/bkg_median = 0.0395
+
+idx 178 - 1 / 6 , Ref.Star: OJ248 ) # 5 / 15 image of OJ248
+... aper_annu_sum0 = 290400.13
+... aper_annu_sum1 = 489946.91
+... aper_annu_sum_err0 = 644.57
+... aper_annu_sum_err1 = 814.51
+... area of sum0 = 323.26
+... area of sum1 = 565.71
+... median_sigclip (annual mask per pix)  = 864.17
+... bkg_mean (imdata statistic per pix)   = 862.26
+... bkg_median (imdata statistic per pix) = 861.77
+... bkg_sum (median_sigclip*area_sum0)           = 279353.11
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 279969.66
+... bg_subtracted_sum = 10430.47
+... bg_subtracted_err = 1038.70
+... mag_instrument (sum) = -10.0458
+... mag_instrument (sum+err) = -10.1488
+... mag_instrument (err) = 0.1031
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1024.6294 1033.7064 ...         10430.469         1038.6998
+
+idx 178 - 2 / 6 , Ref.Star: 1 ) # 5 / 15 image of OJ248
+... aper_annu_sum0 = 833295.80
+... aper_annu_sum1 = 1635522.56
+... aper_annu_sum_err0 = 2065.97
+... aper_annu_sum_err1 = 1485.92
+... area of sum0 = 727.34
+... area of sum1 = 1894.12
+... median_sigclip (annual mask per pix)  = 863.94
+... bkg_mean (imdata statistic per pix)   = 862.26
+... bkg_median (imdata statistic per pix) = 861.77
+... bkg_sum (median_sigclip*area_sum0)           = 628377.76
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 628040.66
+... bg_subtracted_sum = 205255.14
+... bg_subtracted_err = 2544.84
+... mag_instrument (sum) = -13.2807
+... mag_instrument (sum+err) = -13.2941
+... mag_instrument (err) = 0.0134
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1159.8013 1143.9015 ...         205255.14         2544.8374
+
+idx 178 - 3 / 6 , Ref.Star: 2 ) # 5 / 15 image of OJ248
+... aper_annu_sum0 = 1090633.08
+... aper_annu_sum1 = 979261.47
+... aper_annu_sum_err0 = 1569.13
+... aper_annu_sum_err1 = 1148.48
+... area of sum0 = 1136.47
+... area of sum1 = 1136.47
+... median_sigclip (annual mask per pix)  = 860.14
+... bkg_mean (imdata statistic per pix)   = 862.26
+... bkg_median (imdata statistic per pix) = 861.77
+... bkg_sum (median_sigclip*area_sum0)           = 977524.29
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 979261.47
+... bg_subtracted_sum = 111371.62
+... bg_subtracted_err = 1944.52
+... mag_instrument (sum) = -12.6169
+... mag_instrument (sum+err) = -12.6357
+... mag_instrument (err) = 0.0188
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1072.0891 1002.5278 ...         111371.62         1944.5249
+
+idx 178 - 4 / 6 , Ref.Star: 3 ) # 5 / 15 image of OJ248
+... aper_annu_sum0 = 749467.24
+... aper_annu_sum1 = 1939252.38
+... aper_annu_sum_err0 = 1476.78
+... aper_annu_sum_err1 = 1617.39
+... area of sum0 = 727.34
+... area of sum1 = 2247.68
+... median_sigclip (annual mask per pix)  = 862.05
+... bkg_mean (imdata statistic per pix)   = 862.26
+... bkg_median (imdata statistic per pix) = 861.77
+... bkg_sum (median_sigclip*area_sum0)           = 627006.52
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 627533.36
+... bg_subtracted_sum = 121933.88
+... bg_subtracted_err = 2190.17
+... mag_instrument (sum) = -12.7153
+... mag_instrument (sum+err) = -12.7346
+... mag_instrument (err) = 0.0193
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1185.397 1133.4815 ...         121933.88         2190.1684
+
+idx 178 - 5 / 6 , Ref.Star: 4 ) # 5 / 15 image of OJ248
+... aper_annu_sum0 = 1041795.08
+... aper_annu_sum1 = 988646.72
+... aper_annu_sum_err0 = 1305.77
+... aper_annu_sum_err1 = 1159.57
+... area of sum0 = 1136.47
+... area of sum1 = 1136.47
+... median_sigclip (annual mask per pix)  = 870.69
+... bkg_mean (imdata statistic per pix)   = 862.26
+... bkg_median (imdata statistic per pix) = 861.77
+... bkg_sum (median_sigclip*area_sum0)           = 989517.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 988646.72
+... bg_subtracted_sum = 53148.36
+... bg_subtracted_err = 1746.32
+... mag_instrument (sum) = -11.8137
+... mag_instrument (sum+err) = -11.8488
+... mag_instrument (err) = 0.0351
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 898.99042 924.34539 ...         53148.365         1746.3197
+
+idx 178 - 6 / 6 , Ref.Star: 5 ) # 5 / 15 image of OJ248
+... aper_annu_sum0 = 483492.11
+... aper_annu_sum1 = 761852.21
+... aper_annu_sum_err0 = 932.03
+... aper_annu_sum_err1 = 1013.23
+... area of sum0 = 505.10
+... area of sum1 = 883.92
+... median_sigclip (annual mask per pix)  = 860.26
+... bkg_mean (imdata statistic per pix)   = 862.26
+... bkg_median (imdata statistic per pix) = 861.77
+... bkg_sum (median_sigclip*area_sum0)           = 434514.74
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 435344.12
+... bg_subtracted_sum = 48147.99
+... bg_subtracted_err = 1376.70
+... mag_instrument (sum) = -11.7064
+... mag_instrument (sum+err) = -11.7371
+... mag_instrument (err) = 0.0306
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1049.8688 1060.8575 ...         48147.991         1376.7003
+
+=================================
+... measurement error after background subtraction (counts): 1874.3019
+... magnitude error after background subtraction (mag): 0.0478
+
+... rmag_fitting (Ref.Stars only): [13.76140833 14.43598345 14.33601168 15.25223459 15.36125553]
+... rmag_fitting (Target only): 17.04890156192565
+... fitting residual: [-0.00140833  0.02401655 -0.01601168 -0.07223459  0.03874447]
+... fitting error (mag) = 0.0355
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0395
+... error of (calibration + observation) [mag]: 0.0595
+label_source[k] ['OJ248, Rmag=17.05', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.44', 'OJ248, Rmag=14.34', 'OJ248, Rmag=15.25', 'OJ248, Rmag=15.36']
+... bg_subtracted_sum = 48147.99135620269
+... InstMag_width = 3.23 , Rmag_width = 3.29
+=================================
+idx 235 ) ID = 236 , # 6 / 15 image of OJ248
+... filename : OJ248-20171001@190348-R_30508_calib.fits
+calendar_date 2017-10-01 19:04:09.999998
+
+... bkg_mean,bkg_median,bkg_std
+... 457.6469 457.2339 24.5239
+... bkg_err_ratio = bkg_std/bkg_median = 0.0536
+
+idx 235 - 1 / 6 , Ref.Star: OJ248 ) # 6 / 15 image of OJ248
+... aper_annu_sum0 = 158212.32
+... aper_annu_sum1 = 261040.76
+... aper_annu_sum_err0 = 479.39
+... aper_annu_sum_err1 = 589.35
+... area of sum0 = 323.26
+... area of sum1 = 565.71
+... median_sigclip (annual mask per pix)  = 459.26
+... bkg_mean (imdata statistic per pix)   = 457.65
+... bkg_median (imdata statistic per pix) = 457.23
+... bkg_sum (median_sigclip*area_sum0)           = 148461.11
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 149166.15
+... bg_subtracted_sum = 9046.18
+... bg_subtracted_err = 759.70
+... mag_instrument (sum) = -9.8912
+... mag_instrument (sum+err) = -9.9787
+... mag_instrument (err) = 0.0876
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1026.3668 1020.7133 ...         9046.1766         759.70224
+
+idx 235 - 2 / 6 , Ref.Star: 1 ) # 6 / 15 image of OJ248
+... aper_annu_sum0 = 527080.00
+... aper_annu_sum1 = 866948.29
+... aper_annu_sum_err0 = 1947.30
+... aper_annu_sum_err1 = 1069.57
+... area of sum0 = 727.34
+... area of sum1 = 1894.13
+... median_sigclip (annual mask per pix)  = 457.23
+... bkg_mean (imdata statistic per pix)   = 457.65
+... bkg_median (imdata statistic per pix) = 457.23
+... bkg_sum (median_sigclip*area_sum0)           = 332566.54
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 332908.14
+... bg_subtracted_sum = 194171.86
+... bg_subtracted_err = 2221.70
+... mag_instrument (sum) = -13.2205
+... mag_instrument (sum+err) = -13.2328
+... mag_instrument (err) = 0.0124
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1161.451 1130.9523 ...         194171.86         2221.7003
+
+idx 235 - 3 / 6 , Ref.Star: 2 ) # 6 / 15 image of OJ248
+... aper_annu_sum0 = 626755.42
+... aper_annu_sum1 = 521626.92
+... aper_annu_sum_err0 = 1330.00
+... aper_annu_sum_err1 = 830.77
+... area of sum0 = 1136.48
+... area of sum1 = 1136.48
+... median_sigclip (annual mask per pix)  = 458.46
+... bkg_mean (imdata statistic per pix)   = 457.65
+... bkg_median (imdata statistic per pix) = 457.23
+... bkg_sum (median_sigclip*area_sum0)           = 521033.17
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 521626.92
+... bg_subtracted_sum = 105128.51
+... bg_subtracted_err = 1568.15
+... mag_instrument (sum) = -12.5543
+... mag_instrument (sum+err) = -12.5704
+... mag_instrument (err) = 0.0161
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1073.8519 989.59117 ...         105128.51         1568.1464
+
+idx 235 - 4 / 6 , Ref.Star: 3 ) # 6 / 15 image of OJ248
+... aper_annu_sum0 = 446084.62
+... aper_annu_sum1 = 1030526.75
+... aper_annu_sum_err0 = 1308.77
+... aper_annu_sum_err1 = 1167.17
+... area of sum0 = 727.34
+... area of sum1 = 2247.70
+... median_sigclip (annual mask per pix)  = 457.23
+... bkg_mean (imdata statistic per pix)   = 457.65
+... bkg_median (imdata statistic per pix) = 457.23
+... bkg_sum (median_sigclip*area_sum0)           = 332566.54
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 333473.82
+... bg_subtracted_sum = 112610.79
+... bg_subtracted_err = 1753.62
+... mag_instrument (sum) = -12.6290
+... mag_instrument (sum+err) = -12.6457
+... mag_instrument (err) = 0.0168
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1187.0552 1120.559 ...         112610.79         1753.6173
+
+idx 235 - 5 / 6 , Ref.Star: 4 ) # 6 / 15 image of OJ248
+... aper_annu_sum0 = 576843.91
+... aper_annu_sum1 = 525681.15
+... aper_annu_sum_err0 = 1023.28
+... aper_annu_sum_err1 = 837.32
+... area of sum0 = 1136.48
+... area of sum1 = 1136.48
+... median_sigclip (annual mask per pix)  = 461.21
+... bkg_mean (imdata statistic per pix)   = 457.65
+... bkg_median (imdata statistic per pix) = 457.23
+... bkg_sum (median_sigclip*area_sum0)           = 524152.07
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 525681.15
+... bg_subtracted_sum = 51162.76
+... bg_subtracted_err = 1322.20
+... mag_instrument (sum) = -11.7724
+... mag_instrument (sum+err) = -11.8001
+... mag_instrument (err) = 0.0277
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 900.81496 911.31559 ...         51162.756         1322.1988
+
+idx 235 - 6 / 6 , Ref.Star: 5 ) # 6 / 15 image of OJ248
+... aper_annu_sum0 = 274935.36
+... aper_annu_sum1 = 406627.99
+... aper_annu_sum_err0 = 753.83
+... aper_annu_sum_err1 = 734.40
+... area of sum0 = 505.10
+... area of sum1 = 883.93
+... median_sigclip (annual mask per pix)  = 458.35
+... bkg_mean (imdata statistic per pix)   = 457.65
+... bkg_median (imdata statistic per pix) = 457.23
+... bkg_sum (median_sigclip*area_sum0)           = 231510.90
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 232358.85
+... bg_subtracted_sum = 42576.51
+... bg_subtracted_err = 1052.43
+... mag_instrument (sum) = -11.5729
+... mag_instrument (sum+err) = -11.5994
+... mag_instrument (err) = 0.0265
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1051.5845 1047.8688 ...         42576.514         1052.4254
+
+=================================
+... measurement error after background subtraction (counts): 1522.2333
+... magnitude error after background subtraction (mag): 0.0405
+
+... rmag_fitting (Ref.Stars only): [13.76214049 14.4235119  14.3494002  15.19980244 15.3978269 ]
+... rmag_fitting (Target only): 17.067489199216364
+... fitting residual: [-0.00214049  0.0364881  -0.0294002  -0.01980244  0.0021731 ]
+... fitting error (mag) = 0.0208
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0536
+... error of (calibration + observation) [mag]: 0.0455
+label_source[k] ['OJ248, Rmag=17.07', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.42', 'OJ248, Rmag=14.35', 'OJ248, Rmag=15.20', 'OJ248, Rmag=15.40']
+... bg_subtracted_sum = 42576.51393943443
+... InstMag_width = 3.33 , Rmag_width = 3.31
+=================================
+idx 236 ) ID = 237 , # 7 / 15 image of OJ248
+... filename : OJ248-20171001@190722-R_30508_calib.fits
+calendar_date 2017-10-01 19:07:22.000003
+
+... bkg_mean,bkg_median,bkg_std
+... 458.0357 457.6421 24.4136
+... bkg_err_ratio = bkg_std/bkg_median = 0.0533
+
+idx 236 - 1 / 6 , Ref.Star: OJ248 ) # 7 / 15 image of OJ248
+... aper_annu_sum0 = 158616.73
+... aper_annu_sum1 = 260432.55
+... aper_annu_sum_err0 = 477.31
+... aper_annu_sum_err1 = 584.82
+... area of sum0 = 323.19
+... area of sum1 = 565.59
+... median_sigclip (annual mask per pix)  = 460.04
+... bkg_mean (imdata statistic per pix)   = 458.04
+... bkg_median (imdata statistic per pix) = 457.64
+... bkg_sum (median_sigclip*area_sum0)           = 148682.57
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 148818.60
+... bg_subtracted_sum = 9798.12
+... bg_subtracted_err = 754.88
+... mag_instrument (sum) = -9.9779
+... mag_instrument (sum+err) = -10.0584
+... mag_instrument (err) = 0.0806
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1027.1806 1018.2967 ...         9798.1229         754.87701
+
+idx 236 - 2 / 6 , Ref.Star: 1 ) # 7 / 15 image of OJ248
+... aper_annu_sum0 = 527377.14
+... aper_annu_sum1 = 868205.79
+... aper_annu_sum_err0 = 1839.02
+... aper_annu_sum_err1 = 1065.49
+... area of sum0 = 727.19
+... area of sum1 = 1893.72
+... median_sigclip (annual mask per pix)  = 457.64
+... bkg_mean (imdata statistic per pix)   = 458.04
+... bkg_median (imdata statistic per pix) = 457.64
+... bkg_sum (median_sigclip*area_sum0)           = 332791.33
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 333391.02
+... bg_subtracted_sum = 193986.11
+... bg_subtracted_err = 2125.38
+... mag_instrument (sum) = -13.2194
+... mag_instrument (sum+err) = -13.2313
+... mag_instrument (err) = 0.0118
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1162.2425 1128.5306 ...         193986.11         2125.3816
+
+idx 236 - 3 / 6 , Ref.Star: 2 ) # 7 / 15 image of OJ248
+... aper_annu_sum0 = 624911.30
+... aper_annu_sum1 = 521419.18
+... aper_annu_sum_err0 = 1281.73
+... aper_annu_sum_err1 = 826.12
+... area of sum0 = 1136.23
+... area of sum1 = 1136.23
+... median_sigclip (annual mask per pix)  = 457.64
+... bkg_mean (imdata statistic per pix)   = 458.04
+... bkg_median (imdata statistic per pix) = 457.64
+... bkg_sum (median_sigclip*area_sum0)           = 519986.45
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 521419.18
+... bg_subtracted_sum = 103492.12
+... bg_subtracted_err = 1524.90
+... mag_instrument (sum) = -12.5373
+... mag_instrument (sum+err) = -12.5531
+... mag_instrument (err) = 0.0159
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1074.6627 987.18191 ...         103492.12         1524.8978
+
+idx 236 - 4 / 6 , Ref.Star: 3 ) # 7 / 15 image of OJ248
+... aper_annu_sum0 = 447401.00
+... aper_annu_sum1 = 1029180.05
+... aper_annu_sum_err0 = 1254.86
+... aper_annu_sum_err1 = 1159.53
+... area of sum0 = 727.19
+... area of sum1 = 2247.21
+... median_sigclip (annual mask per pix)  = 457.64
+... bkg_mean (imdata statistic per pix)   = 458.04
+... bkg_median (imdata statistic per pix) = 457.64
+... bkg_sum (median_sigclip*area_sum0)           = 332791.33
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 333038.04
+... bg_subtracted_sum = 114362.96
+... bg_subtracted_err = 1708.56
+... mag_instrument (sum) = -12.6457
+... mag_instrument (sum+err) = -12.6618
+... mag_instrument (err) = 0.0161
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1187.8447 1118.1404 ...         114362.96         1708.5564
+
+idx 236 - 5 / 6 , Ref.Star: 4 ) # 7 / 15 image of OJ248
+... aper_annu_sum0 = 577510.62
+... aper_annu_sum1 = 525110.01
+... aper_annu_sum_err0 = 1006.38
+... aper_annu_sum_err1 = 831.98
+... area of sum0 = 1136.23
+... area of sum1 = 1136.23
+... median_sigclip (annual mask per pix)  = 460.58
+... bkg_mean (imdata statistic per pix)   = 458.04
+... bkg_median (imdata statistic per pix) = 457.64
+... bkg_sum (median_sigclip*area_sum0)           = 523329.26
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 525110.01
+... bg_subtracted_sum = 52400.61
+... bg_subtracted_err = 1305.75
+... mag_instrument (sum) = -11.7983
+... mag_instrument (sum+err) = -11.8251
+... mag_instrument (err) = 0.0267
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 901.64992 908.9046 ...         52400.606         1305.7548
+
+idx 236 - 6 / 6 , Ref.Star: 5 ) # 7 / 15 image of OJ248
+... aper_annu_sum0 = 275587.58
+... aper_annu_sum1 = 405251.12
+... aper_annu_sum_err0 = 738.04
+... aper_annu_sum_err1 = 728.04
+... area of sum0 = 504.99
+... area of sum1 = 883.73
+... median_sigclip (annual mask per pix)  = 457.64
+... bkg_mean (imdata statistic per pix)   = 458.04
+... bkg_median (imdata statistic per pix) = 457.64
+... bkg_sum (median_sigclip*area_sum0)           = 231105.09
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 231572.07
+... bg_subtracted_sum = 44015.51
+... bg_subtracted_err = 1036.70
+... mag_instrument (sum) = -11.6090
+... mag_instrument (sum+err) = -11.6343
+... mag_instrument (err) = 0.0253
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1052.3937 1045.4504 ...         44015.511         1036.7023
+
+=================================
+... measurement error after background subtraction (counts): 1478.2485
+... magnitude error after background subtraction (mag): 0.0376
+
+... rmag_fitting (Ref.Stars only): [13.75751054 14.44743049 14.33775134 15.19476535 15.38624589]
+... rmag_fitting (Target only): 17.035962184107042
+... fitting residual: [ 0.00248946  0.01256951 -0.01775134 -0.01476535  0.01375411]
+... fitting error (mag) = 0.0122
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0533
+... error of (calibration + observation) [mag]: 0.0395
+label_source[k] ['OJ248, Rmag=17.04', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.45', 'OJ248, Rmag=14.34', 'OJ248, Rmag=15.19', 'OJ248, Rmag=15.39']
+... bg_subtracted_sum = 44015.51088358788
+... InstMag_width = 3.24 , Rmag_width = 3.28
+=================================
+idx 243 ) ID = 244 , # 8 / 15 image of OJ248
+... filename : OJ248-20171002@200121-R_30508_calib.fits
+calendar_date 2017-10-02 20:01:43.000018
+
+... bkg_mean,bkg_median,bkg_std
+... 355.4139 355.0897 22.7101
+... bkg_err_ratio = bkg_std/bkg_median = 0.0640
+
+idx 243 - 1 / 6 , Ref.Star: OJ248 ) # 8 / 15 image of OJ248
+... aper_annu_sum0 = 125782.96
+... aper_annu_sum1 = 203512.89
+... aper_annu_sum_err0 = 465.96
+... aper_annu_sum_err1 = 548.04
+... area of sum0 = 323.27
+... area of sum1 = 565.72
+... median_sigclip (annual mask per pix)  = 357.54
+... bkg_mean (imdata statistic per pix)   = 355.41
+... bkg_median (imdata statistic per pix) = 355.09
+... bkg_sum (median_sigclip*area_sum0)           = 115582.00
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 116293.08
+... bg_subtracted_sum = 9489.89
+... bg_subtracted_err = 719.36
+... mag_instrument (sum) = -9.9432
+... mag_instrument (sum+err) = -10.0225
+... mag_instrument (err) = 0.0793
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1021.8394 1037.116 ...         9489.8852         719.35588
+
+idx 243 - 2 / 6 , Ref.Star: 1 ) # 8 / 15 image of OJ248
+... aper_annu_sum0 = 465638.90
+... aper_annu_sum1 = 676687.17
+... aper_annu_sum_err0 = 2734.54
+... aper_annu_sum_err1 = 995.87
+... area of sum0 = 727.35
+... area of sum1 = 1894.15
+... median_sigclip (annual mask per pix)  = 355.14
+... bkg_mean (imdata statistic per pix)   = 355.41
+... bkg_median (imdata statistic per pix) = 355.09
+... bkg_sum (median_sigclip*area_sum0)           = 258312.82
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 259847.88
+... bg_subtracted_sum = 205791.03
+... bg_subtracted_err = 2910.23
+... mag_instrument (sum) = -13.2836
+... mag_instrument (sum+err) = -13.2988
+... mag_instrument (err) = 0.0152
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1156.4833 1147.9398 ...         205791.03         2910.2335
+
+idx 243 - 3 / 6 , Ref.Star: 2 ) # 8 / 15 image of OJ248
+... aper_annu_sum0 = 518006.66
+... aper_annu_sum1 = 405666.81
+... aper_annu_sum_err0 = 1683.42
+... aper_annu_sum_err1 = 770.67
+... area of sum0 = 1136.49
+... area of sum1 = 1136.49
+... median_sigclip (annual mask per pix)  = 355.24
+... bkg_mean (imdata statistic per pix)   = 355.41
+... bkg_median (imdata statistic per pix) = 355.09
+... bkg_sum (median_sigclip*area_sum0)           = 403721.53
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 405666.81
+... bg_subtracted_sum = 112339.85
+... bg_subtracted_err = 1851.44
+... mag_instrument (sum) = -12.6263
+... mag_instrument (sum+err) = -12.6441
+... mag_instrument (err) = 0.0177
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 1069.4485 1006.17 ...          770.67391         112339.85         1851.4402
+
+idx 243 - 4 / 6 , Ref.Star: 3 ) # 8 / 15 image of OJ248
+... aper_annu_sum0 = 381814.98
+... aper_annu_sum1 = 803937.33
+... aper_annu_sum_err0 = 1750.15
+... aper_annu_sum_err1 = 1086.25
+... area of sum0 = 727.35
+... area of sum1 = 2247.73
+... median_sigclip (annual mask per pix)  = 355.09
+... bkg_mean (imdata statistic per pix)   = 355.41
+... bkg_median (imdata statistic per pix) = 355.09
+... bkg_sum (median_sigclip*area_sum0)           = 258275.99
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 260150.51
+... bg_subtracted_sum = 121664.47
+... bg_subtracted_err = 2059.85
+... mag_instrument (sum) = -12.7129
+... mag_instrument (sum+err) = -12.7311
+... mag_instrument (err) = 0.0182
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1182.1289 1137.6441 ...         121664.47         2059.8459
+
+idx 243 - 5 / 6 , Ref.Star: 4 ) # 8 / 15 image of OJ248
+... aper_annu_sum0 = 464489.34
+... aper_annu_sum1 = 408234.67
+... aper_annu_sum_err0 = 1124.89
+... aper_annu_sum_err1 = 775.60
+... area of sum0 = 1136.49
+... area of sum1 = 1136.49
+... median_sigclip (annual mask per pix)  = 357.71
+... bkg_mean (imdata statistic per pix)   = 355.41
+... bkg_median (imdata statistic per pix) = 355.09
+... bkg_sum (median_sigclip*area_sum0)           = 406535.06
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 408234.67
+... bg_subtracted_sum = 56254.67
+... bg_subtracted_err = 1366.36
+... mag_instrument (sum) = -11.8754
+... mag_instrument (sum+err) = -11.9015
+... mag_instrument (err) = 0.0261
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 896.72451 927.17183 ...         56254.672         1366.3592
+
+idx 243 - 6 / 6 , Ref.Star: 5 ) # 8 / 15 image of OJ248
+... aper_annu_sum0 = 227618.40
+... aper_annu_sum1 = 315794.52
+... aper_annu_sum_err0 = 865.29
+... aper_annu_sum_err1 = 680.30
+... area of sum0 = 505.11
+... area of sum1 = 883.94
+... median_sigclip (annual mask per pix)  = 355.14
+... bkg_mean (imdata statistic per pix)   = 355.41
+... bkg_median (imdata statistic per pix) = 355.09
+... bkg_sum (median_sigclip*area_sum0)           = 179382.34
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 180454.01
+... bg_subtracted_sum = 47164.39
+... bg_subtracted_err = 1100.70
+... mag_instrument (sum) = -11.6840
+... mag_instrument (sum+err) = -11.7091
+... mag_instrument (err) = 0.0250
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1046.9487 1064.3834 ...         47164.392         1100.6982
+
+=================================
+... measurement error after background subtraction (counts): 1813.6612
+... magnitude error after background subtraction (mag): 0.0376
+
+... rmag_fitting (Ref.Stars only): [13.76110547 14.43164551 14.34331756 15.19778967 15.39302549]
+... rmag_fitting (Target only): 17.169160518794417
+... fitting residual: [-0.00110547  0.02835449 -0.02331756 -0.01778967  0.00697451]
+... fitting error (mag) = 0.0169
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0640
+... error of (calibration + observation) [mag]: 0.0412
+label_source[k] ['OJ248, Rmag=17.17', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.43', 'OJ248, Rmag=14.34', 'OJ248, Rmag=15.20', 'OJ248, Rmag=15.39']
+... bg_subtracted_sum = 47164.39208189986
+... InstMag_width = 3.34 , Rmag_width = 3.41
+=================================
+idx 244 ) ID = 245 , # 9 / 15 image of OJ248
+... filename : OJ248-20171002@202129-R_30508_calib.fits
+calendar_date 2017-10-02 20:21:50.999983
+
+... bkg_mean,bkg_median,bkg_std
+... 342.2738 341.7779 22.2675
+... bkg_err_ratio = bkg_std/bkg_median = 0.0652
+
+idx 244 - 1 / 6 , Ref.Star: OJ248 ) # 9 / 15 image of OJ248
+... aper_annu_sum0 = 122056.30
+... aper_annu_sum1 = 195068.98
+... aper_annu_sum_err0 = 463.65
+... aper_annu_sum_err1 = 535.27
+... area of sum0 = 323.21
+... area of sum1 = 565.61
+... median_sigclip (annual mask per pix)  = 343.75
+... bkg_mean (imdata statistic per pix)   = 342.27
+... bkg_median (imdata statistic per pix) = 341.78
+... bkg_sum (median_sigclip*area_sum0)           = 111102.28
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 111467.99
+... bg_subtracted_sum = 10588.32
+... bg_subtracted_err = 708.16
+... mag_instrument (sum) = -10.0621
+... mag_instrument (sum+err) = -10.1324
+... mag_instrument (err) = 0.0703
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1022.8629 1019.9563 ...         10588.316         708.15988
+
+idx 244 - 2 / 6 , Ref.Star: 1 ) # 9 / 15 image of OJ248
+... aper_annu_sum0 = 458504.06
+... aper_annu_sum1 = 650424.94
+... aper_annu_sum_err0 = 2784.96
+... aper_annu_sum_err1 = 975.26
+... area of sum0 = 727.21
+... area of sum1 = 1893.78
+... median_sigclip (annual mask per pix)  = 341.78
+... bkg_mean (imdata statistic per pix)   = 342.27
+... bkg_median (imdata statistic per pix) = 341.78
+... bkg_sum (median_sigclip*area_sum0)           = 248545.10
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 249763.18
+... bg_subtracted_sum = 208740.88
+... bg_subtracted_err = 2950.79
+... mag_instrument (sum) = -13.2990
+... mag_instrument (sum+err) = -13.3143
+... mag_instrument (err) = 0.0152
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1157.4543 1130.8342 ...         208740.88         2950.7874
+
+idx 244 - 3 / 6 , Ref.Star: 2 ) # 9 / 15 image of OJ248
+... aper_annu_sum0 = 502685.99
+... aper_annu_sum1 = 389399.45
+... aper_annu_sum_err0 = 1691.06
+... aper_annu_sum_err1 = 753.80
+... area of sum0 = 1136.27
+... area of sum1 = 1136.27
+... median_sigclip (annual mask per pix)  = 341.78
+... bkg_mean (imdata statistic per pix)   = 342.27
+... bkg_median (imdata statistic per pix) = 341.78
+... bkg_sum (median_sigclip*area_sum0)           = 388351.72
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 389399.45
+... bg_subtracted_sum = 113286.55
+... bg_subtracted_err = 1851.46
+... mag_instrument (sum) = -12.6354
+... mag_instrument (sum+err) = -12.6530
+... mag_instrument (err) = 0.0176
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1070.4782 989.02521 ...         113286.55         1851.4647
+
+idx 244 - 4 / 6 , Ref.Star: 3 ) # 9 / 15 image of OJ248
+... aper_annu_sum0 = 373008.00
+... aper_annu_sum1 = 771453.47
+... aper_annu_sum_err0 = 1759.79
+... aper_annu_sum_err1 = 1062.15
+... area of sum0 = 727.21
+... area of sum1 = 2247.29
+... median_sigclip (annual mask per pix)  = 341.78
+... bkg_mean (imdata statistic per pix)   = 342.27
+... bkg_median (imdata statistic per pix) = 341.78
+... bkg_sum (median_sigclip*area_sum0)           = 248545.10
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 249638.88
+... bg_subtracted_sum = 123369.12
+... bg_subtracted_err = 2055.48
+... mag_instrument (sum) = -12.7280
+... mag_instrument (sum+err) = -12.7460
+... mag_instrument (err) = 0.0179
+
+ id xcenter  ycenter  ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+      pix      pix    ...                                                       
+--- -------- -------- ... ------------------ ----------------- -----------------
+  1 1183.101 1120.547 ...          1062.1467         123369.12         2055.4828
+
+idx 244 - 5 / 6 , Ref.Star: 4 ) # 9 / 15 image of OJ248
+... aper_annu_sum0 = 449500.52
+... aper_annu_sum1 = 393976.90
+... aper_annu_sum_err0 = 1119.64
+... aper_annu_sum_err1 = 762.67
+... area of sum0 = 1136.27
+... area of sum1 = 1136.27
+... median_sigclip (annual mask per pix)  = 344.81
+... bkg_mean (imdata statistic per pix)   = 342.27
+... bkg_median (imdata statistic per pix) = 341.78
+... bkg_sum (median_sigclip*area_sum0)           = 391798.42
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 393976.90
+... bg_subtracted_sum = 55523.62
+... bg_subtracted_err = 1354.72
+... mag_instrument (sum) = -11.8612
+... mag_instrument (sum+err) = -11.8874
+... mag_instrument (err) = 0.0262
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 897.79915 909.96136 ...          55523.62          1354.716
+
+idx 244 - 6 / 6 , Ref.Star: 5 ) # 9 / 15 image of OJ248
+... aper_annu_sum0 = 220614.54
+... aper_annu_sum1 = 303994.85
+... aper_annu_sum_err0 = 860.17
+... aper_annu_sum_err1 = 667.29
+... area of sum0 = 505.01
+... area of sum1 = 883.76
+... median_sigclip (annual mask per pix)  = 341.78
+... bkg_mean (imdata statistic per pix)   = 342.27
+... bkg_median (imdata statistic per pix) = 341.78
+... bkg_sum (median_sigclip*area_sum0)           = 172600.76
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 173711.34
+... bg_subtracted_sum = 46903.20
+... bg_subtracted_err = 1088.65
+... mag_instrument (sum) = -11.6780
+... mag_instrument (sum+err) = -11.7029
+... mag_instrument (err) = 0.0249
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1047.9601 1047.2342 ...         46903.198         1088.6507
+
+=================================
+... measurement error after background subtraction (counts): 1820.3472
+... magnitude error after background subtraction (mag): 0.0344
+
+... rmag_fitting (Ref.Stars only): [13.76415049 14.43011304 14.33720935 15.20715263 15.3910006 ]
+... rmag_fitting (Target only): 17.012758730369733
+... fitting residual: [-0.00415049  0.02988696 -0.01720935 -0.02715263  0.0089994 ]
+... fitting error (mag) = 0.0184
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0652
+... error of (calibration + observation) [mag]: 0.0390
+label_source[k] ['OJ248, Rmag=17.01', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.43', 'OJ248, Rmag=14.34', 'OJ248, Rmag=15.21', 'OJ248, Rmag=15.39']
+... bg_subtracted_sum = 46903.19819993261
+... InstMag_width = 3.24 , Rmag_width = 3.25
+=================================
+idx 298 ) ID = 299 , # 10 / 15 image of OJ248
+... filename : OJ248-20171005@190231-R_30508_calib.fits
+calendar_date 2017-10-05 19:02:53.000013
+
+... bkg_mean,bkg_median,bkg_std
+... 2329.4221 2328.8017 56.1243
+... bkg_err_ratio = bkg_std/bkg_median = 0.0241
+
+idx 298 - 1 / 6 , Ref.Star: OJ248 ) # 10 / 15 image of OJ248
+... aper_annu_sum0 = 765862.37
+... aper_annu_sum1 = 1328557.16
+... aper_annu_sum_err0 = 1027.83
+... aper_annu_sum_err1 = 1346.59
+... area of sum0 = 323.22
+... area of sum1 = 565.63
+... median_sigclip (annual mask per pix)  = 2348.21
+... bkg_mean (imdata statistic per pix)   = 2329.42
+... bkg_median (imdata statistic per pix) = 2328.80
+... bkg_sum (median_sigclip*area_sum0)           = 758979.53
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 759175.52
+... bg_subtracted_sum = 6686.85
+... bg_subtracted_err = 1694.03
+... mag_instrument (sum) = -9.5631
+... mag_instrument (sum+err) = -9.8082
+... mag_instrument (err) = 0.2452
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1019.4537 1040.6331 ...         6686.8457         1694.0285
+
+idx 298 - 2 / 6 , Ref.Star: 1 ) # 10 / 15 image of OJ248
+... aper_annu_sum0 = 1893280.42
+... aper_annu_sum1 = 4413637.16
+... aper_annu_sum_err0 = 1917.74
+... aper_annu_sum_err1 = 2444.83
+... area of sum0 = 727.23
+... area of sum1 = 1893.84
+... median_sigclip (annual mask per pix)  = 2330.19
+... bkg_mean (imdata statistic per pix)   = 2329.42
+... bkg_median (imdata statistic per pix) = 2328.80
+... bkg_sum (median_sigclip*area_sum0)           = 1694597.11
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1694836.67
+... bg_subtracted_sum = 198443.75
+... bg_subtracted_err = 3107.24
+... mag_instrument (sum) = -13.2441
+... mag_instrument (sum+err) = -13.2610
+... mag_instrument (err) = 0.0169
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1154.6082 1150.7895 ...         198443.75         3107.2391
+
+idx 298 - 3 / 6 , Ref.Star: 2 ) # 10 / 15 image of OJ248
+... aper_annu_sum0 = 2764405.77
+... aper_annu_sum1 = 2653035.10
+... aper_annu_sum_err0 = 2036.19
+... aper_annu_sum_err1 = 1897.20
+... area of sum0 = 1136.30
+... area of sum1 = 1136.30
+... median_sigclip (annual mask per pix)  = 2336.11
+... bkg_mean (imdata statistic per pix)   = 2329.42
+... bkg_median (imdata statistic per pix) = 2328.80
+... bkg_sum (median_sigclip*area_sum0)           = 2654536.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2653035.10
+... bg_subtracted_sum = 111370.68
+... bg_subtracted_err = 2783.06
+... mag_instrument (sum) = -12.6169
+... mag_instrument (sum+err) = -12.6437
+... mag_instrument (err) = 0.0268
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1066.9123 1009.4716 ...         111370.68         2783.0621
+
+idx 298 - 4 / 6 , Ref.Star: 3 ) # 10 / 15 image of OJ248
+... aper_annu_sum0 = 1812115.24
+... aper_annu_sum1 = 5230476.50
+... aper_annu_sum_err0 = 1705.84
+... aper_annu_sum_err1 = 2659.71
+... area of sum0 = 727.23
+... area of sum1 = 2247.36
+... median_sigclip (annual mask per pix)  = 2326.62
+... bkg_mean (imdata statistic per pix)   = 2329.42
+... bkg_median (imdata statistic per pix) = 2328.80
+... bkg_sum (median_sigclip*area_sum0)           = 1692002.89
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1692558.69
+... bg_subtracted_sum = 119556.56
+... bg_subtracted_err = 3159.74
+... mag_instrument (sum) = -12.6939
+... mag_instrument (sum+err) = -12.7223
+... mag_instrument (err) = 0.0283
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1180.2029 1140.3759 ...         119556.56         3159.7387
+
+idx 298 - 5 / 6 , Ref.Star: 4 ) # 10 / 15 image of OJ248
+... aper_annu_sum0 = 2718745.78
+... aper_annu_sum1 = 2673473.25
+... aper_annu_sum_err0 = 1960.05
+... aper_annu_sum_err1 = 1911.87
+... area of sum0 = 1136.30
+... area of sum1 = 1136.30
+... median_sigclip (annual mask per pix)  = 2352.91
+... bkg_mean (imdata statistic per pix)   = 2329.42
+... bkg_median (imdata statistic per pix) = 2328.80
+... bkg_sum (median_sigclip*area_sum0)           = 2673621.01
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2673473.25
+... bg_subtracted_sum = 45272.52
+... bg_subtracted_err = 2738.08
+... mag_instrument (sum) = -11.6396
+... mag_instrument (sum+err) = -11.7033
+... mag_instrument (err) = 0.0638
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 893.83139 931.31105 ...         45272.521         2738.0752
+
+idx 298 - 6 / 6 , Ref.Star: 5 ) # 10 / 15 image of OJ248
+... aper_annu_sum0 = 1225977.72
+... aper_annu_sum1 = 2066667.58
+... aper_annu_sum_err0 = 1331.48
+... aper_annu_sum_err1 = 1675.77
+... area of sum0 = 505.02
+... area of sum1 = 883.79
+... median_sigclip (annual mask per pix)  = 2339.12
+... bkg_mean (imdata statistic per pix)   = 2329.42
+... bkg_median (imdata statistic per pix) = 2328.80
+... bkg_sum (median_sigclip*area_sum0)           = 1181310.31
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1180952.90
+... bg_subtracted_sum = 45024.82
+... bg_subtracted_err = 2140.34
+... mag_instrument (sum) = -11.6336
+... mag_instrument (sum+err) = -11.6841
+... mag_instrument (err) = 0.0504
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1044.6894 1067.7741 ...         45024.815         2140.3363
+
+=================================
+... measurement error after background subtraction (counts): 2656.1923
+... magnitude error after background subtraction (mag): 0.1069
+
+... rmag_fitting (Ref.Stars only): [13.77516075 14.39673491 14.32041519 15.36536075 15.37126447]
+... rmag_fitting (Target only): 17.42337842856228
+... fitting residual: [-0.01516075  0.06326509 -0.00041519 -0.18536075  0.02873553]
+... fitting error (mag) = 0.0811
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0241
+... error of (calibration + observation) [mag]: 0.1341
+label_source[k] ['OJ248, Rmag=17.42', 'OJ248, Rmag=13.78', 'OJ248, Rmag=14.40', 'OJ248, Rmag=14.32', 'OJ248, Rmag=15.37', 'OJ248, Rmag=15.37']
+... bg_subtracted_sum = 45024.81544605526
+... InstMag_width = 3.68 , Rmag_width = 3.65
+=================================
+idx 299 ) ID = 300 , # 11 / 15 image of OJ248
+... filename : OJ248-20171005@190604-R_30508_calib.fits
+calendar_date 2017-10-05 19:06:03.999943
+
+... bkg_mean,bkg_median,bkg_std
+... 2275.6356 2275.1489 54.5638
+... bkg_err_ratio = bkg_std/bkg_median = 0.0240
+
+idx 299 - 1 / 6 , Ref.Star: OJ248 ) # 11 / 15 image of OJ248
+... aper_annu_sum0 = 745826.38
+... aper_annu_sum1 = 1290538.22
+... aper_annu_sum_err0 = 996.42
+... aper_annu_sum_err1 = 1301.67
+... area of sum0 = 323.22
+... area of sum1 = 565.64
+... median_sigclip (annual mask per pix)  = 2280.61
+... bkg_mean (imdata statistic per pix)   = 2275.64
+... bkg_median (imdata statistic per pix) = 2275.15
+... bkg_sum (median_sigclip*area_sum0)           = 737146.69
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 737450.41
+... bg_subtracted_sum = 8375.97
+... bg_subtracted_err = 1639.26
+... mag_instrument (sum) = -9.8076
+... mag_instrument (sum+err) = -10.0017
+... mag_instrument (err) = 0.1941
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1019.2034 1037.7931 ...         8375.9714         1639.2639
+
+idx 299 - 2 / 6 , Ref.Star: 1 ) # 11 / 15 image of OJ248
+... aper_annu_sum0 = 1848525.83
+... aper_annu_sum1 = 4287360.36
+... aper_annu_sum_err0 = 1897.97
+... aper_annu_sum_err1 = 2363.26
+... area of sum0 = 727.25
+... area of sum1 = 1893.89
+... median_sigclip (annual mask per pix)  = 2264.50
+... bkg_mean (imdata statistic per pix)   = 2275.64
+... bkg_median (imdata statistic per pix) = 2275.15
+... bkg_sum (median_sigclip*area_sum0)           = 1646869.08
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1646346.38
+... bg_subtracted_sum = 202179.45
+... bg_subtracted_err = 3031.05
+... mag_instrument (sum) = -13.2643
+... mag_instrument (sum+err) = -13.2805
+... mag_instrument (err) = 0.0162
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1154.3657 1147.9462 ...         202179.45         3031.0547
+
+idx 299 - 3 / 6 , Ref.Star: 2 ) # 11 / 15 image of OJ248
+... aper_annu_sum0 = 2686838.88
+... aper_annu_sum1 = 2581106.32
+... aper_annu_sum_err0 = 1979.23
+... aper_annu_sum_err1 = 1836.74
+... area of sum0 = 1136.33
+... area of sum1 = 1136.33
+... median_sigclip (annual mask per pix)  = 2271.86
+... bkg_mean (imdata statistic per pix)   = 2275.64
+... bkg_median (imdata statistic per pix) = 2275.15
+... bkg_sum (median_sigclip*area_sum0)           = 2581594.28
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2581106.32
+... bg_subtracted_sum = 105732.56
+... bg_subtracted_err = 2700.18
+... mag_instrument (sum) = -12.5605
+... mag_instrument (sum+err) = -12.5879
+... mag_instrument (err) = 0.0274
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1066.661 1006.6279 ...         105732.56         2700.1836
+
+idx 299 - 4 / 6 , Ref.Star: 3 ) # 11 / 15 image of OJ248
+... aper_annu_sum0 = 1764419.78
+... aper_annu_sum1 = 5086052.70
+... aper_annu_sum_err0 = 1668.03
+... aper_annu_sum_err1 = 2573.58
+... area of sum0 = 727.25
+... area of sum1 = 2247.42
+... median_sigclip (annual mask per pix)  = 2262.40
+... bkg_mean (imdata statistic per pix)   = 2275.64
+... bkg_median (imdata statistic per pix) = 2275.15
+... bkg_sum (median_sigclip*area_sum0)           = 1645338.52
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1645823.80
+... bg_subtracted_sum = 118595.98
+... bg_subtracted_err = 3066.86
+... mag_instrument (sum) = -12.6852
+... mag_instrument (sum+err) = -12.7129
+... mag_instrument (err) = 0.0277
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1179.9601 1137.5308 ...         118595.98         3066.8648
+
+idx 299 - 5 / 6 , Ref.Star: 4 ) # 11 / 15 image of OJ248
+... aper_annu_sum0 = 2644753.86
+... aper_annu_sum1 = 2593608.75
+... aper_annu_sum_err0 = 1900.09
+... aper_annu_sum_err1 = 1845.62
+... area of sum0 = 1136.33
+... area of sum1 = 1136.33
+... median_sigclip (annual mask per pix)  = 2282.14
+... bkg_mean (imdata statistic per pix)   = 2275.64
+... bkg_median (imdata statistic per pix) = 2275.15
+... bkg_sum (median_sigclip*area_sum0)           = 2593269.74
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2593608.75
+... bg_subtracted_sum = 51145.10
+... bg_subtracted_err = 2648.89
+... mag_instrument (sum) = -11.7720
+... mag_instrument (sum+err) = -11.8268
+... mag_instrument (err) = 0.0548
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 893.57353 928.47404 ...         51145.102         2648.8936
+
+idx 299 - 6 / 6 , Ref.Star: 5 ) # 11 / 15 image of OJ248
+... aper_annu_sum0 = 1193534.25
+... aper_annu_sum1 = 2011099.03
+... aper_annu_sum_err0 = 1292.09
+... aper_annu_sum_err1 = 1622.77
+... area of sum0 = 505.04
+... area of sum1 = 883.82
+... median_sigclip (annual mask per pix)  = 2276.53
+... bkg_mean (imdata statistic per pix)   = 2275.64
+... bkg_median (imdata statistic per pix) = 2275.15
+... bkg_sum (median_sigclip*area_sum0)           = 1149734.12
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1149199.45
+... bg_subtracted_sum = 44334.80
+... bg_subtracted_err = 2074.34
+... mag_instrument (sum) = -11.6169
+... mag_instrument (sum+err) = -11.6665
+... mag_instrument (err) = 0.0496
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1044.4409 1064.9338 ...         44334.799         2074.3392
+
+=================================
+... measurement error after background subtraction (counts): 2578.4572
+... magnitude error after background subtraction (mag): 0.0865
+
+... rmag_fitting (Ref.Stars only): [13.76003674 14.44971805 14.32756914 15.22238892 15.37442033]
+... rmag_fitting (Target only): 17.147346786883105
+... fitting residual: [-3.67439761e-05  1.02819548e-02 -7.56913968e-03 -4.23889178e-02
+  2.55796660e-02]
+... fitting error (mag) = 0.0209
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0240
+... error of (calibration + observation) [mag]: 0.0890
+label_source[k] ['OJ248, Rmag=17.15', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.45', 'OJ248, Rmag=14.33', 'OJ248, Rmag=15.22', 'OJ248, Rmag=15.37']
+... bg_subtracted_sum = 44334.799068648834
+... InstMag_width = 3.46 , Rmag_width = 3.39
+=================================
+idx 342 ) ID = 343 , # 12 / 15 image of OJ248
+... filename : OJ248-20171009@191444-R_30508_calib.fits
+calendar_date 2017-10-09 19:15:05.999980
+
+... bkg_mean,bkg_median,bkg_std
+... 1092.0494 1091.4964 37.3343
+... bkg_err_ratio = bkg_std/bkg_median = 0.0342
+
+idx 342 - 1 / 6 , Ref.Star: OJ248 ) # 12 / 15 image of OJ248
+... aper_annu_sum0 = 360244.18
+... aper_annu_sum1 = 619864.09
+... aper_annu_sum_err0 = 685.82
+... aper_annu_sum_err1 = 892.03
+... area of sum0 = 323.20
+... area of sum1 = 565.60
+... median_sigclip (annual mask per pix)  = 1095.20
+... bkg_mean (imdata statistic per pix)   = 1092.05
+... bkg_median (imdata statistic per pix) = 1091.50
+... bkg_sum (median_sigclip*area_sum0)           = 353967.51
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 354208.05
+... bg_subtracted_sum = 6036.13
+... bg_subtracted_err = 1125.20
+... mag_instrument (sum) = -9.4519
+... mag_instrument (sum+err) = -9.6375
+... mag_instrument (err) = 0.1856
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1022.6011 1039.1994 ...          6036.129         1125.1965
+
+idx 342 - 2 / 6 , Ref.Star: 1 ) # 12 / 15 image of OJ248
+... aper_annu_sum0 = 972773.06
+... aper_annu_sum1 = 2063450.10
+... aper_annu_sum_err0 = 1251.82
+... aper_annu_sum_err1 = 1622.75
+... area of sum0 = 727.20
+... area of sum1 = 1893.75
+... median_sigclip (annual mask per pix)  = 1090.16
+... bkg_mean (imdata statistic per pix)   = 1092.05
+... bkg_median (imdata statistic per pix) = 1091.50
+... bkg_sum (median_sigclip*area_sum0)           = 792764.28
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 792364.84
+... bg_subtracted_sum = 180408.22
+... bg_subtracted_err = 2049.47
+... mag_instrument (sum) = -13.1406
+... mag_instrument (sum+err) = -13.1529
+... mag_instrument (err) = 0.0123
+
+ id xcenter  ycenter  ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+      pix      pix    ...                                                       
+--- ------- --------- ... ------------------ ----------------- -----------------
+  1 1156.77 1150.6212 ...           1622.745         180408.22         2049.4738
+
+idx 342 - 3 / 6 , Ref.Star: 2 ) # 12 / 15 image of OJ248
+... aper_annu_sum0 = 1340246.57
+... aper_annu_sum1 = 1237673.26
+... aper_annu_sum_err0 = 1366.83
+... aper_annu_sum_err1 = 1256.58
+... area of sum0 = 1136.25
+... area of sum1 = 1136.25
+... median_sigclip (annual mask per pix)  = 1087.64
+... bkg_mean (imdata statistic per pix)   = 1092.05
+... bkg_median (imdata statistic per pix) = 1091.50
+... bkg_sum (median_sigclip*area_sum0)           = 1235833.35
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1237673.26
+... bg_subtracted_sum = 102573.31
+... bg_subtracted_err = 1856.67
+... mag_instrument (sum) = -12.5276
+... mag_instrument (sum+err) = -12.5471
+... mag_instrument (err) = 0.0195
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1070.3327 1008.4392 ...         102573.31         1856.6681
+
+idx 342 - 4 / 6 , Ref.Star: 3 ) # 12 / 15 image of OJ248
+... aper_annu_sum0 = 901340.87
+... aper_annu_sum1 = 2449389.72
+... aper_annu_sum_err0 = 1150.38
+... aper_annu_sum_err1 = 1768.29
+... area of sum0 = 727.20
+... area of sum1 = 2247.25
+... median_sigclip (annual mask per pix)  = 1089.77
+... bkg_mean (imdata statistic per pix)   = 1092.05
+... bkg_median (imdata statistic per pix) = 1091.50
+... bkg_sum (median_sigclip*area_sum0)           = 792483.07
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 792611.51
+... bg_subtracted_sum = 108729.37
+... bg_subtracted_err = 2109.55
+... mag_instrument (sum) = -12.5909
+... mag_instrument (sum+err) = -12.6117
+... mag_instrument (err) = 0.0209
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1182.4553 1140.4279 ...         108729.37         2109.5519
+
+idx 342 - 5 / 6 , Ref.Star: 4 ) # 12 / 15 image of OJ248
+... aper_annu_sum0 = 1295157.76
+... aper_annu_sum1 = 1246340.70
+... aper_annu_sum_err0 = 1316.74
+... aper_annu_sum_err1 = 1265.40
+... area of sum0 = 1136.25
+... area of sum1 = 1136.25
+... median_sigclip (annual mask per pix)  = 1098.31
+... bkg_mean (imdata statistic per pix)   = 1092.05
+... bkg_median (imdata statistic per pix) = 1091.50
+... bkg_sum (median_sigclip*area_sum0)           = 1247952.78
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1246340.70
+... bg_subtracted_sum = 48817.06
+... bg_subtracted_err = 1826.21
+... mag_instrument (sum) = -11.7214
+... mag_instrument (sum+err) = -11.7613
+... mag_instrument (err) = 0.0399
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 897.95634 928.69701 ...          48817.06         1826.2125
+
+idx 342 - 6 / 6 , Ref.Star: 5 ) # 12 / 15 image of OJ248
+... aper_annu_sum0 = 587856.54
+... aper_annu_sum1 = 966130.79
+... aper_annu_sum_err0 = 896.12
+... aper_annu_sum_err1 = 1112.21
+... area of sum0 = 505.00
+... area of sum1 = 883.75
+... median_sigclip (annual mask per pix)  = 1093.65
+... bkg_mean (imdata statistic per pix)   = 1092.05
+... bkg_median (imdata statistic per pix) = 1091.50
+... bkg_sum (median_sigclip*area_sum0)           = 552291.35
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 552074.74
+... bg_subtracted_sum = 35781.81
+... bg_subtracted_err = 1428.30
+... mag_instrument (sum) = -11.3842
+... mag_instrument (sum+err) = -11.4267
+... mag_instrument (err) = 0.0425
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1047.5945 1066.5807 ...         35781.805         1428.2999
+
+=================================
+... measurement error after background subtraction (counts): 1767.2450
+... magnitude error after background subtraction (mag): 0.0804
+
+... rmag_fitting (Ref.Stars only): [13.77854136 14.38539602 14.32275481 15.18339975 15.51726214]
+... rmag_fitting (Target only): 17.429979345205517
+... fitting residual: [-0.01854136  0.07460398 -0.00275481 -0.00339975 -0.11726214]
+... fitting error (mag) = 0.0573
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0342
+... error of (calibration + observation) [mag]: 0.0987
+label_source[k] ['OJ248, Rmag=17.43', 'OJ248, Rmag=13.78', 'OJ248, Rmag=14.39', 'OJ248, Rmag=14.32', 'OJ248, Rmag=15.18', 'OJ248, Rmag=15.52']
+... bg_subtracted_sum = 35781.80503717018
+... InstMag_width = 3.69 , Rmag_width = 3.65
+=================================
+idx 343 ) ID = 344 , # 13 / 15 image of OJ248
+... filename : OJ248-20171009@191817-R_30508_calib.fits
+calendar_date 2017-10-09 19:18:17.999985
+
+... bkg_mean,bkg_median,bkg_std
+... 1095.6374 1095.1375 37.3182
+... bkg_err_ratio = bkg_std/bkg_median = 0.0341
+
+idx 343 - 1 / 6 , Ref.Star: OJ248 ) # 13 / 15 image of OJ248
+... aper_annu_sum0 = 362283.35
+... aper_annu_sum1 = 623388.32
+... aper_annu_sum_err0 = 687.31
+... aper_annu_sum_err1 = 893.97
+... area of sum0 = 323.01
+... area of sum1 = 565.26
+... median_sigclip (annual mask per pix)  = 1100.16
+... bkg_mean (imdata statistic per pix)   = 1095.64
+... bkg_median (imdata statistic per pix) = 1095.14
+... bkg_sum (median_sigclip*area_sum0)           = 355358.87
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 356221.89
+... bg_subtracted_sum = 6061.46
+... bg_subtracted_err = 1127.64
+... mag_instrument (sum) = -9.4564
+... mag_instrument (sum+err) = -9.6417
+... mag_instrument (err) = 0.1852
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.8991 1036.1579 ...         6061.4572         1127.6419
+
+idx 343 - 2 / 6 , Ref.Star: 1 ) # 13 / 15 image of OJ248
+... aper_annu_sum0 = 979220.26
+... aper_annu_sum1 = 2068105.35
+... aper_annu_sum_err0 = 1260.35
+... aper_annu_sum_err1 = 1620.79
+... area of sum0 = 726.76
+... area of sum1 = 1892.61
+... median_sigclip (annual mask per pix)  = 1091.80
+... bkg_mean (imdata statistic per pix)   = 1095.64
+... bkg_median (imdata statistic per pix) = 1095.14
+... bkg_sum (median_sigclip*area_sum0)           = 793482.55
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 794152.45
+... bg_subtracted_sum = 185067.81
+... bg_subtracted_err = 2053.15
+... mag_instrument (sum) = -13.1683
+... mag_instrument (sum+err) = -13.1803
+... mag_instrument (err) = 0.0120
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1156.0321 1147.5178 ...         185067.81         2053.1496
+
+idx 343 - 3 / 6 , Ref.Star: 2 ) # 13 / 15 image of OJ248
+... aper_annu_sum0 = 1346004.97
+... aper_annu_sum1 = 1244123.52
+... aper_annu_sum_err0 = 1369.22
+... aper_annu_sum_err1 = 1258.74
+... area of sum0 = 1135.57
+... area of sum1 = 1135.57
+... median_sigclip (annual mask per pix)  = 1095.20
+... bkg_mean (imdata statistic per pix)   = 1095.64
+... bkg_median (imdata statistic per pix) = 1095.14
+... bkg_sum (median_sigclip*area_sum0)           = 1243671.77
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1244123.52
+... bg_subtracted_sum = 101881.45
+... bg_subtracted_err = 1859.89
+... mag_instrument (sum) = -12.5202
+... mag_instrument (sum+err) = -12.5399
+... mag_instrument (err) = 0.0196
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1069.6153 1005.4117 ...         101881.45         1859.8871
+
+idx 343 - 4 / 6 , Ref.Star: 3 ) # 13 / 15 image of OJ248
+... aper_annu_sum0 = 904004.03
+... aper_annu_sum1 = 2456752.28
+... aper_annu_sum_err0 = 1151.64
+... aper_annu_sum_err1 = 1767.45
+... area of sum0 = 726.76
+... area of sum1 = 2245.90
+... median_sigclip (annual mask per pix)  = 1094.33
+... bkg_mean (imdata statistic per pix)   = 1095.64
+... bkg_median (imdata statistic per pix) = 1095.14
+... bkg_sum (median_sigclip*area_sum0)           = 795321.32
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 794994.00
+... bg_subtracted_sum = 109010.04
+... bg_subtracted_err = 2109.54
+... mag_instrument (sum) = -12.5937
+... mag_instrument (sum+err) = -12.6145
+... mag_instrument (err) = 0.0208
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1181.7093 1137.3288 ...         109010.04         2109.5367
+
+idx 343 - 5 / 6 , Ref.Star: 4 ) # 13 / 15 image of OJ248
+... aper_annu_sum0 = 1300093.43
+... aper_annu_sum1 = 1251210.03
+... aper_annu_sum_err0 = 1317.40
+... aper_annu_sum_err1 = 1265.90
+... area of sum0 = 1135.57
+... area of sum1 = 1135.57
+... median_sigclip (annual mask per pix)  = 1100.26
+... bkg_mean (imdata statistic per pix)   = 1095.64
+... bkg_median (imdata statistic per pix) = 1095.14
+... bkg_sum (median_sigclip*area_sum0)           = 1249421.99
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1251210.03
+... bg_subtracted_sum = 48883.40
+... bg_subtracted_err = 1827.03
+... mag_instrument (sum) = -11.7229
+... mag_instrument (sum+err) = -11.7627
+... mag_instrument (err) = 0.0398
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 897.2875 925.71652 ...         48883.399          1827.034
+
+idx 343 - 6 / 6 , Ref.Star: 5 ) # 13 / 15 image of OJ248
+... aper_annu_sum0 = 593501.26
+... aper_annu_sum1 = 970686.91
+... aper_annu_sum_err0 = 902.04
+... aper_annu_sum_err1 = 1113.59
+... area of sum0 = 504.70
+... area of sum1 = 883.22
+... median_sigclip (annual mask per pix)  = 1097.40
+... bkg_mean (imdata statistic per pix)   = 1095.64
+... bkg_median (imdata statistic per pix) = 1095.14
+... bkg_sum (median_sigclip*area_sum0)           = 553854.78
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 554678.23
+... bg_subtracted_sum = 38823.03
+... bg_subtracted_err = 1433.10
+... mag_instrument (sum) = -11.4727
+... mag_instrument (sum+err) = -11.5121
+... mag_instrument (err) = 0.0394
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 1046.886 1063.5243 ...         38823.028         1433.0953
+
+=================================
+... measurement error after background subtraction (counts): 1769.5640
+... magnitude error after background subtraction (mag): 0.0800
+
+... rmag_fitting (Ref.Stars only): [13.76798267 14.40881105 14.33620526 15.19721214 15.44458914]
+... rmag_fitting (Target only): 17.438280019202928
+... fitting residual: [-0.00798267  0.05118895 -0.01620526 -0.01721214 -0.04458914]
+... fitting error (mag) = 0.0295
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0341
+... error of (calibration + observation) [mag]: 0.0853
+label_source[k] ['OJ248, Rmag=17.44', 'OJ248, Rmag=13.77', 'OJ248, Rmag=14.41', 'OJ248, Rmag=14.34', 'OJ248, Rmag=15.20', 'OJ248, Rmag=15.44']
+... bg_subtracted_sum = 38823.02788570535
+... InstMag_width = 3.71 , Rmag_width = 3.67
+=================================
+idx 370 ) ID = 371 , # 14 / 15 image of OJ248
+... filename : OJ248-20171010@181740-R_30508_calib.fits
+calendar_date 2017-10-10 18:18:02.000005
+
+... bkg_mean,bkg_median,bkg_std
+... 1371.7636 1371.3621 41.2047
+... bkg_err_ratio = bkg_std/bkg_median = 0.0300
+
+idx 370 - 1 / 6 , Ref.Star: OJ248 ) # 14 / 15 image of OJ248
+... aper_annu_sum0 = 448349.14
+... aper_annu_sum1 = 772728.08
+... aper_annu_sum_err0 = 750.57
+... aper_annu_sum_err1 = 977.64
+... area of sum0 = 322.56
+... area of sum1 = 564.48
+... median_sigclip (annual mask per pix)  = 1364.78
+... bkg_mean (imdata statistic per pix)   = 1371.76
+... bkg_median (imdata statistic per pix) = 1371.36
+... bkg_sum (median_sigclip*area_sum0)           = 440219.08
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 441558.90
+... bg_subtracted_sum = 6790.23
+... bg_subtracted_err = 1232.54
+... mag_instrument (sum) = -9.5797
+... mag_instrument (sum+err) = -9.7608
+... mag_instrument (err) = 0.1811
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1016.8106 1038.1184 ...         6790.2347         1232.5352
+
+idx 370 - 2 / 6 , Ref.Star: 1 ) # 14 / 15 image of OJ248
+... aper_annu_sum0 = 1178461.12
+... aper_annu_sum1 = 2583019.05
+... aper_annu_sum_err0 = 1358.04
+... aper_annu_sum_err1 = 1786.03
+... area of sum0 = 725.75
+... area of sum1 = 1889.99
+... median_sigclip (annual mask per pix)  = 1365.64
+... bkg_mean (imdata statistic per pix)   = 1371.76
+... bkg_median (imdata statistic per pix) = 1371.36
+... bkg_sum (median_sigclip*area_sum0)           = 991122.50
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 991879.31
+... bg_subtracted_sum = 186581.80
+... bg_subtracted_err = 2243.70
+... mag_instrument (sum) = -13.1772
+... mag_instrument (sum+err) = -13.1902
+... mag_instrument (err) = 0.0130
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1151.1959 1148.9402 ...          186581.8         2243.7025
+
+idx 370 - 3 / 6 , Ref.Star: 2 ) # 14 / 15 image of OJ248
+... aper_annu_sum0 = 1650168.11
+... aper_annu_sum1 = 1550007.21
+... aper_annu_sum_err0 = 1485.44
+... aper_annu_sum_err1 = 1384.01
+... area of sum0 = 1133.99
+... area of sum1 = 1133.99
+... median_sigclip (annual mask per pix)  = 1362.71
+... bkg_mean (imdata statistic per pix)   = 1371.76
+... bkg_median (imdata statistic per pix) = 1371.36
+... bkg_sum (median_sigclip*area_sum0)           = 1545297.25
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1550007.21
+... bg_subtracted_sum = 100160.90
+... bg_subtracted_err = 2030.28
+... mag_instrument (sum) = -12.5017
+... mag_instrument (sum+err) = -12.5235
+... mag_instrument (err) = 0.0218
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1064.3982 1007.2579 ...          100160.9         2030.2758
+
+idx 370 - 4 / 6 , Ref.Star: 3 ) # 14 / 15 image of OJ248
+... aper_annu_sum0 = 1103094.12
+... aper_annu_sum1 = 3063810.96
+... aper_annu_sum_err0 = 1247.34
+... aper_annu_sum_err1 = 1944.70
+... area of sum0 = 725.75
+... area of sum1 = 2242.78
+... median_sigclip (annual mask per pix)  = 1365.87
+... bkg_mean (imdata statistic per pix)   = 1371.76
+... bkg_median (imdata statistic per pix) = 1371.36
+... bkg_sum (median_sigclip*area_sum0)           = 991284.86
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 991435.46
+... bg_subtracted_sum = 111658.67
+... bg_subtracted_err = 2310.35
+... mag_instrument (sum) = -12.6197
+... mag_instrument (sum+err) = -12.6420
+... mag_instrument (err) = 0.0222
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1176.8236 1138.6827 ...         111658.67         2310.3546
+
+idx 370 - 5 / 6 , Ref.Star: 4 ) # 14 / 15 image of OJ248
+... aper_annu_sum0 = 1606796.80
+... aper_annu_sum1 = 1554789.46
+... aper_annu_sum_err0 = 1437.85
+... aper_annu_sum_err1 = 1387.91
+... area of sum0 = 1133.99
+... area of sum1 = 1133.99
+... median_sigclip (annual mask per pix)  = 1368.66
+... bkg_mean (imdata statistic per pix)   = 1371.76
+... bkg_median (imdata statistic per pix) = 1371.36
+... bkg_sum (median_sigclip*area_sum0)           = 1552049.72
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1554789.46
+... bg_subtracted_sum = 52007.33
+... bg_subtracted_err = 1998.42
+... mag_instrument (sum) = -11.7902
+... mag_instrument (sum+err) = -11.8311
+... mag_instrument (err) = 0.0409
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 891.94293 928.18473 ...         52007.333         1998.4236
+
+idx 370 - 6 / 6 , Ref.Star: 5 ) # 14 / 15 image of OJ248
+... aper_annu_sum0 = 731206.77
+... aper_annu_sum1 = 1204850.16
+... aper_annu_sum_err0 = 981.69
+... aper_annu_sum_err1 = 1219.46
+... area of sum0 = 504.00
+... area of sum1 = 881.99
+... median_sigclip (annual mask per pix)  = 1363.45
+... bkg_mean (imdata statistic per pix)   = 1371.76
+... bkg_median (imdata statistic per pix) = 1371.36
+... bkg_sum (median_sigclip*area_sum0)           = 687171.67
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 688485.80
+... bg_subtracted_sum = 42720.96
+... bg_subtracted_err = 1565.50
+... mag_instrument (sum) = -11.5766
+... mag_instrument (sum+err) = -11.6157
+... mag_instrument (err) = 0.0391
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.8651 1065.3773 ...          42720.96         1565.5021
+
+=================================
+... measurement error after background subtraction (counts): 1934.6660
+... magnitude error after background subtraction (mag): 0.0787
+
+... rmag_fitting (Ref.Stars only): [13.75937512 14.45151483 14.33060999 15.18070561 15.39954862]
+... rmag_fitting (Target only): 17.44584809071614
+... fitting residual: [ 0.00062488  0.00848517 -0.01060999 -0.00070561  0.00045138]
+... fitting error (mag) = 0.0056
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0300
+... error of (calibration + observation) [mag]: 0.0789
+label_source[k] ['OJ248, Rmag=17.45', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.45', 'OJ248, Rmag=14.33', 'OJ248, Rmag=15.18', 'OJ248, Rmag=15.40']
+... bg_subtracted_sum = 42720.960277601145
+... InstMag_width = 3.60 , Rmag_width = 3.69
+=================================
+idx 371 ) ID = 372 , # 15 / 15 image of OJ248
+... filename : OJ248-20171010@182113-R_30508_calib.fits
+calendar_date 2017-10-10 18:21:13.000015
+
+... bkg_mean,bkg_median,bkg_std
+... 1358.0432 1357.6612 40.9711
+... bkg_err_ratio = bkg_std/bkg_median = 0.0302
+
+idx 371 - 1 / 6 , Ref.Star: OJ248 ) # 15 / 15 image of OJ248
+... aper_annu_sum0 = 447203.26
+... aper_annu_sum1 = 765545.16
+... aper_annu_sum_err0 = 751.28
+... aper_annu_sum_err1 = 971.79
+... area of sum0 = 323.21
+... area of sum1 = 565.61
+... median_sigclip (annual mask per pix)  = 1352.44
+... bkg_mean (imdata statistic per pix)   = 1358.04
+... bkg_median (imdata statistic per pix) = 1357.66
+... bkg_sum (median_sigclip*area_sum0)           = 437118.40
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 437454.38
+... bg_subtracted_sum = 9748.88
+... bg_subtracted_err = 1228.33
+... mag_instrument (sum) = -9.9724
+... mag_instrument (sum+err) = -10.1012
+... mag_instrument (err) = 0.1288
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1016.4272 1037.0277 ...          9748.884         1228.3265
+
+idx 371 - 2 / 6 , Ref.Star: 1 ) # 15 / 15 image of OJ248
+... aper_annu_sum0 = 1174641.82
+... aper_annu_sum1 = 2562458.17
+... aper_annu_sum_err0 = 1383.72
+... aper_annu_sum_err1 = 1777.74
+... area of sum0 = 727.21
+... area of sum1 = 1893.79
+... median_sigclip (annual mask per pix)  = 1352.37
+... bkg_mean (imdata statistic per pix)   = 1358.04
+... bkg_median (imdata statistic per pix) = 1357.66
+... bkg_sum (median_sigclip*area_sum0)           = 983465.52
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 983983.94
+... bg_subtracted_sum = 190657.88
+... bg_subtracted_err = 2252.79
+... mag_instrument (sum) = -13.2006
+... mag_instrument (sum+err) = -13.2134
+... mag_instrument (err) = 0.0128
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1150.8866 1148.0464 ...         190657.88         2252.7856
+
+idx 371 - 3 / 6 , Ref.Star: 2 ) # 15 / 15 image of OJ248
+... aper_annu_sum0 = 1640300.71
+... aper_annu_sum1 = 1536427.07
+... aper_annu_sum_err0 = 1488.37
+... aper_annu_sum_err1 = 1376.10
+... area of sum0 = 1136.27
+... area of sum1 = 1136.27
+... median_sigclip (annual mask per pix)  = 1350.24
+... bkg_mean (imdata statistic per pix)   = 1358.04
+... bkg_median (imdata statistic per pix) = 1357.66
+... bkg_sum (median_sigclip*area_sum0)           = 1534244.16
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1536427.07
+... bg_subtracted_sum = 103873.64
+... bg_subtracted_err = 2027.04
+... mag_instrument (sum) = -12.5413
+... mag_instrument (sum+err) = -12.5622
+... mag_instrument (err) = 0.0210
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1064.0795 1006.159 ...         103873.64         2027.0396
+
+idx 371 - 4 / 6 , Ref.Star: 3 ) # 15 / 15 image of OJ248
+... aper_annu_sum0 = 1098855.83
+... aper_annu_sum1 = 3042021.51
+... aper_annu_sum_err0 = 1256.27
+... aper_annu_sum_err1 = 1937.36
+... area of sum0 = 727.21
+... area of sum1 = 2247.30
+... median_sigclip (annual mask per pix)  = 1353.62
+... bkg_mean (imdata statistic per pix)   = 1358.04
+... bkg_median (imdata statistic per pix) = 1357.66
+... bkg_sum (median_sigclip*area_sum0)           = 984372.10
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 984384.49
+... bg_subtracted_sum = 114471.35
+... bg_subtracted_err = 2309.02
+... mag_instrument (sum) = -12.6467
+... mag_instrument (sum+err) = -12.6684
+... mag_instrument (err) = 0.0217
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1176.5456 1137.7916 ...         114471.35         2309.0152
+
+idx 371 - 5 / 6 , Ref.Star: 4 ) # 15 / 15 image of OJ248
+... aper_annu_sum0 = 1592206.67
+... aper_annu_sum1 = 1543816.37
+... aper_annu_sum_err0 = 1431.19
+... aper_annu_sum_err1 = 1382.69
+... area of sum0 = 1136.27
+... area of sum1 = 1136.27
+... median_sigclip (annual mask per pix)  = 1356.73
+... bkg_mean (imdata statistic per pix)   = 1358.04
+... bkg_median (imdata statistic per pix) = 1357.66
+... bkg_sum (median_sigclip*area_sum0)           = 1541614.23
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1543816.37
+... bg_subtracted_sum = 48390.30
+... bg_subtracted_err = 1990.01
+... mag_instrument (sum) = -11.7119
+... mag_instrument (sum+err) = -11.7557
+... mag_instrument (err) = 0.0438
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 891.49443 926.90332 ...         48390.304         1990.0083
+
+idx 371 - 6 / 6 , Ref.Star: 5 ) # 15 / 15 image of OJ248
+... aper_annu_sum0 = 726386.19
+... aper_annu_sum1 = 1194182.50
+... aper_annu_sum_err0 = 980.23
+... aper_annu_sum_err1 = 1212.77
+... area of sum0 = 505.01
+... area of sum1 = 883.77
+... median_sigclip (annual mask per pix)  = 1349.47
+... bkg_mean (imdata statistic per pix)   = 1358.04
+... bkg_median (imdata statistic per pix) = 1357.66
+... bkg_sum (median_sigclip*area_sum0)           = 681497.91
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 682390.00
+... bg_subtracted_sum = 43996.19
+... bg_subtracted_err = 1559.38
+... mag_instrument (sum) = -11.6085
+... mag_instrument (sum+err) = -11.6464
+... mag_instrument (err) = 0.0378
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1041.4918 1064.3307 ...         43996.194         1559.3794
+
+=================================
+... measurement error after background subtraction (counts): 1932.8764
+... magnitude error after background subtraction (mag): 0.0592
+
+... rmag_fitting (Ref.Stars only): [13.7648565  14.43082827 14.32429419 15.26849516 15.37288754]
+... rmag_fitting (Target only): 17.025410787383407
+... fitting residual: [-0.0048565   0.02917173 -0.00429419 -0.08849516  0.02711246]
+... fitting error (mag) = 0.0397
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0302
+... error of (calibration + observation) [mag]: 0.0713
+label_source[k] ['OJ248, Rmag=17.03', 'OJ248, Rmag=13.76', 'OJ248, Rmag=14.43', 'OJ248, Rmag=14.32', 'OJ248, Rmag=15.27', 'OJ248, Rmag=15.37']
+... bg_subtracted_sum = 43996.19424567511
+... InstMag_width = 3.23 , Rmag_width = 3.26
+
+Rmag [17.00150598 17.01351306 17.04028748 16.96641099 17.04890156 17.0674892
+ 17.03596218 17.16916052 17.01275873 17.42337843 17.14734679 17.42997935
+ 17.43828002 17.44584809 17.02541079]
+
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+94    95  2017-09-22  20:35:21  ...       0.0384       0.0125    0.0404
+95    96  2017-09-22  20:38:33  ...       0.0367       0.0132    0.0390
+134  135  2017-09-24  20:04:06  ...       0.0396       0.0215    0.0451
+135  136  2017-09-24  20:07:17  ...       0.0358       0.0144    0.0386
+178  179  2017-09-26  20:53:43  ...       0.0478       0.0355    0.0595
+235  236  2017-10-01  19:04:10  ...       0.0405       0.0208    0.0455
+236  237  2017-10-01  19:07:22  ...       0.0376       0.0122    0.0395
+243  244  2017-10-02  20:01:43  ...       0.0376       0.0169    0.0412
+244  245  2017-10-02  20:21:51  ...       0.0344       0.0184    0.0390
+298  299  2017-10-05  19:02:53  ...       0.1069       0.0811    0.1341
+299  300  2017-10-05  19:06:04  ...       0.0865       0.0209    0.0890
+342  343  2017-10-09  19:15:06  ...       0.0804       0.0573    0.0987
+343  344  2017-10-09  19:18:18  ...       0.0800       0.0295    0.0853
+370  371  2017-10-10  18:18:02  ...       0.0787       0.0056    0.0789
+371  372  2017-10-10  18:21:13  ...       0.0592       0.0397    0.0713
+
+[15 rows x 23 columns]
+... there are 0 bad fits
+before drop bad fits: idx_fitsheader_canfit = Int64Index([94, 95, 134, 135, 178, 235, 236, 243, 244, 298, 299, 342, 343, 370,
+            371],
+           dtype='int64')
+0 94 OJ248-20170922@203459-R_30508_calib.fits
+1 95 OJ248-20170922@203832-R_30508_calib.fits
+2 134 OJ248-20170924@200344-R_30508_calib.fits
+3 135 OJ248-20170924@200717-R_30508_calib.fits
+4 178 OJ248-20170926@205321-R_30508_calib.fits
+5 235 OJ248-20171001@190348-R_30508_calib.fits
+6 236 OJ248-20171001@190722-R_30508_calib.fits
+7 243 OJ248-20171002@200121-R_30508_calib.fits
+8 244 OJ248-20171002@202129-R_30508_calib.fits
+9 298 OJ248-20171005@190231-R_30508_calib.fits
+10 299 OJ248-20171005@190604-R_30508_calib.fits
+11 342 OJ248-20171009@191444-R_30508_calib.fits
+12 343 OJ248-20171009@191817-R_30508_calib.fits
+13 370 OJ248-20171010@181740-R_30508_calib.fits
+14 371 OJ248-20171010@182113-R_30508_calib.fits
+Int64Index([94, 95, 134, 135, 178, 235, 236, 243, 244, 298, 299, 342, 343, 370,
+            371],
+           dtype='int64')
+Int64Index([95, 96, 135, 136, 179, 236, 237, 244, 245, 299, 300, 343, 344, 371,
+            372],
+           dtype='int64')
+Int64Index([], dtype='int64')
+
+... skip idx_fitsheader_keep [] = Int64Index([], dtype='int64') ... bad fits ...
+
+after drop bad fits: idx_fitsheader_keep = Int64Index([94, 95, 134, 135, 178, 235, 236, 243, 244, 298, 299, 342, 343, 370,
+            371],
+           dtype='int64')
+... keep fits ...
+94     OJ248-20170922@203459-R_30508_calib.fits
+95     OJ248-20170922@203832-R_30508_calib.fits
+134    OJ248-20170924@200344-R_30508_calib.fits
+135    OJ248-20170924@200717-R_30508_calib.fits
+178    OJ248-20170926@205321-R_30508_calib.fits
+235    OJ248-20171001@190348-R_30508_calib.fits
+236    OJ248-20171001@190722-R_30508_calib.fits
+243    OJ248-20171002@200121-R_30508_calib.fits
+244    OJ248-20171002@202129-R_30508_calib.fits
+298    OJ248-20171005@190231-R_30508_calib.fits
+299    OJ248-20171005@190604-R_30508_calib.fits
+342    OJ248-20171009@191444-R_30508_calib.fits
+343    OJ248-20171009@191817-R_30508_calib.fits
+370    OJ248-20171010@181740-R_30508_calib.fits
+371    OJ248-20171010@182113-R_30508_calib.fits
+Name: Filename, dtype: object
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+94    95  2017-09-22  20:35:21  ...       0.0384       0.0125    0.0404
+95    96  2017-09-22  20:38:33  ...       0.0367       0.0132    0.0390
+134  135  2017-09-24  20:04:06  ...       0.0396       0.0215    0.0451
+135  136  2017-09-24  20:07:17  ...       0.0358       0.0144    0.0386
+178  179  2017-09-26  20:53:43  ...       0.0478       0.0355    0.0595
+235  236  2017-10-01  19:04:10  ...       0.0405       0.0208    0.0455
+236  237  2017-10-01  19:07:22  ...       0.0376       0.0122    0.0395
+243  244  2017-10-02  20:01:43  ...       0.0376       0.0169    0.0412
+244  245  2017-10-02  20:21:51  ...       0.0344       0.0184    0.0390
+298  299  2017-10-05  19:02:53  ...       0.1069       0.0811    0.1341
+299  300  2017-10-05  19:06:04  ...       0.0865       0.0209    0.0890
+342  343  2017-10-09  19:15:06  ...       0.0804       0.0573    0.0987
+343  344  2017-10-09  19:18:18  ...       0.0800       0.0295    0.0853
+370  371  2017-10-10  18:18:02  ...       0.0787       0.0056    0.0789
+371  372  2017-10-10  18:21:13  ...       0.0592       0.0397    0.0713
+
+[15 rows x 23 columns]
+              JD     Rmag  ErrorRmag
+0   2.458019e+06  17.0015     0.0404
+1   2.458019e+06  17.0135     0.0390
+2   2.458021e+06  17.0403     0.0451
+3   2.458021e+06  16.9664     0.0386
+4   2.458023e+06  17.0489     0.0595
+5   2.458028e+06  17.0675     0.0455
+6   2.458028e+06  17.0360     0.0395
+7   2.458029e+06  17.1692     0.0412
+8   2.458029e+06  17.0128     0.0390
+9   2.458032e+06  17.4234     0.1341
+10  2.458032e+06  17.1473     0.0890
+11  2.458036e+06  17.4300     0.0987
+12  2.458036e+06  17.4383     0.0853
+13  2.458037e+06  17.4458     0.0789
+14  2.458037e+06  17.0254     0.0713
+0
+[2458019.3578819446, 2458019.3601041664, 2458021.336180556, 2458021.338391204, 2458023.370636574, 2458028.294560185, 2458028.2967824074, 2458029.334525463, 2458029.3485069443, 2458032.2936689816, 2458032.295879629, 2458036.3021527776, 2458036.304375, 2458037.262523148, 2458037.2647337965]
+[17.00150598 17.01351306 17.04028748 16.96641099 17.04890156 17.0674892
+ 17.03596218 17.16916052 17.01275873 17.42337843 17.14734679 17.42997935
+ 17.43828002 17.44584809 17.02541079]
+i= 0
+1
+[2458019.3578819446, 2458019.3601041664, 2458021.336180556, 2458021.338391204, 2458023.370636574, 2458028.294560185, 2458028.2967824074, 2458029.334525463, 2458029.3485069443, 2458032.2936689816, 2458032.295879629, 2458036.3021527776, 2458036.304375, 2458037.262523148, 2458037.2647337965]
+[13.76416463 13.75739315 13.75372786 13.76048939 13.76140833 13.76214049
+ 13.75751054 13.76110547 13.76415049 13.77516075 13.76003674 13.77854136
+ 13.76798267 13.75937512 13.7648565 ]
+i= 1
+2
+[2458019.3578819446, 2458019.3601041664, 2458021.336180556, 2458021.338391204, 2458023.370636574, 2458028.294560185, 2458028.2967824074, 2458029.334525463, 2458029.3485069443, 2458032.2936689816, 2458032.295879629, 2458036.3021527776, 2458036.304375, 2458037.262523148, 2458037.2647337965]
+[14.43606129 14.44755507 14.44062864 14.43429616 14.43598345 14.4235119
+ 14.44743049 14.43164551 14.43011304 14.39673491 14.44971805 14.38539602
+ 14.40881105 14.45151483 14.43082827]
+i= 2
+3
+[2458019.3578819446, 2458019.3601041664, 2458021.336180556, 2458021.338391204, 2458023.370636574, 2458028.294560185, 2458028.2967824074, 2458029.334525463, 2458029.3485069443, 2458032.2936689816, 2458032.295879629, 2458036.3021527776, 2458036.304375, 2458037.262523148, 2458037.2647337965]
+[14.32944334 14.33838351 14.35507423 14.34371522 14.33601168 14.3494002
+ 14.33775134 14.34331756 14.33720935 14.32041519 14.32756914 14.32275481
+ 14.33620526 14.33060999 14.32429419]
+i= 3
+4
+[2458019.3578819446, 2458019.3601041664, 2458021.336180556, 2458021.338391204, 2458023.370636574, 2458028.294560185, 2458028.2967824074, 2458029.334525463, 2458029.3485069443, 2458032.2936689816, 2458032.295879629, 2458036.3021527776, 2458036.304375, 2458037.262523148, 2458037.2647337965]
+[15.19454475 15.19695388 15.20142184 15.1826427  15.25223459 15.19980244
+ 15.19476535 15.19778967 15.20715263 15.36536075 15.22238892 15.18339975
+ 15.19721214 15.18070561 15.26849516]
+i= 4
+5
+[2458019.3578819446, 2458019.3601041664, 2458021.336180556, 2458021.338391204, 2458023.370636574, 2458028.294560185, 2458028.2967824074, 2458029.334525463, 2458029.3485069443, 2458032.2936689816, 2458032.295879629, 2458036.3021527776, 2458036.304375, 2458037.262523148, 2458037.2647337965]
+[15.40631845 15.38371387 15.37390688 15.40458057 15.36125553 15.3978269
+ 15.38624589 15.39302549 15.3910006  15.37126447 15.37442033 15.51726214
+ 15.44458914 15.39954862 15.37288754]
+i= 5
+
+Rmag with nan value: []
+
+... write file to: ./Rmag_InstMag/annu_w1/OJ248/Rmag_aperture_OJ248_annu.txt
+... write file to: ./Rmag_InstMag/annu_w1/OJ248/Rmag_OJ248_all.txt
+... finished ...

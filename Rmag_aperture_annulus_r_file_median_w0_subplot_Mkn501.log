@@ -1,0 +1,1519 @@
+... will read gasp_target_fitsheader_info_exclude_baddata_2017.txt ...
+      ID     DateObs   TimeObs  ...    FWHM Altitude Airmass
+0      1  2017-09-05  15:34:55  ...  6.5488   2862.0  2.0397
+1      2  2017-09-05  15:38:07  ...  6.3398   2862.0  2.0572
+2      3  2017-09-05  15:57:19  ...  5.4140   2862.0  1.0087
+3      4  2017-09-05  16:00:30  ...  5.0077   2862.0  1.0092
+4      5  2017-09-05  16:21:56  ...  4.5208   2862.0  1.3238
+..   ...         ...       ...  ...     ...      ...     ...
+377  378  2017-10-10  18:13:33  ...  4.9963   2862.0  1.7970
+378  379  2017-10-10  18:33:03  ...  6.2048   2862.0  2.7707
+379  380  2017-10-10  18:36:14  ...  6.0631   2862.0  2.7313
+380  381  2017-10-10  18:01:39  ...  3.7919   2862.0  1.8951
+381  382  2017-10-10  18:04:51  ...  4.0252   2862.0  1.8827
+
+[382 rows x 18 columns]
+... will generate files in: ./Rmag_InstMag/annu_w0/Mkn501/
+-----------------------
+Int64Index([64, 65, 120, 121, 168, 169, 272, 273, 296, 297], dtype='int64')
+64     Mkn501-20170916@142640-R_30508_calib.fits
+65     Mkn501-20170916@143014-R_30508_calib.fits
+120    Mkn501-20170923@140801-R_30508_calib.fits
+121    Mkn501-20170923@141141-R_30508_calib.fits
+168    Mkn501-20170925@121511-R_30508_calib.fits
+169    Mkn501-20170925@121823-R_30508_calib.fits
+272    Mkn501-20171003@130644-R_30508_calib.fits
+273    Mkn501-20171003@131039-R_30508_calib.fits
+296    Mkn501-20171005@131519-R_30508_calib.fits
+297    Mkn501-20171005@131913-R_30508_calib.fits
+Name: Filename, dtype: object
+... there are 0 fits can not be fitted ...
+[]
+before drop bad fits: idx_fitsheader = Int64Index([64, 65, 120, 121, 168, 169, 272, 273, 296, 297], dtype='int64')
+0 64 Mkn501-20170916@142640-R_30508_calib.fits
+1 65 Mkn501-20170916@143014-R_30508_calib.fits
+2 120 Mkn501-20170923@140801-R_30508_calib.fits
+3 121 Mkn501-20170923@141141-R_30508_calib.fits
+4 168 Mkn501-20170925@121511-R_30508_calib.fits
+5 169 Mkn501-20170925@121823-R_30508_calib.fits
+6 272 Mkn501-20171003@130644-R_30508_calib.fits
+7 273 Mkn501-20171003@131039-R_30508_calib.fits
+8 296 Mkn501-20171005@131519-R_30508_calib.fits
+9 297 Mkn501-20171005@131913-R_30508_calib.fits
+Int64Index([64, 65, 120, 121, 168, 169, 272, 273, 296, 297], dtype='int64')
+Int64Index([65, 66, 121, 122, 169, 170, 273, 274, 297, 298], dtype='int64')
+Int64Index([], dtype='int64')
+
+=================================
+idx 64 ) ID = 65 , # 1 / 10 image of Mkn501
+... filename : Mkn501-20170916@142640-R_30508_calib.fits
+calendar_date 2017-09-16 14:27:01.999986
+
+... bkg_mean,bkg_median,bkg_std
+... 622.2536 621.9624 28.1461
+... bkg_err_ratio = bkg_std/bkg_median = 0.0453
+
+idx 64 - 1 / 5 , Ref.Star: Mkn501 ) # 1 / 10 image of Mkn501
+... aper_annu_sum0 = 3387102.85
+... aper_annu_sum1 = 1208901.51
+... aper_annu_sum_err0 = 2595.44
+... aper_annu_sum_err1 = 1258.30
+... area of sum0 = 4546.94
+... area of sum1 = 1894.56
+... median_sigclip (annual mask per pix)  = 637.67
+... bkg_mean (imdata statistic per pix)   = 622.25
+... bkg_median (imdata statistic per pix) = 621.96
+... bkg_sum (median_sigclip*area_sum0)           = 2899445.52
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2901363.61
+... bg_subtracted_sum = 485739.23
+... bg_subtracted_err = 2884.37
+... mag_instrument (sum) = -14.2160
+... mag_instrument (sum+err) = -14.2224
+... mag_instrument (err) = 0.0064
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1022.6276 1020.6234 ...         485739.23         2884.3743
+
+idx 64 - 2 / 5 , Ref.Star: 1 ) # 1 / 10 image of Mkn501
+... aper_annu_sum0 = 1584096.37
+... aper_annu_sum1 = 711416.17
+... aper_annu_sum_err0 = 5097.60
+... aper_annu_sum_err1 = 955.72
+... area of sum0 = 1136.73
+... area of sum1 = 1136.73
+... median_sigclip (annual mask per pix)  = 625.58
+... bkg_mean (imdata statistic per pix)   = 622.25
+... bkg_median (imdata statistic per pix) = 621.96
+... bkg_sum (median_sigclip*area_sum0)           = 711117.35
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 711416.17
+... bg_subtracted_sum = 872680.20
+... bg_subtracted_err = 5186.42
+... mag_instrument (sum) = -14.8521
+... mag_instrument (sum+err) = -14.8586
+... mag_instrument (err) = 0.0064
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 904.78186 1103.2716 ...          872680.2         5186.4155
+
+idx 64 - 3 / 5 , Ref.Star: 2 ) # 1 / 10 image of Mkn501
+... aper_annu_sum0 = 1178263.92
+... aper_annu_sum1 = 709248.99
+... aper_annu_sum_err0 = 2948.21
+... aper_annu_sum_err1 = 952.80
+... area of sum0 = 1136.73
+... area of sum1 = 1136.73
+... median_sigclip (annual mask per pix)  = 622.93
+... bkg_mean (imdata statistic per pix)   = 622.25
+... bkg_median (imdata statistic per pix) = 621.96
+... bkg_sum (median_sigclip*area_sum0)           = 708109.28
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 709248.99
+... bg_subtracted_sum = 469014.93
+... bg_subtracted_err = 3098.35
+... mag_instrument (sum) = -14.1780
+... mag_instrument (sum+err) = -14.1851
+... mag_instrument (err) = 0.0071
+
+ id  xcenter  ycenter ... aperture_sum_err_1 bg_subtracted_sum bg_subtracted_err
+       pix      pix   ...                                                       
+--- --------- ------- ... ------------------ ----------------- -----------------
+  1 1098.8442 1373.26 ...          952.80174         469014.93         3098.3482
+
+idx 64 - 4 / 5 , Ref.Star: 4 ) # 1 / 10 image of Mkn501
+... aper_annu_sum0 = 377935.45
+... aper_annu_sum1 = 549571.83
+... aper_annu_sum_err0 = 829.99
+... aper_annu_sum_err1 = 837.19
+... area of sum0 = 505.22
+... area of sum1 = 884.13
+... median_sigclip (annual mask per pix)  = 622.06
+... bkg_mean (imdata statistic per pix)   = 622.25
+... bkg_median (imdata statistic per pix) = 621.96
+... bkg_sum (median_sigclip*area_sum0)           = 314274.63
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 314041.05
+... bg_subtracted_sum = 63894.40
+... bg_subtracted_err = 1178.89
+... mag_instrument (sum) = -12.0137
+... mag_instrument (sum+err) = -12.0335
+... mag_instrument (err) = 0.0198
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 828.13955 1083.0909 ...         63894.401         1178.8884
+
+idx 64 - 5 / 5 , Ref.Star: 6 ) # 1 / 10 image of Mkn501
+... aper_annu_sum0 = 379485.32
+... aper_annu_sum1 = 555642.11
+... aper_annu_sum_err0 = 826.69
+... aper_annu_sum_err1 = 846.38
+... area of sum0 = 505.22
+... area of sum1 = 884.13
+... median_sigclip (annual mask per pix)  = 628.20
+... bkg_mean (imdata statistic per pix)   = 622.25
+... bkg_median (imdata statistic per pix) = 621.96
+... bkg_sum (median_sigclip*area_sum0)           = 317374.25
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 317509.78
+... bg_subtracted_sum = 61975.54
+... bg_subtracted_err = 1183.12
+... mag_instrument (sum) = -11.9806
+... mag_instrument (sum+err) = -12.0011
+... mag_instrument (err) = 0.0205
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1028.1474 949.99522 ...         61975.544         1183.1195
+
+=================================
+... measurement error after background subtraction (counts): 3085.7035
+... magnitude error after background subtraction (mag): 0.0138
+
+... rmag_fitting (Ref.Stars only): [12.11166045 12.78785058 14.95864184 14.99184713]
+... rmag_fitting (Target only): 12.749695362363163
+... fitting residual: [-0.00166045  0.00214942  0.00135816 -0.00184713]
+... fitting error (mag) = 0.0016
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0453
+... error of (calibration + observation) [mag]: 0.0139
+label_source[k] ['Mkn501, Rmag=12.75', 'Mkn501, Rmag=12.11', 'Mkn501, Rmag=12.79', 'Mkn501, Rmag=14.96', 'Mkn501, Rmag=14.99']
+... bg_subtracted_sum = 61975.54379575921
+... InstMag_width = 2.87 , Rmag_width = 2.88
+=================================
+idx 65 ) ID = 66 , # 2 / 10 image of Mkn501
+... filename : Mkn501-20170916@143014-R_30508_calib.fits
+calendar_date 2017-09-16 14:30:14.000031
+
+... bkg_mean,bkg_median,bkg_std
+... 637.1047 636.8369 28.4993
+... bkg_err_ratio = bkg_std/bkg_median = 0.0448
+
+idx 65 - 1 / 5 , Ref.Star: Mkn501 ) # 2 / 10 image of Mkn501
+... aper_annu_sum0 = 3461898.36
+... aper_annu_sum1 = 1235903.92
+... aper_annu_sum_err0 = 2638.88
+... aper_annu_sum_err1 = 1271.82
+... area of sum0 = 4546.84
+... area of sum1 = 1894.52
+... median_sigclip (annual mask per pix)  = 652.34
+... bkg_mean (imdata statistic per pix)   = 637.10
+... bkg_median (imdata statistic per pix) = 636.84
+... bkg_sum (median_sigclip*area_sum0)           = 2966062.93
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2966169.41
+... bg_subtracted_sum = 495728.95
+... bg_subtracted_err = 2929.37
+... mag_instrument (sum) = -14.2381
+... mag_instrument (sum+err) = -14.2445
+... mag_instrument (err) = 0.0064
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1024.5415 1020.3732 ...         495728.95         2929.3739
+
+idx 65 - 2 / 5 , Ref.Star: 1 ) # 2 / 10 image of Mkn501
+... aper_annu_sum0 = 1596348.99
+... aper_annu_sum1 = 730762.40
+... aper_annu_sum_err0 = 5382.08
+... aper_annu_sum_err1 = 970.83
+... area of sum0 = 1136.71
+... area of sum1 = 1136.71
+... median_sigclip (annual mask per pix)  = 641.72
+... bkg_mean (imdata statistic per pix)   = 637.10
+... bkg_median (imdata statistic per pix) = 636.84
+... bkg_sum (median_sigclip*area_sum0)           = 729443.55
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 730762.40
+... bg_subtracted_sum = 865586.59
+... bg_subtracted_err = 5468.94
+... mag_instrument (sum) = -14.8433
+... mag_instrument (sum+err) = -14.8501
+... mag_instrument (err) = 0.0068
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 906.68743 1102.996 ...         865586.59         5468.9406
+
+idx 65 - 3 / 5 , Ref.Star: 2 ) # 2 / 10 image of Mkn501
+... aper_annu_sum0 = 1194409.14
+... aper_annu_sum1 = 728490.72
+... aper_annu_sum_err0 = 3100.33
+... aper_annu_sum_err1 = 967.77
+... area of sum0 = 1136.71
+... area of sum1 = 1136.71
+... median_sigclip (annual mask per pix)  = 640.16
+... bkg_mean (imdata statistic per pix)   = 637.10
+... bkg_median (imdata statistic per pix) = 636.84
+... bkg_sum (median_sigclip*area_sum0)           = 727678.13
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 728490.72
+... bg_subtracted_sum = 465918.42
+... bg_subtracted_err = 3247.86
+... mag_instrument (sum) = -14.1708
+... mag_instrument (sum+err) = -14.1783
+... mag_instrument (err) = 0.0075
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1100.7167 1372.9681 ...         465918.42         3247.8644
+
+idx 65 - 4 / 5 , Ref.Star: 4 ) # 2 / 10 image of Mkn501
+... aper_annu_sum0 = 386504.91
+... aper_annu_sum1 = 564941.44
+... aper_annu_sum_err0 = 848.64
+... aper_annu_sum_err1 = 851.02
+... area of sum0 = 505.20
+... area of sum1 = 884.11
+... median_sigclip (annual mask per pix)  = 637.90
+... bkg_mean (imdata statistic per pix)   = 637.10
+... bkg_median (imdata statistic per pix) = 636.84
+... bkg_sum (median_sigclip*area_sum0)           = 322268.27
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 322823.68
+... bg_subtracted_sum = 63681.23
+... bg_subtracted_err = 1201.84
+... mag_instrument (sum) = -12.0100
+... mag_instrument (sum+err) = -12.0303
+... mag_instrument (err) = 0.0203
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 830.04821 1082.8094 ...         63681.232         1201.8423
+
+idx 65 - 5 / 5 , Ref.Star: 6 ) # 2 / 10 image of Mkn501
+... aper_annu_sum0 = 387113.84
+... aper_annu_sum1 = 568591.27
+... aper_annu_sum_err0 = 842.55
+... aper_annu_sum_err1 = 856.51
+... area of sum0 = 505.20
+... area of sum1 = 884.11
+... median_sigclip (annual mask per pix)  = 643.14
+... bkg_mean (imdata statistic per pix)   = 637.10
+... bkg_median (imdata statistic per pix) = 636.84
+... bkg_sum (median_sigclip*area_sum0)           = 324917.02
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 324909.30
+... bg_subtracted_sum = 62204.55
+... bg_subtracted_err = 1201.46
+... mag_instrument (sum) = -11.9846
+... mag_instrument (sum+err) = -12.0053
+... mag_instrument (err) = 0.0208
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1030.0695 949.7558 ...         62204.545         1201.4554
+
+=================================
+... measurement error after background subtraction (counts): 3222.6413
+... magnitude error after background subtraction (mag): 0.0141
+
+... rmag_fitting (Ref.Stars only): [12.11141085 12.78812703 14.96241457 14.98804755]
+... rmag_fitting (Target only): 12.720369041651448
+... fitting residual: [-0.00141085  0.00187297 -0.00241457  0.00195245]
+... fitting error (mag) = 0.0017
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0448
+... error of (calibration + observation) [mag]: 0.0142
+label_source[k] ['Mkn501, Rmag=12.72', 'Mkn501, Rmag=12.11', 'Mkn501, Rmag=12.79', 'Mkn501, Rmag=14.96', 'Mkn501, Rmag=14.99']
+... bg_subtracted_sum = 62204.54545657715
+... InstMag_width = 2.86 , Rmag_width = 2.88
+=================================
+idx 120 ) ID = 121 , # 3 / 10 image of Mkn501
+... filename : Mkn501-20170923@140801-R_30508_calib.fits
+calendar_date 2017-09-23 14:08:21.999986
+
+... bkg_mean,bkg_median,bkg_std
+... 537.0306 536.8139 25.6592
+... bkg_err_ratio = bkg_std/bkg_median = 0.0478
+
+idx 120 - 1 / 5 , Ref.Star: Mkn501 ) # 3 / 10 image of Mkn501
+... aper_annu_sum0 = 2987283.39
+... aper_annu_sum1 = 1048491.31
+... aper_annu_sum_err0 = 2569.96
+... aper_annu_sum_err1 = 1152.70
+... area of sum0 = 4545.49
+... area of sum1 = 1893.95
+... median_sigclip (annual mask per pix)  = 553.36
+... bkg_mean (imdata statistic per pix)   = 537.03
+... bkg_median (imdata statistic per pix) = 536.81
+... bkg_sum (median_sigclip*area_sum0)           = 2515296.89
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2516379.14
+... bg_subtracted_sum = 470904.25
+... bg_subtracted_err = 2816.63
+... mag_instrument (sum) = -14.1823
+... mag_instrument (sum+err) = -14.1888
+... mag_instrument (err) = 0.0065
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1365.3059 897.0456 ...         470904.25         2816.6292
+
+idx 120 - 2 / 5 , Ref.Star: 1 ) # 3 / 10 image of Mkn501
+... aper_annu_sum0 = 1458205.99
+... aper_annu_sum1 = 619726.57
+... aper_annu_sum_err0 = 6427.08
+... aper_annu_sum_err1 = 879.66
+... area of sum0 = 1136.37
+... area of sum1 = 1136.37
+... median_sigclip (annual mask per pix)  = 545.15
+... bkg_mean (imdata statistic per pix)   = 537.03
+... bkg_median (imdata statistic per pix) = 536.81
+... bkg_sum (median_sigclip*area_sum0)           = 619494.64
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 619726.57
+... bg_subtracted_sum = 838479.42
+... bg_subtracted_err = 6487.00
+... mag_instrument (sum) = -14.8087
+... mag_instrument (sum+err) = -14.8171
+... mag_instrument (err) = 0.0084
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1246.5495 978.26443 ...         838479.42         6486.9972
+
+idx 120 - 3 / 5 , Ref.Star: 2 ) # 3 / 10 image of Mkn501
+... aper_annu_sum0 = 1083416.66
+... aper_annu_sum1 = 620376.31
+... aper_annu_sum_err0 = 3644.05
+... aper_annu_sum_err1 = 880.52
+... area of sum0 = 1136.37
+... area of sum1 = 1136.37
+... median_sigclip (annual mask per pix)  = 545.98
+... bkg_mean (imdata statistic per pix)   = 537.03
+... bkg_median (imdata statistic per pix) = 536.81
+... bkg_sum (median_sigclip*area_sum0)           = 620439.79
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 620376.31
+... bg_subtracted_sum = 463040.35
+... bg_subtracted_err = 3748.92
+... mag_instrument (sum) = -14.1640
+... mag_instrument (sum+err) = -14.1728
+... mag_instrument (err) = 0.0088
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1437.5144 1250.1227 ...         463040.35         3748.9222
+
+idx 120 - 4 / 5 , Ref.Star: 4 ) # 3 / 10 image of Mkn501
+... aper_annu_sum0 = 336502.62
+... aper_annu_sum1 = 481260.11
+... aper_annu_sum_err0 = 843.15
+... aper_annu_sum_err1 = 774.61
+... area of sum0 = 505.05
+... area of sum1 = 883.85
+... median_sigclip (annual mask per pix)  = 543.78
+... bkg_mean (imdata statistic per pix)   = 537.03
+... bkg_median (imdata statistic per pix) = 536.81
+... bkg_sum (median_sigclip*area_sum0)           = 274639.07
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 275005.77
+... bg_subtracted_sum = 61496.84
+... bg_subtracted_err = 1144.96
+... mag_instrument (sum) = -11.9721
+... mag_instrument (sum+err) = -11.9922
+... mag_instrument (err) = 0.0200
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1170.1519 957.24228 ...         61496.844         1144.9581
+
+idx 120 - 5 / 5 , Ref.Star: 6 ) # 3 / 10 image of Mkn501
+... aper_annu_sum0 = 333596.88
+... aper_annu_sum1 = 481341.43
+... aper_annu_sum_err0 = 823.07
+... aper_annu_sum_err1 = 774.66
+... area of sum0 = 505.05
+... area of sum1 = 883.85
+... median_sigclip (annual mask per pix)  = 543.76
+... bkg_mean (imdata statistic per pix)   = 537.03
+... bkg_median (imdata statistic per pix) = 536.81
+... bkg_sum (median_sigclip*area_sum0)           = 274629.22
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 275052.24
+... bg_subtracted_sum = 58544.63
+... bg_subtracted_err = 1130.29
+... mag_instrument (sum) = -11.9187
+... mag_instrument (sum+err) = -11.9395
+... mag_instrument (err) = 0.0208
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1371.6242 826.5639 ...         58544.632         1130.2872
+
+=================================
+... measurement error after background subtraction (counts): 3651.2307
+... magnitude error after background subtraction (mag): 0.0143
+
+... rmag_fitting (Ref.Stars only): [12.12679827 12.76859949 14.95071335 15.00388889]
+... rmag_fitting (Target only): 12.75039681091177
+... fitting residual: [-0.01679827  0.02140051  0.00928665 -0.01388889]
+... fitting error (mag) = 0.0143
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0478
+... error of (calibration + observation) [mag]: 0.0202
+label_source[k] ['Mkn501, Rmag=12.75', 'Mkn501, Rmag=12.13', 'Mkn501, Rmag=12.77', 'Mkn501, Rmag=14.95', 'Mkn501, Rmag=15.00']
+... bg_subtracted_sum = 58544.63171797281
+... InstMag_width = 2.89 , Rmag_width = 2.88
+=================================
+idx 121 ) ID = 122 , # 4 / 10 image of Mkn501
+... filename : Mkn501-20170923@141141-R_30508_calib.fits
+calendar_date 2017-09-23 14:11:40.999993
+
+... bkg_mean,bkg_median,bkg_std
+... 551.7092 551.4830 25.9275
+... bkg_err_ratio = bkg_std/bkg_median = 0.0470
+
+idx 121 - 1 / 5 , Ref.Star: Mkn501 ) # 4 / 10 image of Mkn501
+... aper_annu_sum0 = 3065129.14
+... aper_annu_sum1 = 1072601.99
+... aper_annu_sum_err0 = 2637.03
+... aper_annu_sum_err1 = 1159.86
+... area of sum0 = 4545.83
+... area of sum1 = 1894.10
+... median_sigclip (annual mask per pix)  = 566.22
+... bkg_mean (imdata statistic per pix)   = 551.71
+... bkg_median (imdata statistic per pix) = 551.48
+... bkg_sum (median_sigclip*area_sum0)           = 2573960.71
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2574244.78
+... bg_subtracted_sum = 490884.36
+... bg_subtracted_err = 2880.83
+... mag_instrument (sum) = -14.2274
+... mag_instrument (sum+err) = -14.2338
+... mag_instrument (err) = 0.0064
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1025.1945 1020.3806 ...         490884.36          2880.834
+
+idx 121 - 2 / 5 , Ref.Star: 1 ) # 4 / 10 image of Mkn501
+... aper_annu_sum0 = 1491517.32
+... aper_annu_sum1 = 631244.89
+... aper_annu_sum_err0 = 6743.27
+... aper_annu_sum_err1 = 881.19
+... area of sum0 = 1136.46
+... area of sum1 = 1136.46
+... median_sigclip (annual mask per pix)  = 554.59
+... bkg_mean (imdata statistic per pix)   = 551.71
+... bkg_median (imdata statistic per pix) = 551.48
+... bkg_sum (median_sigclip*area_sum0)           = 630266.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 631244.89
+... bg_subtracted_sum = 860272.43
+... bg_subtracted_err = 6800.60
+... mag_instrument (sum) = -14.8366
+... mag_instrument (sum+err) = -14.8451
+... mag_instrument (err) = 0.0085
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 906.47265 1101.7512 ...         860272.43         6800.5972
+
+idx 121 - 3 / 5 , Ref.Star: 2 ) # 4 / 10 image of Mkn501
+... aper_annu_sum0 = 1092495.91
+... aper_annu_sum1 = 631075.24
+... aper_annu_sum_err0 = 3741.31
+... aper_annu_sum_err1 = 880.95
+... area of sum0 = 1136.46
+... area of sum1 = 1136.46
+... median_sigclip (annual mask per pix)  = 554.68
+... bkg_mean (imdata statistic per pix)   = 551.71
+... bkg_median (imdata statistic per pix) = 551.48
+... bkg_sum (median_sigclip*area_sum0)           = 630367.60
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 631075.24
+... bg_subtracted_sum = 461420.66
+... bg_subtracted_err = 3843.63
+... mag_instrument (sum) = -14.1602
+... mag_instrument (sum+err) = -14.1692
+... mag_instrument (err) = 0.0090
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1097.5686 1373.8452 ...         461420.66         3843.6288
+
+idx 121 - 4 / 5 , Ref.Star: 4 ) # 4 / 10 image of Mkn501
+... aper_annu_sum0 = 342105.22
+... aper_annu_sum1 = 487880.01
+... aper_annu_sum_err0 = 849.80
+... aper_annu_sum_err1 = 772.25
+... area of sum0 = 505.09
+... area of sum1 = 883.91
+... median_sigclip (annual mask per pix)  = 551.48
+... bkg_mean (imdata statistic per pix)   = 551.71
+... bkg_median (imdata statistic per pix) = 551.48
+... bkg_sum (median_sigclip*area_sum0)           = 278549.91
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 278788.58
+... bg_subtracted_sum = 63316.64
+... bg_subtracted_err = 1148.27
+... mag_instrument (sum) = -12.0038
+... mag_instrument (sum+err) = -12.0233
+... mag_instrument (err) = 0.0195
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 830.06328 1080.7393 ...         63316.643         1148.2689
+
+idx 121 - 5 / 5 , Ref.Star: 6 ) # 4 / 10 image of Mkn501
+... aper_annu_sum0 = 343146.65
+... aper_annu_sum1 = 493146.38
+... aper_annu_sum_err0 = 847.11
+... aper_annu_sum_err1 = 780.60
+... area of sum0 = 505.09
+... area of sum1 = 883.91
+... median_sigclip (annual mask per pix)  = 556.91
+... bkg_mean (imdata statistic per pix)   = 551.71
+... bkg_median (imdata statistic per pix) = 551.48
+... bkg_sum (median_sigclip*area_sum0)           = 281293.25
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 281797.93
+... bg_subtracted_sum = 61348.72
+... bg_subtracted_err = 1151.92
+... mag_instrument (sum) = -11.9695
+... mag_instrument (sum+err) = -11.9897
+... mag_instrument (err) = 0.0202
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1031.4801 949.81201 ...         61348.719         1151.9249
+
+=================================
+... measurement error after background subtraction (counts): 3793.8440
+... magnitude error after background subtraction (mag): 0.0140
+
+... rmag_fitting (Ref.Stars only): [12.11005538 12.78996257 14.95776033 14.99222172]
+... rmag_fitting (Target only): 12.722403451862123
+... fitting residual: [-5.53821821e-05  3.74336712e-05  2.23966669e-03 -2.22171818e-03]
+... fitting error (mag) = 0.0014
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0470
+... error of (calibration + observation) [mag]: 0.0141
+label_source[k] ['Mkn501, Rmag=12.72', 'Mkn501, Rmag=12.11', 'Mkn501, Rmag=12.79', 'Mkn501, Rmag=14.96', 'Mkn501, Rmag=14.99']
+... bg_subtracted_sum = 61348.71896797983
+... InstMag_width = 2.87 , Rmag_width = 2.88
+=================================
+idx 168 ) ID = 169 , # 5 / 10 image of Mkn501
+... filename : Mkn501-20170925@121511-R_30508_calib.fits
+calendar_date 2017-09-25 12:15:11.000007
+
+... bkg_mean,bkg_median,bkg_std
+... 397.3462 397.1002 23.3496
+... bkg_err_ratio = bkg_std/bkg_median = 0.0588
+
+idx 168 - 1 / 5 , Ref.Star: Mkn501 ) # 5 / 10 image of Mkn501
+... aper_annu_sum0 = 2360997.52
+... aper_annu_sum1 = 773625.68
+... aper_annu_sum_err0 = 2958.82
+... aper_annu_sum_err1 = 1046.64
+... area of sum0 = 4547.02
+... area of sum1 = 1894.59
+... median_sigclip (annual mask per pix)  = 407.39
+... bkg_mean (imdata statistic per pix)   = 397.35
+... bkg_median (imdata statistic per pix) = 397.10
+... bkg_sum (median_sigclip*area_sum0)           = 1852414.66
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1856701.63
+... bg_subtracted_sum = 504295.89
+... bg_subtracted_err = 3138.48
+... mag_instrument (sum) = -14.2567
+... mag_instrument (sum+err) = -14.2634
+... mag_instrument (err) = 0.0067
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1014.4072 1001.5057 ...         504295.89         3138.4799
+
+idx 168 - 2 / 5 , Ref.Star: 1 ) # 5 / 10 image of Mkn501
+... aper_annu_sum0 = 1329204.81
+... aper_annu_sum1 = 452390.83
+... aper_annu_sum_err0 = 9416.62
+... aper_annu_sum_err1 = 789.91
+... area of sum0 = 1136.75
+... area of sum1 = 1136.75
+... median_sigclip (annual mask per pix)  = 397.10
+... bkg_mean (imdata statistic per pix)   = 397.35
+... bkg_median (imdata statistic per pix) = 397.10
+... bkg_sum (median_sigclip*area_sum0)           = 451405.29
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 452390.83
+... bg_subtracted_sum = 876813.98
+... bg_subtracted_err = 9449.69
+... mag_instrument (sum) = -14.8573
+... mag_instrument (sum+err) = -14.8689
+... mag_instrument (err) = 0.0116
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 895.65073 1082.8826 ...         876813.98         9449.6899
+
+idx 168 - 3 / 5 , Ref.Star: 2 ) # 5 / 10 image of Mkn501
+... aper_annu_sum0 = 924545.20
+... aper_annu_sum1 = 454233.23
+... aper_annu_sum_err0 = 5224.96
+... aper_annu_sum_err1 = 793.26
+... area of sum0 = 1136.75
+... area of sum1 = 1136.75
+... median_sigclip (annual mask per pix)  = 397.60
+... bkg_mean (imdata statistic per pix)   = 397.35
+... bkg_median (imdata statistic per pix) = 397.10
+... bkg_sum (median_sigclip*area_sum0)           = 451976.83
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 454233.23
+... bg_subtracted_sum = 470311.97
+... bg_subtracted_err = 5284.84
+... mag_instrument (sum) = -14.1810
+... mag_instrument (sum+err) = -14.1931
+... mag_instrument (err) = 0.0121
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 1086.7058 1355.139 ...         470311.97         5284.8353
+
+idx 168 - 4 / 5 , Ref.Star: 4 ) # 5 / 10 image of Mkn501
+... aper_annu_sum0 = 264255.46
+... aper_annu_sum1 = 350056.72
+... aper_annu_sum_err0 = 963.72
+... aper_annu_sum_err1 = 693.05
+... area of sum0 = 505.22
+... area of sum1 = 884.14
+... median_sigclip (annual mask per pix)  = 396.77
+... bkg_mean (imdata statistic per pix)   = 397.35
+... bkg_median (imdata statistic per pix) = 397.10
+... bkg_sum (median_sigclip*area_sum0)           = 200456.97
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 200032.41
+... bg_subtracted_sum = 64223.05
+... bg_subtracted_err = 1187.05
+... mag_instrument (sum) = -12.0192
+... mag_instrument (sum+err) = -12.0391
+... mag_instrument (err) = 0.0199
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 819.23665 1061.8434 ...         64223.051         1187.0488
+
+idx 168 - 5 / 5 , Ref.Star: 6 ) # 5 / 10 image of Mkn501
+... aper_annu_sum0 = 264569.05
+... aper_annu_sum1 = 354201.73
+... aper_annu_sum_err0 = 948.58
+... aper_annu_sum_err1 = 701.40
+... area of sum0 = 505.22
+... area of sum1 = 884.14
+... median_sigclip (annual mask per pix)  = 398.86
+... bkg_mean (imdata statistic per pix)   = 397.35
+... bkg_median (imdata statistic per pix) = 397.10
+... bkg_sum (median_sigclip*area_sum0)           = 201511.78
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 202400.99
+... bg_subtracted_sum = 62168.06
+... bg_subtracted_err = 1179.73
+... mag_instrument (sum) = -11.9839
+... mag_instrument (sum+err) = -12.0043
+... mag_instrument (err) = 0.0204
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1020.7107 930.90832 ...         62168.065         1179.7276
+
+=================================
+... measurement error after background subtraction (counts): 5096.6071
+... magnitude error after background subtraction (mag): 0.0151
+
+... rmag_fitting (Ref.Stars only): [12.11073073 12.78908638 14.9573834  14.99279949]
+... rmag_fitting (Target only): 12.71310805601643
+... fitting residual: [-0.00073073  0.00091362  0.0026166  -0.00279949]
+... fitting error (mag) = 0.0018
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0588
+... error of (calibration + observation) [mag]: 0.0152
+label_source[k] ['Mkn501, Rmag=12.71', 'Mkn501, Rmag=12.11', 'Mkn501, Rmag=12.79', 'Mkn501, Rmag=14.96', 'Mkn501, Rmag=14.99']
+... bg_subtracted_sum = 62168.064987785096
+... InstMag_width = 2.87 , Rmag_width = 2.88
+=================================
+idx 169 ) ID = 170 , # 6 / 10 image of Mkn501
+... filename : Mkn501-20170925@121823-R_30508_calib.fits
+calendar_date 2017-09-25 12:18:23.000012
+
+... bkg_mean,bkg_median,bkg_std
+... 442.0302 441.2132 33.6311
+... bkg_err_ratio = bkg_std/bkg_median = 0.0762
+
+idx 169 - 1 / 5 , Ref.Star: Mkn501 ) # 6 / 10 image of Mkn501
+... aper_annu_sum0 = 2542090.53
+... aper_annu_sum1 = 859244.03
+... aper_annu_sum_err0 = 3885.23
+... aper_annu_sum_err1 = 1506.49
+... area of sum0 = 4547.59
+... area of sum1 = 1894.83
+... median_sigclip (annual mask per pix)  = 452.99
+... bkg_mean (imdata statistic per pix)   = 442.03
+... bkg_median (imdata statistic per pix) = 441.21
+... bkg_sum (median_sigclip*area_sum0)           = 2060002.13
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 2062185.66
+... bg_subtracted_sum = 479904.86
+... bg_subtracted_err = 4167.08
+... mag_instrument (sum) = -14.2029
+... mag_instrument (sum+err) = -14.2123
+... mag_instrument (err) = 0.0094
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1014.7834 1003.3183 ...         479904.86         4167.0801
+
+idx 169 - 2 / 5 , Ref.Star: 1 ) # 6 / 10 image of Mkn501
+... aper_annu_sum0 = 1344152.21
+... aper_annu_sum1 = 507273.23
+... aper_annu_sum_err0 = 11575.87
+... aper_annu_sum_err1 = 1148.16
+... area of sum0 = 1136.90
+... area of sum1 = 1136.90
+... median_sigclip (annual mask per pix)  = 444.52
+... bkg_mean (imdata statistic per pix)   = 442.03
+... bkg_median (imdata statistic per pix) = 441.21
+... bkg_sum (median_sigclip*area_sum0)           = 505376.44
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 507273.23
+... bg_subtracted_sum = 836878.99
+... bg_subtracted_err = 11632.67
+... mag_instrument (sum) = -14.8067
+... mag_instrument (sum+err) = -14.8216
+... mag_instrument (err) = 0.0150
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 896.01941 1084.7005 ...         836878.99          11632.67
+
+idx 169 - 3 / 5 , Ref.Star: 2 ) # 6 / 10 image of Mkn501
+... aper_annu_sum0 = 963667.44
+... aper_annu_sum1 = 516919.36
+... aper_annu_sum_err0 = 6413.05
+... aper_annu_sum_err1 = 1169.87
+... area of sum0 = 1136.90
+... area of sum1 = 1136.90
+... median_sigclip (annual mask per pix)  = 453.89
+... bkg_mean (imdata statistic per pix)   = 442.03
+... bkg_median (imdata statistic per pix) = 441.21
+... bkg_sum (median_sigclip*area_sum0)           = 516027.73
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 516919.36
+... bg_subtracted_sum = 446748.09
+... bg_subtracted_err = 6518.88
+... mag_instrument (sum) = -14.1252
+... mag_instrument (sum+err) = -14.1409
+... mag_instrument (err) = 0.0157
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1087.0863 1356.9749 ...         446748.09          6518.885
+
+idx 169 - 4 / 5 , Ref.Star: 4 ) # 6 / 10 image of Mkn501
+... aper_annu_sum0 = 285053.49
+... aper_annu_sum1 = 392571.89
+... aper_annu_sum_err0 = 1257.34
+... aper_annu_sum_err1 = 1007.45
+... area of sum0 = 505.29
+... area of sum1 = 884.25
+... median_sigclip (annual mask per pix)  = 442.69
+... bkg_mean (imdata statistic per pix)   = 442.03
+... bkg_median (imdata statistic per pix) = 441.21
+... bkg_sum (median_sigclip*area_sum0)           = 223683.84
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 224326.79
+... bg_subtracted_sum = 60726.70
+... bg_subtracted_err = 1611.17
+... mag_instrument (sum) = -11.9584
+... mag_instrument (sum+err) = -11.9869
+... mag_instrument (err) = 0.0284
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 819.60054 1063.6599 ...           60726.7         1611.1658
+
+idx 169 - 5 / 5 , Ref.Star: 6 ) # 6 / 10 image of Mkn501
+... aper_annu_sum0 = 283708.33
+... aper_annu_sum1 = 391122.23
+... aper_annu_sum_err0 = 1254.70
+... aper_annu_sum_err1 = 1003.80
+... area of sum0 = 505.29
+... area of sum1 = 884.25
+... median_sigclip (annual mask per pix)  = 441.21
+... bkg_mean (imdata statistic per pix)   = 442.03
+... bkg_median (imdata statistic per pix) = 441.21
+... bkg_sum (median_sigclip*area_sum0)           = 222939.57
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 223498.42
+... bg_subtracted_sum = 60209.91
+... bg_subtracted_err = 1606.82
+... mag_instrument (sum) = -11.9492
+... mag_instrument (sum+err) = -11.9778
+... mag_instrument (err) = 0.0286
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.0873 932.71628 ...         60209.914          1606.822
+
+=================================
+... measurement error after background subtraction (counts): 6330.2001
+... magnitude error after background subtraction (mag): 0.0209
+
+... rmag_fitting (Ref.Stars only): [12.10789227 12.79272509 14.97002904 14.9793536 ]
+... rmag_fitting (Target only): 12.714613810746213
+... fitting residual: [ 0.00210773 -0.00272509 -0.01002904  0.0106464 ]
+... fitting error (mag) = 0.0067
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0762
+... error of (calibration + observation) [mag]: 0.0220
+label_source[k] ['Mkn501, Rmag=12.71', 'Mkn501, Rmag=12.11', 'Mkn501, Rmag=12.79', 'Mkn501, Rmag=14.97', 'Mkn501, Rmag=14.98']
+... bg_subtracted_sum = 60209.91434673057
+... InstMag_width = 2.86 , Rmag_width = 2.87
+=================================
+idx 272 ) ID = 273 , # 7 / 10 image of Mkn501
+... filename : Mkn501-20171003@130644-R_30508_calib.fits
+calendar_date 2017-10-03 13:07:06.000009
+
+... bkg_mean,bkg_median,bkg_std
+... 1709.8151 1709.5480 44.6370
+... bkg_err_ratio = bkg_std/bkg_median = 0.0261
+
+idx 272 - 1 / 5 , Ref.Star: Mkn501 ) # 7 / 10 image of Mkn501
+... aper_annu_sum0 = 8313231.88
+... aper_annu_sum1 = 3253059.24
+... aper_annu_sum_err0 = 3289.74
+... aper_annu_sum_err1 = 1951.97
+... area of sum0 = 4547.24
+... area of sum1 = 1894.69
+... median_sigclip (annual mask per pix)  = 1718.12
+... bkg_mean (imdata statistic per pix)   = 1709.82
+... bkg_median (imdata statistic per pix) = 1709.55
+... bkg_sum (median_sigclip*area_sum0)           = 7812729.03
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 7807342.18
+... bg_subtracted_sum = 505889.70
+... bg_subtracted_err = 3825.26
+... mag_instrument (sum) = -14.2601
+... mag_instrument (sum+err) = -14.2683
+... mag_instrument (err) = 0.0082
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1021.0236 1010.2857 ...          505889.7         3825.2565
+
+idx 272 - 2 / 5 , Ref.Star: 1 ) # 7 / 10 image of Mkn501
+... aper_annu_sum0 = 2802982.02
+... aper_annu_sum1 = 1938217.90
+... aper_annu_sum_err0 = 3163.16
+... aper_annu_sum_err1 = 1501.47
+... area of sum0 = 1136.81
+... area of sum1 = 1136.81
+... median_sigclip (annual mask per pix)  = 1705.07
+... bkg_mean (imdata statistic per pix)   = 1709.82
+... bkg_median (imdata statistic per pix) = 1709.55
+... bkg_sum (median_sigclip*area_sum0)           = 1938343.75
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1938217.90
+... bg_subtracted_sum = 864764.12
+... bg_subtracted_err = 3501.43
+... mag_instrument (sum) = -14.8422
+... mag_instrument (sum+err) = -14.8466
+... mag_instrument (err) = 0.0044
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 902.72921 1092.2747 ...         864764.12         3501.4285
+
+idx 272 - 3 / 5 , Ref.Star: 2 ) # 7 / 10 image of Mkn501
+... aper_annu_sum0 = 2392464.90
+... aper_annu_sum1 = 1921485.76
+... aper_annu_sum_err0 = 2224.81
+... aper_annu_sum_err1 = 1488.50
+... area of sum0 = 1136.81
+... area of sum1 = 1136.81
+... median_sigclip (annual mask per pix)  = 1689.35
+... bkg_mean (imdata statistic per pix)   = 1709.82
+... bkg_median (imdata statistic per pix) = 1709.55
+... bkg_sum (median_sigclip*area_sum0)           = 1920474.66
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1921485.76
+... bg_subtracted_sum = 470979.14
+... bg_subtracted_err = 2676.83
+... mag_instrument (sum) = -14.1825
+... mag_instrument (sum+err) = -14.1887
+... mag_instrument (err) = 0.0062
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1095.3392 1363.2287 ...         470979.14         2676.8265
+
+idx 272 - 4 / 5 , Ref.Star: 4 ) # 7 / 10 image of Mkn501
+... aper_annu_sum0 = 921592.71
+... aper_annu_sum1 = 1502396.72
+... aper_annu_sum_err0 = 1082.81
+... aper_annu_sum_err1 = 1319.68
+... area of sum0 = 505.25
+... area of sum1 = 884.19
+... median_sigclip (annual mask per pix)  = 1698.64
+... bkg_mean (imdata statistic per pix)   = 1709.82
+... bkg_median (imdata statistic per pix) = 1709.55
+... bkg_sum (median_sigclip*area_sum0)           = 858239.13
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 858512.41
+... bg_subtracted_sum = 63080.29
+... bg_subtracted_err = 1707.05
+... mag_instrument (sum) = -11.9997
+... mag_instrument (sum+err) = -12.0287
+... mag_instrument (err) = 0.0290
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 826.19404 1071.6872 ...         63080.294         1707.0515
+
+idx 272 - 5 / 5 , Ref.Star: 6 ) # 7 / 10 image of Mkn501
+... aper_annu_sum0 = 927877.98
+... aper_annu_sum1 = 1515194.80
+... aper_annu_sum_err0 = 1089.28
+... aper_annu_sum_err1 = 1330.94
+... area of sum0 = 505.25
+... area of sum1 = 884.19
+... median_sigclip (annual mask per pix)  = 1713.74
+... bkg_mean (imdata statistic per pix)   = 1709.82
+... bkg_median (imdata statistic per pix) = 1709.55
+... bkg_sum (median_sigclip*area_sum0)           = 865868.43
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 865825.60
+... bg_subtracted_sum = 62052.38
+... bg_subtracted_err = 1719.87
+... mag_instrument (sum) = -11.9819
+... mag_instrument (sum+err) = -12.0116
+... mag_instrument (err) = 0.0297
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1026.9246 939.70816 ...         62052.377         1719.8657
+
+=================================
+... measurement error after background subtraction (counts): 2825.9495
+... magnitude error after background subtraction (mag): 0.0192
+
+... rmag_fitting (Ref.Stars only): [12.11810895 12.77940078 14.96730505 14.98518522]
+... rmag_fitting (Target only): 12.701582749977275
+... fitting residual: [-0.00810895  0.01059922 -0.00730505  0.00481478]
+... fitting error (mag) = 0.0071
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0261
+... error of (calibration + observation) [mag]: 0.0205
+label_source[k] ['Mkn501, Rmag=12.70', 'Mkn501, Rmag=12.12', 'Mkn501, Rmag=12.78', 'Mkn501, Rmag=14.97', 'Mkn501, Rmag=14.99']
+... bg_subtracted_sum = 62052.377147194464
+... InstMag_width = 2.86 , Rmag_width = 2.87
+=================================
+idx 273 ) ID = 274 , # 8 / 10 image of Mkn501
+... filename : Mkn501-20171003@131039-R_30508_calib.fits
+calendar_date 2017-10-03 13:11:00.999941
+
+... bkg_mean,bkg_median,bkg_std
+... 1760.8249 1760.5896 45.2366
+... bkg_err_ratio = bkg_std/bkg_median = 0.0257
+
+idx 273 - 1 / 5 , Ref.Star: Mkn501 ) # 8 / 10 image of Mkn501
+... aper_annu_sum0 = 8530022.43
+... aper_annu_sum1 = 3350448.08
+... aper_annu_sum_err0 = 3341.08
+... aper_annu_sum_err1 = 1978.79
+... area of sum0 = 4545.17
+... area of sum1 = 1893.82
+... median_sigclip (annual mask per pix)  = 1768.72
+... bkg_mean (imdata statistic per pix)   = 1760.82
+... bkg_median (imdata statistic per pix) = 1760.59
+... bkg_sum (median_sigclip*area_sum0)           = 8039119.99
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 8041075.40
+... bg_subtracted_sum = 488947.03
+... bg_subtracted_err = 3883.10
+... mag_instrument (sum) = -14.2232
+... mag_instrument (sum+err) = -14.2317
+... mag_instrument (err) = 0.0086
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1020.7604 1013.6456 ...         488947.03         3883.0965
+
+idx 273 - 2 / 5 , Ref.Star: 1 ) # 8 / 10 image of Mkn501
+... aper_annu_sum0 = 2864215.41
+... aper_annu_sum1 = 1994095.95
+... aper_annu_sum_err0 = 3633.77
+... aper_annu_sum_err1 = 1520.44
+... area of sum0 = 1136.29
+... area of sum1 = 1136.29
+... median_sigclip (annual mask per pix)  = 1753.97
+... bkg_mean (imdata statistic per pix)   = 1760.82
+... bkg_median (imdata statistic per pix) = 1760.59
+... bkg_sum (median_sigclip*area_sum0)           = 1993019.65
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1994095.95
+... bg_subtracted_sum = 870119.47
+... bg_subtracted_err = 3939.04
+... mag_instrument (sum) = -14.8489
+... mag_instrument (sum+err) = -14.8539
+... mag_instrument (err) = 0.0049
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 902.48769 1095.6446 ...         870119.47         3939.0362
+
+idx 273 - 3 / 5 , Ref.Star: 2 ) # 8 / 10 image of Mkn501
+... aper_annu_sum0 = 2451854.20
+... aper_annu_sum1 = 1981383.04
+... aper_annu_sum_err0 = 2439.63
+... aper_annu_sum_err1 = 1510.75
+... area of sum0 = 1136.29
+... area of sum1 = 1136.29
+... median_sigclip (annual mask per pix)  = 1745.68
+... bkg_mean (imdata statistic per pix)   = 1760.82
+... bkg_median (imdata statistic per pix) = 1760.59
+... bkg_sum (median_sigclip*area_sum0)           = 1983598.04
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1981383.04
+... bg_subtracted_sum = 470471.16
+... bg_subtracted_err = 2869.52
+... mag_instrument (sum) = -14.1813
+... mag_instrument (sum+err) = -14.1879
+... mag_instrument (err) = 0.0066
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1095.0339 1366.6726 ...         470471.16         2869.5234
+
+idx 273 - 4 / 5 , Ref.Star: 4 ) # 8 / 10 image of Mkn501
+... aper_annu_sum0 = 945386.12
+... aper_annu_sum1 = 1546231.41
+... aper_annu_sum_err0 = 1100.11
+... aper_annu_sum_err1 = 1336.80
+... area of sum0 = 505.02
+... area of sum1 = 883.78
+... median_sigclip (annual mask per pix)  = 1747.97
+... bkg_mean (imdata statistic per pix)   = 1760.82
+... bkg_median (imdata statistic per pix) = 1760.59
+... bkg_sum (median_sigclip*area_sum0)           = 882757.30
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 883560.81
+... bg_subtracted_sum = 61825.31
+... bg_subtracted_err = 1731.26
+... mag_instrument (sum) = -11.9779
+... mag_instrument (sum+err) = -12.0079
+... mag_instrument (err) = 0.0300
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 825.97171 1075.0471 ...         61825.309         1731.2639
+
+idx 273 - 5 / 5 , Ref.Star: 6 ) # 8 / 10 image of Mkn501
+... aper_annu_sum0 = 952128.07
+... aper_annu_sum1 = 1558076.34
+... aper_annu_sum_err0 = 1106.68
+... aper_annu_sum_err1 = 1347.06
+... area of sum0 = 505.02
+... area of sum1 = 883.78
+... median_sigclip (annual mask per pix)  = 1761.82
+... bkg_mean (imdata statistic per pix)   = 1760.82
+... bkg_median (imdata statistic per pix) = 1760.59
+... bkg_sum (median_sigclip*area_sum0)           = 889750.71
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 890329.33
+... bg_subtracted_sum = 61798.74
+... bg_subtracted_err = 1743.36
+... mag_instrument (sum) = -11.9774
+... mag_instrument (sum+err) = -12.0077
+... mag_instrument (err) = 0.0302
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1026.6651 943.05271 ...         61798.738         1743.3588
+
+=================================
+... measurement error after background subtraction (counts): 2995.5028
+... magnitude error after background subtraction (mag): 0.0198
+
+... rmag_fitting (Ref.Stars only): [12.11657203 12.78143379 14.97576469 14.9762295 ]
+... rmag_fitting (Target only): 12.739784231978746
+... fitting residual: [-0.00657203  0.00856621 -0.01576469  0.0137705 ]
+... fitting error (mag) = 0.0105
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0257
+... error of (calibration + observation) [mag]: 0.0224
+label_source[k] ['Mkn501, Rmag=12.74', 'Mkn501, Rmag=12.12', 'Mkn501, Rmag=12.78', 'Mkn501, Rmag=14.98', 'Mkn501, Rmag=14.98']
+... bg_subtracted_sum = 61798.73785336793
+... InstMag_width = 2.87 , Rmag_width = 2.86
+=================================
+idx 296 ) ID = 297 , # 9 / 10 image of Mkn501
+... filename : Mkn501-20171005@131519-R_30508_calib.fits
+calendar_date 2017-10-05 13:15:40.999992
+
+... bkg_mean,bkg_median,bkg_std
+... 3669.8194 3669.4404 68.3859
+... bkg_err_ratio = bkg_std/bkg_median = 0.0186
+
+idx 296 - 1 / 5 , Ref.Star: Mkn501 ) # 9 / 10 image of Mkn501
+... aper_annu_sum0 = 17081504.01
+... aper_annu_sum1 = 6907880.10
+... aper_annu_sum_err0 = 4763.80
+... aper_annu_sum_err1 = 2959.21
+... area of sum0 = 4543.94
+... area of sum1 = 1893.31
+... median_sigclip (annual mask per pix)  = 3650.68
+... bkg_mean (imdata statistic per pix)   = 3669.82
+... bkg_median (imdata statistic per pix) = 3669.44
+... bkg_sum (median_sigclip*area_sum0)           = 16588480.20
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 16578912.25
+... bg_subtracted_sum = 502591.76
+... bg_subtracted_err = 5608.09
+... mag_instrument (sum) = -14.2530
+... mag_instrument (sum+err) = -14.2651
+... mag_instrument (err) = 0.0120
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 985.54696 1181.9477 ...         502591.76         5608.0927
+
+idx 296 - 2 / 5 , Ref.Star: 1 ) # 9 / 10 image of Mkn501
+... aper_annu_sum0 = 4955059.60
+... aper_annu_sum1 = 4120231.64
+... aper_annu_sum_err0 = 3680.39
+... aper_annu_sum_err1 = 2278.62
+... area of sum0 = 1135.99
+... area of sum1 = 1135.99
+... median_sigclip (annual mask per pix)  = 3625.63
+... bkg_mean (imdata statistic per pix)   = 3669.82
+... bkg_median (imdata statistic per pix) = 3669.44
+... bkg_sum (median_sigclip*area_sum0)           = 4118660.81
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 4120231.64
+... bg_subtracted_sum = 834827.97
+... bg_subtracted_err = 4328.67
+... mag_instrument (sum) = -14.8040
+... mag_instrument (sum+err) = -14.8096
+... mag_instrument (err) = 0.0056
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 867.40127 1264.0964 ...         834827.97         4328.6706
+
+idx 296 - 3 / 5 , Ref.Star: 2 ) # 9 / 10 image of Mkn501
+... aper_annu_sum0 = 4629468.77
+... aper_annu_sum1 = 4170403.16
+... aper_annu_sum_err0 = 2880.08
+... aper_annu_sum_err1 = 2306.33
+... area of sum0 = 1135.99
+... area of sum1 = 1135.99
+... median_sigclip (annual mask per pix)  = 3671.42
+... bkg_mean (imdata statistic per pix)   = 3669.82
+... bkg_median (imdata statistic per pix) = 3669.44
+... bkg_sum (median_sigclip*area_sum0)           = 4170684.41
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 4170403.16
+... bg_subtracted_sum = 459065.61
+... bg_subtracted_err = 3689.72
+... mag_instrument (sum) = -14.1547
+... mag_instrument (sum+err) = -14.1634
+... mag_instrument (err) = 0.0087
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1060.2882 1534.8306 ...         459065.61         3689.7217
+
+idx 296 - 4 / 5 , Ref.Star: 4 ) # 9 / 10 image of Mkn501
+... aper_annu_sum0 = 1892803.46
+... aper_annu_sum1 = 3206610.75
+... aper_annu_sum_err0 = 1580.21
+... aper_annu_sum_err1 = 2010.77
+... area of sum0 = 504.88
+... area of sum1 = 883.54
+... median_sigclip (annual mask per pix)  = 3628.23
+... bkg_mean (imdata statistic per pix)   = 3669.82
+... bkg_median (imdata statistic per pix) = 3669.44
+... bkg_sum (median_sigclip*area_sum0)           = 1831831.23
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1832349.00
+... bg_subtracted_sum = 60454.46
+... bg_subtracted_err = 2557.40
+... mag_instrument (sum) = -11.9536
+... mag_instrument (sum+err) = -11.9986
+... mag_instrument (err) = 0.0450
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 790.86781 1243.6049 ...         60454.456         2557.3955
+
+idx 296 - 5 / 5 , Ref.Star: 6 ) # 9 / 10 image of Mkn501
+... aper_annu_sum0 = 1903339.87
+... aper_annu_sum1 = 3226586.82
+... aper_annu_sum_err0 = 1588.39
+... aper_annu_sum_err1 = 2023.30
+... area of sum0 = 504.88
+... area of sum1 = 883.54
+... median_sigclip (annual mask per pix)  = 3649.65
+... bkg_mean (imdata statistic per pix)   = 3669.82
+... bkg_median (imdata statistic per pix) = 3669.44
+... bkg_sum (median_sigclip*area_sum0)           = 1842642.94
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1843763.90
+... bg_subtracted_sum = 59575.97
+... bg_subtracted_err = 2572.30
+... mag_instrument (sum) = -11.9377
+... mag_instrument (sum+err) = -11.9836
+... mag_instrument (err) = 0.0459
+
+ id xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+      pix       pix    ...                                    
+--- -------- --------- ... ----------------- -----------------
+  1 991.3553 1111.3556 ...          59575.97         2572.2997
+
+=================================
+... measurement error after background subtraction (counts): 3923.2419
+... magnitude error after background subtraction (mag): 0.0296
+
+... rmag_fitting (Ref.Stars only): [12.12387104 12.77200102 14.96913187 14.98499607]
+... rmag_fitting (Target only): 12.673827573233169
+... fitting residual: [-0.01387104  0.01799898 -0.00913187  0.00500393]
+... fitting error (mag) = 0.0112
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0186
+... error of (calibration + observation) [mag]: 0.0316
+label_source[k] ['Mkn501, Rmag=12.67', 'Mkn501, Rmag=12.12', 'Mkn501, Rmag=12.77', 'Mkn501, Rmag=14.97', 'Mkn501, Rmag=14.98']
+... bg_subtracted_sum = 59575.97014269186
+... InstMag_width = 2.87 , Rmag_width = 2.86
+=================================
+idx 297 ) ID = 298 , # 10 / 10 image of Mkn501
+... filename : Mkn501-20171005@131913-R_30508_calib.fits
+calendar_date 2017-10-05 13:19:35.000050
+
+... bkg_mean,bkg_median,bkg_std
+... 3793.2253 3792.3879 70.4117
+... bkg_err_ratio = bkg_std/bkg_median = 0.0186
+
+idx 297 - 1 / 5 , Ref.Star: Mkn501 ) # 10 / 10 image of Mkn501
+... aper_annu_sum0 = 17653402.54
+... aper_annu_sum1 = 7144865.14
+... aper_annu_sum_err0 = 4900.59
+... aper_annu_sum_err1 = 3048.73
+... area of sum0 = 4545.32
+... area of sum1 = 1893.88
+... median_sigclip (annual mask per pix)  = 3775.70
+... bkg_mean (imdata statistic per pix)   = 3793.23
+... bkg_median (imdata statistic per pix) = 3792.39
+... bkg_sum (median_sigclip*area_sum0)           = 17161764.71
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 17147676.34
+... bg_subtracted_sum = 505726.20
+... bg_subtracted_err = 5771.53
+... mag_instrument (sum) = -14.2598
+... mag_instrument (sum+err) = -14.2721
+... mag_instrument (err) = 0.0123
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 986.33742 1182.8961 ...          505726.2         5771.5295
+
+idx 297 - 2 / 5 , Ref.Star: 1 ) # 10 / 10 image of Mkn501
+... aper_annu_sum0 = 5095420.52
+... aper_annu_sum1 = 4268392.84
+... aper_annu_sum_err0 = 3720.26
+... aper_annu_sum_err1 = 2351.28
+... area of sum0 = 1136.33
+... area of sum1 = 1136.33
+... median_sigclip (annual mask per pix)  = 3758.24
+... bkg_mean (imdata statistic per pix)   = 3793.23
+... bkg_median (imdata statistic per pix) = 3792.39
+... bkg_sum (median_sigclip*area_sum0)           = 4270601.55
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 4268392.84
+... bg_subtracted_sum = 827027.68
+... bg_subtracted_err = 4401.00
+... mag_instrument (sum) = -14.7938
+... mag_instrument (sum+err) = -14.7996
+... mag_instrument (err) = 0.0058
+
+ id  xcenter  ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix      pix    ...                                    
+--- --------- -------- ... ----------------- -----------------
+  1 868.16677 1265.023 ...         827027.68         4401.0049
+
+idx 297 - 3 / 5 , Ref.Star: 2 ) # 10 / 10 image of Mkn501
+... aper_annu_sum0 = 4780157.21
+... aper_annu_sum1 = 4322156.39
+... aper_annu_sum_err0 = 2942.99
+... aper_annu_sum_err1 = 2380.89
+... area of sum0 = 1136.33
+... area of sum1 = 1136.33
+... median_sigclip (annual mask per pix)  = 3801.99
+... bkg_mean (imdata statistic per pix)   = 3793.23
+... bkg_median (imdata statistic per pix) = 3792.39
+... bkg_sum (median_sigclip*area_sum0)           = 4320306.11
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 4322156.39
+... bg_subtracted_sum = 458000.82
+... bg_subtracted_err = 3785.48
+... mag_instrument (sum) = -14.1522
+... mag_instrument (sum+err) = -14.1611
+... mag_instrument (err) = 0.0089
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 1061.0608 1535.7338 ...         458000.82         3785.4809
+
+idx 297 - 4 / 5 , Ref.Star: 4 ) # 10 / 10 image of Mkn501
+... aper_annu_sum0 = 1957832.55
+... aper_annu_sum1 = 3317597.38
+... aper_annu_sum_err0 = 1627.47
+... aper_annu_sum_err1 = 2072.23
+... area of sum0 = 505.04
+... area of sum1 = 883.81
+... median_sigclip (annual mask per pix)  = 3751.12
+... bkg_mean (imdata statistic per pix)   = 3793.23
+... bkg_median (imdata statistic per pix) = 3792.39
+... bkg_sum (median_sigclip*area_sum0)           = 1894447.38
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1895769.93
+... bg_subtracted_sum = 62062.62
+... bg_subtracted_err = 2634.92
+... mag_instrument (sum) = -11.9821
+... mag_instrument (sum+err) = -12.0272
+... mag_instrument (err) = 0.0451
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 791.62326 1244.5281 ...         62062.619         2634.9164
+
+idx 297 - 5 / 5 , Ref.Star: 6 ) # 10 / 10 image of Mkn501
+... aper_annu_sum0 = 1966834.09
+... aper_annu_sum1 = 3334725.46
+... aper_annu_sum_err0 = 1634.63
+... aper_annu_sum_err1 = 2082.94
+... area of sum0 = 505.04
+... area of sum1 = 883.81
+... median_sigclip (annual mask per pix)  = 3772.75
+... bkg_mean (imdata statistic per pix)   = 3793.23
+... bkg_median (imdata statistic per pix) = 3792.39
+... bkg_sum (median_sigclip*area_sum0)           = 1905368.82
+... bkg_sum (aper_annu_sum1/area_sum1*area_sum0) = 1905557.41
+... bg_subtracted_sum = 61276.69
+... bg_subtracted_err = 2647.77
+... mag_instrument (sum) = -11.9682
+... mag_instrument (sum+err) = -12.0142
+... mag_instrument (err) = 0.0459
+
+ id  xcenter   ycenter  ... bg_subtracted_sum bg_subtracted_err
+       pix       pix    ...                                    
+--- --------- --------- ... ----------------- -----------------
+  1 992.15253 1112.3147 ...         61276.688         2647.7665
+
+=================================
+... measurement error after background subtraction (counts): 4023.9959
+... magnitude error after background subtraction (mag): 0.0297
+
+... rmag_fitting (Ref.Stars only): [12.12321327 12.77284153 14.96996788 14.98397731]
+... rmag_fitting (Target only): 12.663877704368607
+... fitting residual: [-0.01321327  0.01715847 -0.00996788  0.00602269]
+... fitting error (mag) = 0.0110
+... error of measurement (ratio of bkg_std/bkg_mediean) = 0.0186
+... error of (calibration + observation) [mag]: 0.0317
+label_source[k] ['Mkn501, Rmag=12.66', 'Mkn501, Rmag=12.12', 'Mkn501, Rmag=12.77', 'Mkn501, Rmag=14.97', 'Mkn501, Rmag=14.98']
+... bg_subtracted_sum = 61276.68816642999
+... InstMag_width = 2.83 , Rmag_width = 2.86
+
+Rmag [12.74969536 12.72036904 12.75039681 12.72240345 12.71310806 12.71461381
+ 12.70158275 12.73978423 12.67382757 12.6638777 ]
+
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+64    65  2017-09-16  14:27:02  ...       0.0138       0.0016    0.0139
+65    66  2017-09-16  14:30:14  ...       0.0141       0.0017    0.0142
+120  121  2017-09-23  14:08:22  ...       0.0143       0.0143    0.0202
+121  122  2017-09-23  14:11:41  ...       0.0140       0.0014    0.0141
+168  169  2017-09-25  12:15:11  ...       0.0151       0.0018    0.0152
+169  170  2017-09-25  12:18:23  ...       0.0209       0.0067    0.0220
+272  273  2017-10-03  13:07:06  ...       0.0192       0.0071    0.0205
+273  274  2017-10-03  13:11:01  ...       0.0198       0.0105    0.0224
+296  297  2017-10-05  13:15:41  ...       0.0296       0.0112    0.0316
+297  298  2017-10-05  13:19:35  ...       0.0297       0.0110    0.0317
+
+[10 rows x 23 columns]
+... there are 0 bad fits
+before drop bad fits: idx_fitsheader_canfit = Int64Index([64, 65, 120, 121, 168, 169, 272, 273, 296, 297], dtype='int64')
+0 64 Mkn501-20170916@142640-R_30508_calib.fits
+1 65 Mkn501-20170916@143014-R_30508_calib.fits
+2 120 Mkn501-20170923@140801-R_30508_calib.fits
+3 121 Mkn501-20170923@141141-R_30508_calib.fits
+4 168 Mkn501-20170925@121511-R_30508_calib.fits
+5 169 Mkn501-20170925@121823-R_30508_calib.fits
+6 272 Mkn501-20171003@130644-R_30508_calib.fits
+7 273 Mkn501-20171003@131039-R_30508_calib.fits
+8 296 Mkn501-20171005@131519-R_30508_calib.fits
+9 297 Mkn501-20171005@131913-R_30508_calib.fits
+Int64Index([64, 65, 120, 121, 168, 169, 272, 273, 296, 297], dtype='int64')
+Int64Index([65, 66, 121, 122, 169, 170, 273, 274, 297, 298], dtype='int64')
+Int64Index([], dtype='int64')
+
+... skip idx_fitsheader_keep [] = Int64Index([], dtype='int64') ... bad fits ...
+
+after drop bad fits: idx_fitsheader_keep = Int64Index([64, 65, 120, 121, 168, 169, 272, 273, 296, 297], dtype='int64')
+... keep fits ...
+64     Mkn501-20170916@142640-R_30508_calib.fits
+65     Mkn501-20170916@143014-R_30508_calib.fits
+120    Mkn501-20170923@140801-R_30508_calib.fits
+121    Mkn501-20170923@141141-R_30508_calib.fits
+168    Mkn501-20170925@121511-R_30508_calib.fits
+169    Mkn501-20170925@121823-R_30508_calib.fits
+272    Mkn501-20171003@130644-R_30508_calib.fits
+273    Mkn501-20171003@131039-R_30508_calib.fits
+296    Mkn501-20171005@131519-R_30508_calib.fits
+297    Mkn501-20171005@131913-R_30508_calib.fits
+Name: Filename, dtype: object
+      ID     DateObs   TimeObs  ... ErrorInstMag ErrorFitting ErrorRmag
+64    65  2017-09-16  14:27:02  ...       0.0138       0.0016    0.0139
+65    66  2017-09-16  14:30:14  ...       0.0141       0.0017    0.0142
+120  121  2017-09-23  14:08:22  ...       0.0143       0.0143    0.0202
+121  122  2017-09-23  14:11:41  ...       0.0140       0.0014    0.0141
+168  169  2017-09-25  12:15:11  ...       0.0151       0.0018    0.0152
+169  170  2017-09-25  12:18:23  ...       0.0209       0.0067    0.0220
+272  273  2017-10-03  13:07:06  ...       0.0192       0.0071    0.0205
+273  274  2017-10-03  13:11:01  ...       0.0198       0.0105    0.0224
+296  297  2017-10-05  13:15:41  ...       0.0296       0.0112    0.0316
+297  298  2017-10-05  13:19:35  ...       0.0297       0.0110    0.0317
+
+[10 rows x 23 columns]
+             JD     Rmag  ErrorRmag
+0  2.458013e+06  12.7497     0.0139
+1  2.458013e+06  12.7204     0.0142
+2  2.458020e+06  12.7504     0.0202
+3  2.458020e+06  12.7224     0.0141
+4  2.458022e+06  12.7131     0.0152
+5  2.458022e+06  12.7146     0.0220
+6  2.458030e+06  12.7016     0.0205
+7  2.458030e+06  12.7398     0.0224
+8  2.458032e+06  12.6738     0.0316
+9  2.458032e+06  12.6639     0.0317
+0
+[2458013.1021064813, 2458013.104328704, 2458020.0891435184, 2458020.091446759, 2458022.0105439816, 2458022.012766204, 2458030.0465972223, 2458030.049317129, 2458032.0525578703, 2458032.0552662043]
+[12.74969536 12.72036904 12.75039681 12.72240345 12.71310806 12.71461381
+ 12.70158275 12.73978423 12.67382757 12.6638777 ]
+i= 0
+1
+[2458013.1021064813, 2458013.104328704, 2458020.0891435184, 2458020.091446759, 2458022.0105439816, 2458022.012766204, 2458030.0465972223, 2458030.049317129, 2458032.0525578703, 2458032.0552662043]
+[12.11166045 12.11141085 12.12679827 12.11005538 12.11073073 12.10789227
+ 12.11810895 12.11657203 12.12387104 12.12321327]
+i= 1
+2
+[2458013.1021064813, 2458013.104328704, 2458020.0891435184, 2458020.091446759, 2458022.0105439816, 2458022.012766204, 2458030.0465972223, 2458030.049317129, 2458032.0525578703, 2458032.0552662043]
+[12.78785058 12.78812703 12.76859949 12.78996257 12.78908638 12.79272509
+ 12.77940078 12.78143379 12.77200102 12.77284153]
+i= 2
+3
+[2458013.1021064813, 2458013.104328704, 2458020.0891435184, 2458020.091446759, 2458022.0105439816, 2458022.012766204, 2458030.0465972223, 2458030.049317129, 2458032.0525578703, 2458032.0552662043]
+[14.95864184 14.96241457 14.95071335 14.95776033 14.9573834  14.97002904
+ 14.96730505 14.97576469 14.96913187 14.96996788]
+i= 3
+4
+[2458013.1021064813, 2458013.104328704, 2458020.0891435184, 2458020.091446759, 2458022.0105439816, 2458022.012766204, 2458030.0465972223, 2458030.049317129, 2458032.0525578703, 2458032.0552662043]
+[14.99184713 14.98804755 15.00388889 14.99222172 14.99279949 14.9793536
+ 14.98518522 14.9762295  14.98499607 14.98397731]
+i= 4
+
+Rmag with nan value: []
+
+... write file to: ./Rmag_InstMag/annu_w0/Mkn501/Rmag_aperture_Mkn501_annu.txt
+... write file to: ./Rmag_InstMag/annu_w0/Mkn501/Rmag_Mkn501_all.txt
+... finished ...

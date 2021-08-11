@@ -1,0 +1,71 @@
+... will read gasp_target_fitsheader_info_exclude_baddata_2017.txt ...
+      ID     DateObs   TimeObs  ...    FWHM Altitude Airmass
+0      1  2017-09-05  15:34:55  ...  6.5488   2862.0  2.0397
+1      2  2017-09-05  15:38:07  ...  6.3398   2862.0  2.0572
+2      3  2017-09-05  15:57:19  ...  5.4140   2862.0  1.0087
+3      4  2017-09-05  16:00:30  ...  5.0077   2862.0  1.0092
+4      5  2017-09-05  16:21:56  ...  4.5208   2862.0  1.3238
+..   ...         ...       ...  ...     ...      ...     ...
+377  378  2017-10-10  18:13:33  ...  4.9963   2862.0  1.7970
+378  379  2017-10-10  18:33:03  ...  6.2048   2862.0  2.7707
+379  380  2017-10-10  18:36:14  ...  6.0631   2862.0  2.7313
+380  381  2017-10-10  18:01:39  ...  3.7919   2862.0  1.8951
+381  382  2017-10-10  18:04:51  ...  4.0252   2862.0  1.8827
+
+[382 rows x 18 columns]
+... will generate files in: ./Rmag_InstMag/annu_w0/Mkn421/
+-----------------------
+Int64Index([], dtype='int64')
+Series([], Name: Filename, dtype: object)
+... there are 0 fits can not be fitted ...
+[]
+before drop bad fits: idx_fitsheader = Int64Index([], dtype='int64')
+Int64Index([], dtype='int64')
+Int64Index([], dtype='int64')
+Int64Index([], dtype='int64')
+
+
+Rmag []
+
+Empty DataFrame
+Columns: [ID, DateObs, TimeObs, Filename, Object, RA_hhmmss, DEC_ddmmss, RA_deg, DEC_deg, RA_pix, Dec_pix, FilterName, JD, ExpTime_sec, Zmag, FWHM, Altitude, Airmass, Rmag, ErrorCounts, ErrorInstMag, ErrorFitting, ErrorRmag]
+Index: []
+... there are 0 bad fits
+before drop bad fits: idx_fitsheader_canfit = Int64Index([], dtype='int64')
+Int64Index([], dtype='int64')
+Int64Index([], dtype='int64')
+Int64Index([], dtype='int64')
+
+... skip idx_fitsheader_keep [] = Int64Index([], dtype='int64') ... bad fits ...
+
+after drop bad fits: idx_fitsheader_keep = Int64Index([], dtype='int64')
+... keep fits ...
+Series([], Name: Filename, dtype: object)
+Empty DataFrame
+Columns: [ID, DateObs, TimeObs, Filename, Object, RA_hhmmss, DEC_ddmmss, RA_deg, DEC_deg, RA_pix, Dec_pix, FilterName, JD, ExpTime_sec, Zmag, FWHM, Altitude, Airmass, Rmag, ErrorCounts, ErrorInstMag, ErrorFitting, ErrorRmag]
+Index: []
+Empty DataFrame
+Columns: [JD, Rmag, ErrorRmag]
+Index: []
+0
+[]
+[]
+i= 0
+1
+[]
+[]
+i= 1
+2
+[]
+[]
+i= 2
+3
+[]
+[]
+i= 3
+
+Rmag with nan value: []
+
+... write file to: ./Rmag_InstMag/annu_w0/Mkn421/Rmag_aperture_Mkn421_annu.txt
+... write file to: ./Rmag_InstMag/annu_w0/Mkn421/Rmag_Mkn421_all.txt
+... finished ...

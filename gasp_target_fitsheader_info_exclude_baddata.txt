@@ -1,0 +1,1 @@
+ID|DateObs|TimeObs|Filename|Object|RA_hhmmss|DEC_ddmmss|RA_deg|DEC_deg|RA_pix|Dec_pix|FilterName|JD|ExpTime_sec|Zmag|FWHM|Altitude|Airmass
